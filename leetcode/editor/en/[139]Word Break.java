@@ -2,6 +2,30 @@
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         Boolean[] dp = new Boolean[s.length()];
+        return dyP(s, wordDict, dp, 0);
+    }
+
+    public boolean dyP(String s, List<String> list, Boolean[] dp, int index) {
+        if (index == s.length()) {
+            return true;
+        }
+        if (dp[index] != null) {
+            return dp[index];
+        }
+        for (String word : list) {
+            if (s.startsWith(word, index) && dyP(s, list, dp, index + word.length())) {
+                return dp[index] = true;
+            }
+        }
+        return dp[index] = false;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+//https://blog.jiebu-lang.com/leetcode-139-word-break/
+/*
+class Solution {
+    public boolean wordBreak(String s, List<String> wordDict) {
+        Boolean[] dp = new Boolean[s.length()];
         TrieNode root = new TrieNode();
         for (String word : wordDict) {
             TrieNode node = root;
@@ -16,55 +40,31 @@ class Solution {
         return dyP(s, root, dp, 0);
     }
 
-    public boolean dyP(String s, TrieNode root, Boolean[] dp, int left) {
-        if (left == s.length()) {
+    public boolean dyP(String s, TrieNode root, Boolean[] dp, int index) {
+        if (index == s.length()) {
             return true;
         }
-        if (dp[left] != null) {
-            return dp[left];
+        if (dp[index] != null) {
+            return dp[index];
         }
         TrieNode node = root;
-        for (int right = left; right < s.length(); right++) {
+        for (int right = index; right < s.length(); right++) {
             if (!node.children.containsKey(s.charAt(right))) {
-                return dp[left] = false;
+                return dp[index] = false;
             }
             node = node.children.get(s.charAt(right));
             if (node.isWord) {
                 if (dyP(s, root, dp, right + 1)) {
-                    return dp[left] = true;
+                    return dp[index] = true;
                 }
             }
         }
-        return dp[left] = false;
+        return dp[index] = false;
     }
 }
 
 class TrieNode {
     Map<Character, TrieNode> children = new HashMap<>();
     boolean isWord;
-}
-//leetcode submit region end(Prohibit modification and deletion)
-//https://blog.jiebu-lang.com/leetcode-139-word-break/
-/*
-class Solution {
-    public boolean wordBreak(String s, List<String> wordDict) {
-        Boolean[] dp = new Boolean[s.length()];
-        return dyP(s, new HashSet<>(wordDict), dp, 0);
-    }
-
-    public boolean dyP(String s, Set<String> set, Boolean[] dp, int left) {
-        if (left == s.length()) {
-            return true;
-        }
-        if (dp[left] != null) {
-            return dp[left];
-        }
-        for (int right = left + 1; right <= s.length(); right++) {
-            if (set.contains(s.substring(left, right)) && dyP(s, set, dp, right)) {
-                return dp[left] = true;
-            }
-        }
-        return dp[left] = false;
-    }
 }
  */
