@@ -2,30 +2,23 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    int[][] grid;
-    int m;
-    int n;
-
     public int[] findBall(int[][] grid) {
-        this.grid = grid;
-        m = grid.length;
-        n = grid[0].length;
-        int[] arr = new int[n];
-        for (int j = 0; j < n; j++) {
-            arr[j] = dfs(0, j);
+        int[] arr = new int[grid[0].length];
+        for (int i = 0; i < grid[0].length; i++) {
+            arr[i] = dfs(grid, 0, i);
         }
         return arr;
     }
 
-    private int dfs(int i, int j) {
-        if (i == m) {
+    public int dfs(int[][] grid, int i, int j) {
+        if (i == grid.length) {
             return j;
         }
         int y = j + grid[i][j];
-        if (y < 0 || y >= n || grid[i][j] != grid[i][y]) {
+        if (y < 0 || y >= grid[0].length || grid[i][j] != grid[i][y]) {
             return -1;
         }
-        return dfs(i + 1, y);
+        return dfs(grid, i + 1, y);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

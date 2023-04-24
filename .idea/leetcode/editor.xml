@@ -53,6 +53,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1046]Last Stone Weight.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1046" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1046]Last Stone Weight.java" />
+              <option name="titleSlug" value="last-stone-weight" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[104]Maximum Depth of Binary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -1365,6 +1375,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2622]Cache With Time Limit.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2622" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2622]Cache With Time Limit.java" />
+              <option name="titleSlug" value="cache-with-time-limit" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2624]Snail Traversal.java">
           <value>
             <LeetcodeEditor>
@@ -1662,6 +1682,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[341]Flatten Nested List Iterator.java" />
               <option name="titleSlug" value="flatten-nested-list-iterator" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[343]Integer Break.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com343" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[343]Integer Break.java" />
+              <option name="titleSlug" value="integer-break" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2583,6 +2613,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[895]Maximum Frequency Stack.java" />
               <option name="titleSlug" value="maximum-frequency-stack" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[896]Monotonic Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com896" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[896]Monotonic Array.java" />
+              <option name="titleSlug" value="monotonic-array" />
             </LeetcodeEditor>
           </value>
         </entry>

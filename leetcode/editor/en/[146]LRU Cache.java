@@ -24,7 +24,6 @@ class LRUCache {
         map.put(key, value);
     }
 }
-
 /**
  * Your LRUCache object will be instantiated and called as such:
  * LRUCache obj = new LRUCache(capacity);

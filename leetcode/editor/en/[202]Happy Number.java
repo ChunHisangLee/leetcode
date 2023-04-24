@@ -5,7 +5,7 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isHappy(int n) {
-        Set<Integer> set = new HashSet <>();
+        Set<Integer> set = new HashSet<>();
         while (!set.contains(n) && n != 1) {
             set.add(n);
             int sum = 0;

@@ -1,24 +1,58 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class LFUCache extends LinkedHashMap<Integer, Integer> {
+class LFUCache {
+    Map<Integer, Pair<Integer, Integer>> map;
+    Map<Integer, LinkedHashSet<Integer>> freq;
+    int min;
     int capacity;
 
     public LFUCache(int capacity) {
-        super(capacity, 0.75F, true);
+        map = new HashMap<>();
+        freq = new HashMap<>();
+        min = 0;
         this.capacity = capacity;
     }
 
     public int get(int key) {
-        return super.getOrDefault(key, -1);
+        Pair<Integer, Integer> pair = map.get(key);
+        if (pair == null) {
+            return -1;
+        }
+        int frequency = pair.getKey();
+        Set<Integer> keys = freq.get(frequency);
+        keys.remove(key);
+        if (min == frequency && keys.isEmpty()) {
+            min++;
+        }
+        final int value = pair.getValue();
+        insert(key, frequency + 1, value);
+        return value;
     }
 
     public void put(int key, int value) {
-        super.put(key, value);
+        if (capacity <= 0) {
+            return;
+        }
+        Pair<Integer, Integer> pair = map.get(key);
+        if (pair != null) {
+            map.put(key, new Pair<>(pair.getKey(), value));
+            get(key);
+            return;
+        }
+        if (capacity == map.size()) {
+            Set<Integer> keys = freq.get(min);
+            int keyToDelete = keys.iterator().next();
+            map.remove(keyToDelete);
+            keys.remove(keyToDelete);
+        }
+        min = 1;
+        insert(key, 1, value);
     }
 
-    @Override
-    protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
-        return size() > capacity;
+    public void insert(int key, int frequency, int value) {
+        map.put(key, new Pair<>(frequency, value));
+        freq.putIfAbsent(frequency, new LinkedHashSet<>());
+        freq.get(frequency).add(key);
     }
 }
 
