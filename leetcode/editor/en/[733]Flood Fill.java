@@ -4,34 +4,30 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+    int[][] image;
     int m;
     int n;
 
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        this.image = image;
         m = image.length;
         n = image[0].length;
         if (image[sr][sc] != color) {
-            dfs(image, sr, sc, image[sr][sc], color);
+            dfs(sr, sc, image[sr][sc], color);
         }
         return image;
     }
 
-    public void dfs(int[][] image, int x, int y, int oldColor, int newColor) {
-        if (x < 0 || x >= m || y < 0 || y >= n || image[x][y] != oldColor) {
+    public void dfs(int i, int j, int oldColor, int color) {
+        if (i < 0 || i >= m || j < 0 || j >= n || image[i][j] != oldColor) {
             return;
         }
-        image[x][y] = newColor;
-        if (x + 1 < m) {
-            dfs(image, x + 1, y, oldColor, newColor);
-        }
-        if (x > 0) {
-            dfs(image, x - 1, y, oldColor, newColor);
-        }
-        if (y + 1 < n) {
-            dfs(image, x, y + 1, oldColor, newColor);
-        }
-        if (y > 0) {
-            dfs(image, x, y - 1, oldColor, newColor);
+        image[i][j] = color;
+        for (int[] dir : dirs) {
+            int x = i + dir[0];
+            int y = j + dir[1];
+            dfs(x, y, oldColor, color);
         }
     }
 }
