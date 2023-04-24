@@ -10,12 +10,14 @@ class Solution {
             pq.add(stone);
         }
         while (pq.size() > 1) {
-            int first = pq.remove();
-            int second = pq.remove();
-            if (first != second)
-                pq.add(first - second);
+            int first = pq.poll();
+            int second = pq.poll();
+            if (first == second) {
+                continue;
+            }
+            pq.add(first - second);
         }
-        return pq.isEmpty() ? 0 : pq.peek();
+        return pq.isEmpty() ? 0 : pq.poll();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
