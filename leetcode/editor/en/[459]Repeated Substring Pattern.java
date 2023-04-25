@@ -8,16 +8,16 @@ class Solution {
         int len = s.length();
         for (int i = len / 2; i >= 1; i--) {
             if (len % i == 0) {
-                if (s.charAt(i - 1) != s.charAt(len - 1))
+                if (s.charAt(i - 1) != s.charAt(len - 1)) {
                     continue;
+                }
                 String sub = s.substring(0, i);
                 int m = len / i;
                 int p = 1;
-                while (p < m && sub.equals(s.substring(i * p, i * p + i))) {
-                    p++;
-                }
-                if (p == m)
+                while (p < m && sub.equals(s.substring(i * p, i * p + i))) p++;
+                if (p == m) {
                     return true;
+                }
             }
         }
         return false;
