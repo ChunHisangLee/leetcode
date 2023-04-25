@@ -54,7 +54,7 @@ class SmallestInfiniteSet {
     }
 
     public int popSmallest() {
-        int res;
+        int res = 0;
         if (!set.isEmpty()) {
             res = set.first();
             set.remove(res);

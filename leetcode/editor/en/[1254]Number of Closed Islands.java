@@ -78,10 +78,10 @@ class Solution {
         if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == 1) {
             return;
         }
+        grid[i][j] = 1;
         if (i == 0 || i == m - 1 || j == 0 || j == n - 1) {
             isClosed = false;
         }
-        grid[i][j] = 1;
         for (int[] dir : dirs) {
             int x = i + dir[0];
             int y = j + dir[1];
