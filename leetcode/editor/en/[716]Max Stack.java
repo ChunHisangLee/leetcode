@@ -4,20 +4,21 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class MaxStack {
-    private Stack<int[]> stack;
-    private Queue<int[]> pq;
-    private Set<Integer> removed;
-    private int count = 0;
+    Deque<int[]> stack;
+    PriorityQueue<int[]> pq;
+    Set<Integer> removed;
+    int count = 0;
 
     public MaxStack() {
-        stack = new Stack<>();
+        stack = new ArrayDeque<>();
         pq = new PriorityQueue<>((a, b) -> b[0] - a[0] == 0 ? b[1] - a[1] : b[0] - a[0]);
         removed = new HashSet<>();
     }
 
     public void push(int x) {
-        stack.add(new int[]{x, count});
-        pq.add(new int[]{x, count});
+        int[] curr = new int[]{x, count};
+        stack.push(curr);
+        pq.add(curr);
         count++;
     }
 
@@ -25,8 +26,9 @@ class MaxStack {
         while (removed.contains(stack.peek()[1])) {
             stack.pop();
         }
-        removed.add(stack.peek()[1]);
-        return stack.pop()[0];
+        int[] curr = stack.pop();
+        removed.add(curr[1]);
+        return curr[0];
     }
 
     public int top() {
@@ -47,8 +49,9 @@ class MaxStack {
         while (removed.contains(pq.peek()[1])) {
             pq.poll();
         }
-        removed.add(pq.peek()[1]);
-        return pq.poll()[0];
+        int[] curr = pq.poll();
+        removed.add(curr[1]);
+        return curr[0];
     }
 }
 
