@@ -18,10 +18,10 @@ class Solution {
         ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode first = dummy;
-        ListNode second = dummy;
         for (int i = 0; i <= n; i++) {
             first = first.next;
         }
+        ListNode second = dummy;
         while (first != null) {
             first = first.next;
             second = second.next;

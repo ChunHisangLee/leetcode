@@ -36,31 +36,29 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    int[][] grid;
     int m;
     int n;
 
     public int maxAreaOfIsland(int[][] grid) {
-        this.grid = grid;
         m = grid.length;
         n = grid[0].length;
         int max = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1) {
-                    max = Math.max(max, dfs(i, j));
+                    max = Math.max(max, dfs(grid, i, j));
                 }
             }
         }
         return max;
     }
 
-    public int dfs(int i, int j) {
-        if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == 0) {
+    public int dfs(int[][] grid, int x, int y) {
+        if (x < 0 || x >= m || y < 0 || y >= n || grid[x][y] == 0) {
             return 0;
         }
-        grid[i][j] = 0;
-        return dfs(i + 1, j) + dfs(i - 1, j) + dfs(i, j + 1) + dfs(i, j - 1) + 1;
+        grid[x][y] = 0;
+        return dfs(grid, x + 1, y) + dfs(grid, x - 1, y) + dfs(grid, x, y + 1) + dfs(grid, x, y - 1) + 1;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

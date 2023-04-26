@@ -16,10 +16,10 @@
 class Solution {
     public boolean isPalindrome(ListNode head) {
         List<Integer> list = new ArrayList<>();
-        ListNode curr = head;
-        while (curr != null) {
-            list.add(curr.val);
-            curr = curr.next;
+        ListNode node = head;
+        while (node != null) {
+            list.add(node.val);
+            node = node.next;
         }
         int left = 0;
         int right = list.size() - 1;

@@ -4,13 +4,10 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    char[][] grid;
-    int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     int m;
     int n;
 
     public int numIslands(char[][] grid) {
-        this.grid = grid;
         m = grid.length;
         n = grid[0].length;
         int count = 0;
@@ -18,23 +15,22 @@ class Solution {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == '1') {
                     count++;
-                    dfs(i, j);
+                    dfs(grid, i, j);
                 }
             }
         }
         return count;
     }
 
-    public void dfs(int i, int j) {
-        if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == '0') {
+    public void dfs(char[][] grid, int x, int y) {
+        if (x < 0 || x >= m || y < 0 || y >= n || grid[x][y] == '0') {
             return;
         }
-        grid[i][j] = '0';
-        for (int[] dir : dirs) {
-            int x = i + dir[0];
-            int y = j + dir[1];
-            dfs(x, y);
-        }
+        grid[x][y] = '0';
+        dfs(grid, x + 1, y);
+        dfs(grid, x - 1, y);
+        dfs(grid, x, y + 1);
+        dfs(grid, x, y - 1);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
