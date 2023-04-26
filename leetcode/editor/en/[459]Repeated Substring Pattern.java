@@ -5,17 +5,12 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
-        int len = s.length();
-        for (int i = len / 2; i >= 1; i--) {
-            if (len % i == 0) {
-                if (s.charAt(i - 1) != s.charAt(len - 1)) {
-                    continue;
-                }
-                String sub = s.substring(0, i);
-                int m = len / i;
-                int p = 1;
-                while (p < m && sub.equals(s.substring(i * p, i * p + i))) p++;
-                if (p == m) {
+        int n = s.length();
+        for (int i = n / 2; i >= 1; i--) {
+            if (n % i == 0 && s.charAt(i - 1) == s.charAt(n - 1)) {
+                String str = s.substring(0, i);
+                int m = n / i;
+                if (str.repeat(m).equals(s)) {
                     return true;
                 }
             }

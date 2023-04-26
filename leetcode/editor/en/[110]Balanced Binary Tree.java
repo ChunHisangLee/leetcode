@@ -59,7 +59,7 @@ class Solution {
         return res;
     }
 
-    private int dfs(TreeNode node) {
+    public int dfs(TreeNode node) {
         if (node == null) {
             return 0;
         }
