@@ -15,6 +15,32 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
+        int count = 0;
+        ListNode node = head;
+        while (node != null) {
+            count++;
+            node = node.next;
+        }
+        int[] arr = new int[count];
+        node = head;
+        for (int i = 0; i < count; i++) {
+            arr[i] = node.val;
+            node = node.next;
+        }
+        Arrays.sort(arr);
+        ListNode dummy = new ListNode();
+        node = dummy;
+        for (int num : arr) {
+            node.next = new ListNode(num);
+            node = node.next;
+        }
+        return dummy.next;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public ListNode sortList(ListNode head) {
         List<Integer> list = new ArrayList<>();
         ListNode node = head;
         while (node != null) {
@@ -31,4 +57,4 @@ class Solution {
         return dummy.next;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+ */
