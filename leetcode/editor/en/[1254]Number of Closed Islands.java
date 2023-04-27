@@ -49,14 +49,11 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    int[][] grid;
-    int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     int m;
     int n;
     boolean isClosed;
 
     public int closedIsland(int[][] grid) {
-        this.grid = grid;
         m = grid.length;
         n = grid[0].length;
         int count = 0;
@@ -64,7 +61,7 @@ class Solution {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 0) {
                     isClosed = true;
-                    dfs(i, j);
+                    dfs(grid, i, j);
                     if (isClosed) {
                         count++;
                     }
@@ -74,19 +71,18 @@ class Solution {
         return count;
     }
 
-    public void dfs(int i, int j) {
-        if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == 1) {
+    public void dfs(int[][] grid, int x, int y) {
+        if (x < 0 || x >= m || y < 0 || y >= n || grid[x][y] == 1) {
             return;
         }
-        grid[i][j] = 1;
-        if (i == 0 || i == m - 1 || j == 0 || j == n - 1) {
+        grid[x][y] = 1;
+        if (x == 0 || x == m - 1 || y == 0 || y == n - 1) {
             isClosed = false;
         }
-        for (int[] dir : dirs) {
-            int x = i + dir[0];
-            int y = j + dir[1];
-            dfs(x, y);
-        }
+        dfs(grid, x + 1, y);
+        dfs(grid, x - 1, y);
+        dfs(grid, x, y + 1);
+        dfs(grid, x, y - 1);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
