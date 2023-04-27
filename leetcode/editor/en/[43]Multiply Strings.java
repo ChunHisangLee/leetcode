@@ -7,11 +7,11 @@ class Solution {
     public String multiply(String num1, String num2) {
         char[] c1 = num1.toCharArray();
         char[] c2 = num2.toCharArray();
-        int len1 = c1.length;
-        int len2 = c2.length;
-        int[] arr = new int[len1 + len2];
-        for (int i = len1 - 1; i >= 0; i--) {
-            for (int j = len2 - 1; j >= 0; j--) {
+        int n1 = c1.length;
+        int n2 = c2.length;
+        int[] arr = new int[n1 + n2];
+        for (int i = n1 - 1; i >= 0; i--) {
+            for (int j = n2 - 1; j >= 0; j--) {
                 int d1 = c1[i] - '0';
                 int d2 = c2[j] - '0';
                 arr[i + j + 1] += d1 * d2;
