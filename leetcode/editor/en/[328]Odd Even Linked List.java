@@ -16,8 +16,10 @@
 class Solution {
     public ListNode oddEvenList(ListNode head) {
         if (head == null) {
-            return null;
+            return head;
         }
+        ListNode dummy = new ListNode();
+        dummy.next = head;
         ListNode odd = head;
         ListNode even = head.next;
         ListNode evenHead = even;
@@ -28,7 +30,7 @@ class Solution {
             even = even.next;
         }
         odd.next = evenHead;
-        return head;
+        return dummy.next;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

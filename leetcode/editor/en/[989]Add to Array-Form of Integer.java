@@ -6,14 +6,20 @@
 class Solution {
     public List<Integer> addToArrayForm(int[] num, int k) {
         LinkedList<Integer> list = new LinkedList<>();
-        int n = num.length - 1;
-        while (n >= 0 || k > 0) {
-            if (n >= 0) {
-                k += num[n];
+        int i = num.length - 1;
+        int carry = 0;
+        while (i >= 0 || k > 0 || carry == 1) {
+            int temp = carry;
+            if (i >= 0) {
+                temp += num[i];
             }
-            list.addFirst(k % 10);
-            k /= 10;
-            n--;
+            if (k > 0) {
+                temp += k % 10;
+                k /= 10;
+            }
+            list.addFirst(temp % 10);
+            carry = temp / 10;
+            i--;
         }
         return list;
     }

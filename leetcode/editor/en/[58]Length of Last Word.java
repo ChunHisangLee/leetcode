@@ -5,14 +5,14 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int lengthOfLastWord(String s) {
-        int right = s.length();
+        s = s.trim();
+        char[] c = s.toCharArray();
         int count = 0;
-        while (right > 0) {
-            right--;
-            if (s.charAt(right) != ' ')
-                count++;
-            else if (count > 0)
+        for (int i = c.length - 1; i >= 0; i--) {
+            if (c[i] == ' ') {
                 return count;
+            }
+            count++;
         }
         return count;
     }
