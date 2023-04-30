@@ -5,26 +5,31 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean findRotation(int[][] mat, int[][] target) {
-        for (int i = 0; i < 4; i++) {
-            if (Arrays.deepEquals(mat, target))
-                return true;
-            rotate(mat);
-        }
-        return false;
-    }
-
-    private void rotate(int[][] mat) {
-        for (int i = 0, j = mat.length - 1; i < j; ++i, --j) {
-            int[] temp = mat[i];
-            mat[i] = mat[j];
-            mat[j] = temp;
-        }
-        for (int i = 0; i < mat.length; ++i)
-            for (int j = i + 1; j < mat.length; ++j) {
-                int temp = mat[i][j];
-                mat[i][j] = mat[j][i];
-                mat[j][i] = temp;
+        int n = mat.length;
+        int r0 = 0;
+        int r1 = 0;
+        int r2 = 0;
+        int r3 = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                int x = n - 1 - i;
+                int y = n - 1 - j;
+                if (mat[i][j] == target[i][j]) {
+                    r0++;
+                }
+                if (mat[i][j] == target[y][i]) {
+                    r1++;
+                }
+                if (mat[i][j] == target[x][y]) {
+                    r2++;
+                }
+                if (mat[i][j] == target[j][x]) {
+                    r3++;
+                }
             }
+        }
+        int total = n * n;
+        return r0 == total || r1 == total || r2 == total || r3 == total;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
