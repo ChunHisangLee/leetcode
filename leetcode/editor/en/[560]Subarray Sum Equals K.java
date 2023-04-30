@@ -6,15 +6,15 @@
 class Solution {
     public int subarraySum(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
+        int preSum = 0;
+        int res = 0;
         map.put(0, 1);
-        int ans = 0;
-        int curr = 0;
         for (int num : nums) {
-            curr += num;
-            ans += map.getOrDefault(curr - k, 0);
-            map.put(curr, map.getOrDefault(curr, 0) + 1);
+            preSum += num;
+            res += map.getOrDefault(preSum - k, 0);
+            map.put(preSum, map.getOrDefault(preSum, 0) + 1);
         }
-        return ans;
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

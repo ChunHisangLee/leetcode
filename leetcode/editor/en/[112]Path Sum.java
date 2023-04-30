@@ -23,11 +23,13 @@ class Solution {
         return dfs(root, targetSum);
     }
 
-    private boolean dfs(TreeNode node, int target) {
-        if (node == null)
+    public boolean dfs(TreeNode node, int target) {
+        if (node == null) {
             return false;
-        if (node.left == null && node.right == null)
+        }
+        if (node.left == null && node.right == null) {
             return node.val == target;
+        }
         return dfs(node.left, target - node.val) || dfs(node.right, target - node.val);
     }
 }

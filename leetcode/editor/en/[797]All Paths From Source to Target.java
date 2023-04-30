@@ -5,21 +5,7 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        List<List<Integer>> list = new ArrayList<>();
-        backtrack(graph, 0, list, new ArrayList<>());
-        return list;
-    }
 
-    public void backtrack(int[][] graph, int node, List<List<Integer>> list, List<Integer> path) {
-        path.add(node);
-        if (node == graph.length - 1) {
-            list.add(new ArrayList<>(path));
-            return;
-        }
-        for (int nextNode : graph[node]) {
-            backtrack(graph, nextNode, list, path);
-            path.remove(path.size() - 1);
-        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
