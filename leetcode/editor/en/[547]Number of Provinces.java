@@ -4,56 +4,65 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    boolean[] isVisited;
+    int n;
+
+    public int findCircleNum(int[][] isConnected) {
+        n = isConnected.length;
+        isVisited = new boolean[n];
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (!isVisited[i]) {
+                count++;
+                dfs(isConnected, i);
+            }
+        }
+        return count;
+    }
+
+    public void dfs(int[][] isConnected, int x) {
+        isVisited[x] = true;
+        for (int i = 0; i < n; i++) {
+            if (isConnected[x][i] == 1 & !isVisited[i]) {
+                dfs(isConnected, i);
+            }
+        }
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    int[] group;
+    int count;
+
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
-        UnionFind uf = new UnionFind(n);
+        group = new int[n];
+        count = n;
+        for (int i = 0; i < n; i++) {
+            group[i] = i;
+        }
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (isConnected[i][j] == 1 && i != j) {
-                    uf.union(i, j);
+                    union(i, j);
                 }
             }
         }
-        return uf.count;
-    }
-}
-
-class UnionFind {
-    int[] parent;
-    int[] rank;
-    int count;
-
-    public UnionFind(int n) {
-        parent = new int[n];
-        rank = new int[n];
-        for (int i = 0; i < n; i++) {
-            parent[i] = i;
-            rank[i] = 1;
-        }
-        count = n;
+        return count;
     }
 
     public int find(int x) {
-        return parent[x] == x ? x : (parent[x] = find(parent[x]));
+        return group[x] == x ? x : (group[x] = find(group[x]));
     }
 
     public void union(int i, int j) {
         int x = find(i);
         int y = find(j);
-        if (x == y) {
-            return;
-        }
         if (x != y) {
-            if (rank[x] > rank[y]) {
-                parent[y] = x;
-            } else if (rank[x] < rank[y]) {
-                parent[x] = y;
-            } else {
-                parent[x] = y;
-                rank[y]++;
-            }
+            group[x] = y;
+            count--;
         }
-        count--;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+ */
