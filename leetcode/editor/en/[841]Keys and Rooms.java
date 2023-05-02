@@ -6,14 +6,14 @@
 class Solution {
     List<List<Integer>> res;
     boolean[] isVisited;
-    int n;
     int count;
+    int n;
 
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         n = rooms.size();
-        res = rooms;
-        count = n;
         isVisited = new boolean[n];
+        count = n;
+        res = rooms;
         dfs(0);
         return count == 0;
     }
@@ -21,9 +21,6 @@ class Solution {
     public void dfs(int i) {
         isVisited[i] = true;
         count--;
-        if (count == 0) {
-            return;
-        }
         List<Integer> list = res.get(i);
         for (int key : list) {
             if (!isVisited[key]) {

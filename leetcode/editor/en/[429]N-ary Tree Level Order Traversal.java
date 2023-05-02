@@ -22,27 +22,54 @@ class Node {
 };
 */
 class Solution {
-    List<List<Integer>> list = new ArrayList<>();
+    List<List<Integer>> res = new ArrayList<>();
 
     public List<List<Integer>> levelOrder(Node root) {
         if (root == null) {
-            return list;
+            return res;
         }
         dfs(root, 0);
-        return list;
+        return res;
     }
 
-    public void dfs(Node node, int level) {
-        if (node == null) {
+    public void dfs(Node curr, int level) {
+        if (curr == null) {
             return;
         }
-        if (list.size() == level) {
-            list.add(new ArrayList<>());
+        if (res.size() == level) {
+            res.add(new ArrayList<>());
         }
-        list.get(level).add(node.val);
-        for (Node child : node.children) {
-            dfs(child, level + 1);
+        res.get(level).add(curr.val);
+        for (Node node : curr.children) {
+            dfs(node, level + 1);
         }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public List<List<Integer>> levelOrder(Node root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null) {
+             return res;
+        }
+        Deque<Node> dq = new ArrayDeque<>();
+        dq.add(root);
+        while (!dq.isEmpty()) {
+            int size = dq.size();
+            List<Integer> list = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+                Node curr = dq.poll();
+                list.add(curr.val);
+                for (Node node : curr.children) {
+                    if (node != null) {
+                        dq.add(node);
+                    }
+                }
+            }
+            res.add(new ArrayList<>(list));
+        }
+        return res;
+    }
+}
+ */

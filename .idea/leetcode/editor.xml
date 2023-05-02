@@ -124,6 +124,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[108]Convert Sorted Array to Binary Search Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com108" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[108]Convert Sorted Array to Binary Search Tree.java" />
+              <option name="titleSlug" value="convert-sorted-array-to-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1091]Shortest Path in Binary Matrix.java">
           <value>
             <LeetcodeEditor>
@@ -454,6 +464,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1376]Time Needed to Inform All Employees.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1376" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1376]Time Needed to Inform All Employees.java" />
+              <option name="titleSlug" value="time-needed-to-inform-all-employees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[137]Single Number II.java">
           <value>
             <LeetcodeEditor>
@@ -755,6 +775,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1630]Arithmetic Subarrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1630" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1630]Arithmetic Subarrays.java" />
+              <option name="titleSlug" value="arithmetic-subarrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1639]Number of Ways to Form a Target String Given a Dictionary.java">
           <value>
             <LeetcodeEditor>
@@ -892,6 +922,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[171]Excel Sheet Column Number.java" />
               <option name="titleSlug" value="excel-sheet-column-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[173]Binary Search Tree Iterator.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com173" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[173]Binary Search Tree Iterator.java" />
+              <option name="titleSlug" value="binary-search-tree-iterator" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1242,6 +1282,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[22]Generate Parentheses.java" />
               <option name="titleSlug" value="generate-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[230]Kth Smallest Element in a BST.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com230" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[230]Kth Smallest Element in a BST.java" />
+              <option name="titleSlug" value="kth-smallest-element-in-a-bst" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2833,6 +2883,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[7]Reverse Integer.java" />
               <option name="titleSlug" value="reverse-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[802]Find Eventual Safe States.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com802" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[802]Find Eventual Safe States.java" />
+              <option name="titleSlug" value="find-eventual-safe-states" />
             </LeetcodeEditor>
           </value>
         </entry>
