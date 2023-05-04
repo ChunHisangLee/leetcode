@@ -1,4 +1,6 @@
-
+28
+        Find the Index of the First Occurrence in a String
+        2023-03-03 14:07:24
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {

@@ -1,3 +1,6 @@
+1055
+        Shortest Way to Form String
+        2023-03-08 11:55:39
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
