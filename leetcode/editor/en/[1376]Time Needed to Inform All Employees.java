@@ -4,9 +4,7 @@ class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         int max = 0;
         for (int i = 0; i < n; i++) {
-            if (manager[i] != 0) {
-                max = Math.max(max, dfs(i, manager, informTime));
-            }
+            max = Math.max(max, dfs(i, manager, informTime));
         }
         return max;
     }
