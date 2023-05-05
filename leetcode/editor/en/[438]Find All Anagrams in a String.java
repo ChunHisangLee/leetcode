@@ -5,36 +5,35 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
-        int[] arrS = new int[26];
-        int[] arrP = new int[26];
-        int m = s.length();
-        int n = p.length();
+        char[] cs = s.toCharArray();
+        char[] cp = p.toCharArray();
+        int m = cs.length;
+        int n = cp.length;
+        int[] arrs = new int[26];
+        int[] arrp = new int[26];
         List<Integer> list = new ArrayList<>();
-        char[] chS = s.toCharArray();
-        char[] chP = p.toCharArray();
         if (m < n) {
             return list;
         }
         for (int i = 0; i < n; i++) {
-            arrS[chS[i] - 'a']++;
-            arrP[chP[i] - 'a']++;
+            arrs[cs[i] - 'a']++;
+            arrp[cp[i] - 'a']++;
         }
         for (int i = 0; i <= m - n; i++) {
-            boolean isAnagram = true;
+            boolean flag = true;
             for (int j = 0; j < 26; j++) {
-                if (arrS[j] != arrP[j]) {
-                    isAnagram = false;
+                if (arrs[j] != arrp[j]) {
+                    flag = false;
                     break;
                 }
             }
-            if (isAnagram) {
+            if (flag) {
                 list.add(i);
             }
-            if (i + n >= m) {
-                break;
+            if (i + n < m) {
+                arrs[cs[i] - 'a']--;
+                arrs[cs[i + n] - 'a']++;
             }
-            arrS[chS[i] - 'a']--;
-            arrS[chS[i + n] - 'a']++;
         }
         return list;
     }

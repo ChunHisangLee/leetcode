@@ -2,18 +2,19 @@
 Next Greater Element II
 2022-12-04 17:45:49
 //leetcode submit region begin(Prohibit modification and deletion)
-public class Solution {
+class Solution {
     public int[] nextGreaterElements(int[] nums) {
-        int[] res = new int[nums.length];
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 2 * nums.length - 1; i >= 0; --i) {
-            while (!stack.empty() && nums[stack.peek()] <= nums[i % nums.length]) {
-                stack.pop();
+        int n = nums.length;
+        int[] arr = new int[n];
+        Deque<Integer> dq = new ArrayDeque<>();
+        for (int i = 2 * n - 1; i >= 0; i--) {
+            while (!dq.isEmpty() && nums[dq.peek()] <= nums[i % n]) {
+                dq.pop();
             }
-            res[i % nums.length] = stack.empty() ? -1 : nums[stack.peek()];
-            stack.push(i % nums.length);
+            arr[i % n] = dq.isEmpty() ? -1 : nums[dq.peek()];
+            dq.push(i % n);
         }
-        return res;
+        return arr;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
