@@ -16,11 +16,11 @@ class Solution {
                     res = sum;
                     diff = Math.abs(sum - target);
                 }
-                if(sum==target){
+                if (sum == target) {
                     return target;
-                }else if(sum<target){
+                } else if (sum < target) {
                     left++;
-                }else {
+                } else {
                     right--;
                 }
             }

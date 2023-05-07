@@ -16,8 +16,8 @@ class Solution {
             list.get(edge[0]).add(new int[]{edge[1], 1});
         }
         int[][] dist = new int[n][2];
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(dist[i], -1);
+        for(int[] arr:dist){
+            Arrays.fill(arr,-1);
         }
         dist[0] = new int[]{0, 0};
         Deque<int[]> dq = new ArrayDeque<>();

@@ -5,28 +5,35 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int minMutation(String startGene, String endGene, String[] bank) {
-        Queue<String> queue = new LinkedList<>();
-        Set<String> seen = new HashSet<>();
-        queue.add(startGene);
-        seen.add(startGene);
-        int steps = 0;
-        while (!queue.isEmpty()) {
-            int nodesInQueue = queue.size();
-            for (int j = 0; j < nodesInQueue; j++) {
-                String node = queue.remove();
-                if (node.equals(endGene))
-                    return steps;
-                for (char c : new char[]{'A', 'C', 'G', 'T'}) {
-                    for (int i = 0; i < node.length(); i++) {
-                        String neighbor = node.substring(0, i) + c + node.substring(i + 1);
-                        if (!seen.contains(neighbor) && Arrays.asList(bank).contains(neighbor)) {
-                            queue.add(neighbor);
-                            seen.add(neighbor);
+        char[] gene = new char[]{'A', 'C', 'G', 'T'};
+        Set<String> set = new HashSet<>(Arrays.asList(bank));
+        Set<String> visited = new HashSet<>();
+        Deque<String> dq = new ArrayDeque<>();
+        int count = -1;
+        dq.add(startGene);
+        visited.add(startGene);
+        while (!dq.isEmpty()) {
+            int size = dq.size();
+            count++;
+            for (int i = 0; i < size; i++) {
+                String curr = dq.poll();
+                if (curr.equals(endGene)) {
+                    return count;
+                }
+                char[] c = curr.toCharArray();
+                for (int j = 0; j < c.length; j++) {
+                    char temp = c[j];
+                    for (char g : gene) {
+                        c[j] = g;
+                        String str = String.valueOf(c);
+                        if (!visited.contains(str) && set.contains(str)) {
+                            dq.add(str);
+                            visited.add(str);
                         }
                     }
+                    c[j] = temp;
                 }
             }
-            steps++;
         }
         return -1;
     }

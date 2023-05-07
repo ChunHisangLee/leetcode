@@ -9,33 +9,39 @@ class Solution {
         if (!set.contains(endWord)) {
             return 0;
         }
-        Deque<String> dq = new ArrayDeque<>();
-        dq.add(beginWord);
-        Set<String> isVisited = new HashSet<>();
-        isVisited.add(beginWord);
-        int count = 1;
-        while (!dq.isEmpty()) {
-            int size = dq.size();
-            for (int i = 0; i < size; i++) {
-                String word = dq.poll();
-                if (word.equals(endWord)) {
-                    return count;
-                }
-                for (int j = 0; j < word.length(); j++) {
-                    char[] c = word.toCharArray();
-                    for (char k = 'a'; k <= 'z'; k++) {
-                        c[j] = k;
-                        String str = new String(c);
-                        if (set.contains(str) && !isVisited.contains(str)) {
-                            dq.add(str);
-                            isVisited.add(str);
-                        }
-                    }
-                }
-            }
-            count++;
+        Set<String> begin = new HashSet<>();
+        Set<String> end = new HashSet<>();
+        begin.add(beginWord);
+        end.add(endWord);
+        return search(begin, end, set, true, 1);
+    }
+
+    private int search(Set<String> begin, Set<String> end, Set<String> set, boolean isForward, int curr) {
+        if (begin.isEmpty() || end.isEmpty()) {
+            return 0;
         }
-        return 0;
+        curr++;
+        set.removeAll(begin);
+        Set<String> next = new HashSet<>();
+        for (String str : begin) {
+            char[] c = str.toCharArray();
+            for (int i = 0; i < c.length; i++) {
+                char ch = c[i];
+                for (char j = 'a'; j <= 'z'; j++) {
+                    c[i] = j;
+                    String temp = new String(c);
+                    if (!set.contains(temp)) {
+                        continue;
+                    }
+                    if (end.contains(temp)) {
+                        return curr;
+                    }
+                    next.add(temp);
+                }
+                c[i] = ch;
+            }
+        }
+        return next.size() > end.size() ? search(end, next, set, false, curr) : search(next, end, set, true, curr);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

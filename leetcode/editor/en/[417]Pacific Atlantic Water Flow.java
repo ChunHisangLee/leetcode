@@ -16,9 +16,9 @@ class Solution {
             dfs(i, 0, isPac);
             dfs(i, n - 1, isAtl);
         }
-        for (int i = 0; i < n; i++) {
-            dfs(0, i, isPac);
-            dfs(m - 1, i, isAtl);
+        for (int j = 0; j < n; j++) {
+            dfs(0, j, isPac);
+            dfs(m - 1, j, isAtl);
         }
         List<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i < m; i++) {
