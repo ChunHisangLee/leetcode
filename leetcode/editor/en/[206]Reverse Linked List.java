@@ -21,7 +21,7 @@ class Solution {
         ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode prev = dummy;
-        ListNode curr = prev.next;
+        ListNode curr = head;
         while (curr.next != null) {
             ListNode temp = curr.next;
             curr.next = temp.next;
