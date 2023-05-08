@@ -15,13 +15,13 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        l1 = reverse(l1);
+        l2 = reverse(l2);
         ListNode dummy = new ListNode();
         ListNode curr = dummy;
-        l1 = reverseList(l1);
-        l2 = reverseList(l2);
         int carry = 0;
         while (l1 != null || l2 != null || carry == 1) {
-            int sum = 0;
+            int sum = carry;
             if (l1 != null) {
                 sum += l1.val;
                 l1 = l1.next;
@@ -30,20 +30,19 @@ class Solution {
                 sum += l2.val;
                 l2 = l2.next;
             }
-            sum += carry;
             carry = sum / 10;
             curr.next = new ListNode(sum % 10);
             curr = curr.next;
         }
-        dummy = reverseList(dummy.next);
+        dummy = reverse(dummy.next);
         return dummy;
     }
 
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverse(ListNode head) {
         ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode prev = dummy;
-        ListNode curr = prev.next;
+        ListNode curr = head;
         while (curr.next != null) {
             ListNode temp = curr.next;
             curr.next = temp.next;
