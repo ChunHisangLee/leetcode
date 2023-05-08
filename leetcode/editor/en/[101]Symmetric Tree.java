@@ -23,17 +23,17 @@ class Solution {
         return dfs(root.left, root.right);
     }
 
-    private boolean dfs(TreeNode left, TreeNode right) {
-        if (left == null && right == null) {
+    public boolean dfs(TreeNode node1, TreeNode node2) {
+        if (node1 == null && node2 == null) {
             return true;
         }
-        if (left == null || right == null) {
+        if (node1 == null || node2 == null) {
             return false;
         }
-        if (left.val != right.val) {
+        if (node1.val != node2.val) {
             return false;
         }
-        return dfs(left.left, right.right) && dfs(left.right, right.left);
+        return dfs(node1.left, node2.right) && dfs(node1.right, node2.left);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

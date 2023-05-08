@@ -18,25 +18,28 @@
  */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
-        if (root == null)
+        if (root == null) {
             return new ArrayList<>();
-        List<Integer> ans = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        while (!queue.isEmpty()) {
-            int currLength = queue.size();
-            int prev = 0;
-            for (int i = 0; i < currLength; i++) {
-                TreeNode node = queue.remove();
-                prev = node.val;
-                if (node.left != null)
-                    queue.add(node.left);
-                if (node.right != null)
-                    queue.add(node.right);
-            }
-            ans.add(prev);
         }
-        return ans;
+        List<Integer> list = new ArrayList<>();
+        Deque<TreeNode> dq = new ArrayDeque<>();
+        dq.add(root);
+        while (!dq.isEmpty()) {
+            int size = dq.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode curr = dq.poll();
+                if (i == size - 1) {
+                    list.add(curr.val);
+                }
+                if (curr.left != null) {
+                    dq.add(curr.left);
+                }
+                if (curr.right != null) {
+                    dq.add(curr.right);
+                }
+            }
+        }
+        return list;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
