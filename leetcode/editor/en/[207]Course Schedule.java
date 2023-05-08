@@ -10,17 +10,17 @@ class Solution {
             list.get(pre[1]).add(pre[0]);
             inDegree[pre[0]]++;
         }
-        int count = 0;
         Deque<Integer> dq = new ArrayDeque<>();
         for (int i = 0; i < numCourses; i++) {
             if (inDegree[i] == 0) {
                 dq.add(i);
             }
         }
+        int count = 0;
         while (!dq.isEmpty()) {
-            int index = dq.poll();
+            int curr = dq.poll();
             count++;
-            for (int num : list.get(index)) {
+            for (int num : list.get(curr)) {
                 inDegree[num]--;
                 if (inDegree[num] == 0) {
                     dq.add(num);

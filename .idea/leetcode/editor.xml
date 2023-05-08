@@ -254,6 +254,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1203]Sort Items by Groups Respecting Dependencies.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1203" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1203]Sort Items by Groups Respecting Dependencies.java" />
+              <option name="titleSlug" value="sort-items-by-groups-respecting-dependencies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1213]Intersection of Three Sorted Arrays.java">
           <value>
             <LeetcodeEditor>
@@ -1786,6 +1796,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[269]Alien Dictionary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com269" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[269]Alien Dictionary.java" />
+              <option name="titleSlug" value="alien-dictionary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[26]Remove Duplicates from Sorted Array.java">
           <value>
             <LeetcodeEditor>
@@ -3254,6 +3274,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[84]Largest Rectangle in Histogram.java" />
               <option name="titleSlug" value="largest-rectangle-in-histogram" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[851]Loud and Rich.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com851" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[851]Loud and Rich.java" />
+              <option name="titleSlug" value="loud-and-rich" />
             </LeetcodeEditor>
           </value>
         </entry>

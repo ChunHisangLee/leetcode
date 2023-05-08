@@ -3,6 +3,7 @@
 /*
 還不會
  "white-gray-black" DFS algorithm
+ https://www.youtube.com/watch?v=eWbD1DQfGjo
  */
 class Solution {
     public List<Integer> eventualSafeNodes(int[][] graph) {
