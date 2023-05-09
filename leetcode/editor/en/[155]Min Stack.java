@@ -1,7 +1,7 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class MinStack {
     Deque<Integer> dq;
-    Deque<Integer> min;
+    Deque<int[]> min;
 
     public MinStack() {
         dq = new ArrayDeque<>();
@@ -10,13 +10,18 @@ class MinStack {
 
     public void push(int val) {
         dq.push(val);
-        if (min.isEmpty() || val <= min.peek()) {
-            min.push(val);
+        if (min.isEmpty() || val < min.peek()[0]) {
+            min.push(new int[]{val, 1});
+        } else if (val == min.peek()[0]) {
+            min.peek()[1]++;
         }
     }
 
     public void pop() {
-        if (dq.peek().equals(min.peek())) {
+        if (dq.peek().equals(min.peek()[0])) {
+            min.peek()[1]--;
+        }
+        if (min.peek()[1] == 0) {
             min.pop();
         }
         dq.pop();
@@ -27,7 +32,7 @@ class MinStack {
     }
 
     public int getMin() {
-        return min.peek();
+        return min.peek()[0];
     }
 }
 
