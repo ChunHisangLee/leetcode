@@ -5,14 +5,20 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maxProduct(int[] nums) {
-        int max = nums[0];
         int min = nums[0];
+        int max = nums[0];
         int res = nums[0];
         for (int i = 1; i < nums.length; i++) {
+            int preMax = max;
+            int preMin = min;
             int curr = nums[i];
-            int temp = Math.max(curr, Math.max(max * curr, min * curr));
-            min = Math.min(curr, Math.min(max * curr, min * curr));
-            max = temp;
+            if (curr < 0) {
+                max = Math.max(preMin * curr, curr);
+                min = Math.min(preMax * curr, curr);
+            } else {
+                max = Math.max(preMax * curr, curr);
+                min = Math.min(preMin * curr, curr);
+            }
             res = Math.max(res, max);
         }
         return res;
