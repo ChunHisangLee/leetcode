@@ -12,22 +12,21 @@ class Solution {
             return false;
         }
         sum /= 2;
-        return helper(nums, 0, sum, new Boolean[nums.length + 1][sum + 1]);
+        return dyP(nums, 0, sum, new Boolean[nums.length + 1][sum + 1]);
     }
 
-    private boolean helper(int[] nums, int currIndex, int sum, Boolean[][] dp) {
+    public boolean dyP(int[] nums, int curr, int sum, Boolean[][] dp) {
         if (sum == 0) {
             return true;
         }
-        if (currIndex >= nums.length - 1 || sum < 0) {
+        if (curr >= nums.length - 1 || sum < 0) {
             return false;
         }
-        if (dp[currIndex][sum] != null) {
-            return dp[currIndex][sum];
+        if (dp[curr][sum] != null) {
+            return dp[curr][sum];
         }
-        boolean res = helper(nums, currIndex + 1, sum - nums[currIndex + 1], dp) ||
-                helper(nums, currIndex + 1, sum, dp);
-        dp[currIndex][sum] = res;
+        boolean res = dyP(nums, curr + 1, sum - nums[curr + 1], dp) || dyP(nums, curr + 1, sum, dp);
+        dp[curr][sum] = res;
         return res;
     }
 }
