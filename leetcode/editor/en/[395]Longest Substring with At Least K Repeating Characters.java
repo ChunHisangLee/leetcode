@@ -4,27 +4,23 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int lengthOfLongestSubstringKDistinct(String s, int k) {
-        int n = s.length();
-        char[] ch = s.toCharArray();
-        if (k == 0) {
-            return 0;
-        }
+    public int longestSubstring(String s, int k) {
+        int[] arr = new int[26];
+        int res = 0;
         int left = 0;
-        int right = 0;
-        Map<Character, Integer> map = new HashMap<>();
-        int max = 1;
-        while (right < n) {
-            map.put(ch[right], right);
-            right++;
-            if (map.size() == k + 1) {
-                int index = Collections.min(map.values());
-                map.remove(ch[index]);
-                left = index + 1;
-            }
-            max = Math.max(max, right - left);
+        for (char c : s.toCharArray()) {
+            arr[c - 'a']++;
         }
-        return max;
+        boolean isValid = true;
+        char[] c = s.toCharArray();
+        for (int right = 0; right < c.length; right++) {
+            if (arr[c[right] - 'a'] < k) {
+                res = Math.max(res, longestSubstring(s.substring(left, right), k));
+                isValid = false;
+                left = right + 1;
+            }
+        }
+        return isValid ? s.length() : Math.max(res, longestSubstring(s.substring(left), k));
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
