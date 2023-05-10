@@ -9,10 +9,10 @@ class MinStack {
     }
 
     public void push(int val) {
-        dq.push(val);
         if (min.isEmpty() || val <= min.peek()) {
             min.push(val);
         }
+        dq.push(val);
     }
 
     public void pop() {
