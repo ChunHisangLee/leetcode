@@ -16,7 +16,7 @@ class MinStack {
     }
 
     public void pop() {
-        if (dq.peek().equals(min.peek())) {
+        if (min.peek().equals(dq.peek())) {
             min.pop();
         }
         dq.pop();

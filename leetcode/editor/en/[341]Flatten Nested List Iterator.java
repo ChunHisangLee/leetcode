@@ -1,7 +1,3 @@
-/*
-還不會
- */
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * // This is the interface that allows for creating nested lists.
@@ -22,34 +18,33 @@
  */
 
 public class NestedIterator implements Iterator<Integer> {
-    Iterator<Integer> itr;
+    List<Integer> list = new ArrayList<>();
+    int index = 0;
 
     public NestedIterator(List<NestedInteger> nestedList) {
-        List<Integer> list = new LinkedList<>();
         for (NestedInteger node : nestedList) {
-            traverse(node, list);
+            traverse(node);
         }
-        itr = list.iterator();
     }
 
-    private void traverse(NestedInteger root, List<Integer> list) {
+    private void traverse(NestedInteger root) {
         if (root.isInteger()) {
             list.add(root.getInteger());
             return;
         }
         for (NestedInteger node : root.getList()) {
-            traverse(node, list);
+            traverse(node);
         }
     }
 
     @Override
     public Integer next() {
-        return itr.next();
+        return list.get(index++);
     }
 
     @Override
     public boolean hasNext() {
-        return itr.hasNext();
+        return index < list.size();
     }
 }
 
