@@ -23,7 +23,7 @@ class Solution {
     public void dfs(int[][] isConnected, int x) {
         isVisited[x] = true;
         for (int i = 0; i < n; i++) {
-            if (isConnected[x][i] == 1 & !isVisited[i]) {
+            if (isConnected[x][i] == 1 && !isVisited[i]) {
                 dfs(isConnected, i);
             }
         }
