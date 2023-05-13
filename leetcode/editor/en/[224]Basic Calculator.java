@@ -1,30 +1,44 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int calculate(String s) {
-        Deque<Integer> dq = new ArrayDeque<>();
-        int sign = 1;
-        int res = 0;
-        int num = 0;
+        Deque<Character> dq = new ArrayDeque<>();
         for (char c : s.toCharArray()) {
-            if (c >= '0' && c <= '9') {
-                num = 10 * num + c - '0';
-            } else if (c == '+' || c == '-') {
-                res += sign * num;
-                num = 0;
-                sign = c == '+' ? 1 : -1;
+            dq.add(c);
+        }
+        return calc(dq);
+    }
+
+    private int calc(Queue<Character> dq) {
+        int num = 0;
+        Deque<Integer> stack = new ArrayDeque<>();
+        char prevOp = '+';
+        while (!dq.isEmpty()) {
+            char c = dq.poll();
+            if (Character.isDigit(c)) {
+                num = num * 10 + (c - '0');
             } else if (c == '(') {
-                dq.push(res);
-                dq.push(sign);
-                sign = 1;
-                res = 0;
-            } else if (c == ')') {
-                res += sign * num;
-                res = res * dq.pop() + dq.pop();
+                num = calc(dq);
+            } else if ("+-".indexOf(c) != -1) {
+                eval(stack, num, prevOp);
                 num = 0;
+                prevOp = c;
+            } else if (c == ')') {
+                break;
             }
         }
-        res += sign * num;
+        eval(stack, num, prevOp);
+        int res = 0;
+        while (!stack.isEmpty()) {
+            res += stack.pop();
+        }
         return res;
+    }
+
+    public void eval(Deque<Integer> stack, int num, char op) {
+        switch (op) {
+            case '+' -> stack.push(num);
+            case '-' -> stack.push(-num);
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
