@@ -16,11 +16,17 @@ class Solution {
 /*
 class Solution {
     public int singleNumber(int[] nums) {
-        int res = 0;
+        Set<Integer> set = new HashSet<>();
+        int sumOfSet = 0;
+        int sum = 0;
         for (int num : nums) {
-            res ^= num;
+            if (!set.contains(num)) {
+                set.add(num);
+                sumOfSet += num;
+            }
+            sum += num;
         }
-        return res;
+        return sumOfSet * 2 - sum;
     }
 }
  */
