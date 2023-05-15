@@ -15,7 +15,7 @@ class Solution {
         return res;
     }
 
-    public List<List<Integer>> twoSum(int[] nums, int i, int left, int right) {
+    public void twoSum(int[] nums, int i, int left, int right) {
         while (left < right) {
             int sum = nums[i] + nums[left] + nums[right];
             if (sum == 0) {
@@ -34,7 +34,6 @@ class Solution {
                 right--;
             }
         }
-        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
