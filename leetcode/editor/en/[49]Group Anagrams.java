@@ -9,7 +9,8 @@ class Solution {
         for (String str : strs) {
             char[] c = str.toCharArray();
             Arrays.sort(c);
-            String key = String.valueOf(c);
+            //String key = Arrays.toString(c);  ---11ms
+            String key = String.valueOf(c); //---7ms
             if (!map.containsKey(key)) {
                 map.put(key, new ArrayList<>());
             }
