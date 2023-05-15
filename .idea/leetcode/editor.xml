@@ -1056,6 +1056,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1721]Swapping Nodes in a Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1721" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1721]Swapping Nodes in a Linked List.java" />
+              <option name="titleSlug" value="swapping-nodes-in-a-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[173]Binary Search Tree Iterator.java">
           <value>
             <LeetcodeEditor>
