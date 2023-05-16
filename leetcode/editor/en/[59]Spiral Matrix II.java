@@ -3,35 +3,39 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[][] generateMatrix(int n) {
-        int[][] matrix = new int[n][n];
-        int count = 1;
+        int[][] mat = new int[n][n];
         int left = 0;
         int right = n - 1;
         int top = 0;
         int bottom = n - 1;
+        int count = 1;
         while (left <= right && top <= bottom) {
             for (int i = left; i <= right; i++) {
-                matrix[top][i] = count++;
+                mat[top][i] = count;
+                count++;
             }
             top++;
             for (int i = top; i <= bottom; i++) {
-                matrix[i][right] = count++;
+                mat[i][right] = count;
+                count++;
             }
             right--;
-            if (top <= bottom) {
+            if (left <= right) {
                 for (int i = right; i >= left; i--) {
-                    matrix[bottom][i] = count++;
+                    mat[bottom][i] = count;
+                    count++;
                 }
                 bottom--;
             }
-            if (left <= right) {
+            if (top <= bottom) {
                 for (int i = bottom; i >= top; i--) {
-                    matrix[i][left] = count++;
+                    mat[i][left] = count;
+                    count++;
                 }
                 left++;
             }
         }
-        return matrix;
+        return mat;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

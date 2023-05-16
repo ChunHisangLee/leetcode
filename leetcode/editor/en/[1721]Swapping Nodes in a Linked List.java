@@ -24,9 +24,9 @@ class Solution {
             temp = temp.next;
             right = right.next;
         }
-        int value = right.val;
-        right.val = left.val;
-        left.val = value;
+        int value = left.val;
+        left.val = right.val;
+        right.val = value;
         return head;
     }
 }
