@@ -514,6 +514,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1386]Cinema Seat Allocation.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1386" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1386]Cinema Seat Allocation.java" />
+              <option name="titleSlug" value="cinema-seat-allocation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[138]Copy List with Random Pointer.java">
           <value>
             <LeetcodeEditor>
@@ -3627,13 +3637,13 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1386]Cinema Seat Allocation.java">
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[767]Reorganize String.java">
           <value>
             <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1386" />
+              <option name="frontendQuestionId" value="leetcode.com767" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1386]Cinema Seat Allocation.java" />
-              <option name="titleSlug" value="cinema-seat-allocation" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[767]Reorganize String.java" />
+              <option name="titleSlug" value="reorganize-string" />
             </LeetcodeEditor>
           </value>
         </entry>
