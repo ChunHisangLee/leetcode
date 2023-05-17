@@ -15,34 +15,62 @@
  */
 class Solution {
     public int pairSum(ListNode head) {
-        if (head.next.next == null)
-            return head.val + head.next.val;
+        List<Integer> list = new ArrayList<>();
+        ListNode curr = head;
+        while (curr != null) {
+            list.add(curr.val);
+            curr = curr.next;
+        }
+        int n = list.size();
+        int max = 0;
+        for (int i = 0; i <= n / 2; i++) {
+            max = Math.max(max, list.get(i) + list.get(n - 1 - i));
+        }
+        return max;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public int pairSum(ListNode head) {
+        ListNode mid = middle(head);
+        ListNode second = reverse(mid);
+        ListNode first = head;
+        return twinSum(first, second);
+    }
+
+    public ListNode middle(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
             slow = slow.next;
-            ;
         }
-        ListNode tail = reverseList(slow);
-        int ans = 0;
-        while (tail != null) {
-            ans = Math.max(ans, head.val + tail.val);
-            head = head.next;
-            tail = tail.next;
-        }
-        return ans;
+        return slow;
     }
 
-    private ListNode reverseList(ListNode head) {
-        ListNode prev = null;
-        while (head != null) {
-            ListNode next = head.next;
-            head.next = prev;
-            prev = head;
-            head = next;
+    public ListNode reverse(ListNode head) {
+        ListNode dummy = new ListNode();
+        dummy.next = head;
+        ListNode prev = dummy;
+        ListNode curr = head;
+        while (curr.next != null) {
+            ListNode temp = curr.next;
+            curr.next = temp.next;
+            temp.next = prev.next;
+            prev.next = temp;
         }
-        return prev;
+        return dummy.next;
+    }
+
+    public int twinSum(ListNode first, ListNode second) {
+        int res = Integer.MIN_VALUE;
+        while (first != null && second != null) {
+            res = Math.max(res, first.val + second.val);
+            first = first.next;
+            second = second.next;
+        }
+        return res;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+ */

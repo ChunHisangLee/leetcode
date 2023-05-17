@@ -6,7 +6,7 @@ class Solution {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
         int n = accounts.size();
         UnionFind uf = new UnionFind(n);
-        HashMap<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>();
         for (int i = 0; i < n; i++) {
             List<String> list = accounts.get(i);
             for (int j = 1; j < list.size(); j++) {
