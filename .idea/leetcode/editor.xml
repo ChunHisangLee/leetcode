@@ -856,6 +856,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1567]Maximum Length of Subarray With Positive Product.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1567" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1567]Maximum Length of Subarray With Positive Product.java" />
+              <option name="titleSlug" value="maximum-length-of-subarray-with-positive-product" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1572]Matrix Diagonal Sum.java">
           <value>
             <LeetcodeEditor>
@@ -1423,6 +1433,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2218]Maximum Value of K Coins From Piles.java" />
               <option name="titleSlug" value="maximum-value-of-k-coins-from-piles" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2223]Sum of Scores of Built Strings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2223" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2223]Sum of Scores of Built Strings.java" />
+              <option name="titleSlug" value="sum-of-scores-of-built-strings" />
             </LeetcodeEditor>
           </value>
         </entry>
