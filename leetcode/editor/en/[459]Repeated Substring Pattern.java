@@ -2,6 +2,9 @@
         Repeated Substring Pattern
         2022-11-23 09:51:49
 
+/*
+不熟練
+ */
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean repeatedSubstringPattern(String s) {

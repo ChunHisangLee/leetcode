@@ -1,40 +1,36 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public String reorganizeString(String s) {
-        int[] arr = new int[26];
-        for (char c : s.toCharArray()) {
-            arr[c - 'a']++;
+    public String reorganizeString(String S) {
+        Map<Character, Integer> map = new HashMap<>();
+        for (char c : S.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
         }
-        int max = 0;
-        int letter = 0;
-        for (int i = 0; i < 26; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
-                letter = i;
+        PriorityQueue<Character> pq = new PriorityQueue<>((a, b) -> map.get(b) - map.get(a));
+        pq.addAll(map.keySet());
+        StringBuilder sb = new StringBuilder();
+        while (pq.size() > 1) {
+            char first = pq.poll();
+            char second = pq.poll();
+            sb.append(first);
+            sb.append(second);
+            map.put(first, map.get(first) - 1);
+            map.put(second, map.get(second) - 1);
+            if (map.get(first) > 0) {
+                pq.add(first);
+            }
+            if (map.get(second) > 0) {
+                pq.add(second);
             }
         }
-        if (max > (s.length() + 1) / 2) {
-            return "";
-        }
-        int index = 0;
-        char[] res = new char[s.length()];
-        while (arr[letter] > 0) {
-            res[index] = (char) (letter + 'a');
-            index += 2;
-            arr[letter]--;
-        }
-        for (int i = 0; i < 26; i++) {
-            while (arr[i] > 0) {
-                if (index >= s.length()) {
-                    index = 1;
-                }
-                res[index] = (char) (i + 'a');
-                index += 2;
-                arr[i]--;
+        if (!pq.isEmpty()) {
+            if (map.get(pq.peek()) > 1) {
+                return "";
+            } else {
+                sb.append(pq.poll());
             }
         }
-        return String.valueOf(res);
+        return sb.toString();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
