@@ -13,12 +13,11 @@
  * }
  */
 class Solution {
-    boolean isP = false;
-    boolean isQ = false;
+    int count = 0;
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         TreeNode node = dfs(root, p, q);
-        return isP && isQ ? node : null;
+        return count == 2 ? node : null;
     }
 
     public TreeNode dfs(TreeNode root, TreeNode p, TreeNode q) {
@@ -27,19 +26,17 @@ class Solution {
         }
         TreeNode left = dfs(root.left, p, q);
         TreeNode right = dfs(root.right, p, q);
-        if (root == p) {
-            isP = true;
+        if (root == p || root == q) {
+            count++;
             return root;
         }
-        if (root == q) {
-            isQ = true;
+        if (left == null) {
+            return right;
+        } else if (right == null) {
+            return left;
+        } else {
             return root;
         }
-        if (left != null && right != null) {
-            return root;
-        }
-        return left == null ? right : left;
     }
-
 }
 //leetcode submit region end(Prohibit modification and deletion)
