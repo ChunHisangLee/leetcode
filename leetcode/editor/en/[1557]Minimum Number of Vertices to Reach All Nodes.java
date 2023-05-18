@@ -6,11 +6,12 @@ class Solution {
         for (List<Integer> edge : edges) {
             inDegree[edge.get(1)] = true;
         }
-        List<Integer> list = new LinkedList<>();
-        for (int i = 0; i < n; i++)
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
             if (!inDegree[i]) {
                 list.add(i);
             }
+        }
         return list;
     }
 }
