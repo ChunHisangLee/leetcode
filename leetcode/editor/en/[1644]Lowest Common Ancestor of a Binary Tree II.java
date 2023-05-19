@@ -30,13 +30,10 @@ class Solution {
             count++;
             return root;
         }
-        if (left == null) {
-            return right;
-        } else if (right == null) {
-            return left;
-        } else {
+        if (left != null && right != null) {
             return root;
         }
+        return left == null ? right : left;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -24,13 +24,10 @@ class Solution {
         }
         TreeNode left = dfs(root.left, p, q);
         TreeNode right = dfs(root.right, p, q);
-        if (left == null) {
-            return right;
-        } else if (right == null) {
-            return left;
-        } else {
+        if (left != null && right != null) {
             return root;
         }
+        return left == null ? right : left;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

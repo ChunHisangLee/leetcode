@@ -5,15 +5,12 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean judgeCircle(String moves) {
-        char[] move = moves.toCharArray();
         int[] arr = new int[26];
-        for (char ch : move) {
-            arr[ch - 'A']++;
+        for (char c : moves.toCharArray()) {
+            arr[c - 'A']++;
         }
-        for (int i = 0; i < 26; i++) {
-            if (arr['U' - 'A'] == arr['D' - 'A'] && arr['L' - 'A'] == arr['R' - 'A']) {
-                return true;
-            }
+        if (arr['U' - 'A'] == arr['D' - 'A'] && arr['L' - 'A'] == arr['R' - 'A']) {
+            return true;
         }
         return false;
     }

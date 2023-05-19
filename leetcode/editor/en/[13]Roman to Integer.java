@@ -10,7 +10,7 @@ class Solution {
         int temp = 0;
         for (int i = s.length() - 1; i >= 0; i--) {
             switch (s.charAt(i)) {
-                case 'I' -> num = 1;
+                case 'I' -> nums = 1;
                 case 'V' -> num = 5;
                 case 'X' -> num = 10;
                 case 'L' -> num = 50;
