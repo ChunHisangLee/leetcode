@@ -11,12 +11,12 @@ class Solution {
             if (bill == 5) {
                 five++;
             } else if (bill == 10) {
-                ten++;
                 five--;
+                ten++;
             } else {
                 if (ten > 0) {
-                    ten--;
                     five--;
+                    ten--;
                 } else {
                     five -= 3;
                 }
