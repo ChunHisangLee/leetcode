@@ -6,21 +6,19 @@
 class Solution {
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();
-        char[] ca = a.toCharArray();
-        char[] cb = b.toCharArray();
-        int i = ca.length - 1;
-        int j = cb.length - 1;
+        int i = a.length() - 1;
+        int j = b.length() - 1;
         int carry = 0;
         while (i >= 0 || j >= 0 || carry == 1) {
-            int temp = carry;
+            int sum = carry;
             if (i >= 0) {
-                temp += ca[i] - '0';
+                sum += a.charAt(i) - '0';
             }
             if (j >= 0) {
-                temp += cb[j] - '0';
+                sum += b.charAt(j) - '0';
             }
-            sb.append(temp % 2);
-            carry = temp / 2;
+            sb.append(sum % 2);
+            carry = sum / 2;
             i--;
             j--;
         }
