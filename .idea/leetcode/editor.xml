@@ -334,6 +334,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1232]Check If It Is a Straight Line.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1232" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1232]Check If It Is a Straight Line.java" />
+              <option name="titleSlug" value="check-if-it-is-a-straight-line" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1236]Web Crawler.java">
           <value>
             <LeetcodeEditor>
@@ -3267,6 +3277,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[73]Set Matrix Zeroes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com73" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[73]Set Matrix Zeroes.java" />
+              <option name="titleSlug" value="set-matrix-zeroes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[74]Search a 2D Matrix.java">
           <value>
             <LeetcodeEditor>
@@ -3567,6 +3587,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[860]Lemonade Change.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com860" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[860]Lemonade Change.java" />
+              <option name="titleSlug" value="lemonade-change" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[875]Koko Eating Bananas.java">
           <value>
             <LeetcodeEditor>
@@ -3814,6 +3844,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[973]K Closest Points to Origin.java" />
               <option name="titleSlug" value="k-closest-points-to-origin" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[976]Largest Perimeter Triangle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com976" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[976]Largest Perimeter Triangle.java" />
+              <option name="titleSlug" value="largest-perimeter-triangle" />
             </LeetcodeEditor>
           </value>
         </entry>
