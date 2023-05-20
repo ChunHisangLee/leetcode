@@ -3,14 +3,15 @@
 class Solution {
     public int diagonalSum(int[][] mat) {
         int n = mat.length;
-        int sum = 0;
+        int res = 0;
         for (int i = 0; i < n; i++) {
-            sum = sum + mat[i][i] + mat[i][n - 1 - i];
+            for (int j = 0; j < n; j++) {
+                if (i == j || i + j == n - 1) {
+                    res += mat[i][j];
+                }
+            }
         }
-        if (n % 2 == 1) {
-            sum -= mat[n / 2][n / 2];
-        }
-        return sum;
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

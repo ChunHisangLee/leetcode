@@ -836,6 +836,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1523]Count Odd Numbers in an Interval Range.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1523" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1523]Count Odd Numbers in an Interval Range.java" />
+              <option name="titleSlug" value="count-odd-numbers-in-an-interval-range" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[152]Maximum Product Subarray.java">
           <value>
             <LeetcodeEditor>
@@ -1013,6 +1023,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[165]Compare Version Numbers.java" />
               <option name="titleSlug" value="compare-version-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1672]Richest Customer Wealth.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1672" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1672]Richest Customer Wealth.java" />
+              <option name="titleSlug" value="richest-customer-wealth" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2403,6 +2423,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[389]Find the Difference.java" />
               <option name="titleSlug" value="find-the-difference" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[399]Evaluate Division.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com399" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[399]Evaluate Division.java" />
+              <option name="titleSlug" value="evaluate-division" />
             </LeetcodeEditor>
           </value>
         </entry>

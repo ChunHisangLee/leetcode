@@ -6,20 +6,15 @@
 class Solution {
     public double average(int[] salary) {
         int n = salary.length;
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
         int sum = 0;
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
         for (int num : salary) {
-            if (num < min) {
-                min = num;
-            }
-            if (num > max) {
-                max = num;
-            }
             sum += num;
+            max = Math.max(max, num);
+            min = Math.min(min, num);
         }
-        double res = (double) (sum - min - max) / (n - 2);
-        return res;
+        return (double) (sum - max - min) / (n - 2);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
