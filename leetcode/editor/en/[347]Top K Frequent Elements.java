@@ -9,16 +9,16 @@ class Solution {
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> map.get(a) == map.get(b) ? a - b : map.get(a) - map.get(b));
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]);
         for (int key : map.keySet()) {
-            pq.add(key);
+            pq.add(new int[]{key, map.get(key)});
             if (pq.size() > k) {
                 pq.poll();
             }
         }
         int[] arr = new int[k];
         for (int i = k - 1; i >= 0; i--) {
-            arr[i] = pq.poll();
+            arr[i] = pq.poll()[0];
         }
         return arr;
     }

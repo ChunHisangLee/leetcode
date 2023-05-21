@@ -15,9 +15,6 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        if (head == null) {
-            return null;
-        }
         ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode prev = dummy;
