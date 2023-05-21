@@ -2807,6 +2807,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[537]Complex Number Multiplication.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com537" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[537]Complex Number Multiplication.java" />
+              <option name="titleSlug" value="complex-number-multiplication" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[53]Maximum Subarray.java">
           <value>
             <LeetcodeEditor>
