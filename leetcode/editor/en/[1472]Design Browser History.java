@@ -2,38 +2,34 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class BrowserHistory {
-    Deque<String> dqBack;
-    Deque<String> dqForward;
-    String homepage;
+    List<String> list;
+    int curr;
+    int last;
 
     public BrowserHistory(String homepage) {
-        dqBack = new ArrayDeque<>();
-        dqForward = new ArrayDeque<>();
-        this.homepage = homepage;
+        list = new ArrayList<>(Arrays.asList(homepage));
+        curr = 0;
+        last = 0;
     }
 
     public void visit(String url) {
-        dqBack.push(homepage);
-        homepage = url;
-        dqForward.clear();
+        curr++;
+        if (list.size() > curr) {
+            list.set(curr, url);
+        } else {
+            list.add(url);
+        }
+        last = curr;
     }
 
     public String back(int steps) {
-        while (steps > 0 && !dqBack.isEmpty()) {
-            dqForward.push(homepage);
-            homepage = dqBack.pop();
-            steps--;
-        }
-        return homepage;
+        curr = Math.max(0, curr - steps);
+        return list.get(curr);
     }
 
     public String forward(int steps) {
-        while (steps > 0 && !dqForward.isEmpty()) {
-            dqBack.push(homepage);
-            homepage = dqForward.pop();
-            steps--;
-        }
-        return homepage;
+        curr = Math.min(last, curr + steps);
+        return list.get(curr);
     }
 }
 

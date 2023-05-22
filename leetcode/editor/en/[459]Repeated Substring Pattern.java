@@ -22,15 +22,3 @@ class Solution {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
-/*
-class Solution {
-    public boolean repeatedSubstringPattern(String s) {
-        String str = s + s;
-        StringBuilder sb = new StringBuilder();
-        sb.append(str.substring(1, str.length() - 1));
-        if (sb.toString().contains(s))
-            return true;
-        return false;
-    }
-}
- */

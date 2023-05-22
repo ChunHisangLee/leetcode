@@ -4,41 +4,42 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class MyCircularQueue {
-
-    private int[] queue;
-    private int headIndex;
-    private int count;
-    private int capacity;
+    int[] arr;
+    int index;
+    int count;
+    int capacity;
 
     public MyCircularQueue(int k) {
         capacity = k;
-        queue = new int[k];
-        headIndex = 0;
+        arr = new int[k];
+        index = 0;
         count = 0;
     }
 
     public boolean enQueue(int value) {
-        if (isFull())
+        if (isFull()) {
             return false;
-        queue[(headIndex + count) % capacity] = value;
+        }
+        arr[(index + count) % capacity] = value;
         count++;
         return true;
     }
 
     public boolean deQueue() {
-        if (isEmpty())
+        if (isEmpty()) {
             return false;
-        headIndex = (headIndex + 1) % capacity;
+        }
+        index = (index + 1) % capacity;
         count--;
         return true;
     }
 
     public int Front() {
-        return count == 0 ? -1 : queue[headIndex];
+        return count == 0 ? -1 : arr[index];
     }
 
     public int Rear() {
-        return count == 0 ? -1 : queue[(headIndex + count - 1) % capacity];
+        return count == 0 ? -1 : arr[(index + count - 1) % capacity];
     }
 
     public boolean isEmpty() {

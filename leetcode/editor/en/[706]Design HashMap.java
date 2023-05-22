@@ -7,8 +7,7 @@ class MyHashMap {
     int[] arr;
 
     public MyHashMap() {
-        int n = (int) 1e6 + 1;
-        arr = new int[n];
+        arr = new int[(int) 1e6 + 1];
         Arrays.fill(arr, -1);
     }
 
