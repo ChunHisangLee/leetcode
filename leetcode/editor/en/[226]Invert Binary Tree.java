@@ -20,18 +20,14 @@
  */
 class Solution {
     public TreeNode invertTree(TreeNode root) {
-        return dfs(root);
-    }
-
-    public TreeNode dfs(TreeNode node) {
-        if (node == null) {
-            return null;
+        if (root == null) {
+            return root;
         }
-        TreeNode left = dfs(node.left);
-        TreeNode right = dfs(node.right);
-        node.left = right;
-        node.right = left;
-        return node;
+        TreeNode left = invertTree(root.left);
+        TreeNode right = invertTree(root.right);
+        root.left = right;
+        root.right = left;
+        return root;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

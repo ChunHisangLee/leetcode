@@ -23,32 +23,15 @@ class Solution {
         if (root == null) {
             return 0;
         }
-        int left = minDepth(root.left);
-        int right = minDepth(root.right);
-        if (left == 0 || right == 0) {
-            return left + right + 1;
-        } else {
-            return Math.min(left, right) + 1;
-        }
-    }
-}
-//leetcode submit region end(Prohibit modification and deletion)
-/*
-這個比較快
-class Solution {
-    public int minDepth(TreeNode root) {
-        if (root == null) {
-            return 0;
-        }
-        int count = 0;
         Deque<TreeNode> dq = new ArrayDeque<>();
         dq.add(root);
+        int count = 0;
         while (!dq.isEmpty()) {
             int size = dq.size();
             count++;
             for (int i = 0; i < size; i++) {
                 TreeNode curr = dq.poll();
-                if (curr.left == curr.right) {
+                if (curr.left == null && curr.right == null) {
                     return count;
                 }
                 if (curr.left != null) {
@@ -60,6 +43,21 @@ class Solution {
             }
         }
         return count;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public int minDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = minDepth(root.left);
+        int right = minDepth(root.right);
+        if (left == 0 || right == 0) {
+            return left + right + 1;
+        }
+        return Math.min(left, right) + 1;
     }
 }
  */
