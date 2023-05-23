@@ -32,13 +32,7 @@ class Solution {
         if (left != null && right != null) {
             return root;
         }
-        if (left != null) {
-            return left;
-        }
-        if (right != null) {
-            return right;
-        }
-        return null;
+        return left == null ? right : left;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

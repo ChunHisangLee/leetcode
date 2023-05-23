@@ -1686,6 +1686,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2408]Design SQL.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2408" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2408]Design SQL.java" />
+              <option name="titleSlug" value="design-sql" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[242]Valid Anagram.java">
           <value>
             <LeetcodeEditor>
@@ -3027,6 +3037,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[65]Valid Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com65" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[65]Valid Number.java" />
+              <option name="titleSlug" value="valid-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[662]Maximum Width of Binary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -3837,13 +3857,13 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[65]Valid Number.java">
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1650]Lowest Common Ancestor of a Binary Tree III.java">
           <value>
             <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com65" />
+              <option name="frontendQuestionId" value="leetcode.com1650" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[65]Valid Number.java" />
-              <option name="titleSlug" value="valid-number" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1650]Lowest Common Ancestor of a Binary Tree III.java" />
+              <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-tree-iii" />
             </LeetcodeEditor>
           </value>
         </entry>
