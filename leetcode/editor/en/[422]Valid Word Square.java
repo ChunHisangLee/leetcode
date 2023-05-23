@@ -6,16 +6,16 @@
 class Solution {
     public boolean validWordSquare(List<String> words) {
         int n = words.size();
-        char[][] ch = new char[n][n];
+        char[][] c = new char[n][n];
         for (int i = 0; i < n; i++) {
             if (words.get(i).length() > n) {
                 return false;
             }
-            ch[i] = Arrays.copyOf(words.get(i).toCharArray(), n);
+            c[i] = Arrays.copyOf(words.get(i).toCharArray(), n);
         }
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if (ch[i][j] != ch[j][i]) {
+                if (c[i][j] != c[j][i]) {
                     return false;
                 }
             }

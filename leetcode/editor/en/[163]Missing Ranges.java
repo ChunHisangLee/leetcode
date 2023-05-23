@@ -4,22 +4,26 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public List<String> findMissingRanges(int[] nums, int lower, int upper) {
-        List<String> list = new ArrayList<>();
-        for (int num : nums) {
-            if (num > lower) {
-                list.add(String.valueOf(lower) + ((num - lower > 1) ? ("->" + String.valueOf(num - 1)) : ""));
-            }
-            if (num == upper) {
-                return list;
-            }
-            lower = num + 1;
+    public List<List<Integer>> findMissingRanges(int[] nums, int lower, int upper) {
+        int n = nums.length;
+        List<List<Integer>> missingRanges = new ArrayList<>();
+        if (n == 0) {
+            missingRanges.add(Arrays.asList(lower, upper));
+            return missingRanges;
         }
-
-        if (lower <= upper) {
-            list.add(String.valueOf(lower) + ((upper - lower > 0) ? ("->" + String.valueOf(upper)) : ""));
+        if (lower < nums[0]) {
+            missingRanges.add(Arrays.asList(lower, nums[0] - 1));
         }
-        return list;
+        for (int i = 0; i < n - 1; i++) {
+            if (nums[i + 1] - nums[i] <= 1) {
+                continue;
+            }
+            missingRanges.add(Arrays.asList(nums[i] + 1, nums[i + 1] - 1));
+        }
+        if (upper > nums[n - 1]) {
+            missingRanges.add(Arrays.asList(nums[n - 1] + 1, upper));
+        }
+        return missingRanges;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

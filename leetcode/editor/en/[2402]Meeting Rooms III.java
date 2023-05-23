@@ -2,36 +2,40 @@
         Meeting Rooms III
         2022-12-19 13:47:43
 
+/*
+還不會
+ */
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int mostBooked(int n, int[][] meetings) {
-        Arrays.sort(meetings, (a, b) -> a[0] - b[0]);
-        PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
-        for (int i = 0; i < n; i++) {
-            pq.add(i);
-        }
-        PriorityQueue<int[]> pqM = new PriorityQueue<int[]>((a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
+        Arrays.sort(meetings, (a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
         int[] count = new int[n];
-        for (int[] meeting : meetings) {
-            while (!pqM.isEmpty() && pqM.peek()[0] <= meeting[0]) {
-                pq.add(pqM.poll()[1]);
+        long[] room = new long[n];
+        for (int i = 0; i < meetings.length; i++) {
+            int meetingStart = meetings[i][0];
+            int meetingEnd = meetings[i][1];
+            int nextRoom = -1;
+            long sooner = Long.MAX_VALUE;
+            for (int j = 0; j < room.length; j++) {
+                if (room[j] <= meetingStart) {
+                    nextRoom = j;
+                    break;
+                }
+                if (room[j] < sooner) {
+                    nextRoom = j;
+                    sooner = room[j];
+                }
             }
-            int delayedStart = meeting[0];
-            if (pq.isEmpty()) {
-                int[] curr = pqM.poll();
-                delayedStart = curr[0];
-                pq.add(curr[1]);
-            }
-            int room = pq.poll();
-            count[room]++;
-            pqM.add(new int[]{delayedStart + meeting[1] - meeting[0], room});
+            count[nextRoom]++;
+            room[nextRoom] = Math.max(meetingEnd, meetingEnd - meetingStart + room[nextRoom]);
         }
-        int maxIdx = 0;
-        for (int r = 0; r < count.length; r++)
-            if (count[maxIdx] < count[r])
-                maxIdx = r;
-
-        return maxIdx;
+        int max = 0;
+        for (int i = 1; i < count.length; i++) {
+            if (count[i] > count[max]) {
+                max = i;
+            }
+        }
+        return max;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

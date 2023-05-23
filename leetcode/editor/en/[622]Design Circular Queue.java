@@ -10,8 +10,8 @@ class MyCircularQueue {
     int capacity;
 
     public MyCircularQueue(int k) {
-        capacity = k;
         arr = new int[k];
+        capacity = k;
         index = 0;
         count = 0;
     }

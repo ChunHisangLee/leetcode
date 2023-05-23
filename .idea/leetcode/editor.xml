@@ -84,6 +84,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1056]Confusing Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1056" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1056]Confusing Number.java" />
+              <option name="titleSlug" value="confusing-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[105]Construct Binary Tree from Preorder and Inorder Traversal.java">
           <value>
             <LeetcodeEditor>
@@ -963,6 +973,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1639]Number of Ways to Form a Target String Given a Dictionary.java" />
               <option name="titleSlug" value="number-of-ways-to-form-a-target-string-given-a-dictionary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[163]Missing Ranges.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com163" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[163]Missing Ranges.java" />
+              <option name="titleSlug" value="missing-ranges" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2517,6 +2537,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[422]Valid Word Square.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com422" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[422]Valid Word Square.java" />
+              <option name="titleSlug" value="valid-word-square" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[424]Longest Repeating Character Replacement.java">
           <value>
             <LeetcodeEditor>
@@ -3114,6 +3144,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[695]Max Area of Island.java" />
               <option name="titleSlug" value="max-area-of-island" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[703]Kth Largest Element in a Stream.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com703" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[703]Kth Largest Element in a Stream.java" />
+              <option name="titleSlug" value="kth-largest-element-in-a-stream" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3824,36 +3864,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[997]Find the Town Judge.java" />
               <option name="titleSlug" value="find-the-town-judge" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1472]Design Browser History.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1472" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1472]Design Browser History.java" />
-              <option name="titleSlug" value="design-browser-history" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1]Two Sum.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1]Two Sum.java" />
-              <option name="titleSlug" value="two-sum" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[703]Kth Largest Element in a Stream.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com703" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[703]Kth Largest Element in a Stream.java" />
-              <option name="titleSlug" value="kth-largest-element-in-a-stream" />
             </LeetcodeEditor>
           </value>
         </entry>
