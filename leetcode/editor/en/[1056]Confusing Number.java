@@ -11,15 +11,15 @@ class Solution {
         map.put(6, 9);
         map.put(8, 8);
         map.put(9, 6);
-        int nCopy = n;
+        int num = n;
         int revNum = 0;
-        while (nCopy > 0) {
-            int res = nCopy % 10;
-            if (!map.containsKey(res)) {
+        while (num > 0) {
+            int key = num % 10;
+            if (!map.containsKey(key)) {
                 return false;
             }
-            revNum = revNum * 10 + map.get(res);
-            nCopy /= 10;
+            revNum = revNum * 10 + map.get(key);
+            num /= 10;
         }
         return revNum != n;
     }

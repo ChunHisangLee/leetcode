@@ -5,14 +5,12 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int myAtoi(String s) {
+        s = s.trim();
         char[] c = s.toCharArray();
         int n = c.length;
-        int sign = 1;
         int index = 0;
+        int sign = 1;
         double res = 0;
-        while (index < n && c[index] == ' ') {
-            index++;
-        }
         if (index < n && c[index] == '+') {
             index++;
         } else if (index < n && c[index] == '-') {
