@@ -5,13 +5,13 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     List<List<Integer>> res;
-    boolean[] isVisited;
+    int[] arr;
     int count;
     int n;
 
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         n = rooms.size();
-        isVisited = new boolean[n];
+        arr = new int[n];
         count = n;
         res = rooms;
         dfs(0);
@@ -19,11 +19,11 @@ class Solution {
     }
 
     public void dfs(int i) {
-        isVisited[i] = true;
+        arr[i] = 1;
         count--;
         List<Integer> list = res.get(i);
         for (int key : list) {
-            if (!isVisited[key]) {
+            if (arr[key] == 0) {
                 dfs(key);
             }
         }
