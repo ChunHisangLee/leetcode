@@ -6,20 +6,20 @@
 class Solution {
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
-        boolean[] isVisited = new boolean[n];
+        int[] arr = new int[n];
         Deque<Integer> dq = new ArrayDeque<>();
         int count = 0;
         for (int i = 0; i < n; i++) {
-            if (!isVisited[i]) {
-                count++;
-                isVisited[i] = true;
+            if (arr[i] == 0) {
                 dq.add(i);
+                arr[i] = 1;
+                count++;
                 while (!dq.isEmpty()) {
                     int curr = dq.poll();
                     for (int j = 0; j < n; j++) {
-                        if (isConnected[curr][j] == 1 && !isVisited[j]) {
-                            isVisited[j] = true;
+                        if (isConnected[curr][j] == 1 && arr[j] == 0) {
                             dq.add(j);
+                            arr[j] = 1;
                         }
                     }
                 }
@@ -32,15 +32,15 @@ class Solution {
 /*
 DFS:
 class Solution {
-    boolean[] isVisited;
+    int[] arr;
     int n;
 
     public int findCircleNum(int[][] isConnected) {
         n = isConnected.length;
-        isVisited = new boolean[n];
+        arr = new int[n];
         int count = 0;
         for (int i = 0; i < n; i++) {
-            if (!isVisited[i]) {
+            if (arr[i] == 0) {
                 count++;
                 dfs(isConnected, i);
             }
@@ -49,9 +49,9 @@ class Solution {
     }
 
     public void dfs(int[][] isConnected, int x) {
-        isVisited[x] = true;
+        arr[x] = 1;
         for (int i = 0; i < n; i++) {
-            if (isConnected[x][i] == 1 && !isVisited[i]) {
+            if (isConnected[x][i] == 1 && arr[i] == 0) {
                 dfs(isConnected, i);
             }
         }
@@ -63,20 +63,20 @@ BFS:
 class Solution {
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
-        boolean[] isVisited = new boolean[n];
+        int[] arr = new int[n];
         Deque<Integer> dq = new ArrayDeque<>();
         int count = 0;
         for (int i = 0; i < n; i++) {
-            if (!isVisited[i]) {
-                count++;
-                isVisited[i] = true;
+            if (arr[i] == 0) {
                 dq.add(i);
+                arr[i] = 1;
+                count++;
                 while (!dq.isEmpty()) {
                     int curr = dq.poll();
                     for (int j = 0; j < n; j++) {
-                        if (isConnected[curr][j] == 1 && !isVisited[j]) {
-                            isVisited[j] = true;
+                        if (isConnected[curr][j] == 1 && arr[j] == 0) {
                             dq.add(j);
+                            arr[j] = 1;
                         }
                     }
                 }
