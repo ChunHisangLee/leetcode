@@ -4,6 +4,34 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        boolean[] isVisited = new boolean[n];
+        Deque<Integer> dq = new ArrayDeque<>();
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (!isVisited[i]) {
+                count++;
+                isVisited[i] = true;
+                dq.add(i);
+                while (!dq.isEmpty()) {
+                    int curr = dq.poll();
+                    for (int j = 0; j < n; j++) {
+                        if (isConnected[curr][j] == 1 && !isVisited[j]) {
+                            isVisited[j] = true;
+                            dq.add(j);
+                        }
+                    }
+                }
+            }
+        }
+        return count;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+DFS:
+class Solution {
     boolean[] isVisited;
     int n;
 
@@ -29,27 +57,62 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
-/*
+
+
+BFS:
 class Solution {
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        boolean[] isVisited = new boolean[n];
+        Deque<Integer> dq = new ArrayDeque<>();
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (!isVisited[i]) {
+                count++;
+                isVisited[i] = true;
+                dq.add(i);
+                while (!dq.isEmpty()) {
+                    int curr = dq.poll();
+                    for (int j = 0; j < n; j++) {
+                        if (isConnected[curr][j] == 1 && !isVisited[j]) {
+                            isVisited[j] = true;
+                            dq.add(j);
+                        }
+                    }
+                }
+            }
+        }
+        return count;
+    }
+}
+
+
+Union:
+class Solution {
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        UnionFind uf = new UnionFind(n);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (isConnected[i][j] == 1 && i != j) {
+                    uf.union(i, j);
+                }
+            }
+        }
+        return uf.getCount();
+    }
+}
+
+class UnionFind {
     int[] group;
     int count;
 
-    public int findCircleNum(int[][] isConnected) {
-        int n = isConnected.length;
+    public UnionFind(int n) {
         group = new int[n];
         count = n;
         for (int i = 0; i < n; i++) {
             group[i] = i;
         }
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (isConnected[i][j] == 1 && i != j) {
-                    union(i, j);
-                }
-            }
-        }
-        return count;
     }
 
     public int find(int x) {
@@ -63,6 +126,10 @@ class Solution {
             group[x] = y;
             count--;
         }
+    }
+
+    public int getCount() {
+        return count;
     }
 }
  */

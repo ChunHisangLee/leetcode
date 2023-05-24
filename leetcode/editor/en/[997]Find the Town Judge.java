@@ -5,13 +5,14 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findJudge(int n, int[][] trust) {
-        int[] arr = new int[n + 1];
-        for (int[] list : trust) {
-            arr[list[1]]++;
-            arr[list[0]]--;
+        int[] inDegree = new int[n + 1];
+        int[] outDegree = new int[n + 1];
+        for (int[] arr : trust) {
+            inDegree[arr[1]]++;
+            outDegree[arr[0]]++;
         }
         for (int i = 1; i <= n; i++) {
-            if (arr[i] == n - 1) {
+            if (inDegree[i] == n - 1 && outDegree[i] == 0) {
                 return i;
             }
         }
