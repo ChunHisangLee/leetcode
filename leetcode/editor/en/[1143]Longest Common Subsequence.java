@@ -4,6 +4,38 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    int[][] dp;
+    char[] c1;
+    char[] c2;
+
+    public int longestCommonSubsequence(String text1, String text2) {
+        c1 = text1.toCharArray();
+        c2 = text2.toCharArray();
+        dp = new int[c1.length + 1][c2.length + 1];
+        for (int[] arr : dp) {
+            Arrays.fill(arr, -1);
+        }
+        return dyP(0, 0);
+    }
+
+    public int dyP(int i, int j) {
+        if (i >= c1.length || j >= c2.length) {
+            return 0;
+        }
+        if (dp[i][j] != -1) {
+            return dp[i][j];
+        }
+        if (c1[i] == c2[j]) {
+            dp[i][j] = dyP(i + 1, j + 1) + 1;
+        } else {
+            dp[i][j] = Math.max(dyP(i + 1, j), dyP(i, j + 1));
+        }
+        return dp[i][j];
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         char[] chText1 = text1.toCharArray();
         char[] chText2 = text2.toCharArray();
@@ -22,4 +54,4 @@ class Solution {
         return dp[0][0];
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+ */
