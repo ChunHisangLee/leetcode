@@ -8,7 +8,7 @@ class Solution {
         }
         Arrays.sort(arrs, (a, b) -> b[1] - a[1]);
         PriorityQueue<Integer> pq = new PriorityQueue<>();
-        int MOD = (int) 1e9 + 7;
+        long MOD = (long) 1e9 + 7;
         long res = 0;
         long sum = 0;
         for (int[] arr : arrs) {
@@ -17,11 +17,9 @@ class Solution {
             if (pq.size() > k) {
                 sum -= pq.poll();
             }
-            if (pq.size() == k) {
-                res = Math.max(res, sum * arr[1] % MOD);
-            }
+            res = Math.max(res, sum * arr[1]);
         }
-        return (int) res;
+        return (int) (res % MOD);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
