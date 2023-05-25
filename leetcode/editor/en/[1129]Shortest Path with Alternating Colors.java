@@ -26,11 +26,12 @@ class Solution {
         while (!dq.isEmpty()) {
             int[] curr = dq.poll();
             for (int[] arr : list.get(curr[0])) {
-                if (curr[1] != arr[1]) {
-                    if (dist[arr[0]][arr[1]] == -1) {
-                        dist[arr[0]][arr[1]] = dist[curr[0]][curr[1]] + 1;
-                        dq.add(new int[]{arr[0], arr[1], dist[arr[0]][arr[1]]});
-                    }
+                if (curr[1] == arr[1]) {
+                    continue;
+                }
+                if (dist[arr[0]][arr[1]] == -1) {
+                    dist[arr[0]][arr[1]] = dist[curr[0]][curr[1]] + 1;
+                    dq.add(new int[]{arr[0], arr[1], dist[arr[0]][arr[1]]});
                 }
             }
         }

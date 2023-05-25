@@ -19,15 +19,15 @@ class Solution {
     }
 
     public boolean dfs(int i, int[] arr, int[][] graph) {
-        if (arr[i] > 0) {
-            return arr[i] == 2;
+        if (arr[i] == 2) {
+            return true;
+        }
+        if (arr[i] == 1) {
+            return false;
         }
         arr[i] = 1;
         for (int num : graph[i]) {
-            if (arr[num] == 2) {
-                continue;
-            }
-            if (arr[num] == 1 || !dfs(num, arr, graph)) {
+            if (!dfs(num, arr, graph)) {
                 return false;
             }
         }
