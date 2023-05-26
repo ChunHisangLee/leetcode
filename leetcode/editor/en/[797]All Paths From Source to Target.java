@@ -5,45 +5,23 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     List<List<Integer>> res = new ArrayList<>();
+    int[][] graph;
 
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        backtrack(graph, 0, new ArrayList<>());
+        this.graph = graph;
+        backtrack(0, graph.length - 1, new ArrayList<>());
         return res;
     }
 
-    public void backtrack(int[][] graph, int i, List<Integer> list) {
+    public void backtrack(int i, int end, List<Integer> list) {
         list.add(i);
-        if (i == graph.length - 1) {
+        if (i == end) {
             res.add(new ArrayList<>(list));
-            return;
         }
         for (int num : graph[i]) {
-            backtrack(graph, num, list);
+            backtrack(num, end, list);
             list.remove(list.size() - 1);
         }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
-/*
-class Solution {
-    public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        List<List<Integer>> res = new ArrayList<>();
-        List<Integer> path = new LinkedList<>();
-        path.add(0);
-        backtrack(graph, 0, res, path);
-        return res;
-    }
-
-    private void backtrack(int[][] graph, int curri, List<List<Integer>> res, List<Integer> path) {
-        if (curri == graph.length - 1) {
-            res.add(new ArrayList<>(path));
-            return;
-        }
-        for (int numi : graph[curri]) {
-            path.add(numi);
-            backtrack(graph, numi, res, path);
-            path.remove(path.size() - 1);
-        }
-    }
-}
- */
