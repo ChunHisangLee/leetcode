@@ -1,9 +1,10 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    int count = 0;
+    List<List<int[]>> list = new ArrayList<>();
+    boolean[] isVisited;
+    int res = 0;
 
     public int minReorder(int n, int[][] connections) {
-        List<List<int[]>> list = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             list.add(new ArrayList<>());
         }
@@ -11,17 +12,17 @@ class Solution {
             list.get(edge[0]).add(new int[]{edge[1], 1});
             list.get(edge[1]).add(new int[]{edge[0], 0});
         }
-        boolean[] isVisited = new boolean[n];
-        dfs(list, isVisited, 0);
-        return count;
+        isVisited = new boolean[n];
+        dfs(0);
+        return res;
     }
 
-    public void dfs(List<List<int[]>> list, boolean[] isVisited, int curr) {
+    public void dfs(int curr) {
         isVisited[curr] = true;
         for (int[] num : list.get(curr)) {
             if (!isVisited[num[0]]) {
-                count += num[1];
-                dfs(list, isVisited, num[0]);
+                res += num[1];
+                dfs(num[0]);
             }
         }
     }
@@ -30,10 +31,11 @@ class Solution {
 /*
 DFS:
 class Solution {
-    int count = 0;
+    List<List<int[]>> list = new ArrayList<>();
+    boolean[] isVisited;
+    int res = 0;
 
     public int minReorder(int n, int[][] connections) {
-        List<List<int[]>> list = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             list.add(new ArrayList<>());
         }
@@ -41,17 +43,17 @@ class Solution {
             list.get(edge[0]).add(new int[]{edge[1], 1});
             list.get(edge[1]).add(new int[]{edge[0], 0});
         }
-        boolean[] isVisited = new boolean[n];
-        dfs(list, isVisited, 0);
-        return count;
+        isVisited = new boolean[n];
+        dfs(0);
+        return res;
     }
 
-    public void dfs(List<List<int[]>> list, boolean[] isVisited, int curr) {
+    public void dfs(int curr) {
         isVisited[curr] = true;
         for (int[] num : list.get(curr)) {
             if (!isVisited[num[0]]) {
-                count += num[1];
-                dfs(list, isVisited, num[0]);
+                res += num[1];
+                dfs(num[0]);
             }
         }
     }
@@ -60,8 +62,6 @@ class Solution {
 
 BFS:
 class Solution {
-    int count = 0;
-
     public int minReorder(int n, int[][] connections) {
         List<List<int[]>> list = new ArrayList<>();
         for (int i = 0; i < n; i++) {
