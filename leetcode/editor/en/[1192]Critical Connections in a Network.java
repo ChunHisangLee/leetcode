@@ -3,7 +3,6 @@
 class Solution {
     int[] disc;
     int[] low;
-    boolean[] isVisited;
     int time = 1;
     List<List<Integer>> res = new ArrayList<>();
     List<List<Integer>> list = new ArrayList<>();
@@ -18,12 +17,7 @@ class Solution {
             list.get(conn.get(0)).add(conn.get(1));
             list.get(conn.get(1)).add(conn.get(0));
         }
-        for (int i = 0; i < n; i++) {
-            if (disc[i] == 0) {
-                dfs(i, -1);
-            }
-        }
-
+        dfs(0, -1);
         return res;
     }
 

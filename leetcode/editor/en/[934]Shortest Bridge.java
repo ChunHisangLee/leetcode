@@ -15,7 +15,7 @@ class Solution {
                     dfs(i, j);
                     int count = 0;
                     while (!dq.isEmpty()) {
-                        int size = dq.size();
+                        int size = dq.size();+
                         for (int k = 0; k < size; k++) {
                             int[] curr = dq.poll();
                             for (int[] dir : dirs) {

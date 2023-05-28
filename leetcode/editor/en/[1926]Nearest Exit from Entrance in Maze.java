@@ -9,9 +9,9 @@ class Solution {
         int m = maze.length;
         int n = maze[0].length;
         Deque<int[]> dq = new ArrayDeque<>();
+        int count = 0;
         dq.add(entrance);
         maze[entrance[0]][entrance[1]] = '+';
-        int count = 0;
         while (!dq.isEmpty()) {
             int size = dq.size();
             count++;

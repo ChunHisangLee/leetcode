@@ -7,14 +7,12 @@ class Solution {
     public int minMutation(String startGene, String endGene, String[] bank) {
         char[] gene = new char[]{'A', 'C', 'G', 'T'};
         Set<String> set = new HashSet<>(Arrays.asList(bank));
-        Set<String> visited = new HashSet<>();
+        Set<String> isVisited = new HashSet<>();
         Deque<String> dq = new ArrayDeque<>();
-        int count = -1;
         dq.add(startGene);
-        visited.add(startGene);
+        int count = 0;
         while (!dq.isEmpty()) {
             int size = dq.size();
-            count++;
             for (int i = 0; i < size; i++) {
                 String curr = dq.poll();
                 if (curr.equals(endGene)) {
@@ -26,14 +24,15 @@ class Solution {
                     for (char g : gene) {
                         c[j] = g;
                         String str = String.valueOf(c);
-                        if (!visited.contains(str) && set.contains(str)) {
+                        if (!isVisited.contains(str) && set.contains(str)) {
                             dq.add(str);
-                            visited.add(str);
+                            isVisited.add(str);
                         }
                     }
                     c[j] = temp;
                 }
             }
+            count++;
         }
         return -1;
     }
