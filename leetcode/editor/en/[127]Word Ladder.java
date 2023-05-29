@@ -9,6 +9,49 @@ class Solution {
         if (!set.contains(endWord)) {
             return 0;
         }
+        Set<String> isVisited = new HashSet<>();
+        Deque<String> dq = new ArrayDeque<>();
+        dq.add(beginWord);
+        isVisited.add(beginWord);
+        int count = 1;
+        while (!dq.isEmpty()) {
+            int size = dq.size();
+            for (int i = 0; i < size; i++) {
+                String curr = dq.poll();
+                if (curr.equals(endWord)) {
+                    return count;
+                }
+                char[] c = curr.toCharArray();
+                for (int j = 0; j < c.length; j++) {
+                    char temp = c[j];
+                    for (char k = 'a'; k <= 'z'; k++) {
+                        c[j] = k;
+                        String str = String.valueOf(c);
+                        if (!set.contains(str)) {
+                            continue;
+                        }
+                        if (!isVisited.contains(str)) {
+                            dq.add(str);
+                            isVisited.add(str);
+                        }
+                    }
+                    c[j] = temp;
+                }
+            }
+            count++;
+        }
+        return 0;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+13ms
+class Solution {
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Set<String> set = new HashSet<>(wordList);
+        if (!set.contains(endWord)) {
+            return 0;
+        }
         Set<String> begin = new HashSet<>();
         Set<String> end = new HashSet<>();
         begin.add(beginWord);
@@ -43,4 +86,4 @@ class Solution {
         return next.size() > end.size() ? search(end, next, set, false, curr) : search(next, end, set, true, curr);
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+ */
