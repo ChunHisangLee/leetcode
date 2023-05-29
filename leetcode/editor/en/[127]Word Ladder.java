@@ -29,14 +29,13 @@ class Solution {
                 char ch = c[i];
                 for (char j = 'a'; j <= 'z'; j++) {
                     c[i] = j;
-                    String temp = new String(c);
-                    if (!set.contains(temp)) {
-                        continue;
+                    String temp = String.valueOf(c);
+                    if (set.contains(temp)) {
+                        if (end.contains(temp)) {
+                            return curr;
+                        }
+                        next.add(temp);
                     }
-                    if (end.contains(temp)) {
-                        return curr;
-                    }
-                    next.add(temp);
                 }
                 c[i] = ch;
             }
