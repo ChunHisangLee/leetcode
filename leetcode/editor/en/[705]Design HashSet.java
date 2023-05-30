@@ -4,10 +4,12 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class MyHashSet {
+
     int[] arr;
 
     public MyHashSet() {
-        arr = new int[1000001];
+        int n = (int) 1e6 + 1;
+        arr = new int[n];
     }
 
     public void add(int key) {
