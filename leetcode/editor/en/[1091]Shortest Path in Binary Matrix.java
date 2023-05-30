@@ -15,9 +15,8 @@ class Solution {
         Deque<int[]> dq = new ArrayDeque<>();
         dq.add(new int[]{0, 0});
         isVisited[0][0] = true;
-        int count = 0;
+        int count = 1;
         while (!dq.isEmpty()) {
-            count++;
             int size = dq.size();
             for (int i = 0; i < size; i++) {
                 int[] curr = dq.poll();
@@ -34,6 +33,7 @@ class Solution {
                     isVisited[x][y] = true;
                 }
             }
+            count++;
         }
         return -1;
     }
