@@ -2,14 +2,14 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-    int[][] grid;
+    int[][] heights;
     int m;
     int n;
 
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
-        grid = heights;
-        m = grid.length;
-        n = grid[0].length;
+        this.heights = heights;
+        m = heights.length;
+        n = heights[0].length;
         boolean[][] isPac = new boolean[m][n];
         boolean[][] isAtl = new boolean[m][n];
         for (int i = 0; i < m; i++) {
@@ -39,7 +39,7 @@ class Solution {
             if (x < 0 || x >= m || y < 0 || y >= n || isVisited[x][y]) {
                 continue;
             }
-            if (grid[x][y] < grid[i][j]) {
+            if (heights[x][y] < heights[i][j]) {
                 continue;
             }
             dfs(x, y, isVisited);
