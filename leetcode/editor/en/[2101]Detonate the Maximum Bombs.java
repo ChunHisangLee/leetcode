@@ -6,16 +6,16 @@ class Solution {
         int n = bombs.length;
         for (int i = 0; i < n; i++) {
             list.add(new ArrayList<>());
-            int xi = bombs[i][0];
-            int yi = bombs[i][1];
-            int ri = bombs[i][2];
+            int x1 = bombs[i][0];
+            int y1 = bombs[i][1];
+            int r1 = bombs[i][2];
             for (int j = 0; j < n; j++) {
                 if (i == j) {
                     continue;
                 }
-                int xj = bombs[j][0];
-                int yj = bombs[j][1];
-                if ((long) ri * ri >= (long) (xi - xj) * (xi - xj) + (long) (yi - yj) * (yi - yj)) {
+                int x2 = bombs[j][0];
+                int y2 = bombs[j][1];
+                if ((long) (x2 - x1) * (x2 - x1) + (long) (y2 - y1) * (y2 - y1) <= (long) r1 * r1) {
                     list.get(i).add(j);
                 }
             }
@@ -36,8 +36,8 @@ class Solution {
         }
         isVisited[i] = true;
         int count = 1;
-        for (int key : list.get(i)) {
-            count += dfs(key, list, isVisited);
+        for (int num : list.get(i)) {
+            count += dfs(num, list, isVisited);
         }
         return count;
     }

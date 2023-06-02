@@ -10,10 +10,12 @@ class Solution {
         int[] edge = new int[n];
         int[][] adj = new int[n][n];
         for (int[] road : roads) {
-            edge[road[0]]++;
-            edge[road[1]]++;
-            adj[road[0]][road[1]] = 1;
-            adj[road[1]][road[0]] = 1;
+            int x = road[0];
+            int y = road[1];
+            edge[x]++;
+            edge[y]++;
+            adj[x][y] = 1;
+            adj[y][x] = 1;
         }
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
