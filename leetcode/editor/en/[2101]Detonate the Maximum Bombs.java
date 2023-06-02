@@ -22,7 +22,7 @@ class Solution {
         }
         int res = 0;
         for (int i = 0; i < n; i++) {
-            res = Math.max(res, dfs(i, list, new HashSet<>()));
+            res = Math.max(res, dfs(i, list, new boolean[n]));
             if (res == n) {
                 return res;
             }
@@ -30,20 +30,21 @@ class Solution {
         return res;
     }
 
-    public int dfs(int i, List<List<Integer>> list, Set<Integer> visit) {
-        visit.add(i);
+    public int dfs(int i, List<List<Integer>> list, boolean[] isVisited) {
+        if (isVisited[i]) {
+            return 0;
+        }
+        isVisited[i] = true;
         int count = 1;
         for (int key : list.get(i)) {
-            if (!visit.contains(key)) {
-                count += dfs(key, list, visit);
-            }
+            count += dfs(key, list, isVisited);
         }
         return count;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 /*
-DFS - 19ms
+DFS - 13ms
 class Solution {
     public int maximumDetonation(int[][] bombs) {
         List<List<Integer>> list = new ArrayList<>();
@@ -66,7 +67,7 @@ class Solution {
         }
         int res = 0;
         for (int i = 0; i < n; i++) {
-            res = Math.max(res, dfs(i, list, new HashSet<>()));
+            res = Math.max(res, dfs(i, list, new boolean[n]));
             if (res == n) {
                 return res;
             }
@@ -74,13 +75,14 @@ class Solution {
         return res;
     }
 
-    public int dfs(int i, List<List<Integer>> list, Set<Integer> visit) {
-        visit.add(i);
+    public int dfs(int i, List<List<Integer>> list, boolean[] isVisited) {
+        if (isVisited[i]) {
+            return 0;
+        }
+        isVisited[i] = true;
         int count = 1;
         for (int key : list.get(i)) {
-            if (!visit.contains(key)) {
-                count += dfs(key, list, visit);
-            }
+            count += dfs(key, list, isVisited);
         }
         return count;
     }
