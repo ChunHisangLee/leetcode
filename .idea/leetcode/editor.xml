@@ -1476,6 +1476,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2101]Detonate the Maximum Bombs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2101" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2101]Detonate the Maximum Bombs.java" />
+              <option name="titleSlug" value="detonate-the-maximum-bombs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[210]Course Schedule II.java">
           <value>
             <LeetcodeEditor>
@@ -2006,6 +2016,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[261]Graph Valid Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com261" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[261]Graph Valid Tree.java" />
+              <option name="titleSlug" value="graph-valid-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2620]Counter.java">
           <value>
             <LeetcodeEditor>
@@ -2033,6 +2053,36 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2624]Snail Traversal.java" />
               <option name="titleSlug" value="snail-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2640]Find the Score of All Prefixes of an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2640" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2640]Find the Score of All Prefixes of an Array.java" />
+              <option name="titleSlug" value="find-the-score-of-all-prefixes-of-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2650]Design Cancellable Function.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2650" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2650]Design Cancellable Function.java" />
+              <option name="titleSlug" value="design-cancellable-function" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2661]First Completely Painted Row or Column.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2661" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2661]First Completely Painted Row or Column.java" />
+              <option name="titleSlug" value="first-completely-painted-row-or-column" />
             </LeetcodeEditor>
           </value>
         </entry>
