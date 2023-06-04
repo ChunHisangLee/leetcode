@@ -20,7 +20,6 @@ class Solution {
 
 class UnionFind {
     int[] group;
-    int count = 0;
 
     public UnionFind(int n) {
         group = new int[n];
@@ -39,10 +38,7 @@ class UnionFind {
         if (x == y) {
             return false;
         }
-        if (x != y) {
-            group[x] = y;
-        }
-        count++;
+        group[x] = y;
         return true;
     }
 }
