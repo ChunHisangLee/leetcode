@@ -3,9 +3,6 @@
         2023-01-14 09:03:13
 
 //leetcode submit region begin(Prohibit modification and deletion)
-/*
-還不會
- */
 class Solution {
     public String smallestEquivalentString(String s1, String s2, String baseStr) {
         char[] c1 = s1.toCharArray();
@@ -48,8 +45,8 @@ class UnionFind {
         }
     }
 
-    public char getChar(int c) {
-        return (char) (c + 'a');
+    public char getChar(int x) {
+        return (char) (x + 'a');
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
