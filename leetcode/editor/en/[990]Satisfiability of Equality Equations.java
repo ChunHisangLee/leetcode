@@ -5,38 +5,48 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean equationsPossible(String[] equations) {
-        int[] arr = new int[26];
-        for (int i = 0; i < 26; i++) {
-            arr[i] = i;
-        }
+        UnionFind uf = new UnionFind(26);
         for (String equ : equations) {
-            if (equ.charAt(1) == '=') {
-                int x = equ.charAt(0) - 'a';
-                int y = equ.charAt(3) - 'a';
-                union(arr, x, y);
+            char[] c = equ.toCharArray();
+            if (c[1] == '=') {
+                int x = c[0] - 'a';
+                int y = c[3] - 'a';
+                uf.union(x, y);
             }
         }
         for (String equ : equations) {
-            if (equ.charAt(1) == '!') {
-                int x = equ.charAt(0) - 'a';
-                int y = equ.charAt(3) - 'a';
-                if (find(arr, x) == find(arr, y)) {
+            char[] c = equ.toCharArray();
+            if (c[1] == '!') {
+                int x = c[0] - 'a';
+                int y = c[3] - 'a';
+                if (uf.find(x) == uf.find(y)) {
                     return false;
                 }
             }
         }
         return true;
     }
+}
 
-    private int find(int[] arr, int x) {
-        return arr[x] == x ? x : (arr[x] = find(arr, arr[x]));
+class UnionFind {
+    int[] group;
+
+    public UnionFind(int n) {
+        group = new int[n];
+        for (int i = 0; i < n; i++) {
+            group[i] = i;
+        }
     }
 
-    private void union(int[] arr, int x, int y) {
-        x = find(arr, x);
-        y = find(arr, y);
+    public int find(int x) {
+        return group[x] == x ? x : (group[x] = find(group[x]));
+    }
+
+    public void union(int i, int j) {
+        int x = find(i);
+        int y = find(j);
         if (x != y) {
-            arr[x] = y;
+            group[x] = y;
         }
     }
 }
