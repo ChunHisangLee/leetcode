@@ -1,6 +1,4 @@
-/*
-還不會
- */
+
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
@@ -11,10 +9,10 @@ class Solution {
             List<String> list = accounts.get(i);
             for (int j = 1; j < list.size(); j++) {
                 String email = list.get(j);
-                if (map.containsKey(email)) {
-                    uf.union(i, map.get(email));
-                } else {
+                if (!map.containsKey(email)) {
                     map.put(email, i);
+                } else {
+                    uf.union(i, map.get(email));
                 }
             }
         }
@@ -59,4 +57,5 @@ class UnionFind {
         }
     }
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
