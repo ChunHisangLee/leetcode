@@ -8,7 +8,7 @@
  */
 class Solution {
     public String smallestEquivalentString(String s1, String s2, String baseStr) {
-        UnionFind uf = new UnionFind();
+        UnionFind uf = new UnionFind(26);
         for (int i = 0; i < s1.length(); i++) {
             uf.union(s1.charAt(i) - 'a', s2.charAt(i) - 'a');
         }
@@ -19,34 +19,29 @@ class Solution {
         }
         return sb.toString();
     }
+}
 
-    class UnionFind {
-        int[] parent;
-        int total;
+class UnionFind {
+    int[] group;
 
-        public UnionFind() {
-            total = 26;
-            parent = new int[total];
-            for (int i = 0; i < total; i++) {
-                parent[i] = i;
-            }
+    public UnionFind(int n) {
+        group = new int[n];
+        for (int i = 0; i < n; i++) {
+            group[i] = i;
         }
+    }
 
-        public int find(int x) {
-            if (parent[x] != x) {
-                parent[x] = find(parent[x]);
-            }
-            return parent[x];
-        }
+    public int find(int x) {
+        return group[x] == x ? x : (group[x] = find(group[x]));
+    }
 
-        public void union(int a, int b) {
-            int pa = find(a);
-            int pb = find(b);
-            if (pa <= pb) {
-                parent[pb] = pa;
-            } else {
-                parent[pa] = pb;
-            }
+    public void union(int i, int j) {
+        int x = find(i);
+        int y = find(j);
+        if (x > y) {
+            group[x] = y;
+        } else {
+            group[y] = x;
         }
     }
 }
