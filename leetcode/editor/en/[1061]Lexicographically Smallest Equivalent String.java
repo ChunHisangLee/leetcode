@@ -8,14 +8,17 @@
  */
 class Solution {
     public String smallestEquivalentString(String s1, String s2, String baseStr) {
+        char[] c1 = s1.toCharArray();
+        char[] c2 = s2.toCharArray();
+        char[] cb = baseStr.toCharArray();
         UnionFind uf = new UnionFind(26);
-        for (int i = 0; i < s1.length(); i++) {
-            uf.union(s1.charAt(i) - 'a', s2.charAt(i) - 'a');
+        for (int i = 0; i < c1.length; i++) {
+            uf.union(c1[i] - 'a', c2[i] - 'a');
         }
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < baseStr.length(); i++) {
-            int p = uf.find(baseStr.charAt(i) - 'a');
-            sb.append((char) (p + 'a'));
+        for (int i = 0; i < cb.length; i++) {
+            int p = uf.find(cb[i] - 'a');
+            sb.append(uf.getChar(p));
         }
         return sb.toString();
     }
@@ -43,6 +46,10 @@ class UnionFind {
         } else {
             group[y] = x;
         }
+    }
+
+    public char getChar(int c) {
+        return (char) (c + 'a');
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
