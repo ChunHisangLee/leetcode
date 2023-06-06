@@ -1,22 +1,19 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public void bfs(int node, Map<Integer, List<Integer>> adj, boolean[] visit) {
-        Queue<Integer> q = new LinkedList<>();
-        q.offer(node);
-        visit[node] = true;
-        while (!q.isEmpty()) {
-            node = q.poll();
-            if (!adj.containsKey(node)) {
-                continue;
-            }
-            for (int neighbor : adj.get(node)) {
-                if (!visit[neighbor]) {
-                    visit[neighbor] = true;
-                    q.offer(neighbor);
+    public int numSimilarGroups(String[] strs) {
+        int n = strs.length;
+        UnionFind uf = new UnionFind(n);
+        int count = n;
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (isSimilar(strs[i], strs[j]) && uf.find(i) != uf.find(j)) {
+                    uf.union(i, j);
+                    count--;
                 }
             }
         }
+        return count;
     }
 
     public boolean isSimilar(String s1, String s2) {
@@ -31,31 +28,28 @@ class Solution {
         }
         return diff != 1;
     }
+}
 
-    public int numSimilarGroups(String[] strs) {
-        int n = strs.length;
-        Map<Integer, List<Integer>> adj = new HashMap<>();
-        // Form the required graph from the given strings array.
+class UnionFind {
+    int[] group;
+
+    public UnionFind(int n) {
+        group = new int[n];
         for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (isSimilar(strs[i], strs[j])) {
-                    adj.computeIfAbsent(i, k -> new ArrayList<Integer>()).add(j);
-                    adj.computeIfAbsent(j, k -> new ArrayList<Integer>()).add(i);
-                }
-            }
+            group[i] = i;
         }
+    }
 
-        boolean[] visit = new boolean[n];
-        int count = 0;
-        // Count the number of connected components.
-        for (int i = 0; i < n; i++) {
-            if (!visit[i]) {
-                bfs(i, adj, visit);
-                count++;
-            }
+    public int find(int x) {
+        return group[x] == x ? x : (group[x] = find(group[x]));
+    }
+
+    public void union(int i, int j) {
+        int x = find(i);
+        int y = find(j);
+        if (x != y) {
+            group[x] = y;
         }
-
-        return count;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
@@ -150,6 +144,7 @@ class Solution {
 }
 
 
+BFS: -18ms
 
 Union Find:
 class Solution {

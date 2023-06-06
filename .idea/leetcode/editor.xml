@@ -886,6 +886,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1502]Can Make Arithmetic Progression From Sequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1502" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1502]Can Make Arithmetic Progression From Sequence.java" />
+              <option name="titleSlug" value="can-make-arithmetic-progression-from-sequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[150]Evaluate Reverse Polish Notation.java">
           <value>
             <LeetcodeEditor>
@@ -4097,13 +4107,13 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1061]Lexicographically Smallest Equivalent String.java">
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[839]Similar String Groups.java">
           <value>
             <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1061" />
+              <option name="frontendQuestionId" value="leetcode.com839" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1061]Lexicographically Smallest Equivalent String.java" />
-              <option name="titleSlug" value="lexicographically-smallest-equivalent-string" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[839]Similar String Groups.java" />
+              <option name="titleSlug" value="similar-string-groups" />
             </LeetcodeEditor>
           </value>
         </entry>
