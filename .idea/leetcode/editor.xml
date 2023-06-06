@@ -104,6 +104,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1061]Lexicographically Smallest Equivalent String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1061" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1061]Lexicographically Smallest Equivalent String.java" />
+              <option name="titleSlug" value="lexicographically-smallest-equivalent-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1065]Index Pairs of a String.java">
           <value>
             <LeetcodeEditor>
@@ -374,13 +384,13 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1230]Toss Strange Coins.java">
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1232]Check If It Is a Straight Line.java">
           <value>
             <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1230" />
+              <option name="frontendQuestionId" value="leetcode.com1232" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1230]Toss Strange Coins.java" />
-              <option name="titleSlug" value="toss-strange-coins" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1232]Check If It Is a Straight Line.java" />
+              <option name="titleSlug" value="check-if-it-is-a-straight-line" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1476,16 +1486,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2101]Detonate the Maximum Bombs.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com2101" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2101]Detonate the Maximum Bombs.java" />
-              <option name="titleSlug" value="detonate-the-maximum-bombs" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[210]Course Schedule II.java">
           <value>
             <LeetcodeEditor>
@@ -2016,16 +2016,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[261]Graph Valid Tree.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com261" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[261]Graph Valid Tree.java" />
-              <option name="titleSlug" value="graph-valid-tree" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2620]Counter.java">
           <value>
             <LeetcodeEditor>
@@ -2053,36 +2043,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2624]Snail Traversal.java" />
               <option name="titleSlug" value="snail-traversal" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2640]Find the Score of All Prefixes of an Array.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com2640" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2640]Find the Score of All Prefixes of an Array.java" />
-              <option name="titleSlug" value="find-the-score-of-all-prefixes-of-an-array" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2650]Design Cancellable Function.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com2650" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2650]Design Cancellable Function.java" />
-              <option name="titleSlug" value="design-cancellable-function" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2661]First Completely Painted Row or Column.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com2661" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2661]First Completely Painted Row or Column.java" />
-              <option name="titleSlug" value="first-completely-painted-row-or-column" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3427,6 +3387,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[721]Accounts Merge.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com721" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[721]Accounts Merge.java" />
+              <option name="titleSlug" value="accounts-merge" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[727]Minimum Window Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -4107,6 +4077,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[990]Satisfiability of Equality Equations.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com990" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[990]Satisfiability of Equality Equations.java" />
+              <option name="titleSlug" value="satisfiability-of-equality-equations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[997]Find the Town Judge.java">
           <value>
             <LeetcodeEditor>
@@ -4114,6 +4094,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[997]Find the Town Judge.java" />
               <option name="titleSlug" value="find-the-town-judge" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1061]Lexicographically Smallest Equivalent String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1061" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1061]Lexicographically Smallest Equivalent String.java" />
+              <option name="titleSlug" value="lexicographically-smallest-equivalent-string" />
             </LeetcodeEditor>
           </value>
         </entry>

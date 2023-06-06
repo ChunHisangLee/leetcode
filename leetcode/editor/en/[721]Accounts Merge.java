@@ -1,6 +1,4 @@
-/*
-還不會
- */
+
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
@@ -11,29 +9,29 @@ class Solution {
             List<String> list = accounts.get(i);
             for (int j = 1; j < list.size(); j++) {
                 String email = list.get(j);
-                if (map.containsKey(email)) {
-                    uf.union(i, map.get(email));
-                } else {
+                if (!map.containsKey(email)) {
                     map.put(email, i);
+                } else {
+                    uf.union(i, map.get(email));
                 }
             }
         }
-        Map<Integer, List<String>> idToEmails = new HashMap<>();
+        Map<Integer, List<String>> idToEmail = new HashMap<>();
         for (String key : map.keySet()) {
-            int root = uf.find(map.get(key));
-            if (!idToEmails.containsKey(root)) {
-                idToEmails.put(root, new ArrayList<String>());
+            int id = uf.find(map.get(key));
+            if (!idToEmail.containsKey(id)) {
+                idToEmail.put(id, new ArrayList<>());
             }
-            idToEmails.get(root).add(key);
+            idToEmail.get(id).add(key);
         }
-        List<List<String>> mergedList = new ArrayList<>();
-        for (Integer id : idToEmails.keySet()) {
-            List<String> emails = idToEmails.get(id);
-            Collections.sort(emails);
-            emails.add(0, accounts.get(id).get(0));
-            mergedList.add(emails);
+        List<List<String>> res = new ArrayList<>();
+        for (Integer id : idToEmail.keySet()) {
+            List<String> email = idToEmail.get(id);
+            Collections.sort(email);
+            email.add(0, accounts.get(id).get(0));
+            res.add(email);
         }
-        return mergedList;
+        return res;
     }
 }
 
@@ -42,10 +40,13 @@ class UnionFind {
 
     public UnionFind(int n) {
         group = new int[n];
-
         for (int i = 0; i < n; i++) {
             group[i] = i;
         }
+    }
+
+    public int find(int x) {
+        return group[x] == x ? x : (group[x] = find(group[x]));
     }
 
     public void union(int i, int j) {
@@ -55,9 +56,6 @@ class UnionFind {
             group[x] = y;
         }
     }
-
-    public int find(int x) {
-        return group[x] == x ? x : (group[x] = find(group[x]));
-    }
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
