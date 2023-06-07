@@ -20,8 +20,8 @@ class Solution {
                 dq.add(i);
             }
         }
-        int count = 0;
         int[] arr = new int[numCourses];
+        int count = 0;
         while (!dq.isEmpty()) {
             int curr = dq.poll();
             arr[count] = curr;
