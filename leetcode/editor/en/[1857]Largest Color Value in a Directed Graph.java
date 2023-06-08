@@ -5,11 +5,10 @@ class Solution {
         if (edges.length == 0) {
             return 1;
         }
-        final char[] c = colors.toCharArray();
+        char[] c = colors.toCharArray();
         int n = c.length;
         List<List<Integer>> list = new ArrayList<>();
         int[] inDegree = new int[n];
-
         for (int i = 0; i < n; i++) {
             list.add(new ArrayList<>());
         }
@@ -17,15 +16,15 @@ class Solution {
             list.get(edge[0]).add(edge[1]);
             inDegree[edge[1]]++;
         }
+        int[][] count = new int[n][26];
+        for (int i = 0; i < n; i++) {
+            count[i][c[i] - 'a']++;
+        }
         Deque<Integer> dq = new ArrayDeque<>();
         for (int i = 0; i < n; i++) {
             if (inDegree[i] == 0) {
                 dq.add(i);
             }
-        }
-        int[][] count = new int[n][26];
-        for (int i = 0; i < n; i++) {
-            count[i][c[i] - 'a']++;
         }
         int max = 1;
         int visited = 0;
@@ -48,9 +47,8 @@ class Solution {
                 max = Math.max(max, num);
             }
         }
-        return visited != n ? -1 : max;
+        return visited == n ? max : -1;
     }
 }
-
 //read the official solution
 //leetcode submit region end(Prohibit modification and deletion)
