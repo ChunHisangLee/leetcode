@@ -18,7 +18,6 @@ class Solution {
                 if (inDegree[c - 'a'] == -1) {
                     inDegree[c - 'a'] = 0;
                     count++;
-                    break;
                 }
             }
         }
@@ -33,6 +32,7 @@ class Solution {
                 if (s1.charAt(j) != s2.charAt(j)) {
                     list.get(s1.charAt(j) - 'a').add(s2.charAt(j));
                     inDegree[s2.charAt(j) - 'a']++;
+                    break;
                 }
             }
         }
@@ -45,6 +45,7 @@ class Solution {
         }
         while (!dq.isEmpty()) {
             char c = dq.poll();
+            sb.append(c);
             for (char ch : list.get(c - 'a')) {
                 inDegree[ch - 'a']--;
                 if (inDegree[ch - 'a'] == 0) {
