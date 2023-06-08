@@ -6,8 +6,9 @@
 class Solution {
     public String alienOrder(String[] words) {
         List<List<Character>> list = new ArrayList<>();
-        int[] inDegree = new int[26];
-        for (int i = 0; i < 26; i++) {
+        final int N = 26;
+        int[] inDegree = new int[N];
+        for (int i = 0; i < N; i++) {
             list.add(new ArrayList<>());
             inDegree[i] = -1;
         }
@@ -21,25 +22,24 @@ class Solution {
             }
         }
         for (int i = 0; i < words.length - 1; i++) {
-            String word1 = words[i];
-            String word2 = words[i + 1];
-            if (word1.length() > word2.length() && word1.startsWith(word2)) {
+            String s1 = words[i];
+            String s2 = words[i + 1];
+            if (s1.length() > s2.length() && s1.startsWith(s2)) {
                 return "";
             }
-            int len = Math.min(word1.length(), word2.length());
-            for (int j = 0; j < len; j++) {
-                if (word1.charAt(j) != word2.charAt(j)) {
-                    list.get(word1.charAt(j) - 'a').add(word2.charAt(j));
-                    inDegree[word2.charAt(j) - 'a']++;
-                    break;
+            int n = Math.min(s1.length(), s2.length());
+            for (int j = 0; j < n; j++) {
+                if (s1.charAt(j) != s2.charAt(j)) {
+                    list.get(s1.charAt(j) - 'a').add(s2.charAt(j));
+                    inDegree[s2.charAt(j) - 'a']++;
                 }
             }
         }
         StringBuilder sb = new StringBuilder();
         Deque<Character> dq = new ArrayDeque<>();
-        for (char c = 'a'; c <= 'z'; c++) {
-            if (inDegree[c - 'a'] == 0) {
-                dq.add(c);
+        for (int i = 0; i < N; i++) {
+            if (inDegree[i] == 0) {
+                dq.add((char) (i + 'a'));
             }
         }
         while (!dq.isEmpty()) {
