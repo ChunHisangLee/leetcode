@@ -18,6 +18,7 @@ class Solution {
                 if (inDegree[c - 'a'] == -1) {
                     inDegree[c - 'a'] = 0;
                     count++;
+                    break;
                 }
             }
         }
@@ -37,14 +38,13 @@ class Solution {
         }
         StringBuilder sb = new StringBuilder();
         Deque<Character> dq = new ArrayDeque<>();
-        for (int i = 0; i < N; i++) {
-            if (inDegree[i] == 0) {
-                dq.add((char) (i + 'a'));
+        for (char c = 'a'; c <= 'z'; c++) {
+            if (inDegree[c - 'a'] == 0) {
+                dq.add(c);
             }
         }
         while (!dq.isEmpty()) {
             char c = dq.poll();
-            sb.append(c);
             for (char ch : list.get(c - 'a')) {
                 inDegree[ch - 'a']--;
                 if (inDegree[ch - 'a'] == 0) {
