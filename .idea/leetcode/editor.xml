@@ -264,6 +264,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1150]Check If a Number Is Majority Element in a Sorted Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1150" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1150]Check If a Number Is Majority Element in a Sorted Array.java" />
+              <option name="titleSlug" value="check-if-a-number-is-majority-element-in-a-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1152]Analyze User Website Visit Pattern.java">
           <value>
             <LeetcodeEditor>
