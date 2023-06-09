@@ -3,9 +3,80 @@
         2023-01-26 10:18:23
 
 //leetcode submit region begin(Prohibit modification and deletion)
+class Solution {
+    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+        Map<Integer, List<int[]>> map = new HashMap<>();
+        for (int[] arr : flights) {
+            map.computeIfAbsent(arr[0], value -> new ArrayList<>()).add(new int[]{arr[1], arr[2]});
+        }
+        int[] dist = new int[n];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        Deque<int[]> dq = new ArrayDeque<>();
+        dq.add(new int[]{src, 0});
+        int stops = 0;
+        while (!dq.isEmpty() && stops <= k) {
+            int size = dq.size();
+            for (int i = 0; i < size; i++) {
+                int[] curr = dq.poll();
+                int node = curr[0];
+                int dists = curr[1];
+                if (!map.containsKey(node)) {
+                    continue;
+                }
+                for (int[] arr : map.get(node)) {
+                    int nei = arr[0];
+                    int price = arr[1];
+                    if (price + dists < dist[nei]) {
+                        dist[nei] = price + dists;
+                        dq.add(new int[]{nei, dist[nei]});
+                    }
+                }
+            }
+            stops++;
+        }
+        return dist[dst] == Integer.MAX_VALUE ? -1 : dist[dst];
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
 /*
-還不會
- */
+BFS: - 7ms
+class Solution {
+    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+        Map<Integer, List<int[]>> map = new HashMap<>();
+        for (int[] arr : flights) {
+            map.computeIfAbsent(arr[0], value -> new ArrayList<>()).add(new int[]{arr[1], arr[2]});
+        }
+        int[] dist = new int[n];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        Deque<int[]> dq = new ArrayDeque<>();
+        dq.add(new int[]{src, 0});
+        int stops = 0;
+        while (!dq.isEmpty() && stops <= k) {
+            int size = dq.size();
+            for (int i = 0; i < size; i++) {
+                int[] curr = dq.poll();
+                int node = curr[0];
+                int dists = curr[1];
+                if (!map.containsKey(node)) {
+                    continue;
+                }
+                for (int[] arr : map.get(node)) {
+                    int nei = arr[0];
+                    int price = arr[1];
+                    if (price + dists < dist[nei]) {
+                        dist[nei] = price + dists;
+                        dq.add(new int[]{nei, dist[nei]});
+                    }
+                }
+            }
+            stops++;
+        }
+        return dist[dst] == Integer.MAX_VALUE ? -1 : dist[dst];
+    }
+}
+
+
+Bellman Ford: - 6ms
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         int[] prev = new int[n];
@@ -25,4 +96,39 @@ class Solution {
         return curr[dst] == Integer.MAX_VALUE ? -1 : curr[dst];
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+
+
+Dijkstra: - 8ms
+class Solution {
+    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+        Map<Integer, List<int[]>> map = new HashMap<>();
+        for (int[] arr : flights) {
+            map.computeIfAbsent(arr[0], value -> new ArrayList<>()).add(new int[]{arr[1], arr[2]});
+        }
+        int[] stops = new int[n];
+        Arrays.fill(stops, Integer.MAX_VALUE);
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+        pq.add(new int[]{0, src, 0});
+        while (!pq.isEmpty()) {
+            int[] curr = pq.poll();
+            int dist = curr[0];
+            int node = curr[1];
+            int steps = curr[2];
+            if (steps > stops[node] || steps > k + 1) {
+                continue;
+            }
+            stops[node] = steps;
+            if (node == dst) {
+                return dist;
+            }
+            if (!map.containsKey(node)) {
+                continue;
+            }
+            for (int[] arr : map.get(node)) {
+                pq.add(new int[]{dist + arr[1], arr[0], steps + 1});
+            }
+        }
+        return -1;
+    }
+}
+ */
