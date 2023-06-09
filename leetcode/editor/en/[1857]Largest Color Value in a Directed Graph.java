@@ -8,10 +8,10 @@ class Solution {
         char[] c = colors.toCharArray();
         int n = c.length;
         List<List<Integer>> list = new ArrayList<>();
-        int[] inDegree = new int[n];
         for (int i = 0; i < n; i++) {
             list.add(new ArrayList<>());
         }
+        int[] inDegree = new int[n];
         for (int[] edge : edges) {
             list.get(edge[0]).add(edge[1]);
             inDegree[edge[1]]++;
