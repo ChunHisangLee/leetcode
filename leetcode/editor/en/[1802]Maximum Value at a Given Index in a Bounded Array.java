@@ -6,7 +6,7 @@ class Solution {
         int right = maxSum;
         while (left < right) {
             int mid = left + (right - left + 1) / 2;
-            if (getSum(index, mid, n) <= maxSum) {
+            if (getSum(n, index, mid) <= maxSum) {
                 left = mid;
             } else {
                 right = mid - 1;
@@ -15,19 +15,19 @@ class Solution {
         return left;
     }
 
-    public long getSum(int index, int value, int n) {
-        long count = 0;
+    public long getSum(int n, int index, int value) {
+        long res = 0;
         if (value > index) {
-            count += (long) (value + value - index) * (index + 1) / 2;
+            res += (long) (value + value - index) * (index + 1) / 2;
         } else {
-            count += (long) (value + 1) * value / 2 + index - value + 1;
+            res += (long) (value + 1) * value / 2 + index - value + 1;
         }
         if (value >= n - index) {
-            count += (long) (value + value - n + 1 + index) * (n - index) / 2;
+            res += (long) (value + value - n + 1 + index) * (n - index) / 2;
         } else {
-            count += (long) (value + 1) * value / 2 + n - index - value;
+            res += (long) (value + 1) * value / 2 + n - index - value;
         }
-        return count - value;
+        return res - value;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
