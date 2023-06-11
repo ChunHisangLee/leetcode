@@ -13,7 +13,7 @@ class SnapshotArray {
     }
 
     public void set(int index, int val) {
-        records[index].put(snapId,val);
+        records[index].put(snapId, val);
     }
 
     public int snap() {
@@ -21,9 +21,8 @@ class SnapshotArray {
     }
 
     public int get(int index, int snap_id) {
-        return records[index].floorEntry(snapId).getValue();
+        return records[index].floorEntry(snap_id).getValue();
     }
-
 }
 
 /**
