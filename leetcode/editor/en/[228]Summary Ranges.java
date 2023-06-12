@@ -11,7 +11,7 @@ class Solution {
                 i++;
             }
             if (left != nums[i]) {
-                sb = sb.append(left).append("->").append(nums[i]);
+                sb.append(left).append("->").append(nums[i]);
                 list.add(sb.toString());
                 sb.setLength(0);
             } else {
