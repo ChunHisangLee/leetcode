@@ -5,38 +5,28 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        Map<Integer, List<int[]>> map = new HashMap<>();
-        for (int[] arr : flights) {
-            map.computeIfAbsent(arr[0], value -> new ArrayList<>()).add(new int[]{arr[1], arr[2]});
-        }
-        int[] dist = new int[n];
-        Arrays.fill(dist, Integer.MAX_VALUE);
-        Deque<int[]> dq = new ArrayDeque<>();
-        dq.add(new int[]{src, 0});
-        int stops = 0;
-        while (!dq.isEmpty() && stops <= k) {
-            int size = dq.size();
-            for (int i = 0; i < size; i++) {
-                int[] curr = dq.poll();
-                int node = curr[0];
-                int dists = curr[1];
-                if (!map.containsKey(node)) {
-                    continue;
-                }
-                for (int[] arr : map.get(node)) {
-                    int nei = arr[0];
-                    int price = arr[1];
-                    if (price + dists < dist[nei]) {
-                        dist[nei] = price + dists;
-                        dq.add(new int[]{nei, dist[nei]});
-                    }
+        int[] curr = new int[n];
+        int[] prev = new int[n];
+        Arrays.fill(curr, Integer.MAX_VALUE);
+        Arrays.fill(prev, Integer.MAX_VALUE);
+        prev[src] = 0;
+        for (int i = 0; i <= k; i++) {
+            boolean update = false;
+            for (int[] arr : flights) {
+                if (prev[arr[0]] < Integer.MAX_VALUE) {
+                    curr[arr[1]] = Math.min(curr[arr[1]], prev[arr[0]] + arr[2]);
+                    update = true;
                 }
             }
-            stops++;
+            if (!update) {
+                break;
+            }
+            prev = curr.clone();
         }
-        return dist[dst] == Integer.MAX_VALUE ? -1 : dist[dst];
+        return curr[dst] == Integer.MAX_VALUE ? -1 : curr[dst];
     }
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
 /*
 BFS: - 7ms
@@ -79,17 +69,21 @@ class Solution {
 Bellman Ford: - 6ms
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        int[] prev = new int[n];
         int[] curr = new int[n];
-        Arrays.fill(prev, Integer.MAX_VALUE);
+        int[] prev = new int[n];
         Arrays.fill(curr, Integer.MAX_VALUE);
+        Arrays.fill(prev, Integer.MAX_VALUE);
         prev[src] = 0;
         for (int i = 0; i <= k; i++) {
-            curr[src] = 0;
-            for (int[] flight : flights) {
-                if (prev[flight[0]] < Integer.MAX_VALUE) {
-                    curr[flight[1]] = Math.min(curr[flight[1]], prev[flight[0]] + flight[2]);
+            boolean update = false;
+            for (int[] arr : flights) {
+                if (prev[arr[0]] < Integer.MAX_VALUE) {
+                    curr[arr[1]] = Math.min(curr[arr[1]], prev[arr[0]] + arr[2]);
+                    update = true;
                 }
+            }
+            if (!update) {
+                break;
             }
             prev = curr.clone();
         }
