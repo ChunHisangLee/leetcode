@@ -9,7 +9,7 @@ class Solution {
         int[][] arr = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                arr[j][i] = grid[i][j];
+                arr[i][j] = grid[j][i];
             }
         }
         int count = 0;
