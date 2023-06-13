@@ -4,11 +4,11 @@ class Solution {
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
         int m = maze.length;
         int n = maze[0].length;
-        boolean[][] isVisited = new boolean[m][n];
-        int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        boolean[][] isisVisited = new boolean[m][n];
+        int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
         Deque<int[]> dq = new ArrayDeque<>();
         dq.add(start);
-        isVisited[start[0]][start[1]] = true;
+        isisVisited[start[0]][start[1]] = true;
         while (!dq.isEmpty()) {
             int[] curr = dq.poll();
             if (curr[0] == destination[0] && curr[1] == destination[1]) {
@@ -23,9 +23,9 @@ class Solution {
                 }
                 x -= dir[0];
                 y -= dir[1];
-                if (!isVisited[x][y]) {
+                if (!isisVisited[x][y]) {
                     dq.add(new int[]{x, y});
-                    isVisited[x][y] = true;
+                    isisVisited[x][y] = true;
                 }
             }
         }
@@ -37,17 +37,17 @@ class Solution {
 DFS: -2ms
 class Solution {
     int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+    int m;
+    int n;
 
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
-        int m = maze.length;
-        int n = maze[0].length;
+        m = maze.length;
+        n = maze[0].length;
         boolean[][] isVisited = new boolean[m][n];
         return dfs(maze, start[0], start[1], isVisited, destination[0], destination[1]);
     }
 
-    boolean dfs(int[][] maze, int i, int j, boolean[][] isVisited, int dx, int dy) {
-        int m = maze.length;
-        int n = maze[0].length;
+    public boolean dfs(int[][] maze, int i, int j, boolean[][] isVisited, int dx, int dy) {
         boolean res = false;
         if (i == dx && j == dy) {
             return true;
