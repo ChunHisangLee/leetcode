@@ -1,33 +1,25 @@
-1584
-        Min Cost to Connect All Points
-        2023-02-10 09:55:56
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int minCostConnectPoints(int[][] points) {
-        int n = points.length;
+    public int minCostToSupplyWater(int n, int[] wells, int[][] pipes) {
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[2] - b[2]);
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = i + 1; j < n; j++) {
-                int len = getDist(points[i], points[j]);
-                pq.add(new int[]{i, j, len});
-            }
+        for (int i = 0; i < wells.length; i++) {
+            pq.add(new int[]{0, i + 1, wells[i]});
         }
-        UnionFind uf = new UnionFind(n);
+        for (int[] pipe : pipes) {
+            pq.add(pipe);
+        }
+        UnionFind uf = new UnionFind(n + 1);
         int count = 1;
         int res = 0;
-        while (count < n) {
+        while (count < n + 1) {
             int[] curr = pq.poll();
             if (uf.union(curr[0], curr[1])) {
-                res += curr[2];
                 count++;
+                res += curr[2];
             }
         }
         return res;
-    }
-
-    public int getDist(int[] x, int[] y) {
-        return Math.abs(x[0] - y[0]) + Math.abs(x[1] - y[1]);
     }
 }
 
