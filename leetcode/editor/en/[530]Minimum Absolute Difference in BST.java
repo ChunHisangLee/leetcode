@@ -1,6 +1,4 @@
-783
-        Minimum Distance Between BST Nodes
-        2023-02-17 09:51:20
+
 //leetcode submit region begin(Prohibit modification and deletion)
 
 /**
@@ -22,16 +20,16 @@ class Solution {
     int min = Integer.MAX_VALUE;
     TreeNode prev;
 
-    public int minDiffInBST(TreeNode root) {
+    public int getMinimumDifference(TreeNode root) {
         if (root == null) {
             return min;
         }
-        minDiffInBST(root.left);
+        getMinimumDifference(root.left);
         if (prev != null) {
             min = Math.min(min, root.val - prev.val);
         }
         prev = root;
-        minDiffInBST(root.right);
+        getMinimumDifference(root.right);
         return min;
     }
 }
@@ -41,7 +39,7 @@ class Solution {
 class Solution {
     List<Integer> list = new ArrayList<>();
 
-    public int minDiffInBST(TreeNode root) {
+    public int getMinimumDifference(TreeNode root) {
         inOrder(root);
         int min = Integer.MAX_VALUE;
         for (int i = 0; i < list.size() - 1; i++) {
