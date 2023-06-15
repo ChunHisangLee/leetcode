@@ -234,6 +234,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1135]Connecting Cities With Minimum Cost.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1135" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1135]Connecting Cities With Minimum Cost.java" />
+              <option name="titleSlug" value="connecting-cities-with-minimum-cost" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[113]Path Sum II.java">
           <value>
             <LeetcodeEditor>
@@ -311,6 +321,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1162]As Far from Land as Possible.java" />
               <option name="titleSlug" value="as-far-from-land-as-possible" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1168]Optimize Water Distribution in a Village.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1168" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1168]Optimize Water Distribution in a Village.java" />
+              <option name="titleSlug" value="optimize-water-distribution-in-a-village" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -886,6 +906,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1489]Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1489" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1489]Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree.java" />
+              <option name="titleSlug" value="find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[148]Sort List.java">
           <value>
             <LeetcodeEditor>
@@ -1113,6 +1143,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[157]Read N Characters Given Read4.java" />
               <option name="titleSlug" value="read-n-characters-given-read4" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1584" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.java" />
+              <option name="titleSlug" value="min-cost-to-connect-all-points" />
             </LeetcodeEditor>
           </value>
         </entry>
