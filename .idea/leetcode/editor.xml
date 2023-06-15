@@ -294,6 +294,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1161]Maximum Level Sum of a Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1161" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1161]Maximum Level Sum of a Binary Tree.java" />
+              <option name="titleSlug" value="maximum-level-sum-of-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1162]As Far from Land as Possible.java">
           <value>
             <LeetcodeEditor>
@@ -1163,6 +1173,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1639]Number of Ways to Form a Target String Given a Dictionary.java" />
               <option name="titleSlug" value="number-of-ways-to-form-a-target-string-given-a-dictionary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[163]Missing Ranges.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com163" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[163]Missing Ranges.java" />
+              <option name="titleSlug" value="missing-ranges" />
             </LeetcodeEditor>
           </value>
         </entry>
