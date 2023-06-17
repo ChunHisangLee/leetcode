@@ -5,15 +5,17 @@ class Solution {
         Map<Integer, Integer> dp = new HashMap<>();
         dp.put(-1, 0);
         Arrays.sort(arr2);
-        for (int a : arr1) {
+        for (int num : arr1) {
             Map<Integer, Integer> nextDp = new HashMap<>();
-            for (int val : dp.keySet()) {
-                int steps = dp.get(val);
-                if (a > val)
-                    nextDp.put(a, Math.min(nextDp.getOrDefault(a, Integer.MAX_VALUE), steps));
-                int i = getNum(arr2, val);
-                if (i < arr2.length)
+            for (int key : dp.keySet()) {
+                int steps = dp.get(key);
+                if (num > key) {
+                    nextDp.put(num, Math.min(nextDp.getOrDefault(num, Integer.MAX_VALUE), steps));
+                }
+                int i = getNum(arr2, key);
+                if (i < arr2.length) {
                     nextDp.put(arr2[i], Math.min(nextDp.getOrDefault(arr2[i], Integer.MAX_VALUE), steps + 1));
+                }
             }
             if (nextDp.isEmpty()) {
                 return -1;
