@@ -18,14 +18,14 @@ class Solution {
                 while (leftIndex >= 0 && nums[leftIndex] == target) {
                     leftIndex--;
                 }
-                while (rightIndex <= nums.length - 1 && nums[rightIndex] == target) {
+                while (rightIndex < nums.length && nums[rightIndex] == target) {
                     rightIndex++;
                 }
                 return new int[]{leftIndex + 1, rightIndex - 1};
-            } else if (nums[mid] > target) {
-                right = mid - 1;
-            } else {
+            } else if (nums[mid] < target) {
                 left = mid + 1;
+            } else {
+                right = mid - 1;
             }
         }
         return new int[]{-1, -1};
