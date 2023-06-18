@@ -1,6 +1,3 @@
-153
-        Find Minimum in Rotated Sorted Array
-        2022-12-29 12:30:46
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
@@ -9,13 +6,12 @@ class Solution {
         int right = nums.length - 1;
         while (left <= right) {
             int mid = (left + right) >> 1;
-            if (mid > 0 && nums[mid] < nums[mid - 1]) {
-                return nums[mid];
-            }
-            if (nums[mid] >= nums[left] && nums[mid] > nums[right]) {
+            if (nums[mid] > nums[right]) {
                 left = mid + 1;
+            } else if (nums[mid] < nums[right]) {
+                right = mid;
             } else {
-                right = mid - 1;
+                right--;
             }
         }
         return nums[left];

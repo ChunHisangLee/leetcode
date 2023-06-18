@@ -1086,6 +1086,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[153]Find Minimum in Rotated Sorted Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com153" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[153]Find Minimum in Rotated Sorted Array.java" />
+              <option name="titleSlug" value="find-minimum-in-rotated-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1547]Minimum Cost to Cut a Stick.java">
           <value>
             <LeetcodeEditor>
@@ -1103,6 +1113,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1548]The Most Similar Path in a Graph.java" />
               <option name="titleSlug" value="the-most-similar-path-in-a-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[154]Find Minimum in Rotated Sorted Array II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com154" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[154]Find Minimum in Rotated Sorted Array II.java" />
+              <option name="titleSlug" value="find-minimum-in-rotated-sorted-array-ii" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -10,7 +10,6 @@ class TimeMap {
     public void set(String key, String value, int timestamp) {
         if (!map.containsKey(key)) {
             TreeMap<Integer, String> treeMap = new TreeMap<>();
-            treeMap.put(timestamp, value);
             map.put(key, treeMap);
         }
         map.get(key).put(timestamp, value);
