@@ -1,8 +1,8 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     int[][] dp;
+    int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     final int MOD = (int) 1e9 + 7;
     int m;
     int n;
@@ -29,8 +29,7 @@ class Solution {
             int x = i + dir[0];
             int y = j + dir[1];
             if (x >= 0 && x < m && y >= 0 && y < n && grid[x][y] < grid[i][j]) {
-                res += dyP(grid, x, y);
-                res %= MOD;
+                res = (res + dyP(grid, x, y)) % MOD;
             }
         }
         dp[i][j] = res;
