@@ -11,11 +11,11 @@ class Solution {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
         int bar = nums.length / 3;
-        for (int key : map.keySet()) {
-            if (map.get(key) > bar) {
+        map.forEach((key, value) -> {
+            if (value > bar) {
                 list.add(key);
             }
-        }
+        });
         return list;
     }
 }
