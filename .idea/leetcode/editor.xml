@@ -1066,6 +1066,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1533]Find the Index of the Large Integer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1533" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1533]Find the Index of the Large Integer.java" />
+              <option name="titleSlug" value="find-the-index-of-the-large-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1538]Guess the Majority in a Hidden Array.java">
           <value>
             <LeetcodeEditor>
@@ -3644,6 +3654,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[695]Max Area of Island.java" />
               <option name="titleSlug" value="max-area-of-island" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[702]Search in a Sorted Array of Unknown Size.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com702" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[702]Search in a Sorted Array of Unknown Size.java" />
+              <option name="titleSlug" value="search-in-a-sorted-array-of-unknown-size" />
             </LeetcodeEditor>
           </value>
         </entry>

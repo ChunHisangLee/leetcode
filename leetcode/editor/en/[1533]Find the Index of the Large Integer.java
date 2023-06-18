@@ -22,20 +22,15 @@ class Solution {
     public int getIndex(ArrayReader reader) {
         int left = 0;
         int right = reader.length() - 1;
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            int val;
-            if ((right - left) % 2 == 0) {
-                val = reader.compareSub(left, mid, mid, right);
-            } else {
-                val = reader.compareSub(left, mid, mid + 1, right);
-            }
-            if (val == 1) {
-                right = mid;
-            } else if (val == -1) {
-                left = mid + 1;
-            } else if (val == 0) {
+        while (left <= right) {
+            int mid = (left + right) >> 1;
+            int val = reader.compareSub(left, mid, mid + (right - left) % 2, right);
+            if (val == 0) {
                 return mid;
+            } else if (val > 0) {
+                right = mid;
+            } else {
+                left = mid + 1;
             }
         }
         return left;
