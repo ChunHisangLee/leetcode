@@ -27,10 +27,10 @@ class Solution {
             int val = reader.compareSub(left, mid, mid + (right - left) % 2, right);
             if (val == 0) {
                 return mid;
-            } else if (val > 0) {
-                right = mid;
-            } else {
+            } else if (val < 0) {
                 left = mid + 1;
+            } else {
+                right = mid;
             }
         }
         return left;

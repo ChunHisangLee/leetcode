@@ -13,10 +13,9 @@ class Solution {
             int mid = (left + right) >> 1;
             int x = mid / n;
             int y = mid % n;
-            int num = matrix[x][y];
-            if (num == target) {
+            if (matrix[x][y] == target) {
                 return true;
-            } else if (num < target) {
+            } else if (matrix[x][y] < target) {
                 left = mid + 1;
             } else {
                 right = mid - 1;
