@@ -17,10 +17,10 @@ class Solution {
         int right = 1;
         while (reader.get(right) < target) {
             left = right;
-            right = right * 2;
+            right *= 2;
         }
         while (left <= right) {
-            int mid = left + (right - left) / 2;
+            int mid = (left + right) >> 1;
             if (reader.get(mid) == target) {
                 return mid;
             } else if (reader.get(mid) < target) {

@@ -194,6 +194,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1114]Print in Order.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1114" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1114]Print in Order.java" />
+              <option name="titleSlug" value="print-in-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[111]Minimum Depth of Binary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -354,6 +364,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1187]Make Array Strictly Increasing.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1187" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1187]Make Array Strictly Increasing.java" />
+              <option name="titleSlug" value="make-array-strictly-increasing" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1192]Critical Connections in a Network.java">
           <value>
             <LeetcodeEditor>
@@ -361,6 +381,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1192]Critical Connections in a Network.java" />
               <option name="titleSlug" value="critical-connections-in-a-network" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1198]Find Smallest Common Element in All Rows.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1198" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1198]Find Smallest Common Element in All Rows.java" />
+              <option name="titleSlug" value="find-smallest-common-element-in-all-rows" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1046,6 +1076,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1533]Find the Index of the Large Integer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1533" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1533]Find the Index of the Large Integer.java" />
+              <option name="titleSlug" value="find-the-index-of-the-large-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1538]Guess the Majority in a Hidden Array.java">
           <value>
             <LeetcodeEditor>
@@ -1066,6 +1106,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[153]Find Minimum in Rotated Sorted Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com153" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[153]Find Minimum in Rotated Sorted Array.java" />
+              <option name="titleSlug" value="find-minimum-in-rotated-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1547]Minimum Cost to Cut a Stick.java">
           <value>
             <LeetcodeEditor>
@@ -1083,6 +1133,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1548]The Most Similar Path in a Graph.java" />
               <option name="titleSlug" value="the-most-similar-path-in-a-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[154]Find Minimum in Rotated Sorted Array II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com154" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[154]Find Minimum in Rotated Sorted Array II.java" />
+              <option name="titleSlug" value="find-minimum-in-rotated-sorted-array-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1113,6 +1173,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1567]Maximum Length of Subarray With Positive Product.java" />
               <option name="titleSlug" value="maximum-length-of-subarray-with-positive-product" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1569]Number of Ways to Reorder Array to Get Same BST.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1569" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1569]Number of Ways to Reorder Array to Get Same BST.java" />
+              <option name="titleSlug" value="number-of-ways-to-reorder-array-to-get-same-bst" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1363,6 +1433,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[171]Excel Sheet Column Number.java" />
               <option name="titleSlug" value="excel-sheet-column-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1732]Find the Highest Altitude.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1732" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1732]Find the Highest Altitude.java" />
+              <option name="titleSlug" value="find-the-highest-altitude" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1823,6 +1903,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2326]Spiral Matrix IV.java" />
               <option name="titleSlug" value="spiral-matrix-iv" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2328]Number of Increasing Paths in a Grid.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2328" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2328]Number of Increasing Paths in a Grid.java" />
+              <option name="titleSlug" value="number-of-increasing-paths-in-a-grid" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2316,6 +2406,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[275]H-Index II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com275" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[275]H-Index II.java" />
+              <option name="titleSlug" value="h-index-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[277]Find the Celebrity.java">
           <value>
             <LeetcodeEditor>
@@ -2323,6 +2423,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[277]Find the Celebrity.java" />
               <option name="titleSlug" value="find-the-celebrity" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[278]First Bad Version.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com278" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[278]First Bad Version.java" />
+              <option name="titleSlug" value="first-bad-version" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2676,6 +2786,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[34]Find First and Last Position of Element in Sorted Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com34" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[34]Find First and Last Position of Element in Sorted Array.java" />
+              <option name="titleSlug" value="find-first-and-last-position-of-element-in-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[350]Intersection of Two Arrays II.java">
           <value>
             <LeetcodeEditor>
@@ -2683,6 +2803,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[350]Intersection of Two Arrays II.java" />
               <option name="titleSlug" value="intersection-of-two-arrays-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[35]Search Insert Position.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com35" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[35]Search Insert Position.java" />
+              <option name="titleSlug" value="search-insert-position" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2703,6 +2833,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[366]Find Leaves of Binary Tree.java" />
               <option name="titleSlug" value="find-leaves-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[367]Valid Perfect Square.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com367" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[367]Valid Perfect Square.java" />
+              <option name="titleSlug" value="valid-perfect-square" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[374]Guess Number Higher or Lower.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com374" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[374]Guess Number Higher or Lower.java" />
+              <option name="titleSlug" value="guess-number-higher-or-lower" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2937,6 +3087,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[436]Find Right Interval.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com436" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[436]Find Right Interval.java" />
+              <option name="titleSlug" value="find-right-interval" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[437]Path Sum III.java">
           <value>
             <LeetcodeEditor>
@@ -2964,6 +3124,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[43]Multiply Strings.java" />
               <option name="titleSlug" value="multiply-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[441]Arranging Coins.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com441" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[441]Arranging Coins.java" />
+              <option name="titleSlug" value="arranging-coins" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3534,6 +3704,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[695]Max Area of Island.java" />
               <option name="titleSlug" value="max-area-of-island" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[69]Sqrt(x).java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com69" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[69]Sqrt(x).java" />
+              <option name="titleSlug" value="sqrtx" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[702]Search in a Sorted Array of Unknown Size.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com702" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[702]Search in a Sorted Array of Unknown Size.java" />
+              <option name="titleSlug" value="search-in-a-sorted-array-of-unknown-size" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4294,6 +4484,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[973]K Closest Points to Origin.java" />
               <option name="titleSlug" value="k-closest-points-to-origin" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[981]Time Based Key-Value Store.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com981" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[981]Time Based Key-Value Store.java" />
+              <option name="titleSlug" value="time-based-key-value-store" />
             </LeetcodeEditor>
           </value>
         </entry>

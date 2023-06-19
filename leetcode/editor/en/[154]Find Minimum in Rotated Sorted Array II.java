@@ -1,23 +1,20 @@
-35
-        Search Insert Position
-        2022-12-12 09:10:20
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int searchInsert(int[] nums, int target) {
+    public int findMin(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
         while (left <= right) {
-            int mid = (right + left) >> 1;
-            if (nums[mid] == target) {
-                return mid;
-            } else if (nums[mid] < target) {
+            int mid = (left + right) >> 1;
+            if (nums[mid] > nums[right]) {
                 left = mid + 1;
+            } else if (nums[mid] < nums[right]) {
+                right = mid;
             } else {
-                right = mid - 1;
+                right--;
             }
         }
-        return left;
+        return nums[left];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
