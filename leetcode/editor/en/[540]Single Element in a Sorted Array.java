@@ -8,7 +8,7 @@ class Solution {
         int left = 0;
         int right = nums.length - 1;
         while (left < right) {
-            int mid = left + (right - left) / 2;
+            int mid = (left + right) >> 1;
             if (mid % 2 == 1) {
                 mid--;
             }
@@ -18,7 +18,7 @@ class Solution {
                 right = mid;
             }
         }
-        return nums[right];
+        return nums[left];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

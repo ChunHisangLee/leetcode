@@ -9,14 +9,13 @@ class Solution {
             return arr;
         }
         long[] preSum = new long[n + 1];
-        for (int i = 1; i <= n; i++) {
-            preSum[i] = preSum[i - 1] + nums[i - 1];
+        for (int i = 0; i < n; i++) {
+            preSum[i + 1] = preSum[i] + nums[i];
         }
         for (int i = k; i < n - k; i++) {
             int left = i - k;
             int right = i + k;
-            int avg = (int) ((preSum[right + 1] - preSum[left]) / (2 * k + 1));
-            arr[i] = avg;
+            arr[i] = (int) ((preSum[right + 1] - preSum[left]) / (2 * k + 1));
         }
         return arr;
     }

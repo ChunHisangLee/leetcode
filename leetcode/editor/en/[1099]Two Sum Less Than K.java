@@ -8,16 +8,17 @@ class Solution {
         Arrays.sort(nums);
         int left = 0;
         int right = nums.length - 1;
-        int ans = -1;
+        int res = -1;
         while (left < right) {
             int sum = nums[left] + nums[right];
             if (sum < k) {
-                ans = Math.max(ans, sum);
+                res = Math.max(res, sum);
                 left++;
-            } else
+            } else {
                 right--;
+            }
         }
-        return ans;
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
