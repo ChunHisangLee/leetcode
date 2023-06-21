@@ -5,20 +5,21 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestOnes(int[] nums, int k) {
-        int n = nums.length;
-        int left = 0;
+        int zeros = 0;
         int res = 0;
-        Deque<Integer> dq = new ArrayDeque<>();
-        for (int right = 0; right < n; right++) {
+        for (int left = 0, right = 0; right < nums.length; right++) {
             if (nums[right] == 0) {
-                dq.add(right);
-                if (dq.size() > k) {
-                    res = Math.max(res, right - left);
-                    left = dq.remove() + 1;
-                }
+                zeros++;
             }
+            while (zeros > k) {
+                if (nums[left] == 0) {
+                    zeros--;
+                }
+                left++;
+            }
+            res = Math.max(res, right - left + 1);
         }
-        return Math.max(res, n - left);
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
