@@ -4,26 +4,32 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    int[] potions;
+
     public int[] successfulPairs(int[] spells, int[] potions, long success) {
-        Arrays.sort(potions);
-        int[] res = new int[spells.length];
+        this.potions = potions;
         int m = potions.length;
-        for (int i = 0; i < spells.length; i++) {
-            int j = binarySearch(potions, success / (double) spells[i]);
-            res[i] = m - j;
+        int n = spells.length;
+        int[] arr = new int[n];
+        Arrays.sort(potions);
+        for (int i = 0; i < n; i++) {
+            double target = success / (double) spells[i];
+            int index = binarySearch(target);
+            arr[i] = m - index;
         }
-        return res;
+        return arr;
     }
 
-    public int binarySearch(int[] arr, double target) {
+    private int binarySearch(double target) {
         int left = 0;
-        int right = arr.length - 1;
+        int right = potions.length - 1;
         while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (arr[mid] >= target)
-                right = mid-1;
-            else
+            int mid = (left + right) >> 1;
+            if (potions[mid] < target) {
                 left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
         }
         return left;
     }
