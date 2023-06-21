@@ -1,20 +1,26 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int numSubarrayProductLessThanK(int[] nums, int k) {
+    public long countSubarrays(int[] nums, long k) {
         if (k <= 1) {
             return 0;
         }
-        int count = 0;
-        int prod = 1;
+        long count = 0;
+        long sum = 0;
+        long prod = 0;
+        int num = 0;
         int left = 0;
         for (int right = 0; right < nums.length; right++) {
-            prod *= nums[right];
+            num = right - left + 1;
+            sum += nums[right];
+            prod = sum * num;
             while (prod >= k) {
-                prod /= nums[left];
+                sum -= nums[left];
                 left++;
+                num = right - left + 1;
+                prod = sum * num;
             }
-            count += right - left + 1;
+            count += num;
         }
         return count;
     }

@@ -514,6 +514,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1248]Count Number of Nice Subarrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1248" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1248]Count Number of Nice Subarrays.java" />
+              <option name="titleSlug" value="count-number-of-nice-subarrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[124]Binary Tree Maximum Path Sum.java">
           <value>
             <LeetcodeEditor>
@@ -852,6 +862,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1431]Kids With the Greatest Number of Candies.java" />
               <option name="titleSlug" value="kids-with-the-greatest-number-of-candies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1438]Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1438" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1438]Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java" />
+              <option name="titleSlug" value="longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit" />
             </LeetcodeEditor>
           </value>
         </entry>
