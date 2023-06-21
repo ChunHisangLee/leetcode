@@ -8,7 +8,7 @@ class Solution {
         int res = 0;
         int count = 0;
         for (int num : nums) {
-            if (num == 1) {
+            if (num > 0) {
                 count++;
             } else {
                 res = Math.max(res, count);

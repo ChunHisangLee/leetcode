@@ -5,19 +5,23 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
+        int n = nums.length;
         int left = 0;
-        int right;
-        int flap = 1;
-        for (right = 0; right < nums.length; right++) {
+        int res = 0;
+        // initialize the zero position to -1;
+        int curr = -1;
+        for (int right = 0; right < n; right++) {
             if (nums[right] == 0) {
-                flap--;
-            }
-            if (flap < 0) {
-                flap += 1 - nums[left];
-                left++;
+                if (curr == -1) {
+                    curr = right;
+                } else {
+                    res = Math.max(res, right - left);
+                    left = curr + 1;
+                    curr = right;
+                }
             }
         }
-        return right - left;
+        return Math.max(res, n - left);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

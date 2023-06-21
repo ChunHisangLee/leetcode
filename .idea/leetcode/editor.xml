@@ -13,6 +13,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1004]Max Consecutive Ones III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1004" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1004]Max Consecutive Ones III.java" />
+              <option name="titleSlug" value="max-consecutive-ones-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[100]Same Tree.java">
           <value>
             <LeetcodeEditor>
@@ -3384,6 +3394,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[484]Find Permutation.java" />
               <option name="titleSlug" value="find-permutation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[485]Max Consecutive Ones.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com485" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[485]Max Consecutive Ones.java" />
+              <option name="titleSlug" value="max-consecutive-ones" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[487]Max Consecutive Ones II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com487" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[487]Max Consecutive Ones II.java" />
+              <option name="titleSlug" value="max-consecutive-ones-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
