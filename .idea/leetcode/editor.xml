@@ -2846,6 +2846,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[354]Russian Doll Envelopes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com354" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[354]Russian Doll Envelopes.java" />
+              <option name="titleSlug" value="russian-doll-envelopes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[35]Search Insert Position.java">
           <value>
             <LeetcodeEditor>
