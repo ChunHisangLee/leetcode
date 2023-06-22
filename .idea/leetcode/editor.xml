@@ -434,6 +434,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1214]Two Sum BSTs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1214" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1214]Two Sum BSTs.java" />
+              <option name="titleSlug" value="two-sum-bsts" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1216]Valid Palindrome III.java">
           <value>
             <LeetcodeEditor>
@@ -4597,33 +4607,13 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1214]Two Sum BSTs.java">
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1150]Check If a Number Is Majority Element in a Sorted Array.java">
           <value>
             <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1214" />
+              <option name="frontendQuestionId" value="leetcode.com1150" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1214]Two Sum BSTs.java" />
-              <option name="titleSlug" value="two-sum-bsts" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1498]Number of Subsequences That Satisfy the Given Sum Condition.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1498" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1498]Number of Subsequences That Satisfy the Given Sum Condition.java" />
-              <option name="titleSlug" value="number-of-subsequences-that-satisfy-the-given-sum-condition" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[714]Best Time to Buy and Sell Stock with Transaction Fee.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com714" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[714]Best Time to Buy and Sell Stock with Transaction Fee.java" />
-              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-with-transaction-fee" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1150]Check If a Number Is Majority Element in a Sorted Array.java" />
+              <option name="titleSlug" value="check-if-a-number-is-majority-element-in-a-sorted-array" />
             </LeetcodeEditor>
           </value>
         </entry>
