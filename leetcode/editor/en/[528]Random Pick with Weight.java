@@ -7,7 +7,6 @@ class Solution {
     public Solution(int[] w) {
         int n = w.length;
         prefixSum = new int[n];
-        total = 0;
         for (int i = 0; i < n; i++) {
             total += w[i];
             prefixSum[i] = total;
@@ -17,10 +16,10 @@ class Solution {
     public int pickIndex() {
         double target = total * Math.random();
         int left = 0;
-        int right = prefixSum.length;
+        int right = prefixSum.length - 1;
         while (left <= right) {
             int mid = (left + right) >> 1;
-            if (prefixSum[mid] < target) {
+            if (prefixSum[mid] <= target) {
                 left = mid + 1;
             } else {
                 right = mid - 1;
