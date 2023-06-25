@@ -8,14 +8,14 @@ class Solution {
         if (2 * k + 1 > n) {
             return arr;
         }
-        long[] preSum = new long[n + 1];
+        long[] prefixSum = new long[n + 1];
         for (int i = 0; i < n; i++) {
-            preSum[i + 1] = preSum[i] + nums[i];
+            prefixSum[i + 1] = prefixSum[i] + nums[i];
         }
         for (int i = k; i < n - k; i++) {
             int left = i - k;
             int right = i + k;
-            arr[i] = (int) ((preSum[right + 1] - preSum[left]) / (2 * k + 1));
+            arr[i] = (int) ((prefixSum[right + 1] - prefixSum[left]) / (2 * k + 1));
         }
         return arr;
     }
