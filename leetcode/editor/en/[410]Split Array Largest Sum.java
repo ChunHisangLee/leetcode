@@ -13,14 +13,14 @@ class Solution {
         }
         int left = max;
         int right = sum;
-        int res = 0;
+        int res = Integer.MAX_VALUE;
         while (left <= right) {
             int mid = (left + right) >>> 1;
             if (isCheck(nums, mid, k)) {
                 left = mid + 1;
             } else {
                 right = mid - 1;
-                res = mid;
+                res = Math.min(res, mid);
             }
         }
         return res;
