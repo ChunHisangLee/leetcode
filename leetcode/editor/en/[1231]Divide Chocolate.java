@@ -1,35 +1,39 @@
 1231
-Divide Chocolate
-2022-12-13 10:03:43
+        Divide Chocolate
+        2022-12-13 10:03:43
+
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    int people;
-
     public int maximizeSweetness(int[] sweetness, int k) {
-        people = k + 1;
+        int people = k + 1;
         int left = 0;
-        int right = Arrays.stream(sweetness).sum() / people;
-        while (left < right) {
-            int mid = (left + right + 1) / 2;
-            if (check(mid, sweetness))
-                right = mid - 1;
-            else
-                left = mid;
+        int right = 0;
+        for (int num : sweetness) {
+            right += num;
         }
-        return left;
-    }
-
-    private boolean check(int k, int[] sweetness) {
-        int curr = 0;
-        int count = 0;
-        for (int s : sweetness) {
-            curr += s;
-            if (curr >= k) {
-                count++;
-                curr = 0;
+        right /= people;
+        while (left <= right) {
+            int mid = (left + right) >>> 1;
+            if (isCheck(sweetness, mid, people)) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
             }
         }
-        return count < people;
+        return left - 1;
+    }
+
+    private boolean isCheck(int[] sweetness, int mid, int people) {
+        int count = 0;
+        int sum = 0;
+        for (int num : sweetness) {
+            sum += num;
+            if (sum >= mid) {
+                count++;
+                sum = 0;
+            }
+        }
+        return count >= people;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

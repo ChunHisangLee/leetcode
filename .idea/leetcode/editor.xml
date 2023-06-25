@@ -504,6 +504,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1231]Divide Chocolate.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1231" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1231]Divide Chocolate.java" />
+              <option name="titleSlug" value="divide-chocolate" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1232]Check If It Is a Straight Line.java">
           <value>
             <LeetcodeEditor>
@@ -1563,6 +1573,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[186]Reverse Words in a String II.java" />
               <option name="titleSlug" value="reverse-words-in-a-string-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1870]Minimum Speed to Arrive on Time.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1870" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1870]Minimum Speed to Arrive on Time.java" />
+              <option name="titleSlug" value="minimum-speed-to-arrive-on-time" />
             </LeetcodeEditor>
           </value>
         </entry>
