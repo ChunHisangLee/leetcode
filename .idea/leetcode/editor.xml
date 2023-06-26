@@ -594,6 +594,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1279]Traffic Light Controlled Intersection.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1279" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1279]Traffic Light Controlled Intersection.java" />
+              <option name="titleSlug" value="traffic-light-controlled-intersection" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[127]Word Ladder.java">
           <value>
             <LeetcodeEditor>
