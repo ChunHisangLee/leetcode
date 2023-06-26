@@ -3,11 +3,11 @@
 class Solution {
     public int maxValue(int n, int index, int maxSum) {
         int left = 1;
-        int right = maxSum;
-        while (left < right) {
-            int mid = left + (right - left + 1) / 2;
-            if (getSum(n, index, mid) <= maxSum) {
-                left = mid;
+        int right = maxSum - n;
+        while (left <= right) {
+            int mid = (left + right) >>> 1;
+            if (getSum(n, index, maxSum - n, mid)) {
+                left = mid + 1;
             } else {
                 right = mid - 1;
             }
@@ -15,19 +15,12 @@ class Solution {
         return left;
     }
 
-    public long getSum(int n, int index, int value) {
-        long res = 0;
-        if (value > index) {
-            res += (long) (value + value - index) * (index + 1) / 2;
-        } else {
-            res += (long) (value + 1) * value / 2 + index - value + 1;
-        }
-        if (value >= n - index) {
-            res += (long) (value + value - n + 1 + index) * (n - index) / 2;
-        } else {
-            res += (long) (value + 1) * value / 2 + n - index - value;
-        }
-        return res - value;
+    private boolean getSum(int n, int index, int maxSum, int val) {
+        int leftVal = Math.max(val - index, 0);
+        int rightVal = Math.max(val - ((n - 1) - index), 0);
+        long sumBefore = (long) (val + leftVal) * (val - leftVal + 1) / 2;
+        long sumAfter = (long) (val + rightVal) * (val - rightVal + 1) / 2;
+        return sumBefore + sumAfter - val <= maxSum;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
