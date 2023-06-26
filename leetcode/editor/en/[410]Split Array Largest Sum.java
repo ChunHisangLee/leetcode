@@ -13,31 +13,30 @@ class Solution {
         }
         int left = max;
         int right = sum;
-        int res = 0;
+        int res = Integer.MAX_VALUE;
         while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (check(mid, nums) <= k) {
-                right = mid - 1;
-                res = mid;
-            } else {
+            int mid = (left + right) >>> 1;
+            if (isCheck(nums, mid, k)) {
                 left = mid + 1;
+            } else {
+                right = mid - 1;
+                res = Math.min(res, mid);
             }
         }
         return res;
     }
 
-    private int check(int k, int[] nums) {
-        int curr = 0;
-        int count = 0;
+    private boolean isCheck(int[] nums, int mid, int k) {
+        int sum = 0;
+        int count = 1;
         for (int num : nums) {
-            if (curr + num <= k) {
-                curr += num;
-            } else {
-                curr = num;
+            sum += num;
+            if (sum > mid) {
                 count++;
+                sum = num;
             }
         }
-        return count + 1;
+        return count > k;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
