@@ -504,6 +504,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1235]Maximum Profit in Job Scheduling.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1235" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1235]Maximum Profit in Job Scheduling.java" />
+              <option name="titleSlug" value="maximum-profit-in-job-scheduling" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1236]Web Crawler.java">
           <value>
             <LeetcodeEditor>
@@ -2886,6 +2896,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[373]Find K Pairs with Smallest Sums.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com373" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[373]Find K Pairs with Smallest Sums.java" />
+              <option name="titleSlug" value="find-k-pairs-with-smallest-sums" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[374]Guess Number Higher or Lower.java">
           <value>
             <LeetcodeEditor>
@@ -4367,6 +4387,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[887]Super Egg Drop.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com887" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[887]Super Egg Drop.java" />
+              <option name="titleSlug" value="super-egg-drop" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[889]Construct Binary Tree from Preorder and Postorder Traversal.java">
           <value>
             <LeetcodeEditor>
@@ -4614,16 +4644,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[997]Find the Town Judge.java" />
               <option name="titleSlug" value="find-the-town-judge" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[373]Find K Pairs with Smallest Sums.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com373" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[373]Find K Pairs with Smallest Sums.java" />
-              <option name="titleSlug" value="find-k-pairs-with-smallest-sums" />
             </LeetcodeEditor>
           </value>
         </entry>
