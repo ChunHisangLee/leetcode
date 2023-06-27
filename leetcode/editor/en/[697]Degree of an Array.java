@@ -2,14 +2,13 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findShortestSubArray(int[] nums) {
-        int n = nums.length;
         int max = 0;
         for (int num : nums) {
             max = Math.max(max, num);
         }
         MinMax[] arr = new MinMax[max + 1];
         int freq = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < nums.length; i++) {
             if (arr[nums[i]] == null) {
                 arr[nums[i]] = new MinMax(i);
             }
