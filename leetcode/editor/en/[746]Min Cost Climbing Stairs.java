@@ -6,14 +6,11 @@
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
-        int backOne = cost[1];
-        int backTwo = cost[0];
-        for (int i = 2; i < n; i++) {
-            int curr = Math.min(backOne, backTwo) + cost[i];
-            backTwo = backOne;
-            backOne = curr;
+        int[] dp = new int[n + 1];
+        for (int i = 2; i <= n; i++) {
+            dp[i] = Math.min(dp[i - 1]+cost[i-1], dp[i - 2]+cost[i-2]);
         }
-        return Math.min(backOne, backTwo);
+        return dp[n];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
