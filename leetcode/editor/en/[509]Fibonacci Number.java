@@ -1,17 +1,13 @@
-70
-        Climbing Stairs
-        2022-12-14 15:49:30
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int climbStairs(int n) {
-        if (n <= 2) {
+    public int fib(int n) {
+        if (n <= 1) {
             return n;
         }
         int[] dp = new int[n + 1];
         dp[1] = 1;
-        dp[2] = 2;
-        for (int i = 3; i <= n; i++) {
+        for (int i = 2; i <= n; i++) {
             dp[i] = dp[i - 1] + dp[i - 2];
         }
         return dp[n];
