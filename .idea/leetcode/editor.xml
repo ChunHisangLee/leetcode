@@ -4027,6 +4027,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[740]Delete and Earn.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com740" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[740]Delete and Earn.java" />
+              <option name="titleSlug" value="delete-and-earn" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[744]Find Smallest Letter Greater Than Target.java">
           <value>
             <LeetcodeEditor>
