@@ -23,6 +23,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1009]Complement of Base 10 Integer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1009" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1009]Complement of Base 10 Integer.java" />
+              <option name="titleSlug" value="complement-of-base-10-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[100]Same Tree.java">
           <value>
             <LeetcodeEditor>
@@ -1513,6 +1523,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[17]Letter Combinations of a Phone Number.java" />
               <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1801]Number of Orders in the Backlog.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1801" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1801]Number of Orders in the Backlog.java" />
+              <option name="titleSlug" value="number-of-orders-in-the-backlog" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3277,6 +3297,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[476]Number Complement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com476" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[476]Number Complement.java" />
+              <option name="titleSlug" value="number-complement" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[47]Permutations II.java">
           <value>
             <LeetcodeEditor>
@@ -3394,6 +3424,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[516]Longest Palindromic Subsequence.java" />
               <option name="titleSlug" value="longest-palindromic-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[529]Minesweeper.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com529" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[529]Minesweeper.java" />
+              <option name="titleSlug" value="minesweeper" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3784,6 +3824,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[695]Max Area of Island.java" />
               <option name="titleSlug" value="max-area-of-island" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[697]Degree of an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com697" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[697]Degree of an Array.java" />
+              <option name="titleSlug" value="degree-of-an-array" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4244,6 +4294,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[847]Shortest Path Visiting All Nodes.java" />
               <option name="titleSlug" value="shortest-path-visiting-all-nodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[849]Maximize Distance to Closest Person.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com849" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[849]Maximize Distance to Closest Person.java" />
+              <option name="titleSlug" value="maximize-distance-to-closest-person" />
             </LeetcodeEditor>
           </value>
         </entry>

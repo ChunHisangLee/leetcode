@@ -8,21 +8,21 @@ class Solution {
         double[] maxProb = new double[n];
         maxProb[start] = 1.0;
         for (int i = 0; i < n; i++) {
-            boolean updated = false;
+            boolean isUpdated = false;
             for (int j = 0; j < edges.length; j++) {
                 int x = edges[j][0];
                 int y = edges[j][1];
                 double pathProb = succProb[j];
                 if (maxProb[x] * pathProb > maxProb[y]) {
                     maxProb[y] = maxProb[x] * pathProb;
-                    updated = true;
+                    isUpdated = true;
                 }
                 if (maxProb[y] * pathProb > maxProb[x]) {
                     maxProb[x] = maxProb[y] * pathProb;
-                    updated = true;
+                    isUpdated = true;
                 }
             }
-            if (!updated) {
+            if (!isUpdated) {
                 break;
             }
         }
