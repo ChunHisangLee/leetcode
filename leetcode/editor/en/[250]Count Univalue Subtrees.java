@@ -27,10 +27,12 @@ class Solution {
     }
 
     private boolean dfs(TreeNode node, int val) {
-        if (node == null)
+        if (node == null) {
             return true;
-        if (!dfs(node.left, node.val) | !dfs(node.right, node.val))
+        }
+        if (!dfs(node.left, node.val) | !dfs(node.right, node.val)) {
             return false;
+        }
         count++;
         return node.val == val;
     }

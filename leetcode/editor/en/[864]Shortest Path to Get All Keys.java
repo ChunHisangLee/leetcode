@@ -25,12 +25,12 @@ class Solution {
         int[] queue = new int[states];
         int queueHead = 0;
         int queueTail = 0;
-        boolean[] visited = new boolean[states];
+        boolean[] isVisited = new boolean[states];
         int distance = 0;
         int noKeys = 0;
         int startState = noKeys * points + startPoint;
         queue[queueHead++] = startState;
-        visited[startState] = true;
+        isVisited[startState] = true;
         while (true) {
             int size = queueHead - queueTail;
             if (size == 0) {
@@ -69,9 +69,9 @@ class Solution {
                     }
                     int nextPoint = x * n + y;
                     int nextState = nextKey * points + nextPoint;
-                    if (!visited[nextState]) {
+                    if (!isVisited[nextState]) {
                         queue[queueHead++] = nextState;
-                        visited[nextState] = true;
+                        isVisited[nextState] = true;
                     }
                 }
             }
