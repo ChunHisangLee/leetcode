@@ -43,6 +43,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1018]Binary Prefix Divisible By 5.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1018" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1018]Binary Prefix Divisible By 5.java" />
+              <option name="titleSlug" value="binary-prefix-divisible-by-5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[101]Symmetric Tree.java">
           <value>
             <LeetcodeEditor>
@@ -2326,6 +2336,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2551]Put Marbles in Bags.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2551" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2551]Put Marbles in Bags.java" />
+              <option name="titleSlug" value="put-marbles-in-bags" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[257]Binary Tree Paths.java">
           <value>
             <LeetcodeEditor>
@@ -2373,6 +2393,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[260]Single Number III.java" />
               <option name="titleSlug" value="single-number-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2611]Mice and Cheese.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2611" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2611]Mice and Cheese.java" />
+              <option name="titleSlug" value="mice-and-cheese" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3624,6 +3654,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[594]Longest Harmonious Subsequence.java" />
               <option name="titleSlug" value="longest-harmonious-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[596]Classes More Than 5 Students.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com596" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[596]Classes More Than 5 Students.java" />
+              <option name="titleSlug" value="classes-more-than-5-students" />
             </LeetcodeEditor>
           </value>
         </entry>
