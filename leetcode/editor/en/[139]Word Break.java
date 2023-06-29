@@ -1,19 +1,18 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
-        Boolean[] dp = new Boolean[s.length()];
-        return dyP(s, wordDict, dp, 0);
+        return dyP(s, wordDict, new Boolean[s.length()], 0);
     }
 
-    public boolean dyP(String s, List<String> list, Boolean[] dp, int index) {
+    private boolean dyP(String s, List<String> wordDict, Boolean[] dp, int index) {
         if (index == s.length()) {
             return true;
         }
         if (dp[index] != null) {
             return dp[index];
         }
-        for (String word : list) {
-            if (s.startsWith(word, index) && dyP(s, list, dp, index + word.length())) {
+        for (String word : wordDict) {
+            if (s.startsWith(word, index) && dyP(s, wordDict, dp, index + word.length())) {
                 return dp[index] = true;
             }
         }
