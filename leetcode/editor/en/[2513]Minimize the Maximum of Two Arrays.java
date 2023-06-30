@@ -11,7 +11,7 @@ class Solution {
         long lcm = ((long) divisor1 * (long) divisor2) / gcd(divisor1, divisor2);
 
         while (left <= right) {
-            long mid = left + (right - left) / 2;
+            long mid = (left + right) >> 1;
             int x = (int) (mid - mid / divisor1);
             int y = (int) (mid - mid / divisor2);
             int z = (int) (mid - mid / lcm);

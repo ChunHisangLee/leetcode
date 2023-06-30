@@ -34,7 +34,7 @@ class Solution {
         int left = 0;
         int right = 0;
         while (left < right) {
-            int mid = left + (right - left) / 2;
+            int mid = (left + right) >> 1;
             if (row[mid] == 1) {
                 left = mid + 1;
             } else {
