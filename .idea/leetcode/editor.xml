@@ -915,6 +915,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1439]Find the Kth Smallest Sum of a Matrix With Sorted Rows.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1439" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1439]Find the Kth Smallest Sum of a Matrix With Sorted Rows.java" />
+              <option name="titleSlug" value="find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[143]Reorder List.java">
           <value>
             <LeetcodeEditor>
@@ -1696,6 +1706,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1970]Last Day Where You Can Still Cross.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1970" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1970]Last Day Where You Can Still Cross.java" />
+              <option name="titleSlug" value="last-day-where-you-can-still-cross" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[198]House Robber.java">
           <value>
             <LeetcodeEditor>
@@ -1873,6 +1893,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[216]Combination Sum III.java" />
               <option name="titleSlug" value="combination-sum-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2187]Minimum Time to Complete Trips.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2187" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2187]Minimum Time to Complete Trips.java" />
+              <option name="titleSlug" value="minimum-time-to-complete-trips" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4864,16 +4894,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[997]Find the Town Judge.java" />
               <option name="titleSlug" value="find-the-town-judge" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1970]Last Day Where You Can Still Cross.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1970" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1970]Last Day Where You Can Still Cross.java" />
-              <option name="titleSlug" value="last-day-where-you-can-still-cross" />
             </LeetcodeEditor>
           </value>
         </entry>
