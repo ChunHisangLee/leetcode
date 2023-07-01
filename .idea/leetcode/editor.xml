@@ -2006,6 +2006,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2305]Fair Distribution of Cookies.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2305" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2305]Fair Distribution of Cookies.java" />
+              <option name="titleSlug" value="fair-distribution-of-cookies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[230]Kth Smallest Element in a BST.java">
           <value>
             <LeetcodeEditor>
@@ -3384,6 +3394,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[460]LFU Cache.java" />
               <option name="titleSlug" value="lfu-cache" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[465]Optimal Account Balancing.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com465" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[465]Optimal Account Balancing.java" />
+              <option name="titleSlug" value="optimal-account-balancing" />
             </LeetcodeEditor>
           </value>
         </entry>
