@@ -14,13 +14,10 @@ class Solution {
             map.put(transaction[0], map.getOrDefault(transaction[0], 0) - transaction[2]);
             map.put(transaction[1], map.getOrDefault(transaction[1], 0) + transaction[2]);
         }
-
         int[] debt = new int[map.size()];
         int i = 0;
-        for (int k : map.keySet()) {
-            if (map.containsKey(k)) {
-                debt[i++] = map.get(k);
-            }
+        for (int num : map.values()) {
+            debt[i++] = num;
         }
         return debt;
     }
@@ -32,14 +29,13 @@ class Solution {
         if (debt[index] == 0) {
             return getTrans(debt, index + 1);
         }
-
         int d = debt[index];
         for (int i = index + 1; i < debt.length; i++) {
-            if (d * debt[i] >= 0)
-                continue;
-            debt[i] += d;
-            res = Math.min(res, 1 + getTrans(debt, index + 1));
-            debt[i] -= d;
+            if (d * debt[i] < 0) {
+                debt[i] += d;
+                res = Math.min(res, 1 + getTrans(debt, index + 1));
+                debt[i] -= d;
+            }
         }
         return res;
     }
