@@ -18,11 +18,13 @@ class Solution {
             res = Math.max(res, count);
             return;
         }
-        inDegree[requests[index][0]]--;
-        inDegree[requests[index][1]]++;
+        int x = requests[index][0];
+        int y = requests[index][1];
+        inDegree[x]--;
+        inDegree[y]++;
         backtrack(requests, inDegree, index + 1, count + 1);
-        inDegree[requests[index][0]]++;
-        inDegree[requests[index][1]]--;
+        inDegree[x]++;
+        inDegree[y]--;
         backtrack(requests, inDegree, index + 1, count);
     }
 }
