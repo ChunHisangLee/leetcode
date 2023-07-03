@@ -3,38 +3,110 @@
         2023-02-26 09:20:14
 
 //leetcode submit region begin(Prohibit modification and deletion)
-/*
-還不會
- */
 class Solution {
+    Integer[][] dp;
+
     public int minDistance(String word1, String word2) {
-        if (word1.length() < word2.length()) {
-            return minDistance(word2, word1);
+        char[] c1 = word1.toCharArray();
+        char[] c2 = word2.toCharArray();
+        int m = c1.length;
+        int n = c2.length;
+        dp = new Integer[m + 1][n + 1];
+        return dyP(c1, c2, m, n);
+    }
+
+    private int dyP(char[] c1, char[] c2, int i, int j) {
+        if (i == 0) {
+            return j;
         }
-        char[] w1 = word1.toCharArray();
-        char[] w2 = word2.toCharArray();
-        int[] dp = new int[w2.length];
-        int last = 0;
-        int diag = 0;
-        for (int i = 0; i < dp.length; i++) {
-            dp[i] = dp.length - i;
+        if (j == 0) {
+            return i;
         }
-        for (int i = w1.length - 1; i > -1; i--) {
-            last = w1.length - i;
-            diag = w1.length - 1 - i;
-            for (int j = w2.length - 1; j > -1; j--) {
-                int tmp = dp[j];
-                if (w1[i] == w2[j]) {
-                    last = diag;
-                    dp[j] = diag;
-                } else {
-                    last = Math.min(diag, Math.min(dp[j], last)) + 1;
-                    dp[j] = Math.min(diag, Math.min(dp[j], last)) + 1;
-                }
-                diag = tmp;
-            }
+        if (dp[i][j] != null) {
+            return dp[i][j];
         }
-        return last;
+        int dist = 0;
+        if (c1[i - 1] == c2[j - 1]) {
+            dist = dyP(c1, c2, i - 1, j - 1);
+        } else {
+            int insertOp = dyP(c1, c2, i, j - 1);
+            int deleteOp = dyP(c1, c2, i - 1, j);
+            int replaceOp = dyP(c1, c2, i - 1, j - 1);
+            dist = Math.min(insertOp, Math.min(deleteOp, replaceOp)) + 1;
+        }
+        dp[i][j] = dist;
+        return dist;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+/*
+Top-Down dynamic programming -4ms
+class Solution {
+    Integer[][] dp;
+
+    public int minDistance(String word1, String word2) {
+        char[] c1 = word1.toCharArray();
+        char[] c2 = word2.toCharArray();
+        int m = c1.length;
+        int n = c2.length;
+        dp = new Integer[m + 1][n + 1];
+        return dyP(c1, c2, m, n);
+    }
+
+    private int dyP(char[] c1, char[] c2, int i, int j) {
+        if (i == 0) {
+            return j;
+        }
+        if (j == 0) {
+            return i;
+        }
+        if (dp[i][j] != null) {
+            return dp[i][j];
+        }
+        int dist = 0;
+        if (c1[i - 1] == c2[j - 1]) {
+            dist = dyP(c1, c2, i - 1, j - 1);
+        } else {
+            int insertOp = dyP(c1, c2, i, j - 1);
+            int deleteOp = dyP(c1, c2, i - 1, j);
+            int replaceOp = dyP(c1, c2, i - 1, j - 1);
+            dist = Math.min(insertOp, Math.min(deleteOp, replaceOp)) + 1;
+        }
+        dp[i][j] = dist;
+        return dist;
+    }
+}
+
+Buttom-Up dypnamic programming -4ms
+class Solution {
+    public int minDistance(String word1, String word2) {
+        char[] c1 = word1.toCharArray();
+        char[] c2 = word2.toCharArray();
+        int m = c1.length;
+        int n = c2.length;
+        if (m == 0) {
+            return n;
+        }
+        if (n == 0) {
+            return m;
+        }
+        int[][] dp = new int[m + 1][n + 1];
+        for (int i = 1; i <= m; i++) {
+            dp[i][0] = i;
+        }
+        for (int i = 1; i <= n; i++) {
+            dp[0][i] = i;
+        }
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (c1[i - 1] == c2[j - 1]) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = Math.min(dp[i - 1][j - 1], Math.min(dp[i - 1][j], dp[i][j - 1])) + 1;
+                }
+            }
+        }
+        return dp[m][n];
+    }
+}
+ */
