@@ -17,13 +17,13 @@
  * }
  */
 class Solution {
-    TreeNode x = null;
-    TreeNode y = null;
-    TreeNode pred = null;
+    TreeNode first = null;
+    TreeNode second = null;
+    TreeNode prev = null;
 
     public void recoverTree(TreeNode root) {
         getSwap(root);
-        swap(x, y);
+        swap(first, second);
     }
 
     private void getSwap(TreeNode root) {
@@ -31,15 +31,13 @@ class Solution {
             return;
         }
         getSwap(root.left);
-        if (pred != null && root.val < pred.val) {
-            y = root;
-            if (x == null) {
-                x = pred;
-            } else {
-                return;
+        if (prev != null && root.val < prev.val) {
+            second = root;
+            if (first == null) {
+                first = prev;
             }
         }
-        pred = root;
+        prev = root;
         getSwap(root.right);
     }
 
