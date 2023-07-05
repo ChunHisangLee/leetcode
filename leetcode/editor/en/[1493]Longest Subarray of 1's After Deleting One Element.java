@@ -18,7 +18,7 @@ class Solution {
             }
         }
         res = Math.max(res, curr + prev);
-        return res == nums.length? res - 1 : res;
+        return res == nums.length ? res - 1 : res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
