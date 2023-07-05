@@ -5,19 +5,20 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestSubarray(int[] nums) {
-        int res = 0;
         int prev = 0;
         int curr = 0;
+        int res = 0;
         for (int num : nums) {
-            if (num == 0) {
+            if (num == 1) {
+                curr++;
+            } else {
+                res = Math.max(res, curr + prev);
                 prev = curr;
                 curr = 0;
-            } else {
-                curr++;
-                res = Math.max(res, prev + curr);
             }
         }
-        return res == nums.length ? res - 1 : res;
+        res = Math.max(res, curr + prev);
+        return res == nums.length? res - 1 : res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

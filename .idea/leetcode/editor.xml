@@ -1076,6 +1076,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1493]Longest Subarray of 1's After Deleting One Element.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1493" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1493]Longest Subarray of 1's After Deleting One Element.java" />
+              <option name="titleSlug" value="longest-subarray-of-1s-after-deleting-one-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1498]Number of Subsequences That Satisfy the Given Sum Condition.java">
           <value>
             <LeetcodeEditor>
