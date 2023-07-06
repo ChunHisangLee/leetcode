@@ -514,6 +514,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1218]Longest Arithmetic Subsequence of Given Difference.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1218" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1218]Longest Arithmetic Subsequence of Given Difference.java" />
+              <option name="titleSlug" value="longest-arithmetic-subsequence-of-given-difference" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[121]Best Time to Buy and Sell Stock.java">
           <value>
             <LeetcodeEditor>
