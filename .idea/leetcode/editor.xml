@@ -444,6 +444,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1195]Fizz Buzz Multithreaded.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1195" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1195]Fizz Buzz Multithreaded.java" />
+              <option name="titleSlug" value="fizz-buzz-multithreaded" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1198]Find Smallest Common Element in All Rows.java">
           <value>
             <LeetcodeEditor>
