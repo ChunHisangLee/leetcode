@@ -2,32 +2,36 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public long putMarbles(int[] weights, int k) {
-        int n = weights.length;
-        long[] arr = new long[n - 1];
-        for (int i = 0; i < n - 1; i++) {
+        int n = weights.length - 1;
+        long[] arr = new long[n];
+        long res = 0;
+        for (int i = 0; i < n; i++) {
             arr[i] = weights[i] + weights[i + 1];
         }
+        for(long num:arr){
+            System.out.print(num+"\t");
+        }
         Arrays.sort(arr);
-        int res = 0;
-        for (int i = 0; i < k; i++) {
-            res += arr[arr.length - 1 - i] - arr[i];
+        for (int i = 0; i < k-1; i++) {
+            res += arr[n - 1 - i] - arr[i];
         }
         return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 /*
+- 38ms
 class Solution {
     public long putMarbles(int[] weights, int k) {
-        int n = weights.length;
-        long[] arr = new long[n - 1];
+        int n = weights.length - 1;
+        long[] arr = new long[n];
         long res = 0;
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n; i++) {
             arr[i] = weights[i] + weights[i + 1];
         }
         Arrays.sort(arr);
-        for (int i = 0; i < k - 1; i++) {
-            res += arr[arr.length - 1 - i] - arr[i];
+        for (int i = 0; i < k-1; i++) {
+            res += arr[n - 1 - i] - arr[i];
         }
         return res;
     }

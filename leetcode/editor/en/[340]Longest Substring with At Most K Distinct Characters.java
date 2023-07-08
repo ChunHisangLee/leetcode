@@ -5,26 +5,27 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
-        int n = s.length();
-        char[] ch = s.toCharArray();
-        if (k == 0) {
-            return 0;
-        }
+        int[] arr = new int[128];
+        Arrays.fill(arr, 0);
+        char[] c = s.toCharArray();
         int left = 0;
-        int right = 0;
-        Map<Character, Integer> map = new HashMap<>();
-        int max = 1;
-        while (right < n) {
-            map.put(ch[right], right);
-            right++;
-            if (map.size() == k + 1) {
-                int index = Collections.min(map.values());
-                map.remove(ch[index]);
-                left = index + 1;
+        int res = 0;
+        int count = 0;
+        for (int right = 0; right < c.length; right++) {
+            arr[c[right]]++;
+            if (arr[c[right]] == 1) {
+                count++;
             }
-            max = Math.max(max, right - left);
+            while (count > k) {
+                arr[c[left]]--;
+                if (arr[c[left]] == 1) {
+                    count--;
+                }
+                left++;
+            }
+            res = Math.max(res, right - left + 1);
         }
-        return max;
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
