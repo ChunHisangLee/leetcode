@@ -47,6 +47,36 @@ class Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 /*
+ - 1ms
+ class Solution {
+    public int minDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        Deque<TreeNode> dq = new ArrayDeque<>();
+        dq.add(root);
+        int count = 0;
+        while (!dq.isEmpty()) {
+            int size = dq.size();
+            count++;
+            for (int i = 0; i < size; i++) {
+                TreeNode curr = dq.poll();
+                if (curr.left == null && curr.right == null) {
+                    return count;
+                }
+                if (curr.left != null) {
+                    dq.add(curr.left);
+                }
+                if (curr.right != null) {
+                    dq.add(curr.right);
+                }
+            }
+        }
+        return count;
+    }
+}
+
+ - 8ms
 class Solution {
     public int minDepth(TreeNode root) {
         if (root == null) {
