@@ -9,47 +9,52 @@
  * }
  */
 class Solution {
-    Map<Integer, List<Integer>> map = new HashMap<>();
+    Map<TreeNode, TreeNode> map = new HashMap<>();
 
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         dfs(root, null);
-        Set<Integer> set = new HashSet<>();
+        Deque<TreeNode> dq = new ArrayDeque<>();
+        Set<TreeNode> set = new HashSet<>();
         List<Integer> list = new ArrayList<>();
-        Deque<int[]> dq = new ArrayDeque<>();
-        dq.add(new int[]{target.val, 0});
-        set.add(target.val);
+        dq.add(target);
+        set.add(target);
+        int level = 0;
         while (!dq.isEmpty()) {
             int size = dq.size();
             for (int i = 0; i < size; i++) {
-                int[] curr = dq.poll();
-                int node = curr[0];
-                int dist = curr[1];
-                if (dist == k) {
-                    list.add(node);
+                TreeNode curr = dq.poll();
+                if (level == k) {
+                    list.add(curr.val);
                     continue;
                 }
-                for (int key : map.getOrDefault(node, new ArrayList<>())) {
-                    if (!set.contains(key)) {
-                        dq.add(new int[]{key, dist + 1});
-                        set.add(key);
-                    }
+                if (map.get(curr) != null && !set.contains(map.get(curr))) {
+                    dq.add(map.get(curr));
+                    set.add(map.get(curr));
+                }
+                if (curr.left != null && !set.contains(curr.left)) {
+                    dq.add(curr.left);
+                    set.add(curr.left);
+                }
+                if (curr.right != null && !set.contains(curr.right)) {
+                    dq.add(curr.right);
+                    set.add(curr.right);
                 }
             }
+            if (level == k) {
+                break;
+            }
+            level++;
         }
         return list;
     }
 
-    public void dfs(TreeNode curr, TreeNode parent) {
-        if (curr != null && parent != null) {
-            map.computeIfAbsent(curr.val, k -> new ArrayList<>()).add(parent.val);
-            map.computeIfAbsent(parent.val, k -> new ArrayList<>()).add(curr.val);
+    private void dfs(TreeNode curr, TreeNode parent) {
+        if (curr == null) {
+            return;
         }
-        if (curr != null && curr.left != null) {
-            dfs(curr.left, curr);
-        }
-        if (curr != null && curr.right != null) {
-            dfs(curr.right, curr);
-        }
+        map.put(curr, parent);
+        dfs(curr.left, curr);
+        dfs(curr.right, curr);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
