@@ -10,14 +10,14 @@ class Solution {
         int[] arr = new int[n];
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            if (dfs(i, arr, graph)) {
+            if (dfs(graph, arr, i)) {
                 list.add(i);
             }
         }
         return list;
     }
 
-    public boolean dfs(int i, int[] arr, int[][] graph) {
+    private boolean dfs(int[][] graph, int[] arr, int i) {
         if (arr[i] == 2) {
             return true;
         }
@@ -26,7 +26,7 @@ class Solution {
         }
         arr[i] = 1;
         for (int num : graph[i]) {
-            if (!dfs(num, arr, graph)) {
+            if (!dfs(graph, arr, num)) {
                 return false;
             }
         }
