@@ -5,8 +5,9 @@ class Solution {
         Map<Integer, Integer> dp = new HashMap<>();
         int res = 0;
         for (int num : arr) {
-            dp.put(num, dp.getOrDefault(num - difference, 0) + 1);
-            res = Math.max(res, dp.get(num));
+            int count = dp.getOrDefault(num - difference, 0) + 1;
+            dp.put(num, count);
+            res = Math.max(res, count);
         }
         return res;
     }
@@ -38,14 +39,15 @@ class Solution {
     }
 }
 
-- 52ms
+- 41ms
 class Solution {
     public int longestSubsequence(int[] arr, int difference) {
         Map<Integer, Integer> dp = new HashMap<>();
         int res = 0;
         for (int num : arr) {
-            dp.put(num, dp.getOrDefault(num - difference, 0) + 1);
-            res = Math.max(res, dp.get(num));
+            int count = dp.getOrDefault(num - difference, 0) + 1;
+            dp.put(num, count);
+            res = Math.max(res, count);
         }
         return res;
     }
