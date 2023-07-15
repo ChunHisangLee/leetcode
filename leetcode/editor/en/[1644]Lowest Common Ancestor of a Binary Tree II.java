@@ -20,7 +20,7 @@ class Solution {
         return count == 2 ? node : null;
     }
 
-    public TreeNode dfs(TreeNode root, TreeNode p, TreeNode q) {
+    private TreeNode dfs(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
             return root;
         }

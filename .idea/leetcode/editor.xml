@@ -774,6 +774,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1353]Maximum Number of Events That Can Be Attended.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1353" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1353]Maximum Number of Events That Can Be Attended.java" />
+              <option name="titleSlug" value="maximum-number-of-events-that-can-be-attended" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1361]Validate Binary Tree Nodes.java">
           <value>
             <LeetcodeEditor>
@@ -1603,6 +1613,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[173]Binary Search Tree Iterator.java" />
               <option name="titleSlug" value="binary-search-tree-iterator" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1751]Maximum Number of Events That Can Be Attended II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1751" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1751]Maximum Number of Events That Can Be Attended II.java" />
+              <option name="titleSlug" value="maximum-number-of-events-that-can-be-attended-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
