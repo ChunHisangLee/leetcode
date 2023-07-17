@@ -254,6 +254,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1125]Smallest Sufficient Team.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1125" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1125]Smallest Sufficient Team.java" />
+              <option name="titleSlug" value="smallest-sufficient-team" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1129]Shortest Path with Alternating Colors.java">
           <value>
             <LeetcodeEditor>

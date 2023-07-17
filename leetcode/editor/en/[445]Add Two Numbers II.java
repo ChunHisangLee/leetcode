@@ -38,7 +38,7 @@ class Solution {
         return dummy;
     }
 
-    public ListNode reverse(ListNode head) {
+    private ListNode reverse(ListNode head) {
         ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode prev = dummy;
