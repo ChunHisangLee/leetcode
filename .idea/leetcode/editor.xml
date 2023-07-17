@@ -43,6 +43,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1017]Convert to Base -2.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1017" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1017]Convert to Base -2.java" />
+              <option name="titleSlug" value="convert-to-base-2" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1018]Binary Prefix Divisible By 5.java">
           <value>
             <LeetcodeEditor>
@@ -171,6 +181,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[106]Construct Binary Tree from Inorder and Postorder Traversal.java" />
               <option name="titleSlug" value="construct-binary-tree-from-inorder-and-postorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1073]Adding Two Negabinary Numbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1073" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1073]Adding Two Negabinary Numbers.java" />
+              <option name="titleSlug" value="adding-two-negabinary-numbers" />
             </LeetcodeEditor>
           </value>
         </entry>
