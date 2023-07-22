@@ -61,8 +61,8 @@ class Solution {
         }
         double res = 0.0;
         for (int[] dir : dirs) {
-            int x = row + dir[0];
-            int y = column + dir[1];
+            int x = row - dir[0];
+            int y = column - dir[1];
             res += dyP(n, k - 1, x, y) / 8.0;
         }
         dp[k][row][column] = res;
