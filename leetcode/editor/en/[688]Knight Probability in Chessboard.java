@@ -71,6 +71,38 @@ class Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 /*
+Top-Down - 6 ms
+class Solution {
+    int[][] dirs = {{1, 2}, {1, -2}, {2, 1}, {2, -1}, {-1, 2}, {-1, -2}, {-2, 1}, {-2, -1}};
+    double[][][] dp;
+
+    public double knightProbability(int n, int k, int row, int column) {
+        dp = new double[k + 1][n][n];
+        return dyP(n, k, row, column);
+    }
+
+    private double dyP(int n, int k, int row, int column) {
+        if (row < 0 || row >= n || column < 0 || column >= n) {
+            return 0.0;
+        }
+        if (k == 0) {
+            return 1.0;
+        }
+        if (dp[k][row][column] != 0.0) {
+            return dp[k][row][column];
+        }
+        double res = 0.0;
+        for (int[] dir : dirs) {
+            int x = row + dir[0];
+            int y = column + dir[1];
+            res += dyP(n, k - 1, x, y) / 8.0;
+        }
+        dp[k][row][column] = res;
+        return res;
+    }
+}
+
+
 Bottom-Up  - 11 ms
 class Solution {
     int[][] dirs = {{1, 2}, {1, -2}, {2, 1}, {2, -1}, {-1, 2}, {-1, -2}, {-2, 1}, {-2, -1}};
