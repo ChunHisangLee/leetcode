@@ -6,19 +6,19 @@ class Solution {
     public boolean PredictTheWinner(int[] nums) {
         int n = nums.length;
         dp = new Integer[n][n];
-        return dyP(nums, 0, n - 1, n) >= 0;
+        return dyP(nums, 0, n - 1) >= 0;
     }
 
-    private int dyP(int[] nums, int left, int right, int n) {
+    private int dyP(int[] nums, int left, int right) {
         if (dp[left][right] != null) {
             return dp[left][right];
         }
         if (left == right) {
             return nums[left];
         }
-        int scoreLeft = nums[left] - dyP(nums, left + 1, right, n);
-        int scoreRight = nums[right] - dyP(nums, left, right - 1, n);
-        dp[left][right] = Math.max(scoreLeft, scoreRight);
+        int leftScore = nums[left] - dyP(nums, left + 1, right);
+        int rightScore = nums[right] - dyP(nums, left, right - 1);
+        dp[left][right] = Math.max(leftScore, rightScore);
         return dp[left][right];
     }
 }
@@ -31,19 +31,19 @@ class Solution {
     public boolean PredictTheWinner(int[] nums) {
         int n = nums.length;
         dp = new Integer[n][n];
-        return dyP(nums, 0, n - 1, n) >= 0;
+        return dyP(nums, 0, n - 1) >= 0;
     }
 
-    private int dyP(int[] nums, int left, int right, int n) {
+    private int dyP(int[] nums, int left, int right) {
         if (dp[left][right] != null) {
             return dp[left][right];
         }
         if (left == right) {
             return nums[left];
         }
-        int scoreLeft = nums[left] - dyP(nums, left + 1, right, n);
-        int scoreRight = nums[right] - dyP(nums, left, right - 1, n);
-        dp[left][right] = Math.max(scoreLeft, scoreRight);
+        int leftScore = nums[left] - dyP(nums, left + 1, right);
+        int rightScore = nums[right] - dyP(nums, left, right - 1);
+        dp[left][right] = Math.max(leftScore, rightScore);
         return dp[left][right];
     }
 }
