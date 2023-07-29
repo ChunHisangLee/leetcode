@@ -154,6 +154,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1060]Missing Element in Sorted Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1060" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1060]Missing Element in Sorted Array.java" />
+              <option name="titleSlug" value="missing-element-in-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1061]Lexicographically Smallest Equivalent String.java">
           <value>
             <LeetcodeEditor>
@@ -4694,6 +4704,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[802]Find Eventual Safe States.java" />
               <option name="titleSlug" value="find-eventual-safe-states" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[808]Soup Servings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com808" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[808]Soup Servings.java" />
+              <option name="titleSlug" value="soup-servings" />
             </LeetcodeEditor>
           </value>
         </entry>
