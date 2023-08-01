@@ -11,8 +11,8 @@ class Solution {
         return res;
     }
 
-    public void backtrack(List<Integer> list, int n, int k, int index) {
-        if (k==list.size()) {
+    private void backtrack(List<Integer> list, int n, int k, int index) {
+        if (list.size() == k) {
             res.add(new ArrayList<>(list));
             return;
         }
