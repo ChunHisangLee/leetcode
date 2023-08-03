@@ -15,7 +15,7 @@ class Solution {
         return list;
     }
 
-    public void backtrack(String digits, int index, StringBuilder sb) {
+    private void backtrack(String digits, int index, StringBuilder sb) {
         if (index == digits.length()) {
             list.add(sb.toString());
             return;
@@ -24,8 +24,6 @@ class Solution {
         for (char c : letter.toCharArray()) {
             sb.append(c);
             backtrack(digits, index + 1, sb);
-            //sb.delete(sb.length() - 1,sb.length());
-            //sb.setLength(sb.length() - 1);
             sb.deleteCharAt(sb.length() - 1);
         }
     }
