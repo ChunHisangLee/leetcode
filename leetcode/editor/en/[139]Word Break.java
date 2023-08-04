@@ -13,10 +13,12 @@ class Solution {
         }
         for (String word : wordDict) {
             if (s.startsWith(word, index) && dyP(s, wordDict, dp, index + word.length())) {
-                return dp[index] = true;
+                dp[index] = true;
+                return dp[index];
             }
         }
-        return dp[index] = false;
+        dp[index] = false;
+        return dp[index];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
