@@ -19,31 +19,33 @@
  * }
  */
 class Solution {
-    List<TreeNode>[][] dp = new ArrayList[10][10];
+    List<TreeNode>[][] dp;
 
     public List<TreeNode> generateTrees(int n) {
-        return helper(1, n);
+        dp = new ArrayList[n + 1][n + 1];
+        return dyP(1, n);
     }
 
-    private List<TreeNode> helper(int start, int end) {
-        List<TreeNode> res = new ArrayList<>();
+    private List<TreeNode> dyP(int start, int end) {
+        List<TreeNode> list = new ArrayList<>();
         if (start > end) {
-            res.add(null);
-            return res;
+            list.add(null);
+            return list;
         }
-        if (dp[start][end] == null) {
-            for (int i = start; i <= end; i++) {
-                List<TreeNode> left = helper(start, i - 1);
-                List<TreeNode> right = helper(i + 1, end);
-                for (int j = 0; j < left.size(); j++) {
-                    for (int k = 0; k < right.size(); k++) {
-                        TreeNode newNode = new TreeNode(i, left.get(j), right.get(k));
-                        res.add(newNode);
-                    }
+        if (dp[start][end] != null) {
+            return dp[start][end];
+        }
+        for (int i = start; i <= end; i++) {
+            List<TreeNode> left = dyP(start, i - 1);
+            List<TreeNode> right = dyP(i + 1, end);
+            for (int j = 0; j < left.size(); j++) {
+                for (int k = 0; k < right.size(); k++) {
+                    TreeNode node = new TreeNode(i, left.get(j), right.get(k));
+                    list.add(node);
                 }
             }
-            dp[start][end] = res;
         }
+        dp[start][end] = list;
         return dp[start][end];
     }
 }
