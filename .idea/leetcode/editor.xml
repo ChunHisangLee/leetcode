@@ -5127,6 +5127,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[920]Number of Music Playlists.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com920" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[920]Number of Music Playlists.java" />
+              <option name="titleSlug" value="number-of-music-playlists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[923]3Sum With Multiplicity.java">
           <value>
             <LeetcodeEditor>
