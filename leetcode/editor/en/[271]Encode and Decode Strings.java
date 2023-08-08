@@ -5,7 +5,7 @@ public class Codec {
     public String encode(List<String> strs) {
         StringBuilder sb = new StringBuilder();
         for (String str : strs) {
-            sb.append((char) str.length()).append(str);
+            sb.append(str.length()).append("-").append(str);
         }
         return sb.toString();
     }
@@ -13,11 +13,14 @@ public class Codec {
     // Decodes a single string to a list of strings.
     public List<String> decode(String s) {
         List<String> list = new ArrayList<>();
-        int i = 0;
-        while (i < s.length()) {
-            int len = (int) s.charAt(i);
-            list.add(s.substring(i + 1, i + 1 + len));
-            i += 1 + len;
+        int index = 0;
+        while (index < s.length()) {
+            int dashPos = s.indexOf('-', index);
+            String str = s.substring(index, dashPos);
+            int start = index + str.length() + 1;
+            int end = start + Integer.valueOf(str);
+            list.add(s.substring(start, end));
+            index = end;
         }
         return list;
     }
