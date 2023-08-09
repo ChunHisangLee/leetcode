@@ -8,20 +8,24 @@ class Solution {
         int right = nums[n - 1] - nums[0];
         while (left <= right) {
             int mid = (left + right) >> 1;
-            int k = 0;
-            for (int i = 1; i < n && k < p; i++) {
-                if (nums[i] - nums[i - 1] <= mid) {
-                    k++;
-                    i++;
-                }
-            }
-            if (k < p) {
+            if (getCheck(nums, mid, p) < p) {
                 left = mid + 1;
             } else {
                 right = mid - 1;
             }
         }
         return left;
+    }
+
+    private int getCheck(int[] nums, int mid, int p) {
+        int k = 0;
+        for (int i = 1; i < nums.length && k < p; i++) {
+            if (nums[i] - nums[i - 1] <= mid) {
+                k++;
+                i++;
+            }
+        }
+        return k;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
