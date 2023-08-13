@@ -2336,6 +2336,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2369]Check if There is a Valid Partition For The Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2369" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2369]Check if There is a Valid Partition For The Array.java" />
+              <option name="titleSlug" value="check-if-there-is-a-valid-partition-for-the-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[236]Lowest Common Ancestor of a Binary Tree.java">
           <value>
             <LeetcodeEditor>
