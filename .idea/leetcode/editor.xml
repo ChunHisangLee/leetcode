@@ -2326,6 +2326,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2361]Minimum Costs Using the Train Line.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2361" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2361]Minimum Costs Using the Train Line.java" />
+              <option name="titleSlug" value="minimum-costs-using-the-train-line" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2369]Check if There is a Valid Partition For The Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2369" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2369]Check if There is a Valid Partition For The Array.java" />
+              <option name="titleSlug" value="check-if-there-is-a-valid-partition-for-the-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[236]Lowest Common Ancestor of a Binary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -2633,6 +2653,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2611]Mice and Cheese.java" />
               <option name="titleSlug" value="mice-and-cheese" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2616]Minimize the Maximum Difference of Pairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2616" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2616]Minimize the Maximum Difference of Pairs.java" />
+              <option name="titleSlug" value="minimize-the-maximum-difference-of-pairs" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3824,6 +3854,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[516]Longest Palindromic Subsequence.java" />
               <option name="titleSlug" value="longest-palindromic-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[518]Coin Change II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com518" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[518]Coin Change II.java" />
+              <option name="titleSlug" value="coin-change-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -5117,6 +5157,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[920]Number of Music Playlists.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com920" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[920]Number of Music Playlists.java" />
+              <option name="titleSlug" value="number-of-music-playlists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[923]3Sum With Multiplicity.java">
           <value>
             <LeetcodeEditor>
@@ -5204,6 +5254,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[958]Check Completeness of a Binary Tree.java" />
               <option name="titleSlug" value="check-completeness-of-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[95]Unique Binary Search Trees II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com95" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[95]Unique Binary Search Trees II.java" />
+              <option name="titleSlug" value="unique-binary-search-trees-ii" />
             </LeetcodeEditor>
           </value>
         </entry>

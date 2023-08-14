@@ -5,13 +5,13 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     List<List<Integer>> res = new ArrayList<>();
-    Map<Integer,Integer>map = new HashMap<>();
+
     public List<List<Integer>> permute(int[] nums) {
         backtrack(nums, new ArrayList<>());
         return res;
     }
 
-    public void backtrack(int[] nums, List<Integer> list) {
+    private void backtrack(int[] nums, List<Integer> list) {
         if (list.size() == nums.length) {
             res.add(new ArrayList<>(list));
             return;
