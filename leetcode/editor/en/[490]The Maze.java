@@ -4,11 +4,11 @@ class Solution {
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
         int m = maze.length;
         int n = maze[0].length;
-        boolean[][] isisVisited = new boolean[m][n];
-        int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        boolean[][] isVisited = new boolean[m][n];
+        int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
         Deque<int[]> dq = new ArrayDeque<>();
         dq.add(start);
-        isisVisited[start[0]][start[1]] = true;
+        isVisited[start[0]][start[1]] = true;
         while (!dq.isEmpty()) {
             int[] curr = dq.poll();
             if (curr[0] == destination[0] && curr[1] == destination[1]) {
@@ -23,9 +23,9 @@ class Solution {
                 }
                 x -= dir[0];
                 y -= dir[1];
-                if (!isisVisited[x][y]) {
+                if (!isVisited[x][y]) {
                     dq.add(new int[]{x, y});
-                    isisVisited[x][y] = true;
+                    isVisited[x][y] = true;
                 }
             }
         }
@@ -36,7 +36,7 @@ class Solution {
 /*
 DFS: -2ms
 class Solution {
-    int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+    int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     int m;
     int n;
 
@@ -76,11 +76,11 @@ class Solution {
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
         int m = maze.length;
         int n = maze[0].length;
-        boolean[][] isisVisited = new boolean[m][n];
-        int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        boolean[][] isVisited = new boolean[m][n];
+        int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
         Deque<int[]> dq = new ArrayDeque<>();
         dq.add(start);
-        isisVisited[start[0]][start[1]] = true;
+        isVisited[start[0]][start[1]] = true;
         while (!dq.isEmpty()) {
             int[] curr = dq.poll();
             if (curr[0] == destination[0] && curr[1] == destination[1]) {
@@ -95,9 +95,9 @@ class Solution {
                 }
                 x -= dir[0];
                 y -= dir[1];
-                if (!isisVisited[x][y]) {
+                if (!isVisited[x][y]) {
                     dq.add(new int[]{x, y});
-                    isisVisited[x][y] = true;
+                    isVisited[x][y] = true;
                 }
             }
         }

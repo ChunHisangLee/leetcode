@@ -3772,7 +3772,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com490" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[490]The Maze.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[490]The Maze.js" />
+              <option name="titleSlug" value="the-maze" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[490]The Maze.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com490" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[490]The Maze.js" />
               <option name="titleSlug" value="the-maze" />
             </LeetcodeEditor>
           </value>
@@ -4952,7 +4962,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com86" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[86]Partition List.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[86]Partition List.js" />
+              <option name="titleSlug" value="partition-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[86]Partition List.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com86" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[86]Partition List.js" />
               <option name="titleSlug" value="partition-list" />
             </LeetcodeEditor>
           </value>
