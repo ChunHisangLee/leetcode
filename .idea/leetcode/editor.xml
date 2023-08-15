@@ -1861,7 +1861,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com198" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[198]House Robber.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[198]House Robber.js" />
+              <option name="titleSlug" value="house-robber" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[198]House Robber.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com198" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[198]House Robber.js" />
               <option name="titleSlug" value="house-robber" />
             </LeetcodeEditor>
           </value>
@@ -1901,7 +1911,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com200" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.js" />
+              <option name="titleSlug" value="number-of-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com200" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.js" />
               <option name="titleSlug" value="number-of-islands" />
             </LeetcodeEditor>
           </value>
@@ -4432,7 +4452,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com70" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[70]Climbing Stairs.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[70]Climbing Stairs.js" />
+              <option name="titleSlug" value="climbing-stairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[70]Climbing Stairs.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com70" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[70]Climbing Stairs.js" />
               <option name="titleSlug" value="climbing-stairs" />
             </LeetcodeEditor>
           </value>
