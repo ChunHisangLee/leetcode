@@ -10,7 +10,7 @@ public class Solution {
         int n = mat[0].length;
         int[][] arr = new int[m][n];
         for (int[] list : arr) {
-            Arrays.fill(list, m + n);
+            Arrays.fill(list, Integer.MAX_VALUE);
         }
         Deque<int[]> dq = new ArrayDeque<>();
         for (int i = 0; i < m; i++) {
