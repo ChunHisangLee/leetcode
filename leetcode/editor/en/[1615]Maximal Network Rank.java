@@ -5,8 +5,6 @@ class Solution {
         if (roads.length == 0) {
             return 0;
         }
-        int res = Integer.MIN_VALUE;
-        int rank = Integer.MIN_VALUE;
         int[] edge = new int[n];
         int[][] adj = new int[n][n];
         for (int[] road : roads) {
@@ -17,13 +15,14 @@ class Solution {
             adj[x][y] = 1;
             adj[y][x] = 1;
         }
+        int res = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
-                rank = edge[i] + edge[j] - adj[i][j];
-                res = Math.max(res, rank);
+                res = Math.max(res, edge[i] + edge[j] - adj[i][j]);
             }
         }
         return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+
