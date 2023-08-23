@@ -1931,7 +1931,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com200" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.java" />
               <option name="titleSlug" value="number-of-islands" />
             </LeetcodeEditor>
           </value>
@@ -1941,7 +1941,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com200" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.java" />
               <option name="titleSlug" value="number-of-islands" />
             </LeetcodeEditor>
           </value>
