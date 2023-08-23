@@ -4712,7 +4712,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com767" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[767]Reorganize String.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[767]Reorganize String.js" />
+              <option name="titleSlug" value="reorganize-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[767]Reorganize String.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com767" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[767]Reorganize String.js" />
               <option name="titleSlug" value="reorganize-string" />
             </LeetcodeEditor>
           </value>
