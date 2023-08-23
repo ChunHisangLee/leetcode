@@ -34,7 +34,7 @@ class Solution {
                 count[i]--;
             }
         }
-        return String.valueOf(res);
+        return new String(res);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
