@@ -2131,7 +2131,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com21" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[21]Merge Two Sorted Lists.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[21]Merge Two Sorted Lists.js" />
+              <option name="titleSlug" value="merge-two-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[21]Merge Two Sorted Lists.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com21" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[21]Merge Two Sorted Lists.js" />
               <option name="titleSlug" value="merge-two-sorted-lists" />
             </LeetcodeEditor>
           </value>
