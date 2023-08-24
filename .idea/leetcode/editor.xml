@@ -4402,7 +4402,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com68" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[68]Text Justification.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[68]Text Justification.js" />
+              <option name="titleSlug" value="text-justification" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[68]Text Justification.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com68" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[68]Text Justification.js" />
               <option name="titleSlug" value="text-justification" />
             </LeetcodeEditor>
           </value>
