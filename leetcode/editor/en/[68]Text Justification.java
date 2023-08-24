@@ -1,44 +1,50 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
-import java.util.ArrayList;
-import java.util.List;
-
 public class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
-        List<String> list = new ArrayList<>();
+        List<String> res = new ArrayList<>();
         int n = words.length;
-        int i = 0;
-        while (i < n) {
-            int j = i + 1;
-            int lineLen = words[i].length();
-            while (j < n && lineLen + words[j].length() + (j - i - 1) < maxWidth) {
-                lineLen += words[j].length();
-                j++;
+        int index = 0;
+        while (index < n) {
+            int last = index + 1;
+            int count = words[index].length();
+            while (last < n) {
+                if (words[last].length() + count + 1 > maxWidth) {
+                    break;
+                }
+                count += words[last].length() + 1;
+                last++;
             }
-            int diff = maxWidth - lineLen;
-            int numWords = j - i;
             StringBuilder sb = new StringBuilder();
-            sb.append(words[i]);
-            if (numWords == 1 || j >= n) {
-                for (int k = i + 1; k < j; k++) {
+            sb.append(words[index]);
+            int diff = last - index - 1;
+            if (last == n || diff == 0) {
+                for (int i = index + 1; i < last; i++) {
                     sb.append(" ");
-                    sb.append(words[k]);
+                    sb.append(words[i]);
                 }
-                sb.append(" ".repeat(maxWidth - sb.length()));
+                for (int i = sb.length(); i < maxWidth; i++) {
+                    sb.append(" ");
+                }
             } else {
-                int spaces = diff / (numWords - 1);
-                int extraSpaces = diff % (numWords - 1);
-
-                for (int k = i + 1; k < j; k++) {
-                    int spacesToApply = spaces + (extraSpaces-- > 0 ? 1 : 0);
-                    sb.append(" ".repeat(spacesToApply));
-                    sb.append(words[k]);
+                int spaces = (maxWidth - count) / diff;
+                int r = (maxWidth - count) % diff;
+                for (int i = index + 1; i < last; i++) {
+                    for (int j = spaces; j > 0; j--) {
+                        sb.append(" ");
+                    }
+                    if (r > 0) {
+                        sb.append(" ");
+                        r--;
+                    }
+                    sb.append(" ");
+                    sb.append(words[i]);
                 }
             }
-            list.add(sb.toString());
-            i = j;
+            res.add(sb.toString());
+            index = last;
         }
-        return list;
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
