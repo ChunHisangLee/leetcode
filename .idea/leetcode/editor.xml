@@ -4252,7 +4252,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com646" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[646]Maximum Length of Pair Chain.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[646]Maximum Length of Pair Chain.js" />
+              <option name="titleSlug" value="maximum-length-of-pair-chain" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[646]Maximum Length of Pair Chain.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com646" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[646]Maximum Length of Pair Chain.js" />
               <option name="titleSlug" value="maximum-length-of-pair-chain" />
             </LeetcodeEditor>
           </value>
