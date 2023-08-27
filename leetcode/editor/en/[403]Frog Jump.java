@@ -15,14 +15,14 @@ class Solution {
         dp.get(stones[0]).add(1);
         for (int stone : stones) {
             for (int jump : dp.get(stone)) {
-                if (jump != 0 && dp.containsKey(stone + jump)) {
+                if (jump > 0 && dp.containsKey(stone + jump)) {
                     dp.get(stone + jump).add(jump - 1);
                     dp.get(stone + jump).add(jump);
                     dp.get(stone + jump).add(jump + 1);
                 }
             }
         }
-        return !dp.get(stones[stones.length - 1]).isEmpty();
+        return dp.get(stones[stones.length - 1]).size() > 0;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
