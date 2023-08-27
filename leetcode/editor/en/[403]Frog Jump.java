@@ -5,9 +5,6 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean canCross(int[] stones) {
-        if (stones[1] != 1) {
-            return false;
-        }
         Map<Integer, Set<Integer>> dp = new HashMap<>();
         for (int stone : stones) {
             dp.put(stone, new HashSet<>());

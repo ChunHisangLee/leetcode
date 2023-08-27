@@ -4,9 +4,6 @@
  * @return {boolean}
  */
 var canCross = function (stones) {
-    if (stones[1] !== 1) {
-        return false;
-    }
     let dp = new Map();
     for (const stone of stones) {
         dp.set(stone, new Set());
