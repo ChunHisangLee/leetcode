@@ -4,14 +4,14 @@ class Solution {
     public int findLongestChain(int[][] pairs) {
         Arrays.sort(pairs, (a, b) -> a[1] - b[1]);
         int curr = Integer.MIN_VALUE;
-        int res = 0;
+        int count = 0;
         for (int[] pair : pairs) {
             if (curr < pair[0]) {
-                res++;
+                count++;
                 curr = pair[1];
             }
         }
-        return res;
+        return count;
     }
 }
 

@@ -23,7 +23,6 @@ var fullJustify = function (words, maxWidth) {
     if (line.length > 0) {
         res.push(line);
     }
-
     for (let i = 0; i < res.length - 1; i++) {
         let line = res[i];
         if (line.length === 1) {

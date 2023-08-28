@@ -23,6 +23,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/en/[1]Two Sum.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/en/[1]Two Sum.js" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1000]Minimum Cost to Merge Stones.java">
           <value>
             <LeetcodeEditor>
@@ -1941,7 +1951,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com200" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.java" />
               <option name="titleSlug" value="number-of-islands" />
             </LeetcodeEditor>
           </value>
@@ -3041,17 +3051,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2]Add Two Numbers.js" />
-              <option name="titleSlug" value="add-two-numbers" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2]Add Two Numbers.js">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com2" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2]Add Two Numbers.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2]Add Two Numbers.java" />
               <option name="titleSlug" value="add-two-numbers" />
             </LeetcodeEditor>
           </value>
@@ -3463,6 +3463,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[3]Longest Substring Without Repeating Characters.java" />
               <option name="titleSlug" value="longest-substring-without-repeating-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[403]Frog Jump.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com403" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[403]Frog Jump.js" />
+              <option name="titleSlug" value="frog-jump" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[403]Frog Jump.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com403" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[403]Frog Jump.js" />
+              <option name="titleSlug" value="frog-jump" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4282,7 +4302,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com646" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[646]Maximum Length of Pair Chain.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[646]Maximum Length of Pair Chain.js" />
+              <option name="titleSlug" value="maximum-length-of-pair-chain" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[646]Maximum Length of Pair Chain.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com646" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[646]Maximum Length of Pair Chain.js" />
               <option name="titleSlug" value="maximum-length-of-pair-chain" />
             </LeetcodeEditor>
           </value>
@@ -4434,26 +4464,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[688]Knight Probability in Chessboard.java" />
               <option name="titleSlug" value="knight-probability-in-chessboard" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[68]Text Justification.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com68" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[68]Text Justification.js" />
-              <option name="titleSlug" value="text-justification" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[68]Text Justification.js">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com68" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[68]Text Justification.js" />
-              <option name="titleSlug" value="text-justification" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -5457,26 +5467,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[97]Interleaving String.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com97" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[97]Interleaving String.java" />
-              <option name="titleSlug" value="interleaving-string" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[97]Interleaving String.js">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com97" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[97]Interleaving String.java" />
-              <option name="titleSlug" value="interleaving-string" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[980]Unique Paths III.java">
           <value>
             <LeetcodeEditor>
@@ -5567,16 +5557,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/[9]Palindrome Number.js">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com9" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[9]Palindrome Number.js" />
-              <option name="titleSlug" value="palindrome-number" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/doc/leetcode/editor/en/[168]Excel Sheet Column Title.java">
           <value>
             <LeetcodeEditor>
@@ -5587,16 +5567,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/editor/en/leetcode/editor/en/[1]Two Sum.js">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1]Two Sum.js" />
-              <option name="titleSlug" value="two-sum" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/en/[168]Excel Sheet Column Title.java">
           <value>
             <LeetcodeEditor>
@@ -5604,16 +5574,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[168]Excel Sheet Column Title.java" />
               <option name="titleSlug" value="excel-sheet-column-title" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1]Two Sum.js">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1]Two Sum.js" />
-              <option name="titleSlug" value="two-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
