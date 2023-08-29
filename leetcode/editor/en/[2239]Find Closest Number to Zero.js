@@ -4,6 +4,24 @@
  * @return {number}
  */
 var findClosestNumber = function (nums) {
+    let low = Infinity;
+    let high = Infinity;
+    for (const num of nums) {
+        if (num === 0) {
+            return 0;
+        }
+        if (num > 0) {
+            high = Math.min(high, num);
+        }
+        if (num < 0) {
+            low = Math.min(low, 0 - num);
+        }
+    }
+    return high > low ? 0 - low : high;
+};
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+var findClosestNumber = function (nums) {
     let index = 0;
     let diff = Infinity;
     for (let i = 0; i < nums.length; i++) {
@@ -20,4 +38,4 @@ var findClosestNumber = function (nums) {
     }
     return nums[index];
 };
-//leetcode submit region end(Prohibit modification and deletion)
+ */
