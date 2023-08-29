@@ -4,34 +4,29 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class MyStack {
-    Queue<Integer> queue1;
-    Queue<Integer> queue2;
+    Queue<Integer> queue;
 
     public MyStack() {
-        queue1 = new LinkedList<>();
-        queue2 = new LinkedList<>();
+        queue = new LinkedList<>();
     }
 
     public void push(int x) {
-        queue2.add(x);
-        while (!queue1.isEmpty()) {
-            queue2.add(queue1.remove());
-        }
-        while (!queue2.isEmpty()) {
-            queue1.add(queue2.remove());
+        queue.add(x);
+        for (int i = 1; i < queue.size(); i++) {
+            queue.add(queue.remove());
         }
     }
 
     public int pop() {
-        return queue1.remove();
+        return queue.remove();
     }
 
     public int top() {
-        return queue1.peek();
+        return queue.peek();
     }
 
     public boolean empty() {
-        return queue1.isEmpty() && queue2.isEmpty();
+        return queue.isEmpty();
     }
 }
 
