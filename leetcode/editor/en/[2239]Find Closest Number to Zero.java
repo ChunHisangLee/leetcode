@@ -2,6 +2,26 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findClosestNumber(int[] nums) {
+        int low = Integer.MAX_VALUE;
+        int high = Integer.MAX_VALUE;
+        for (int num : nums) {
+            if (num == 0) {
+                return num;
+            }
+            if (num > 0) {
+                high = Math.min(high, num);
+            }
+            if (num < 0) {
+                low = Math.min(low, 0 - num);
+            }
+        }
+        return high > low ? 0 - low : high;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public int findClosestNumber(int[] nums) {
         int index = 0;
         int diff = Integer.MAX_VALUE;
         for (int i = 0; i < nums.length; i++) {
@@ -19,4 +39,4 @@ class Solution {
         return nums[index];
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+ */
