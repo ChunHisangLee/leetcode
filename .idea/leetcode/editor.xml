@@ -2461,7 +2461,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2366" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2366]Minimum Replacements to Sort the Array.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2366]Minimum Replacements to Sort the Array.js" />
+              <option name="titleSlug" value="minimum-replacements-to-sort-the-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2366]Minimum Replacements to Sort the Array.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2366" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2366]Minimum Replacements to Sort the Array.js" />
               <option name="titleSlug" value="minimum-replacements-to-sort-the-array" />
             </LeetcodeEditor>
           </value>
