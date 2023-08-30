@@ -2216,6 +2216,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2239]Find Closest Number to Zero.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2239" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2239]Find Closest Number to Zero.js" />
+              <option name="titleSlug" value="find-closest-number-to-zero" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2239]Find Closest Number to Zero.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2239" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2239]Find Closest Number to Zero.js" />
+              <option name="titleSlug" value="find-closest-number-to-zero" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2248]Intersection of Multiple Arrays.java">
           <value>
             <LeetcodeEditor>
@@ -3551,7 +3571,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com412" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[412]Fizz Buzz.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[412]Fizz Buzz.js" />
+              <option name="titleSlug" value="fizz-buzz" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[412]Fizz Buzz.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com412" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[412]Fizz Buzz.js" />
               <option name="titleSlug" value="fizz-buzz" />
             </LeetcodeEditor>
           </value>
