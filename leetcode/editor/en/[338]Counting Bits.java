@@ -6,14 +6,8 @@
 class Solution {
     public int[] countBits(int n) {
         int[] arr = new int[n + 1];
-        for (int i = 0; i <= n; i++) {
-            int count = 0;
-            int num = i;
-            while (num != 0) {
-                count++;
-                num = num & (num - 1);
-            }
-            arr[i] = count;
+        for (int i = 1; i <= n; i++) {
+            arr[i] = arr[i & (i - 1)] + 1;
         }
         return arr;
     }
