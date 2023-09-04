@@ -629,7 +629,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com121" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[121]Best Time to Buy and Sell Stock.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[121]Best Time to Buy and Sell Stock.js" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[121]Best Time to Buy and Sell Stock.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com121" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[121]Best Time to Buy and Sell Stock.js" />
               <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
             </LeetcodeEditor>
           </value>
