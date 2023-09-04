@@ -1009,7 +1009,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com13" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[13]Roman to Integer.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[13]Roman to Integer.js" />
+              <option name="titleSlug" value="roman-to-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[13]Roman to Integer.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com13" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[13]Roman to Integer.js" />
               <option name="titleSlug" value="roman-to-integer" />
             </LeetcodeEditor>
           </value>
@@ -1049,7 +1059,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com141" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[141]Linked List Cycle.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[141]Linked List Cycle.js" />
+              <option name="titleSlug" value="linked-list-cycle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[141]Linked List Cycle.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com141" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[141]Linked List Cycle.js" />
               <option name="titleSlug" value="linked-list-cycle" />
             </LeetcodeEditor>
           </value>
@@ -1251,7 +1271,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com14" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[14]Longest Common Prefix.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[14]Longest Common Prefix.js" />
+              <option name="titleSlug" value="longest-common-prefix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[14]Longest Common Prefix.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com14" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[14]Longest Common Prefix.js" />
               <option name="titleSlug" value="longest-common-prefix" />
             </LeetcodeEditor>
           </value>
@@ -5462,7 +5492,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com88" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[88]Merge Sorted Array.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[88]Merge Sorted Array.js" />
+              <option name="titleSlug" value="merge-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[88]Merge Sorted Array.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com88" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[88]Merge Sorted Array.js" />
               <option name="titleSlug" value="merge-sorted-array" />
             </LeetcodeEditor>
           </value>
@@ -5764,6 +5804,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[99]Recover Binary Search Tree.java" />
               <option name="titleSlug" value="recover-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[9]Palindrome Number.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com9" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[9]Palindrome Number.js" />
+              <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>
         </entry>
