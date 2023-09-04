@@ -2131,7 +2131,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com20" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[20]Valid Parentheses.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[20]Valid Parentheses.js" />
+              <option name="titleSlug" value="valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[20]Valid Parentheses.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com20" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[20]Valid Parentheses.js" />
               <option name="titleSlug" value="valid-parentheses" />
             </LeetcodeEditor>
           </value>
