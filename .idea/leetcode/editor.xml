@@ -999,7 +999,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com138" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[138]Copy List with Random Pointer.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[138]Copy List with Random Pointer.js" />
+              <option name="titleSlug" value="copy-list-with-random-pointer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[138]Copy List with Random Pointer.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com138" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[138]Copy List with Random Pointer.js" />
               <option name="titleSlug" value="copy-list-with-random-pointer" />
             </LeetcodeEditor>
           </value>
