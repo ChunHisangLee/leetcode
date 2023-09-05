@@ -3071,7 +3071,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com26" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[26]Remove Duplicates from Sorted Array.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[26]Remove Duplicates from Sorted Array.js" />
+              <option name="titleSlug" value="remove-duplicates-from-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[26]Remove Duplicates from Sorted Array.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com26" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[26]Remove Duplicates from Sorted Array.js" />
               <option name="titleSlug" value="remove-duplicates-from-sorted-array" />
             </LeetcodeEditor>
           </value>
@@ -3153,6 +3163,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[279]Perfect Squares.java" />
               <option name="titleSlug" value="perfect-squares" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[27]Remove Element.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com27" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[27]Remove Element.js" />
+              <option name="titleSlug" value="remove-element" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3611,7 +3631,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com35" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[35]Search Insert Position.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[35]Search Insert Position.js" />
+              <option name="titleSlug" value="search-insert-position" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[35]Search Insert Position.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com35" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[35]Search Insert Position.js" />
               <option name="titleSlug" value="search-insert-position" />
             </LeetcodeEditor>
           </value>
