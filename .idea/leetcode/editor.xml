@@ -1806,6 +1806,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1768]Merge Strings Alternately.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1768" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1768]Merge Strings Alternately.java" />
+              <option name="titleSlug" value="merge-strings-alternately" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[17]Letter Combinations of a Phone Number.java">
           <value>
             <LeetcodeEditor>

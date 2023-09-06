@@ -2,20 +2,20 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String mergeAlternately(String word1, String word2) {
-        char[] w1 = word1.toCharArray();
-        char[] w2 = word2.toCharArray();
+        int len1 = word1.length();
+        int len2 = word2.length();
         int i = 0;
         int j = 0;
         StringBuilder sb = new StringBuilder();
-        while (i < w1.length || j < w2.length) {
-            if (i < w1.length) {
-                sb.append(w1[i]);
-                i++;
-            }
-            if (j < w2.length) {
-                sb.append(w2[j]);
-                j++;
-            }
+        while (i < len1 && j < len2) {
+            sb.append(word1.charAt(i++));
+            sb.append(word2.charAt(j++));
+        }
+        if (i < len1) {
+            sb.append(word1.substring(i));
+        }
+        if (j < len2) {
+            sb.append(word2.substring(j));
         }
         return sb.toString();
     }
