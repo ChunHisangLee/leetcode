@@ -3726,6 +3726,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[358]Rearrange String k Distance Apart.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com358" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[358]Rearrange String k Distance Apart.java" />
+              <option name="titleSlug" value="rearrange-string-k-distance-apart" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[35]Search Insert Position.java">
           <value>
             <LeetcodeEditor>
