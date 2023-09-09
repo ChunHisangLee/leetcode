@@ -3821,7 +3821,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com377" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[377]Combination Sum IV.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[377]Combination Sum IV.js" />
+              <option name="titleSlug" value="combination-sum-iv" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[377]Combination Sum IV.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com377" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[377]Combination Sum IV.js" />
               <option name="titleSlug" value="combination-sum-iv" />
             </LeetcodeEditor>
           </value>
