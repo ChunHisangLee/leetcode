@@ -784,6 +784,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1282]Group the People Given the Group Size They Belong To.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1282" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1282]Group the People Given the Group Size They Belong To.js" />
+              <option name="titleSlug" value="group-the-people-given-the-group-size-they-belong-to" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1282]Group the People Given the Group Size They Belong To.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1282" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1282]Group the People Given the Group Size They Belong To.js" />
+              <option name="titleSlug" value="group-the-people-given-the-group-size-they-belong-to" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[128]Longest Consecutive Sequence.java">
           <value>
             <LeetcodeEditor>
