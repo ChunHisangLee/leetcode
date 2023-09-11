@@ -14,7 +14,7 @@ var groupThePeople = function (groupSizes) {
         map.get(size).push(i);
         if (map.get(size).length === size) {
             res.push(map.get(size));
-            map.delete(size);
+            map.set(size, []);
         }
     }
     return res;

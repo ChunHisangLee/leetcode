@@ -12,7 +12,7 @@ class Solution {
             map.get(size).add(i);
             if (map.get(size).size() == size) {
                 res.add(map.get(size));
-                map.remove(size);
+                map.put(size, new ArrayList<>());
             }
         }
         return res;
