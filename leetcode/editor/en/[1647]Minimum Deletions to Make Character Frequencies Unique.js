@@ -5,7 +5,7 @@
  */
 var minDeletions = function (s) {
     let freq = {};
-    for (let c of s) {
+    for (const c of s) {
         freq[c] = (freq[c] || 0) + 1;
     }
     let set = new Set();
