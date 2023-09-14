@@ -3666,6 +3666,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[332]Reconstruct Itinerary.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com332" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[332]Reconstruct Itinerary.js" />
+              <option name="titleSlug" value="reconstruct-itinerary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[338]Counting Bits.java">
           <value>
             <LeetcodeEditor>
