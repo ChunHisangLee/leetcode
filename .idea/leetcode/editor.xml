@@ -1601,7 +1601,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1584" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.js" />
+              <option name="titleSlug" value="min-cost-to-connect-all-points" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1584" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.js" />
               <option name="titleSlug" value="min-cost-to-connect-all-points" />
             </LeetcodeEditor>
           </value>
