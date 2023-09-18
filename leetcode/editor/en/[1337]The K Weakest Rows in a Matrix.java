@@ -5,42 +5,41 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
-        Map<Integer, List<Integer>> map = new TreeMap<>();
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> (a[1] != b[1] ? b[1] - a[1] : b[0] - a[0]));
+        int[] result = new int[k];
+
         for (int i = 0; i < mat.length; i++) {
-            int count = binarySearch(mat[i]);
-            if (!map.containsKey(count)) {
-                map.put(count, new ArrayList<>());
-            }
-            map.get(count).add(i);
-        }
-        int[] res = new int[k];
-        int i = 0;
-        for (int key : map.keySet()) {
-            for (int index : map.get(key)) {
-                res[i] = index;
-                i++;
-                if (i == k) {
-                    break;
-                }
-            }
-            if (i == k) {
-                break;
+            int count = getCount(mat[i]);
+
+            pq.add(new int[]{i, count});
+
+            if (pq.size() > k) {
+                pq.poll();
             }
         }
-        return res;
+
+        for (int i = k - 1; i >= 0; i--) {
+            int[] curr = pq.poll();
+            result[i] = curr[0];
+        }
+
+        return result;
     }
 
-    private int binarySearch(int[] row) {
+    private int getCount(int[] arr) {
         int left = 0;
-        int right = 0;
-        while (left < right) {
+        int right = arr.length - 1;
+
+        while (left <= right) {
             int mid = (left + right) >> 1;
-            if (row[mid] == 1) {
+
+            if (arr[mid] == 1) {
                 left = mid + 1;
             } else {
-                right = mid;
+                right = mid - 1;
             }
         }
+
         return left;
     }
 }
