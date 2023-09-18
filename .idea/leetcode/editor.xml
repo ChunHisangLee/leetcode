@@ -354,6 +354,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1136]Parallel Courses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1136" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1136]Parallel Courses.js" />
+              <option name="titleSlug" value="parallel-courses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1136]Parallel Courses.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1136" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1136]Parallel Courses.js" />
+              <option name="titleSlug" value="parallel-courses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1137]N-th Tribonacci Number.java">
           <value>
             <LeetcodeEditor>
@@ -1631,7 +1651,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1584" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.js" />
+              <option name="titleSlug" value="min-cost-to-connect-all-points" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1584" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1584]Min Cost to Connect All Points.js" />
               <option name="titleSlug" value="min-cost-to-connect-all-points" />
             </LeetcodeEditor>
           </value>
@@ -1693,6 +1723,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1630]Arithmetic Subarrays.java" />
               <option name="titleSlug" value="arithmetic-subarrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1631]Path With Minimum Effort.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1631" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1631]Path With Minimum Effort.js" />
+              <option name="titleSlug" value="path-with-minimum-effort" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1631]Path With Minimum Effort.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1631" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1631]Path With Minimum Effort.js" />
+              <option name="titleSlug" value="path-with-minimum-effort" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3696,6 +3746,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[332]Reconstruct Itinerary.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com332" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[332]Reconstruct Itinerary.js" />
+              <option name="titleSlug" value="reconstruct-itinerary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[338]Counting Bits.java">
           <value>
             <LeetcodeEditor>
@@ -5612,7 +5672,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com847" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[847]Shortest Path Visiting All Nodes.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[847]Shortest Path Visiting All Nodes.js" />
+              <option name="titleSlug" value="shortest-path-visiting-all-nodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[847]Shortest Path Visiting All Nodes.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com847" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[847]Shortest Path Visiting All Nodes.js" />
               <option name="titleSlug" value="shortest-path-visiting-all-nodes" />
             </LeetcodeEditor>
           </value>

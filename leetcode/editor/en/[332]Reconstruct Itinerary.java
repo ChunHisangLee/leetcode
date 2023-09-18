@@ -1,4 +1,4 @@
-332
+import java.util.PriorityQueue;332
         Reconstruct Itinerary
         2023-02-04 15:09:09
 
@@ -12,7 +12,9 @@ class Solution {
 
     public List<String> findItinerary(List<List<String>> tickets) {
         for (List<String> ticket : tickets) {
-            map.putIfAbsent(ticket.get(0), new PriorityQueue<>());
+            if (!map.containsKey(ticket.get(0))) {
+                map.put(ticket.get(0), new PriorityQueue<>());
+            }
             map.get(ticket.get(0)).add(ticket.get(1));
         }
         dfs("JFK");

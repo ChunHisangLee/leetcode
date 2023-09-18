@@ -56,3 +56,39 @@ class UnionFind {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+
+/*
+class Solution {
+    public int minCostConnectPoints(int[][] points) {
+        int n = points.length;
+        int res = 0;
+        int count = 0;
+        boolean[] isVisited = new boolean[n];
+        int[] arr = new int[n];
+        arr[0] = 0;
+        for (int i = 1; i < n; i++) {
+            arr[i] = Integer.MAX_VALUE;
+        }
+        while (count < n) {
+            int num = Integer.MAX_VALUE;
+            int vertex = -1;
+            for (int i = 0; i < n; i++) {
+                if (!isVisited[i] && num > arr[i]) {
+                    num = arr[i];
+                    vertex = i;
+                }
+            }
+            res += num;
+            count++;
+            isVisited[vertex] = true;
+            for (int i = 0; i < n; i++) {
+                int weight = Math.abs(points[vertex][0] - points[i][0]) + Math.abs(points[vertex][1] - points[i][1]);
+                if (!isVisited[i] && arr[i] > weight) {
+                    arr[i] = weight;
+                }
+            }
+        }
+        return res;
+    }
+}
+ */
