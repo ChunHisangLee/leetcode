@@ -5,13 +5,16 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findDuplicate(int[] nums) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] isDuplicated = new boolean[nums.length];
+
         for (int num : nums) {
-            if (set.contains(num)) {
+            if (isDuplicated[num]) {
                 return num;
             }
-            set.add(num);
+
+            isDuplicated[num] = true;
         }
+
         return -1;
     }
 }
