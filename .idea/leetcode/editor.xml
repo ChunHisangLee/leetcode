@@ -6092,7 +6092,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com92" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[92]Reverse Linked List II.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[92]Reverse Linked List II.js" />
+              <option name="titleSlug" value="reverse-linked-list-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[92]Reverse Linked List II.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com92" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[92]Reverse Linked List II.js" />
               <option name="titleSlug" value="reverse-linked-list-ii" />
             </LeetcodeEditor>
           </value>

@@ -19,8 +19,7 @@ class Solution {
             return null;
         }
 
-        ListNode dummy = new ListNode();
-        dummy.next = head;
+        ListNode dummy = new ListNode(0, head);
         ListNode prev = dummy;
         ListNode curr = head;
 

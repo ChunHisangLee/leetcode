@@ -8,18 +8,21 @@
  */
 /**
  * @param {ListNode} head
+ * @param {number} left
+ * @param {number} right
  * @return {ListNode}
  */
-var reverseList = function (head) {
-    if (head === null) {
-        return null;
-    }
-
+var reverseBetween = function (head, left, right) {
     const dummy = new ListNode(0, head);
     let prev = dummy;
-    let curr = head;
 
-    while (curr.next !== null) {
+    for (let i = 1; i < left; i++) {
+        prev = prev.next;
+    }
+
+    let curr = prev.next;
+
+    for (let i = 0; i < right - left; i++) {
         let temp = curr.next;
         curr.next = temp.next;
         temp.next = prev.next;
