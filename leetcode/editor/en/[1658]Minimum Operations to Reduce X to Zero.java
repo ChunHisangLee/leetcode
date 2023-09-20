@@ -5,14 +5,14 @@ class Solution {
         int total = Arrays.stream(nums).sum();
         int n = nums.length;
         int target = total - x;
-        int max = -1;
         int left = 0;
+        int max = -1;
         int current = 0;
 
         for (int right = 0; right < n; right++) {
             current += nums[right];
 
-            while ((current > target) && left <= right) {
+            while (current > target && left <= right) {
                 current -= nums[left];
                 left++;
             }
@@ -22,7 +22,7 @@ class Solution {
             }
         }
 
-        return max == -1 ? -1 : n - max;
+        return max == -1 ? max : n - max;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
