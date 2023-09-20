@@ -3756,6 +3756,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[325]Maximum Size Subarray Sum Equals k.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com325" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[325]Maximum Size Subarray Sum Equals k.js" />
+              <option name="titleSlug" value="maximum-size-subarray-sum-equals-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[325]Maximum Size Subarray Sum Equals k.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com325" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[325]Maximum Size Subarray Sum Equals k.js" />
+              <option name="titleSlug" value="maximum-size-subarray-sum-equals-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[328]Odd Even Linked List.java">
           <value>
             <LeetcodeEditor>
