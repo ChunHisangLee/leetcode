@@ -1,5 +1,5 @@
 203
-        Remove Linked List Elements
+Remove Linked List Elements
         2023-01-02 14:33:25
 //leetcode submit region begin(Prohibit modification and deletion)
 
@@ -15,11 +15,20 @@
  */
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
-        if (head == null) {
-            return null;
+        ListNode dummy = new ListNode(0, head);
+        ListNode prev = dummy;
+        ListNode curr = head;
+
+        while (curr != null) {
+            if (curr.val == val) {
+                prev.next = curr.next;
+            } else {
+                prev = curr;
+            }
+            curr = curr.next;
         }
-        head.next = removeElements(head.next, val);
-        return head.val == val ? head.next : head;
+
+        return dummy.next;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
