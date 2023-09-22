@@ -5,19 +5,19 @@
  */
 var validSubarrays = function (nums) {
     let result = 0;
-    let dq = [];
+    let stack = [];
 
     for (let i = 0; i < nums.length; i++) {
-        while (dq.length > 0 && nums[i] < nums[dq[dq.length - 1]]) {
-            result += (i - dq[dq.length - 1]);
-            dq.pop();
+        while (stack.length > 0 && nums[i] < nums[stack[stack.length - 1]]) {
+            result += (i - stack[stack.length - 1]);
+            stack.pop();
         }
-        dq.push(i);
+        stack.push(i);
     }
 
-    while ((dq.length > 0)) {
-        result += (nums.length - dq[dq.length - 1]);
-        dq.pop();
+    while ((stack.length > 0)) {
+        result += (nums.length - stack[stack.length - 1]);
+        stack.pop();
     }
 
     return result;
