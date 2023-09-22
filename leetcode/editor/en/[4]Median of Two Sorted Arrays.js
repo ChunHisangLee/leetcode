@@ -1,47 +1,33 @@
-
 //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
  * @return {number}
  */
-var findMedianSortedArrays = function(nums1, nums2) {
- let m = nums1.length;
+var findMedianSortedArrays = function (nums1, nums2) {
+    let m = nums1.length;
     let n = nums2.length;
-    if (m > n) {
-        return findMedianSortedArrays(nums2, nums1);
+    let result = 0;
+    let list = [];
+
+    for (const num of nums1) {
+        list.push(num);
     }
-    let iMin = 0;
-    let iMax = m;
-      while (iMin <= iMax) {
-        let i = Math.floor((iMin + iMax) / 2);
-        let j = Math.floor((m + n + 1) / 2) - i;
-        if (j !== 0 && i !== m && nums2[j - 1] > nums1[i]) {
-            iMin = i + 1;
-        } else if (i !== 0 && j !== n && nums1[i - 1] > nums2[j]) {
-            iMax = i - 1;
-        } else {
-            let maxLeft = 0;
-            if (i === 0) {
-                maxLeft = nums2[j - 1];
-            } else if (j === 0) {
-                maxLeft = nums1[i - 1];
-            } else {
-                maxLeft = Math.max(nums1[i - 1], nums2[j - 1]);
-            }
-            if ((m + n) % 2 === 1) {
-                return maxLeft;
-            }
-            let minRight = 0;
-            if (i === m) {
-                minRight = nums2[j];
-            } else if (j === n) {
-                minRight = nums1[i];
-            } else {
-                minRight = Math.min(nums2[j], nums1[i]);
-            }
-            return (maxLeft + minRight) / 2;
-        }
-      }
+
+    for (const num of nums2) {
+        list.push(num);
+    }
+
+    list.sort((a, b) => a - b);
+
+    let index = Math.floor((m + n) / 2);
+
+    if (list.length % 2 === 0) {
+        result = (list[index - 1] + list[index]) / 2;
+    } else {
+        result = list[index];
+    }
+
+    return result;
 };
 //leetcode submit region end(Prohibit modification and deletion)

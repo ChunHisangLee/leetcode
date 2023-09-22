@@ -7,12 +7,17 @@ class Solution {
     public boolean isSubsequence(String s, String t) {
         int i = 0;
         int j = 0;
-        while (i < s.length() && j < t.length()) {
-            if (s.charAt(i) == t.charAt(j))
+        char[] charOfS = s.toCharArray();
+        char[] charOfT = t.toCharArray();
+
+        while (i < charOfS.length && j < charOfT.length) {
+            if (charOfS[i] == charOfT[j]) {
                 i++;
+            }
             j++;
         }
-        return i == s.length();
+
+        return i == charOfS.length;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

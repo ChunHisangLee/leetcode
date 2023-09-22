@@ -1836,6 +1836,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1659]Maximize Grid Happiness.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1659" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1659]Maximize Grid Happiness.js" />
+              <option name="titleSlug" value="maximize-grid-happiness" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1659]Maximize Grid Happiness.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1659" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1659]Maximize Grid Happiness.js" />
+              <option name="titleSlug" value="maximize-grid-happiness" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[165]Compare Version Numbers.java">
           <value>
             <LeetcodeEditor>
@@ -4106,6 +4126,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[392]Is Subsequence.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com392" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[392]Is Subsequence.js" />
+              <option name="titleSlug" value="is-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[39]Combination Sum.java">
           <value>
             <LeetcodeEditor>
@@ -4602,7 +4632,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com4" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[4]Median of Two Sorted Arrays.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[4]Median of Two Sorted Arrays.java" />
               <option name="titleSlug" value="median-of-two-sorted-arrays" />
             </LeetcodeEditor>
           </value>
@@ -4612,7 +4642,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com4" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[4]Median of Two Sorted Arrays.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[4]Median of Two Sorted Arrays.java" />
               <option name="titleSlug" value="median-of-two-sorted-arrays" />
             </LeetcodeEditor>
           </value>

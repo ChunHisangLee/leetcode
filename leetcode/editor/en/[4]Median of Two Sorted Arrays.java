@@ -6,24 +6,26 @@ class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
-        int[] arr = new int[m + n];
-        int i = 0;
-        int j = 0;
-        int k = 0;
-        while (i < m && j < n) {
-            if (nums1[i] < nums2[j]) {
-                arr[k++] = nums1[i++];
-            } else {
-                arr[k++] = nums2[j++];
-            }
+        double result = 0;
+        List<Integer> list = new ArrayList<>();
+
+        for (int num : nums1) {
+            list.add(num);
         }
-        while (i < m) {
-            arr[k++] = nums1[i++];
+
+        for (int num : nums2) {
+            list.add(num);
         }
-        while (j < n) {
-            arr[k++] = nums2[j++];
+
+        Collections.sort(list);
+
+        if (list.size() % 2 == 0) {
+            result = (list.get((m + n) / 2 - 1) + list.get((m + n) / 2)) / 2.0;
+        } else {
+            result = list.get((m + n) / 2);
         }
-        return (m + n) % 2 == 0 ? (arr[(m + n) / 2 - 1] + arr[(m + n) / 2]) / 2.0 : arr[(m + n) / 2];
+
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
