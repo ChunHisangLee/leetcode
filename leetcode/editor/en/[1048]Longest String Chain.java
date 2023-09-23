@@ -14,10 +14,7 @@ class Solution {
                 StringBuilder sb = new StringBuilder(word);
                 sb.deleteCharAt(i);
                 String newWord = sb.toString();
-
-                if (dp.containsKey(newWord)) {
-                    currLength = Math.max(currLength, dp.get(newWord) + 1);
-                }
+                currLength = Math.max(currLength, dp.getOrDefault(newWord, 0) + 1);
             }
 
             dp.put(word, currLength);
