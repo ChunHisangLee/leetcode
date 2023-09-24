@@ -13,13 +13,15 @@ var champagneTower = function (poured, query_row, query_glass) {
 
         for (let j = 0; j <= i; j++) {
             let temp = (arr[j] - 1) / 2;
+
             if (temp > 0) {
                 nextArr[j] += temp;
                 nextArr[j + 1] += temp;
             }
         }
-        arr = nextArr
+        arr = nextArr;
     }
-    return Math.min(1, arr[query_glass])
+
+    return Math.min(1, arr[query_glass]);
 };
 //leetcode submit region end(Prohibit modification and deletion)
