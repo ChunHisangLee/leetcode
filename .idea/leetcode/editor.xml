@@ -1305,6 +1305,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1442]Count Triplets That Can Form Two Arrays of Equal XOR.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1442" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1442]Count Triplets That Can Form Two Arrays of Equal XOR.js" />
+              <option name="titleSlug" value="count-triplets-that-can-form-two-arrays-of-equal-xor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[144]Binary Tree Preorder Traversal.java">
           <value>
             <LeetcodeEditor>
