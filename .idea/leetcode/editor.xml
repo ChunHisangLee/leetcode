@@ -1079,7 +1079,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com136" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[136]Single Number.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[136]Single Number.js" />
+              <option name="titleSlug" value="single-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[136]Single Number.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com136" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[136]Single Number.js" />
               <option name="titleSlug" value="single-number" />
             </LeetcodeEditor>
           </value>
@@ -1109,7 +1119,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com137" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[137]Single Number II.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[137]Single Number II.js" />
+              <option name="titleSlug" value="single-number-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[137]Single Number II.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com137" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[137]Single Number II.js" />
               <option name="titleSlug" value="single-number-ii" />
             </LeetcodeEditor>
           </value>
