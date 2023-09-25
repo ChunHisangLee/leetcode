@@ -2016,6 +2016,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1720]Decode XORed Array.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1720" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1720]Decode XORed Array.js" />
+              <option name="titleSlug" value="decode-xored-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1732]Find the Highest Altitude.java">
           <value>
             <LeetcodeEditor>
@@ -3036,6 +3046,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2433]Find The Original Array of Prefix Xor.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2433" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2433]Find The Original Array of Prefix Xor.js" />
+              <option name="titleSlug" value="find-the-original-array-of-prefix-xor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2439]Minimize Maximum of Array.java">
           <value>
             <LeetcodeEditor>
@@ -3251,7 +3271,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com260" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[260]Single Number III.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[260]Single Number III.js" />
+              <option name="titleSlug" value="single-number-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[260]Single Number III.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com260" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[260]Single Number III.js" />
               <option name="titleSlug" value="single-number-iii" />
             </LeetcodeEditor>
           </value>
