@@ -4171,7 +4171,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com389" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[389]Find the Difference.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[389]Find the Difference.js" />
+              <option name="titleSlug" value="find-the-difference" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[389]Find the Difference.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com389" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[389]Find the Difference.js" />
               <option name="titleSlug" value="find-the-difference" />
             </LeetcodeEditor>
           </value>
