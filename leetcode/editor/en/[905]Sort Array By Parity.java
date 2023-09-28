@@ -5,20 +5,22 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] sortArrayByParity(int[] nums) {
-        int n = nums.length;
-        int[] arr = new int[n];
-        int even = 0;
-        int odd = n - 1;
-        for (int num : nums) {
-            if (num % 2 == 0) {
-                arr[even] = num;
-                even++;
+        int left = 0;
+        int right = nums.length - 1;
+
+        while (left < right) {
+            if (nums[left] % 2 == 0) {
+                left++;
+            } else if (nums[right] % 2 != 0) {
+                right--;
             } else {
-                arr[odd] = num;
-                odd--;
+                int temp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = temp;
             }
         }
-        return arr;
+
+        return nums;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

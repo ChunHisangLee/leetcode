@@ -6197,6 +6197,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[905]Sort Array By Parity.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com905" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[905]Sort Array By Parity.js" />
+              <option name="titleSlug" value="sort-array-by-parity" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[908]Smallest Range I.java">
           <value>
             <LeetcodeEditor>
