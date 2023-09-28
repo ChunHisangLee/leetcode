@@ -2576,6 +2576,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2164]Sort Even and Odd Indices Independently.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2164" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2164]Sort Even and Odd Indices Independently.java" />
+              <option name="titleSlug" value="sort-even-and-odd-indices-independently" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2164]Sort Even and Odd Indices Independently.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2164" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2164]Sort Even and Odd Indices Independently.java" />
+              <option name="titleSlug" value="sort-even-and-odd-indices-independently" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[216]Combination Sum III.java">
           <value>
             <LeetcodeEditor>
@@ -6257,12 +6277,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[905]Sort Array By Parity.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com905" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[905]Sort Array By Parity.java" />
+              <option name="titleSlug" value="sort-array-by-parity" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[905]Sort Array By Parity.js">
           <value>
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com905" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[905]Sort Array By Parity.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[905]Sort Array By Parity.java" />
               <option name="titleSlug" value="sort-array-by-parity" />
             </LeetcodeEditor>
           </value>
