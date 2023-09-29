@@ -3106,6 +3106,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2393]Count Strictly Increasing Subarrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2393" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2393]Count Strictly Increasing Subarrays.java" />
+              <option name="titleSlug" value="count-strictly-increasing-subarrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[239]Sliding Window Maximum.java">
           <value>
             <LeetcodeEditor>
