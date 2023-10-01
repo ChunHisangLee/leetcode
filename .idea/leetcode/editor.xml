@@ -2166,6 +2166,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1804]Implement Trie II (Prefix Tree).java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1804" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1804]Implement Trie II (Prefix Tree).js" />
+              <option name="titleSlug" value="implement-trie-ii-prefix-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1804]Implement Trie II (Prefix Tree).js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1804" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1804]Implement Trie II (Prefix Tree).js" />
+              <option name="titleSlug" value="implement-trie-ii-prefix-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1822]Sign of the Product of an Array.java">
           <value>
             <LeetcodeEditor>
@@ -2511,7 +2531,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com208" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[208]Implement Trie (Prefix Tree).java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[208]Implement Trie (Prefix Tree).js" />
+              <option name="titleSlug" value="implement-trie-prefix-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[208]Implement Trie (Prefix Tree).js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com208" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[208]Implement Trie (Prefix Tree).js" />
               <option name="titleSlug" value="implement-trie-prefix-tree" />
             </LeetcodeEditor>
           </value>
@@ -5017,12 +5047,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[541]Reverse String II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com541" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[541]Reverse String II.java" />
+              <option name="titleSlug" value="reverse-string-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[541]Reverse String II.js">
           <value>
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com541" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[541]Reverse String II.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[541]Reverse String II.java" />
               <option name="titleSlug" value="reverse-string-ii" />
             </LeetcodeEditor>
           </value>
