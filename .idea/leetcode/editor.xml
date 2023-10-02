@@ -2476,6 +2476,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2038]Remove Colored Pieces if Both Neighbors are the Same Color.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2038" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2038]Remove Colored Pieces if Both Neighbors are the Same Color.js" />
+              <option name="titleSlug" value="remove-colored-pieces-if-both-neighbors-are-the-same-color" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2038]Remove Colored Pieces if Both Neighbors are the Same Color.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2038" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2038]Remove Colored Pieces if Both Neighbors are the Same Color.js" />
+              <option name="titleSlug" value="remove-colored-pieces-if-both-neighbors-are-the-same-color" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[203]Remove Linked List Elements.java">
           <value>
             <LeetcodeEditor>
