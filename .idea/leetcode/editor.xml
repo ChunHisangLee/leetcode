@@ -3216,6 +3216,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2419" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java" />
+              <option name="titleSlug" value="longest-subarray-with-maximum-bitwise-and" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[242]Valid Anagram.java">
           <value>
             <LeetcodeEditor>

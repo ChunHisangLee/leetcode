@@ -10,7 +10,7 @@ class Solution {
             if (c[i] == 'A' && c[i - 1] == 'A' && c[i - 2] == 'A') {
                 countA++;
             }
-            
+
             if (c[i] == 'B' && c[i - 1] == 'B' && c[i - 2] == 'B') {
                 countB++;
             }
