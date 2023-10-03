@@ -2,16 +2,19 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int numIdenticalPairs(int[] nums) {
-        int[] arr = new int[101];
+        Map<Integer, Integer> map = new HashMap<>();
         int count = 0;
+
         for (int num : nums) {
-            arr[num]++;
+            map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        for (int num : arr) {
+
+        for (int num : map.values()) {
             if (num > 1) {
                 count += num * (num - 1) / 2;
             }
         }
+
         return count;
     }
 }
