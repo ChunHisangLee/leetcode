@@ -3866,6 +3866,36 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2869]Minimum Operations to Collect Elements.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2869" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2869]Minimum Operations to Collect Elements.java" />
+              <option name="titleSlug" value="minimum-operations-to-collect-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2870]Minimum Number of Operations to Make Array Empty.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2870" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2870]Minimum Number of Operations to Make Array Empty.java" />
+              <option name="titleSlug" value="minimum-number-of-operations-to-make-array-empty" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2871]Split Array Into Maximum Number of Subarrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2871" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2871]Split Array Into Maximum Number of Subarrays.java" />
+              <option name="titleSlug" value="split-array-into-maximum-number-of-subarrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[287]Find the Duplicate Number.java">
           <value>
             <LeetcodeEditor>
