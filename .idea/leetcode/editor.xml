@@ -5672,7 +5672,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com705" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[705]Design HashSet.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[705]Design HashSet.js" />
+              <option name="titleSlug" value="design-hashset" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[705]Design HashSet.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com705" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[705]Design HashSet.js" />
               <option name="titleSlug" value="design-hashset" />
             </LeetcodeEditor>
           </value>
@@ -5682,7 +5692,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com706" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[706]Design HashMap.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[706]Design HashMap.js" />
+              <option name="titleSlug" value="design-hashmap" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[706]Design HashMap.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com706" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[706]Design HashMap.js" />
               <option name="titleSlug" value="design-hashmap" />
             </LeetcodeEditor>
           </value>
@@ -5692,7 +5712,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com707" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[707]Design Linked List.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[707]Design Linked List.js" />
+              <option name="titleSlug" value="design-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[707]Design Linked List.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com707" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[707]Design Linked List.js" />
               <option name="titleSlug" value="design-linked-list" />
             </LeetcodeEditor>
           </value>

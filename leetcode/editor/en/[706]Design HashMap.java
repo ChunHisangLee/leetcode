@@ -4,10 +4,11 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class MyHashMap {
-    int[] arr;
+    private int[] arr;
+    private int size = (int) 1e6 + 1;
 
     public MyHashMap() {
-        arr = new int[(int) 1e6 + 1];
+        arr = new int[size];
         Arrays.fill(arr, -1);
     }
 

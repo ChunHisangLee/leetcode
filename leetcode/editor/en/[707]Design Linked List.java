@@ -4,7 +4,7 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class MyLinkedList {
-    List<Integer> list;
+    private List<Integer> list;
 
     public MyLinkedList() {
         list = new ArrayList<>();
