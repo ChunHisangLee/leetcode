@@ -5,17 +5,30 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
+        int n = nums.length;
         List<Integer> list = new ArrayList<>();
-        for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
-        }
-        int bar = nums.length / 3;
-        map.forEach((key, value) -> {
-            if (value > bar) {
-                list.add(key);
+        int bar = n / 3;
+        int count = 1;
+
+        Arrays.sort(nums);
+
+        for (int i = 1; i < n; i++) {
+            if (nums[i] == nums[i - 1]) {
+                count++;
+                continue;
             }
-        });
+
+            if (count > bar) {
+                list.add(nums[i - 1]);
+            }
+
+            count = 1;
+        }
+
+        if (count > bar) {
+            list.add(nums[n - 1]);
+        }
+
         return list;
     }
 }
