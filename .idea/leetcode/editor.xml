@@ -2051,7 +2051,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com169" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[169]Majority Element.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[169]Majority Element.js" />
+              <option name="titleSlug" value="majority-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[169]Majority Element.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com169" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[169]Majority Element.js" />
               <option name="titleSlug" value="majority-element" />
             </LeetcodeEditor>
           </value>
