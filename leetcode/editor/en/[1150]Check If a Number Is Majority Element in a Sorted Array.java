@@ -9,7 +9,7 @@ class Solution {
                 count++;
             }
         }
-        
+
         return count > (nums.length / 2);
     }
 }
