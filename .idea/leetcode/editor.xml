@@ -4331,7 +4331,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com343" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[343]Integer Break.java" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[343]Integer Break.js" />
+              <option name="titleSlug" value="integer-break" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[343]Integer Break.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com343" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[343]Integer Break.js" />
               <option name="titleSlug" value="integer-break" />
             </LeetcodeEditor>
           </value>
