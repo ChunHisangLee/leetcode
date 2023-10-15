@@ -854,6 +854,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1269]Number of Ways to Stay in the Same Place After Some Steps.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1269" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1269]Number of Ways to Stay in the Same Place After Some Steps.java" />
+              <option name="titleSlug" value="number-of-ways-to-stay-in-the-same-place-after-some-steps" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[126]Word Ladder II.java">
           <value>
             <LeetcodeEditor>
@@ -4021,7 +4031,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com28" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[28]Find the Index of the First Occurrence in a String.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[28]Find the Index of the First Occurrence in a String.java" />
               <option name="titleSlug" value="find-the-index-of-the-first-occurrence-in-a-string" />
             </LeetcodeEditor>
           </value>
@@ -4031,7 +4041,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com28" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[28]Find the Index of the First Occurrence in a String.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[28]Find the Index of the First Occurrence in a String.java" />
               <option name="titleSlug" value="find-the-index-of-the-first-occurrence-in-a-string" />
             </LeetcodeEditor>
           </value>
