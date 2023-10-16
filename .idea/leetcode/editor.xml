@@ -2896,6 +2896,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2221]Find Triangular Sum of an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2221" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2221]Find Triangular Sum of an Array.java" />
+              <option name="titleSlug" value="find-triangular-sum-of-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2223]Sum of Scores of Built Strings.java">
           <value>
             <LeetcodeEditor>
