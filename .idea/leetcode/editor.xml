@@ -2626,6 +2626,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2050]Parallel Courses III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2050" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2050]Parallel Courses III.java" />
+              <option name="titleSlug" value="parallel-courses-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[206]Reverse Linked List.java">
           <value>
             <LeetcodeEditor>
@@ -6424,6 +6434,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[841]Keys and Rooms.java" />
               <option name="titleSlug" value="keys-and-rooms" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[844]Backspace String Compare.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com844" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[844]Backspace String Compare.java" />
+              <option name="titleSlug" value="backspace-string-compare" />
             </LeetcodeEditor>
           </value>
         </entry>
