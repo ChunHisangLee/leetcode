@@ -2236,6 +2236,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1780]Check if Number is a Sum of Powers of Three.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1780" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1780]Check if Number is a Sum of Powers of Three.java" />
+              <option name="titleSlug" value="check-if-number-is-a-sum-of-powers-of-three" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1793]Maximum Score of a Good Subarray.java">
           <value>
             <LeetcodeEditor>
@@ -3143,6 +3153,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2316]Count Unreachable Pairs of Nodes in an Undirected Graph.java" />
               <option name="titleSlug" value="count-unreachable-pairs-of-nodes-in-an-undirected-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[231]Power of Two.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com231" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[231]Power of Two.java" />
+              <option name="titleSlug" value="power-of-two" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4366,6 +4386,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[326]Power of Three.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com326" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[326]Power of Three.java" />
+              <option name="titleSlug" value="power-of-three" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[328]Odd Even Linked List.java">
           <value>
             <LeetcodeEditor>
@@ -4463,6 +4493,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[341]Flatten Nested List Iterator.java" />
               <option name="titleSlug" value="flatten-nested-list-iterator" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[342]Power of Four.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com342" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[342]Power of Four.java" />
+              <option name="titleSlug" value="power-of-four" />
             </LeetcodeEditor>
           </value>
         </entry>
