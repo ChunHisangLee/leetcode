@@ -13,7 +13,7 @@ class H2O {
         hydrogenJob.acquire();
         // releaseHydrogen.run() outputs "H". Do not change or remove this line.
         releaseHydrogen.run();
-        oxygenJob.release(1);
+        oxygenJob.release();
     }
 
     public void oxygen(Runnable releaseOxygen) throws InterruptedException {
