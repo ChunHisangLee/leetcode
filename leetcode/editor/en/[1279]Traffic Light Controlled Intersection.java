@@ -1,12 +1,10 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class TrafficLight {
-    private AtomicBoolean greenOnRoadA;
-    private ReentrantReadWriteLock greenSignalLock;
+    private int light;
 
     public TrafficLight() {
-        greenOnRoadA = new AtomicBoolean(true);
-        greenSignalLock = new ReentrantReadWriteLock(true);
+        light = 1;
     }
 
     public void carArrived(
@@ -16,31 +14,14 @@ class TrafficLight {
             Runnable turnGreen,  // Use turnGreen.run() to turn light to green on current road
             Runnable crossCar    // Use crossCar.run() to make car cross the intersection
     ) throws InterruptedException {
-        greenSignalLock.readLock().lock();
-        if (!isGreen(roadId)) {
-            greenSignalLock.readLock().unlock();
-            greenSignalLock.writeLock().lock();
-            if (!isGreen(roadId)) {
-                toggleGreen();
+        synchronized (this) {
+            if (roadId != light) {
                 turnGreen.run();
+                light = roadId;
             }
-            greenSignalLock.readLock().lock();
-            greenSignalLock.writeLock().unlock();
-        }
-        crossCar.run();
-        greenSignalLock.readLock().unlock();
-    }
 
-    private boolean isGreen(int roadId) {
-        if (roadId == 1) {
-            return greenOnRoadA.get();
-        } else {
-            return !greenOnRoadA.get();
+            crossCar.run();
         }
-    }
-
-    private void toggleGreen() {
-        greenOnRoadA.set(!greenOnRoadA.get());
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
