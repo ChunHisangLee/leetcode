@@ -1,6 +1,7 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class TrafficLight {
+    int
     private int light;
 
     public TrafficLight() {
@@ -15,7 +16,7 @@ class TrafficLight {
             Runnable crossCar    // Use crossCar.run() to make car cross the intersection
     ) throws InterruptedException {
         synchronized (this) {
-            if (roadId != light) {
+            if (light != roadId) {
                 turnGreen.run();
                 light = roadId;
             }

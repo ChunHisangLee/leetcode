@@ -1,15 +1,17 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Foo {
-    private Semaphore firstJob = new Semaphore(0);
-    private Semaphore secondJob = new Semaphore(0);
+    private Semaphore firstJob;
+    private Semaphore secondJob;
+
 
     public Foo() {
-
+        firstJob = new Semaphore(0);
+        secondJob = new Semaphore(0);
     }
 
     public void first(Runnable printFirst) throws InterruptedException {
-        // printFirst.run() outputs "first". Do not change or remove this line.
+        // printFirst.run() outputs "firstJob". Do not change or remove this line.
         printFirst.run();
         firstJob.release();
     }
@@ -25,6 +27,7 @@ class Foo {
         secondJob.acquire();
         // printThird.run() outputs "third". Do not change or remove this line.
         printThird.run();
+
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
