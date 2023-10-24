@@ -19,26 +19,65 @@
  * }
  */
 class Solution {
+    List<Integer> result = new ArrayList<>();
+
     public List<Integer> largestValues(TreeNode root) {
-        if (root == null)
-            return new ArrayList<>();
-        List<Integer> ans = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        while (!queue.isEmpty()) {
-            int currLength = queue.size();
-            int max = Integer.MIN_VALUE;
-            for (int i = 0; i < currLength; i++) {
-                TreeNode node = queue.remove();
-                max = Math.max(max, node.val);
-                if (node.left != null)
-                    queue.add(node.left);
-                if (node.right != null)
-                    queue.add(node.right);
-            }
-            ans.add(max);
+        if (root == null) {
+            return result;
         }
-        return ans;
+
+        getMax(root, 0);
+        return result;
+    }
+
+    private void getMax(TreeNode root, int depth) {
+        if (root == null) {
+            return;
+        }
+
+        if (result.size() <= depth) {
+            result.add(root.val);
+        } else if (result.get(depth) < root.val) {
+            result.set(depth, root.val);
+        }
+
+        getMax(root.left, depth + 1);
+        getMax(root.right, depth + 1);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public List<Integer> largestValues(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
+
+        List<Integer> result = new ArrayList<>();
+        Deque<TreeNode> deque = new ArrayDeque<>();
+        deque.offer(root);
+
+        while (!deque.isEmpty()) {
+            int size = deque.size();
+            int max = Integer.MIN_VALUE;
+
+            for (int i = 0; i < size; i++) {
+                TreeNode curr = deque.poll();
+                max = Math.max(max, curr.val);
+
+                if (curr.left != null) {
+                    deque.offer(curr.left);
+                }
+
+                if (curr.right != null) {
+                    deque.offer(curr.right);
+                }
+            }
+
+            result.add(max);
+        }
+
+        return result;
+    }
+}
+ */
