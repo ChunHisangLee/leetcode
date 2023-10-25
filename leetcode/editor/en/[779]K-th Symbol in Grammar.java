@@ -8,12 +8,13 @@ class Solution {
         if (n == 1) {
             return 0;
         }
-        int parent = kthGrammar(n - 1, k / 2 + k % 2);
-        boolean isOdd = k % 2 == 1;
-        if (parent == 1) {
-            return isOdd ? 1 : 0;
+
+        int parent = kthGrammar(n - 1, (k + 1) / 2);
+
+        if (k % 2 == 0) {
+            return parent == 1 ? 0 : 1;
         } else {
-            return isOdd ? 0 : 1;
+            return parent;
         }
     }
 }
