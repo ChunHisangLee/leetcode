@@ -6527,6 +6527,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[823]Binary Trees With Factors.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com823" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[823]Binary Trees With Factors.java" />
+              <option name="titleSlug" value="binary-trees-with-factors" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[82]Remove Duplicates from Sorted List II.java">
           <value>
             <LeetcodeEditor>
