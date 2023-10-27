@@ -8,13 +8,16 @@ class Solution {
         char[] c = s.toCharArray();
         int left = 0;
         int right = 0;
+
         for (int i = 0; i < c.length; i++) {
             int len = Math.max(getLen(c, i, i), getLen(c, i, i + 1));
+
             if (len > right - left) {
                 left = i - (len - 1) / 2;
                 right = i + (len) / 2;
             }
         }
+
         return s.substring(left, right + 1);
     }
 
@@ -23,6 +26,7 @@ class Solution {
             left--;
             right++;
         }
+
         return right - left - 1;
     }
 }
