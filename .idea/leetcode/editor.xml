@@ -804,6 +804,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1220]Count Vowels Permutation.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1220" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1220]Count Vowels Permutation.java" />
+              <option name="titleSlug" value="count-vowels-permutation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1228]Missing Number In Arithmetic Progression.java">
           <value>
             <LeetcodeEditor>
