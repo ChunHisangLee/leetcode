@@ -8,7 +8,7 @@ class BoundedBlockingQueue {
     private Condition notFull;
 
     public BoundedBlockingQueue(int capacity) {
-        this.deque = new ArrayDeque<>();
+        this.deque = new LinkedList<>();
         this.capacity = capacity;
         this.lock = new ReentrantLock();
         this.notEmpty = lock.newCondition();
