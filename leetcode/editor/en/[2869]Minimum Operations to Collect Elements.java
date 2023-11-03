@@ -3,19 +3,15 @@
 class Solution {
     public int minOperations(List<Integer> nums, int k) {
         Set<Integer> set = new HashSet<>();
-        int n = nums.size();
+        int n = nums.size() - 1;
         int count = 0;
 
-        for (int i = n - 1; i >= 0; i--) {
-            int num = nums.get(i);
+        while (set.size() < k) {
+            int num = nums.get(n--);
             count++;
 
             if (num <= k) {
                 set.add(num);
-
-                if (set.size() == k) {
-                    return count;
-                }
             }
         }
 
