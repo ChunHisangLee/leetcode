@@ -1816,6 +1816,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1535]Find the Winner of an Array Game.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1535" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1535]Find the Winner of an Array Game.java" />
+              <option name="titleSlug" value="find-the-winner-of-an-array-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1538]Guess the Majority in a Hidden Array.java">
           <value>
             <LeetcodeEditor>
