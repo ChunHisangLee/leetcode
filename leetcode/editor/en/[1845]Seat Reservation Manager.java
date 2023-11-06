@@ -2,20 +2,23 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class SeatManager {
     PriorityQueue<Integer> pq;
+    int index;
 
     public SeatManager(int n) {
         pq = new PriorityQueue<>();
-        for (int i = 1; i <= n; i++) {
-            pq.add(i);
-        }
+        index = 1;
     }
 
     public int reserve() {
-        return pq.poll();
+        if (!pq.isEmpty()) {
+            return pq.poll();
+        }
+
+        return index++;
     }
 
     public void unreserve(int seatNumber) {
-        pq.add(seatNumber);
+        pq.offer(seatNumber);
     }
 }
 
