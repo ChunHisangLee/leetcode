@@ -3376,6 +3376,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2349]Design a Number Container System.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2349" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2349]Design a Number Container System.java" />
+              <option name="titleSlug" value="design-a-number-container-system" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[234]Palindrome Linked List.java">
           <value>
             <LeetcodeEditor>
@@ -4873,6 +4883,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[378]Kth Smallest Element in a Sorted Matrix.java" />
               <option name="titleSlug" value="kth-smallest-element-in-a-sorted-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[379]Design Phone Directory.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com379" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[379]Design Phone Directory.java" />
+              <option name="titleSlug" value="design-phone-directory" />
             </LeetcodeEditor>
           </value>
         </entry>
