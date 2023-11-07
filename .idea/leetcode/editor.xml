@@ -2576,6 +2576,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1921]Eliminate Maximum Number of Monsters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1921" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1921]Eliminate Maximum Number of Monsters.java" />
+              <option name="titleSlug" value="eliminate-maximum-number-of-monsters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1926]Nearest Exit from Entrance in Maze.java">
           <value>
             <LeetcodeEditor>
@@ -3636,12 +3646,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2433]Find The Original Array of Prefix Xor.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2433" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2433]Find The Original Array of Prefix Xor.java" />
+              <option name="titleSlug" value="find-the-original-array-of-prefix-xor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2433]Find The Original Array of Prefix Xor.js">
           <value>
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2433" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2433]Find The Original Array of Prefix Xor.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2433]Find The Original Array of Prefix Xor.java" />
               <option name="titleSlug" value="find-the-original-array-of-prefix-xor" />
             </LeetcodeEditor>
           </value>
