@@ -31,14 +31,12 @@ class Solution {
         int curr = root;
         int[] result = new int[map.size()];
         result[0] = root;
-        int i = 1;
         int prev = Integer.MAX_VALUE;
 
-        while (i < map.size()) {
+        for (int i = 1; i < map.size(); i++) {
             for (int neighbor : map.get(curr)) {
                 if (neighbor != prev) {
                     result[i] = neighbor;
-                    i++;
                     prev = curr;
                     curr = neighbor;
                     break;
