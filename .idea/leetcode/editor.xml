@@ -3996,6 +3996,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2642]Design Graph With Shortest Path Calculator.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2642" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2642]Design Graph With Shortest Path Calculator.java" />
+              <option name="titleSlug" value="design-graph-with-shortest-path-calculator" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2667]Create Hello World Function.js">
           <value>
             <LeetcodeEditor>
