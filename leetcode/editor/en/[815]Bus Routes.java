@@ -2,47 +2,53 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int numBusesToDestination(int[][] routes, int source, int target) {
-        if (source == target) {
-            return 0;
-        }
         int n = routes.length;
-        Map<Integer, List<Integer>> map = new HashMap<>();
+        Map<Integer, Set<Integer>> map = new HashMap<>();
+        Deque<int[]> dq = new ArrayDeque<>();
+        Set<Integer> visited = new HashSet<>();
+        boolean[] routeVisited = new boolean[n];
+
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < routes[i].length; j++) {
-                if (!map.containsKey(routes[i][j])) {
-                    map.put(routes[i][j], new ArrayList<>());
+            for (int key : routes[i]) {
+                if (!map.containsKey(key)) {
+                    map.put(key, new HashSet<>());
                 }
-                map.get(routes[i][j]).add(i);
+                map.get(key).add(i);
             }
         }
-        int count = 0;
-        boolean[] isVisited = new boolean[n];
-        Deque<Integer> dq = new ArrayDeque<>();
-        dq.addAll(map.get(source));
-        for (int i = 0; i < map.get(source).size(); i++) {
-            isVisited[map.get(source).get(i)] = true;
-        }
+
+        dq.offer(new int[]{source, 0});
+        visited.add(source);
+
         while (!dq.isEmpty()) {
-            int size = dq.size();
-            count++;
-            for (int i = 0; i < size; i++) {
-                int curr = dq.poll();
-                int[] arr = routes[curr];
-                for (int j = 0; j < arr.length; j++) {
-                    List<Integer> list = map.get(arr[j]);
-                    if (arr[j] == target) {
-                        return count;
-                    }
-                    for (int k = 0; k < list.size(); k++) {
-                        if (!isVisited[list.get(k)]) {
-                            dq.add(list.get(k));
-                            isVisited[list.get(k)] = true;
-                        }
+            int[] curr = dq.poll();
+            if (curr[0] == target) {
+                return curr[1];
+            }
+
+            for (int key : map.get(curr[0])) {
+                if (routeVisited[key]) {
+                    continue;
+                }
+
+                for (int num : routes[key]) {
+                    if (!visited.contains(num)) {
+                        visited.add(num);
+                        dq.offer(new int[]{num, curr[1] + 1});
                     }
                 }
+
+                routeVisited[key] = true;
             }
         }
+
         return -1;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+/*
+The first part loop on routes and record stop to routes mapping in to_route.
+The second part is general bfs. Take a stop from queue and find all connected route.
+The hashset seen record all visited stops and we won't check a stop for twice.
+We can also use a hashset to record all visited routes, or just clear a route after visit.
+ */
