@@ -4,41 +4,45 @@ class Solution {
     public int numBusesToDestination(int[][] routes, int source, int target) {
         int n = routes.length;
         Map<Integer, Set<Integer>> map = new HashMap<>();
-        Deque<int[]> dq = new ArrayDeque<>();
-        Set<Integer> visited = new HashSet<>();
+        Set<Integer> busVisited = new HashSet<>();
+        Deque<int[]> deque = new ArrayDeque<>();
         boolean[] routeVisited = new boolean[n];
 
         for (int i = 0; i < n; i++) {
-            for (int key : routes[i]) {
-                if (!map.containsKey(key)) {
-                    map.put(key, new HashSet<>());
+            for (int stop : routes[i]) {
+                if (!map.containsKey(stop)) {
+                    map.put(stop, new HashSet<>());
                 }
-                map.get(key).add(i);
+
+                map.get(stop).add(i);
             }
         }
 
-        dq.offer(new int[]{source, 0});
-        visited.add(source);
+        deque.offer(new int[]{source, 0});
+        busVisited.add(source);
 
-        while (!dq.isEmpty()) {
-            int[] curr = dq.poll();
-            if (curr[0] == target) {
-                return curr[1];
+        while (!deque.isEmpty()) {
+            int[] curr = deque.poll();
+            int stop = curr[0];
+            int count = curr[1];
+
+            if (stop == target) {
+                return count;
             }
 
-            for (int key : map.get(curr[0])) {
-                if (routeVisited[key]) {
+            for (int route : map.get(stop)) {
+                if (routeVisited[route]) {
                     continue;
                 }
 
-                for (int num : routes[key]) {
-                    if (!visited.contains(num)) {
-                        visited.add(num);
-                        dq.offer(new int[]{num, curr[1] + 1});
+                for (int point : routes[route]) {
+                    if (!busVisited.contains(point)) {
+                        busVisited.add(point);
+                        deque.offer(new int[]{point, count + 1});
                     }
                 }
 
-                routeVisited[key] = true;
+                routeVisited[route] = true;
             }
         }
 
@@ -47,6 +51,11 @@ class Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 /*
+To solve this problem in Java, we can use a Breadth-First Search (BFS) approach.
+The main idea is to treat each bus as a node in a graph and each bus stop as an edge
+connecting the buses. We then perform a BFS from the source bus stop to find the
+minimum number of buses required to reach the target bus stop.
+
 The first part loop on routes and record stop to routes mapping in to_route.
 The second part is general bfs. Take a stop from queue and find all connected route.
 The hashset seen record all visited stops and we won't check a stop for twice.
