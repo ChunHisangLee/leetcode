@@ -12,7 +12,7 @@ class Solution {
             }
         }
 
-        return String.valueOf(sb);
+        return sb.toString();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
