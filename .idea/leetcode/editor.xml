@@ -2656,6 +2656,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1930]Unique Length-3 Palindromic Subsequences.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1930" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1930]Unique Length-3 Palindromic Subsequences.java" />
+              <option name="titleSlug" value="unique-length-3-palindromic-subsequences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1960]Maximum Product of the Length of Two Palindromic Substrings.java">
           <value>
             <LeetcodeEditor>
