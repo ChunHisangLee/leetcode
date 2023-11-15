@@ -2516,6 +2516,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1846]Maximum Element After Decreasing and Rearranging.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1846" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1846]Maximum Element After Decreasing and Rearranging.java" />
+              <option name="titleSlug" value="maximum-element-after-decreasing-and-rearranging" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1857]Largest Color Value in a Directed Graph.java">
           <value>
             <LeetcodeEditor>
@@ -4843,6 +4853,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[345]Reverse Vowels of a String.java" />
               <option name="titleSlug" value="reverse-vowels-of-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[346]Moving Average from Data Stream.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com346" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[346]Moving Average from Data Stream.java" />
+              <option name="titleSlug" value="moving-average-from-data-stream" />
             </LeetcodeEditor>
           </value>
         </entry>
