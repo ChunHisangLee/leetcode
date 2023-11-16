@@ -5,11 +5,13 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int singleNumber(int[] nums) {
-        int res = 0;
+        int result = 0;
+
         for (int num : nums) {
-            res ^= num;
+            result ^= num;
         }
-        return res;
+
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
