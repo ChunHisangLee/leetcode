@@ -5,17 +5,27 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int firstMissingPositive(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for (int num : nums) {
-            set.add(num);
-        }
-        int res = 0;
-        for (int i = 1; i <= set.size() + 1; i++) {
-            if (!set.contains(i)) {
-                return i;
+        int n = nums.length;
+
+        for (int i = 0; i < n; i++) {
+            while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] != nums[i]) {
+                swap(nums, i, nums[i] - 1);
             }
         }
-        return -1;
+
+        for (int i = 0; i < n; i++) {
+            if (nums[i] != i + 1) {
+                return i + 1;
+            }
+        }
+
+        return n + 1;
+    }
+
+    private static void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
