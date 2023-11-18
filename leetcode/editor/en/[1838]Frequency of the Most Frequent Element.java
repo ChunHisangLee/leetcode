@@ -4,18 +4,21 @@ class Solution {
     public int maxFrequency(int[] nums, int k) {
         int left = 0;
         int right;
+        int result = 1;
         long sum = 0;
         Arrays.sort(nums);
 
         for (right = 0; right < nums.length; right++) {
             sum += nums[right];
 
-            if ((long) (right - left + 1) * nums[right] - sum > k) {
+            while ((long) (right - left + 1) * nums[right] - sum > k) {
                 sum -= nums[left++];
             }
+
+            result = Math.max(result, (right - left + 1));
         }
 
-        return right - left;
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
