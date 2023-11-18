@@ -2,23 +2,24 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maxFrequency(int[] nums, int k) {
-        Arrays.sort(nums);
         int left = 0;
-        int max = 0;
+        int right;
         long sum = 0;
+        Arrays.sort(nums);
 
-        for (int right = 0; right < nums.length; right++) {
+        for (right = 0; right < nums.length; right++) {
             sum += nums[right];
 
-            while ((long) (right - left + 1) * nums[right] - sum > k) {
-                sum -= nums[left];
-                left++;
+            if ((long) (right - left + 1) * nums[right] - sum > k) {
+                sum -= nums[left++];
             }
-
-            max = Math.max(max, right - left + 1);
         }
 
-        return max;
+        return right - left;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+/*
+the key is to find out the valid condition:
+k + sum >= size * max
+ */
