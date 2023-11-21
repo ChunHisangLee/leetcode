@@ -14,9 +14,7 @@ class Solution {
         }
 
         for (long num : map.values()) {
-            if (num > 1) {
-                count += num * (num - 1) / 2;
-            }
+            count += num * (num - 1) / 2;
         }
 
         return count;

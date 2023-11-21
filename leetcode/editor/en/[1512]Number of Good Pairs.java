@@ -10,9 +10,7 @@ class Solution {
         }
 
         for (int num : map.values()) {
-            if (num > 1) {
-                count += num * (num - 1) / 2;
-            }
+            count += num * (num - 1) / 2;
         }
 
         return count;

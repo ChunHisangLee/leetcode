@@ -1771,7 +1771,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1512" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1512]Number of Good Pairs.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1512]Number of Good Pairs.java" />
               <option name="titleSlug" value="number-of-good-pairs" />
             </LeetcodeEditor>
           </value>
@@ -2831,7 +2831,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2001" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2001]Number of Pairs of Interchangeable Rectangles.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2001]Number of Pairs of Interchangeable Rectangles.java" />
               <option name="titleSlug" value="number-of-pairs-of-interchangeable-rectangles" />
             </LeetcodeEditor>
           </value>
@@ -2841,7 +2841,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2001" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2001]Number of Pairs of Interchangeable Rectangles.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2001]Number of Pairs of Interchangeable Rectangles.java" />
               <option name="titleSlug" value="number-of-pairs-of-interchangeable-rectangles" />
             </LeetcodeEditor>
           </value>
