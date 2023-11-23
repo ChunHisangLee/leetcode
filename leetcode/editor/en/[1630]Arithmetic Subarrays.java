@@ -4,6 +4,65 @@ class Solution {
     public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
         List<Boolean> list = new ArrayList<>();
         int n = l.length;
+
+        for (int i = 0; i < n; i++) {
+            list.add(isArithmetic(Arrays.copyOfRange(nums, l[i], r[i] + 1)));
+        }
+
+        return list;
+    }
+
+    private boolean isArithmetic(int[] arr) {
+        if (arr.length <= 1) {
+            return true;
+        }
+
+        Arrays.sort(arr);
+        int diff = arr[1] - arr[0];
+        for (int i = 2; i < arr.length; i++) {
+            if (arr[i] - arr[i - 1] != diff) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
+        List<Boolean> list = new ArrayList<>();
+        int n = l.length;
+
+        for (int i = 0; i < n; i++) {
+            list.add(isArithmetic(Arrays.copyOfRange(nums, l[i], r[i] + 1)));
+        }
+
+        return list;
+    }
+
+    private boolean isArithmetic(int[] arr) {
+        if (arr.length <= 1) {
+            return true;
+        }
+
+        Arrays.sort(arr);
+        int diff = arr[1] - arr[0];
+        for (int i = 2; i < arr.length; i++) {
+            if (arr[i] - arr[i - 1] != diff) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+
+class Solution {
+    public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
+        List<Boolean> list = new ArrayList<>();
+        int n = l.length;
         for (int i = 0; i < n; i++) {
             list.add(check(nums, l[i], r[i]));
         }
@@ -37,31 +96,6 @@ class Solution {
             isCheck[currDiff] = true;
         }
         return true;
-    }
-}
-//leetcode submit region end(Prohibit modification and deletion)
-/*
-class Solution {
-    public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
-        List<Boolean> list = new ArrayList<>();
-        int n = l.length;
-        for (int i = 0; i < n; i++) {
-            int[] arr = Arrays.copyOfRange(nums, l[i], r[i] + 1);
-            Arrays.sort(arr);
-            int diff = arr[1] - arr[0];
-            boolean isFalse = false;
-            for (int k = 2; k < arr.length; k++) {
-                if ((arr[k] - arr[k - 1]) != diff) {
-                    list.add(false);
-                    isFalse = true;
-                    break;
-                }
-            }
-            if (!isFalse) {
-                list.add(true);
-            }
-        }
-        return list;
     }
 }
  */
