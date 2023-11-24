@@ -1946,6 +1946,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1561]Maximum Number of Coins You Can Get.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1561" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1561]Maximum Number of Coins You Can Get.java" />
+              <option name="titleSlug" value="maximum-number-of-coins-you-can-get" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1567]Maximum Length of Subarray With Positive Product.java">
           <value>
             <LeetcodeEditor>
