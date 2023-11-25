@@ -5271,7 +5271,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com412" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[412]Fizz Buzz.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[412]Fizz Buzz.java" />
               <option name="titleSlug" value="fizz-buzz" />
             </LeetcodeEditor>
           </value>
@@ -5281,7 +5281,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com412" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[412]Fizz Buzz.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[412]Fizz Buzz.java" />
               <option name="titleSlug" value="fizz-buzz" />
             </LeetcodeEditor>
           </value>
