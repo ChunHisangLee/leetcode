@@ -2366,6 +2366,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1727]Largest Submatrix With Rearrangements.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1727" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1727]Largest Submatrix With Rearrangements.java" />
+              <option name="titleSlug" value="largest-submatrix-with-rearrangements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1732]Find the Highest Altitude.java">
           <value>
             <LeetcodeEditor>
@@ -3053,6 +3063,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[20]Valid Parentheses.js" />
               <option name="titleSlug" value="valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2101]Detonate the Maximum Bombs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2101" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2101]Detonate the Maximum Bombs.java" />
+              <option name="titleSlug" value="detonate-the-maximum-bombs" />
             </LeetcodeEditor>
           </value>
         </entry>
