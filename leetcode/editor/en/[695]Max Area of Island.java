@@ -1,38 +1,32 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    int[][] grid;
-    int m;
-    int n;
-    int count;
-
     public int maxAreaOfIsland(int[][] grid) {
-        this.grid = grid;
-        m = grid.length;
-        n = grid[0].length;
-        int res = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
+        int max = 0;
+
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
                 if (grid[i][j] == 1) {
-                    count = 0;
-                    dfs(i, j);
-                    res = Math.max(res, count);
+                    max = Math.max(max, dfs(grid, i, j));
                 }
             }
         }
-        return res;
+
+        return max;
     }
 
-    public void dfs(int x, int y) {
-        if (x < 0 || x >= m || y < 0 || y >= n || grid[x][y] == 0) {
-            return;
+    public int dfs(int[][] grid, int x, int y) {
+        if (x < 0 || x >= grid.length || y < 0 || y >= grid[0].length || grid[x][y] == 0) {
+            return 0;
         }
+
         grid[x][y] = 0;
-        count++;
-        dfs(x + 1, y);
-        dfs(x - 1, y);
-        dfs(x, y + 1);
-        dfs(x, y - 1);
+        int area = 1;
+        area += dfs(grid, x + 1, y);
+        area += dfs(grid, x - 1, y);
+        area += dfs(grid, x, y + 1);
+        area += dfs(grid, x, y - 1);
+        return area;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
