@@ -3136,6 +3136,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2147]Number of Ways to Divide a Long Corridor.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2147" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2147]Number of Ways to Divide a Long Corridor.java" />
+              <option name="titleSlug" value="number-of-ways-to-divide-a-long-corridor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[215]Kth Largest Element in an Array.java">
           <value>
             <LeetcodeEditor>
