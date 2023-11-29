@@ -1,25 +1,20 @@
-487
-        Max Consecutive Ones II
-        2022-11-24 14:19:47
-
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
-        int zeros = 0;
-        int res = 0;
-        for (int left = 0, right = 0; right < nums.length; right++) {
+        int left = 0;
+        int max = 0;
+        int curr = -1;
+
+        for (int right = 0; right < nums.length; right++) {
             if (nums[right] == 0) {
-                zeros++;
-            }
-            while (zeros > 1) {
-                if (nums[left] == 0) {
-                    zeros--;
+                if (curr != -1) {
+                    max = Math.max(max, right - left);
+                    left = curr + 1;
                 }
-                left++;
+
+                curr = right;
             }
-            res = Math.max(res, right - left + 1);
         }
-        return res;
+
+        return Math.max(max, nums.length - left);
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)

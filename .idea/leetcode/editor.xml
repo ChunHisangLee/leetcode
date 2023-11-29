@@ -2691,7 +2691,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com191" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[191]Number of 1 Bits.js" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[191]Number of 1 Bits.java" />
               <option name="titleSlug" value="number-of-1-bits" />
             </LeetcodeEditor>
           </value>
