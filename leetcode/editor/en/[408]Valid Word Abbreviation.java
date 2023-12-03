@@ -22,10 +22,6 @@ class Solution {
 
                 i += num;
             } else {
-                if (i >= cWord.length) {
-                    return false;
-                }
-
                 if (cWord[i] != cAbbr[j]) {
                     return false;
                 }
