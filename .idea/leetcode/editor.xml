@@ -3446,6 +3446,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2264]Largest 3-Same-Digit Number in String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2264" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2264]Largest 3-Same-Digit Number in String.java" />
+              <option name="titleSlug" value="largest-3-same-digit-number-in-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2265]Count Nodes Equal to Average of Subtree.java">
           <value>
             <LeetcodeEditor>
