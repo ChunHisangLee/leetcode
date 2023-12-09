@@ -1,36 +1,29 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode() {}
- * TreeNode(int val) { this.val = val; }
- * TreeNode(int val, TreeNode left, TreeNode right) {
- * this.val = val;
- * this.left = left;
- * this.right = right;
- * }
- * }
- */
 class Solution {
-    int min = Integer.MAX_VALUE;
-    TreeNode prev;
 
     public int getMinimumDifference(TreeNode root) {
-        if (root == null) {
-            return min;
+        List<Integer> list = new ArrayList<>();
+        inOrder(root, list);
+
+        int min = Integer.MAX_VALUE;
+
+        for (int i = 1; i < list.size(); i++) {
+            min = Math.min(min, list.get(i) - list.get(i - 1));
         }
-        getMinimumDifference(root.left);
-        if (prev != null) {
-            min = Math.min(min, root.val - prev.val);
-        }
-        prev = root;
-        getMinimumDifference(root.right);
+
         return min;
+    }
+
+    private void inOrder(TreeNode node, List<Integer> list) {
+        if (node == null) {
+            return;
+        }
+
+        inOrder(node.left, list);
+        list.add(node.val);
+        inOrder(node.right, list);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
