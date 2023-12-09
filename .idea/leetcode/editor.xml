@@ -3047,6 +3047,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2035]Partition Array Into Two Arrays to Minimize Sum Difference.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2035" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2035]Partition Array Into Two Arrays to Minimize Sum Difference.java" />
+              <option name="titleSlug" value="partition-array-into-two-arrays-to-minimize-sum-difference" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2038]Remove Colored Pieces if Both Neighbors are the Same Color.java">
           <value>
             <LeetcodeEditor>
@@ -4877,6 +4887,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[314]Binary Tree Vertical Order Traversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com314" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[314]Binary Tree Vertical Order Traversal.java" />
+              <option name="titleSlug" value="binary-tree-vertical-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[316]Remove Duplicate Letters.java">
           <value>
             <LeetcodeEditor>
@@ -6255,6 +6275,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[605]Can Place Flowers.java" />
               <option name="titleSlug" value="can-place-flowers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[606]Construct String from Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com606" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[606]Construct String from Binary Tree.java" />
+              <option name="titleSlug" value="construct-string-from-binary-tree" />
             </LeetcodeEditor>
           </value>
         </entry>

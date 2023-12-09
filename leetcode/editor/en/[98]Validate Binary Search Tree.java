@@ -1,36 +1,24 @@
 98
-        Validate Binary Search Tree
+Validate Binary
+Search Tree
         2022-12-23 13:51:39
 //leetcode submit region begin(Prohibit modification and deletion)
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode() {}
- * TreeNode(int val) { this.val = val; }
- * TreeNode(int val, TreeNode left, TreeNode right) {
- * this.val = val;
- * this.left = left;
- * this.right = right;
- * }
- * }
- */
-class Solution {
+public class Solution {
     public boolean isValidBST(TreeNode root) {
-        retrun isBST (root, null, null);
+        return isBinaryTree(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    public boolean isBST(TreeNode node, Integer left, Integer right) {
+    private boolean isBinaryTree(TreeNode node, long min, long max) {
         if (node == null) {
             return true;
         }
-        if ((left != null && node.val <= left) || (right != null && node.val >= right)) {
+
+        if (node.val <= min || node.val >= max) {
             return false;
         }
-        return isBST(node.left, left, node.val) && isBST(node.right, node.val, node.right);
+
+        return isBinaryTree(node.left, min, node.val) && isBinaryTree(node.right, node.val, max);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
