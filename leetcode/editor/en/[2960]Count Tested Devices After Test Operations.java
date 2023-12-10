@@ -2,17 +2,10 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int countTestedDevices(int[] batteryPercentages) {
-        int n = batteryPercentages.length;
         int count = 0;
 
-        for (int i = 0; i < n; i++) {
-            if (batteryPercentages[i] > 0) {
-                count++;
-
-                for (int j = i + 1; j < n; j++) {
-                    batteryPercentages[j] = Math.max(0, batteryPercentages[j] - 1);
-                }
-            }
+        for (int num : batteryPercentages) {
+            count += num > count ? 1 : 0;
         }
 
         return count;
