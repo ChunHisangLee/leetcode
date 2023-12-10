@@ -5,7 +5,9 @@ class Solution {
         int count = 0;
 
         for (int num : batteryPercentages) {
-            count += num > count ? 1 : 0;
+            if (num > count) {
+                count++;
+            }
         }
 
         return count;

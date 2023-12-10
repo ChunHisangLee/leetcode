@@ -2,29 +2,24 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public long countSubarrays(int[] nums, int k) {
-        int max = 0;
-
-        for (int num : nums) {
-            max = Math.max(max, num);
-        }
+        int max = Arrays.stream(nums).max().orElse(0);
 
         long count = 0;
-        int start = 0;
+        int left = 0;
         int freq = 0;
 
-        for (int end = 0; end < nums.length; end++) {
-            if (nums[end] == max) {
+        for (int right = 0; right < nums.length; right++) {
+            if (nums[right] == max) {
                 freq++;
             }
 
             while (freq >= k) {
-                count += nums.length - end;
-                if (nums[start] == max) {
+                if (nums[left++] == max) {
                     freq--;
                 }
-
-                start++;
             }
+
+            count += left;
         }
 
         return count;
@@ -32,4 +27,4 @@ class Solution {
 }
 
 
-//leetcode submit region end(Prohibit modification and deletion)
+//leetcode submit region right(Prohibit modification and deletion)
