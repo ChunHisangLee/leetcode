@@ -26,19 +26,19 @@ class Solution {
             return 0;
         }
 
-        long result = 1;
-        long longBase = base % modulus;
+        int result = 1;
+        base = base % modulus;
 
         while (exponent > 0) {
-            if ((exponent & 1) == 1) {
-                result = (result * longBase) % modulus;
+            if (exponent % 2 == 1) {
+                result = (result * base) % modulus;
             }
 
             exponent = exponent >> 1;
-            longBase = (longBase * longBase) % modulus;
+            base = (base * base) % modulus;
         }
 
-        return (int) result;
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
