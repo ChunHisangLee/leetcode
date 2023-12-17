@@ -23,6 +23,37 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[1688]Count of Matches in Tournament.md" />
+              <option name="frontendQuestionId" value="leetcode.com1688" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java" />
+              <option name="titleSlug" value="count-of-matches-in-tournament" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1716" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java" />
+              <option name="titleSlug" value="calculate-money-in-leetcode-bank" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2591" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java" />
+              <option name="titleSlug" value="distribute-money-to-maximum-children" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1000]Minimum Cost to Merge Stones.java">
           <value>
             <LeetcodeEditor>
@@ -3733,6 +3764,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2352]Equal Row and Column Pairs.java" />
               <option name="titleSlug" value="equal-row-and-column-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2353]Design a Food Rating System.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2353" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2353]Design a Food Rating System.java" />
+              <option name="titleSlug" value="design-a-food-rating-system" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -8034,37 +8075,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[168]Excel Sheet Column Title.java" />
               <option name="titleSlug" value="excel-sheet-column-title" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[1688]Count of Matches in Tournament.md" />
-              <option name="frontendQuestionId" value="leetcode.com1688" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java" />
-              <option name="titleSlug" value="count-of-matches-in-tournament" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1716" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java" />
-              <option name="titleSlug" value="calculate-money-in-leetcode-bank" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com2591" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java" />
-              <option name="titleSlug" value="distribute-money-to-maximum-children" />
             </LeetcodeEditor>
           </value>
         </entry>
