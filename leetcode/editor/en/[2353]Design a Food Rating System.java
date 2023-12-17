@@ -29,7 +29,7 @@ class FoodRatings {
                 pqMap.put(cuisine, createFoodPriorityQueue());
             }
 
-            Food food = new Food(foods[i], cuisines[i], ratings[i]);
+            Food food = new Food(name, cuisine, rating);
             pqMap.get(cuisine).offer(food);
             map.put(name, food);
         }
