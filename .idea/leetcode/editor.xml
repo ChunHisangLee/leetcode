@@ -64,6 +64,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1265]Print Immutable Linked List in Reverse.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1265" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1265]Print Immutable Linked List in Reverse.java" />
+              <option name="titleSlug" value="print-immutable-linked-list-in-reverse" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.java">
           <value>
             <LeetcodeEditor>
@@ -81,6 +91,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[661]Image Smoother.java" />
               <option name="titleSlug" value="image-smoother" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[817]Linked List Components.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com817" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[817]Linked List Components.java" />
+              <option name="titleSlug" value="linked-list-components" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1050,7 +1070,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1265" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1265]Print Immutable Linked List in Reverse.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1265]Print Immutable Linked List in Reverse.java" />
               <option name="titleSlug" value="print-immutable-linked-list-in-reverse" />
             </LeetcodeEditor>
           </value>
