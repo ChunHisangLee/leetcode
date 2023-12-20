@@ -11,6 +11,7 @@ class Solution {
         int left = 0;
         int right = 0;
         int max = 0;
+
         while (right < n) {
             if (arr[c[right]] == 0) {
                 arr[c[right]] = 1;
@@ -19,8 +20,10 @@ class Solution {
                 arr[c[left]] = 0;
                 left++;
             }
+
             max = Math.max(max, right - left);
         }
+
         return max;
     }
 }
