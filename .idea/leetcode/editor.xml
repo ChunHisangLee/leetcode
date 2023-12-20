@@ -64,6 +64,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[121]Best Time to Buy and Sell Stock.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com121" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[121]Best Time to Buy and Sell Stock.java" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1265]Print Immutable Linked List in Reverse.java">
           <value>
             <LeetcodeEditor>
@@ -74,6 +84,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com14" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.java" />
+              <option name="titleSlug" value="longest-common-prefix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1]Two Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.java">
           <value>
             <LeetcodeEditor>
@@ -81,6 +111,36 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.java" />
               <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[20]Valid Parentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com20" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[20]Valid Parentheses.java" />
+              <option name="titleSlug" value="valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2235]Add Two Integers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2235" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2235]Add Two Integers.java" />
+              <option name="titleSlug" value="add-two-integers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2667]Create Hello World Function.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2667" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2667]Create Hello World Function.java" />
+              <option name="titleSlug" value="create-hello-world-function" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -104,6 +164,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2]Add Two Numbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2]Add Two Numbers.java" />
+              <option name="titleSlug" value="add-two-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[661]Image Smoother.java">
           <value>
             <LeetcodeEditor>
@@ -121,6 +191,46 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[817]Linked List Components.java" />
               <option name="titleSlug" value="linked-list-components" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[88]Merge Sorted Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com88" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[88]Merge Sorted Array.java" />
+              <option name="titleSlug" value="merge-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com9" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java" />
+              <option name="titleSlug" value="palindrome-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1]Two Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[1]Two Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
+              <option name="titleSlug" value="two-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -950,7 +1060,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com121" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[121]Best Time to Buy and Sell Stock.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[121]Best Time to Buy and Sell Stock.java" />
               <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
             </LeetcodeEditor>
           </value>
@@ -1882,7 +1992,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com14" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[14]Longest Common Prefix.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.java" />
               <option name="titleSlug" value="longest-common-prefix" />
             </LeetcodeEditor>
           </value>
@@ -3072,7 +3182,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1]Two Sum.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
               <option name="titleSlug" value="two-sum" />
             </LeetcodeEditor>
           </value>
@@ -3292,7 +3402,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com20" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[20]Valid Parentheses.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[20]Valid Parentheses.java" />
               <option name="titleSlug" value="valid-parentheses" />
             </LeetcodeEditor>
           </value>
@@ -3552,7 +3662,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2235" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2235]Add Two Integers.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2235]Add Two Integers.java" />
               <option name="titleSlug" value="add-two-integers" />
             </LeetcodeEditor>
           </value>
@@ -4432,7 +4542,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2667" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2667]Create Hello World Function.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2667]Create Hello World Function.java" />
               <option name="titleSlug" value="create-hello-world-function" />
             </LeetcodeEditor>
           </value>
@@ -4982,7 +5092,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2]Add Two Numbers.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2]Add Two Numbers.java" />
               <option name="titleSlug" value="add-two-numbers" />
             </LeetcodeEditor>
           </value>
@@ -7773,7 +7883,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com88" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[88]Merge Sorted Array.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[88]Merge Sorted Array.java" />
               <option name="titleSlug" value="merge-sorted-array" />
             </LeetcodeEditor>
           </value>
@@ -8133,7 +8243,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com9" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[9]Palindrome Number.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java" />
               <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>
@@ -8145,6 +8255,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[168]Excel Sheet Column Title.java" />
               <option name="titleSlug" value="excel-sheet-column-title" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/leetcode/editor/en/[1]Two Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
+              <option name="titleSlug" value="two-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
