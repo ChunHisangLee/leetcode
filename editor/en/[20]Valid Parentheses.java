@@ -1,27 +1,27 @@
 20
-        Valid Parentheses
+Valid Parentheses
         2022-11-29 18:24:11
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isValid(String s) {
-        Deque<Character> dq = new ArrayDeque<>();
+        Deque<Character> deque = new ArrayDeque<>();
+
         for (char c : s.toCharArray()) {
             if (c == '(' || c == '[' || c == '{') {
-                dq.push(c);
+                deque.push(c);
             } else {
-                if (dq.isEmpty()) {
-                    return false;
-                }
-                char ch = dq.pop();
-                if ((ch == '(' && c == ')') || (ch == '[' && c == ']') || (ch == '{' && c == '}')) {
-                    continue;
-                } else {
+                if (deque.isEmpty() || !isMatch(deque.pop(), c)) {
                     return false;
                 }
             }
         }
-        return dq.isEmpty();
+
+        return deque.isEmpty();
+    }
+
+    private boolean isMatch(char first, char second) {
+        return (first == '(' && second == ')') || (first == '[' && second == ']') || (first == '{' && second == '}');
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
