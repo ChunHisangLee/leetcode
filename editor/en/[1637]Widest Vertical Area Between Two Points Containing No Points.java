@@ -11,11 +11,11 @@ class Solution {
 
         Arrays.sort(arr);
         int max = 0;
-        int start = arr[0];
 
-        for (int num : arr) {
-            max = Math.max(max, num - start);
-            start = num;
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] - arr[i - 1] > max) {
+                max = arr[i] - arr[i - 1];
+            }
         }
 
         return max;
