@@ -34,6 +34,7 @@ class Solution {
                 count = (count + getCount(n - 1, k, target - i, memo)) % MOD;
             }
         }
+
         memo[n][target] = count;
         return count;
     }
