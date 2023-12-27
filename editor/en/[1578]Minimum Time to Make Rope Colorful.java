@@ -7,7 +7,6 @@ class Solution {
             if (colors.charAt(i - 1) == colors.charAt(i)) {
                 if (neededTime[i - 1] <= neededTime[i]) {
                     totalTime += neededTime[i - 1];
-                    neededTime[i - 1] = 0;
                 } else {
                     totalTime += neededTime[i];
                     neededTime[i] = neededTime[i - 1];
