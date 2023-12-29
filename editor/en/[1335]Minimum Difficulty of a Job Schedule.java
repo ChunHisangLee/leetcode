@@ -4,32 +4,51 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    int[][] memo;
+
     public int minDifficulty(int[] jobDifficulty, int d) {
         int n = jobDifficulty.length;
+
         if (n < d) {
             return -1;
         }
-        int[][] dp = new int[n][d];
-        for (int[] arr : dp) {
-            Arrays.fill(arr, Integer.MAX_VALUE);
+
+        memo = new int[n][d + 1];
+
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(memo[i], -1);
         }
-        int max = 0;
-        for (int i = 0; i <= n - d; i++) {
-            max = Math.max(max, jobDifficulty[i]);
-            dp[i][0] = max;
+
+        return minDifficultyUtil(jobDifficulty, 0, d);
+    }
+
+    private int minDifficultyUtil(int[] jobDifficulty, int start, int d) {
+        int n = jobDifficulty.length;
+
+        if (d == 0 && start == n) {
+            return 0;
         }
-        for (int dayLeft = 1; dayLeft < d; dayLeft++) {
-            for (int i = dayLeft; i <= n - d + dayLeft; i++) {
-                int maxDiff = jobDifficulty[i];
-                int res = Integer.MAX_VALUE;
-                for (int j = i - 1; j >= dayLeft - 1; j--) {
-                    res = Math.min(res, maxDiff + dp[j][dayLeft - 1]);
-                    maxDiff = Math.max(maxDiff, jobDifficulty[j]);
-                }
-                dp[i][dayLeft] = res;
+        if (d == 0 || start == n) {
+            return Integer.MAX_VALUE;
+        }
+        if (memo[start][d] != -1) {
+            return memo[start][d];
+        }
+
+        int maxDiff = 0;
+        int minDifficulty = Integer.MAX_VALUE;
+
+        for (int i = start; i < n; i++) {
+            maxDiff = Math.max(maxDiff, jobDifficulty[i]);
+            int temp = minDifficultyUtil(jobDifficulty, i + 1, d - 1);
+
+            if (temp != Integer.MAX_VALUE) {
+                minDifficulty = Math.min(minDifficulty, temp + maxDiff);
             }
         }
-        return dp[n - 1][d - 1];
+
+        memo[start][d] = minDifficulty;
+        return minDifficulty;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
