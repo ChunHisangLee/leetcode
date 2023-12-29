@@ -28,9 +28,11 @@ class Solution {
         if (d == 0 && start == n) {
             return 0;
         }
+
         if (d == 0 || start == n) {
             return Integer.MAX_VALUE;
         }
+
         if (memo[start][d] != -1) {
             return memo[start][d];
         }
