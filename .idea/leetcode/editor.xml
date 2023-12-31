@@ -274,6 +274,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2437]Number of Valid Clock Times.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2437" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2437]Number of Valid Clock Times.java" />
+              <option name="titleSlug" value="number-of-valid-clock-times" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2667]Create Hello World Function.java">
           <value>
             <LeetcodeEditor>
