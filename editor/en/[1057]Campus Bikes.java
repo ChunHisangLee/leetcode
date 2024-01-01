@@ -10,33 +10,26 @@ class Solution {
 
         List<int[]>[] list = new List[2001];
 
+        for (int i = 0; i < 2001; i++) {
+            list[i] = new ArrayList<>();
+        }
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 int dist = Math.abs(workers[i][0] - bikes[j][0]) + Math.abs(workers[i][1] - bikes[j][1]);
-
-                if (list[dist] == null) {
-                    list[dist] = new ArrayList<>();
-                }
-
                 list[dist].add(new int[]{i, j});
             }
         }
 
-        for (int i = 0; i < 2001; i++) {
-            if (list[i] == null) {
-                continue;
-            }
+        for (List<int[]> pairs : list) {
+            for (int[] pair : pairs) {
+                int workerIndex = pair[0];
+                int bikeIndex = pair[1];
 
-            int size = list[i].size();
-
-            for (int j = 0; j < size; j++) {
-                int w = list[i].get(j)[0];
-                int b = list[i].get(j)[1];
-
-                if (!workerAssigned[w] && !bikeAssigned[b]) {
-                    result[w] = b;
-                    workerAssigned[w] = true;
-                    bikeAssigned[b] = true;
+                if (!workerAssigned[workerIndex] && !bikeAssigned[bikeIndex]) {
+                    result[workerIndex] = bikeIndex;
+                    workerAssigned[workerIndex] = true;
+                    bikeAssigned[bikeIndex] = true;
                 }
             }
         }
