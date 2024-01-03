@@ -299,7 +299,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2125" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[2125]Number of Laser Beams in a Bank.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2125]Number of Laser Beams in a Bank.js" />
+              <option name="titleSlug" value="number-of-laser-beams-in-a-bank" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2125]Number of Laser Beams in a Bank.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2125" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2125]Number of Laser Beams in a Bank.js" />
               <option name="titleSlug" value="number-of-laser-beams-in-a-bank" />
             </LeetcodeEditor>
           </value>
