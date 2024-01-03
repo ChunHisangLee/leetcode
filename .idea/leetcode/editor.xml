@@ -474,6 +474,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[999]Available Captures for Rook.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com999" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[999]Available Captures for Rook.java" />
+              <option name="titleSlug" value="available-captures-for-rook" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java">
           <value>
             <LeetcodeEditor>
