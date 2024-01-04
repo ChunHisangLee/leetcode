@@ -4,6 +4,32 @@
  * @return {number}
  */
 var minOperations = function (nums) {
+    nums.sort((a, b) => a - b);
+    let count = 0;
+    let left = 0;
+
+    while (left < nums.length) {
+        let right = left;
+
+        while (right < nums.length && nums[left] === nums[right]) {
+            right++;
+        }
+
+        let num = right - left;
+
+        if (num === 1) {
+            return -1;
+        }
+
+        count += Math.ceil(num / 3);
+        left = right;
+    }
+
+    return count;
+};
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+var minOperations = function (nums) {
     let map = new Map();
     let count = 0;
 
@@ -16,13 +42,9 @@ var minOperations = function (nums) {
             return -1;
         }
 
-        if (num % 3 === 0) {
-            count += num / 3;
-        } else {
-            count += Math.floor(num / 3) + 1;
-        }
+        count += Math.ceil(num / 3);
     }
 
     return count;
 };
-//leetcode submit region end(Prohibit modification and deletion)
+ */
