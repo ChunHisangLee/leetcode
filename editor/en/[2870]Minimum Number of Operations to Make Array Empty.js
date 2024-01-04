@@ -17,9 +17,9 @@ var minOperations = function (nums) {
         }
 
         if (num % 3 === 0) {
-            count += (num / 3);
+            count += num / 3;
         } else {
-            count += (Math.floor(num / 3) + 1);
+            count += Math.floor(num / 3) + 1;
         }
     }
 

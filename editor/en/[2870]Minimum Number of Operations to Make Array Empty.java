@@ -15,9 +15,9 @@ class Solution {
             }
 
             if (num % 3 == 0) {
-                count += (num / 3);
+                count += num / 3;
             } else {
-                count += (num / 3 + 1);
+                count += num / 3 + 1;
             }
         }
 
