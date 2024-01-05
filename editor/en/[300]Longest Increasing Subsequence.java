@@ -1,23 +1,24 @@
-300
-        Longest Increasing Subsequence
-        2022-12-14 14:51:00
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int lengthOfLIS(int[] nums) {
-        int n = nums.length;
-        int[] dp = new int[n];
-        int max = 0;
-        Arrays.fill(dp, 1);
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                if (nums[i] > nums[j]) {
-                    dp[i] = Math.max(dp[i], dp[j] + 1);
+        List<Integer> dp = new ArrayList<>();
+
+        for (int num : nums) {
+            if (dp.isEmpty() || num > dp.get(dp.size() - 1)) {
+                dp.add(num);
+            } else {
+                int index = Collections.binarySearch(dp, num);
+
+                if (index < 0) {
+                    index = -(index + 1);
                 }
+
+                dp.set(index, num);
             }
-            max = Math.max(max, dp[i]);
         }
-        return max;
+
+        return dp.size();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
@@ -51,14 +52,17 @@ class Solution {
         int[] dp = new int[n];
         Arrays.fill(dp, 1);
         int res = 1;
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
                 if (nums[i] > nums[j]) {
                     dp[i] = Math.max(dp[i], dp[j] + 1);
-                    res = Math.max(res, dp[i]);
                 }
             }
+
+            res = Math.max(res, dp[i]);
         }
+
         return res;
     }
 }
