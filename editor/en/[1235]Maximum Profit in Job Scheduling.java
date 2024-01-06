@@ -57,6 +57,7 @@ class Job {
     }
 }
 
+
 //leetcode submit region end(Prohibit modification and deletion)
 /*
 https://leetcode.com/problems/maximum-profit-in-job-scheduling/solutions/1358899/maximum-profit-in-job-scheduling/
