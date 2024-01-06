@@ -1,28 +1,47 @@
-1235
-        Maximum Profit in Job Scheduling
-        2022-11-26 10:54:56
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
         int n = startTime.length;
         Job[] jobs = new Job[n];
+
         for (int i = 0; i < n; i++) {
             jobs[i] = new Job(startTime[i], endTime[i], profit[i]);
         }
-        Arrays.sort(jobs, (a, b) -> a.start - b.start);
+
+        Arrays.sort(jobs, (a, b) -> a.end - b.end);
         int[] dp = new int[n];
-        dp[n - 1] = jobs[n - 1].profit;
-        for (int i = n - 2; i >= 0; i--) {
-            dp[i] = Math.max(dp[i + 1], jobs[i].profit);
-            for (int j = i + 1; j < n; j++) {
-                if (jobs[i].end <= jobs[j].start) {
-                    dp[i] = Math.max(dp[i], dp[j] + jobs[i].profit);
-                    break;
-                }
+        dp[0] = jobs[0].profit;
+
+        for (int i = 1; i < n; i++) {
+            int includedProfit = jobs[i].profit;
+            int index = binarySearch(jobs, i);
+
+            if (index != -1) {
+                includedProfit += dp[index];
+            }
+
+            dp[i] = Math.max(dp[i - 1], includedProfit);
+        }
+
+        return dp[n - 1];
+    }
+
+    private int binarySearch(Job[] jobs, int index) {
+        int left = 0;
+        int right = index - 1;
+
+        while (left <= right) {
+            int mid = left + ((right - left) >> 1);
+
+            if (jobs[mid].end <= jobs[index].start) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
             }
         }
-        return dp[0];
+
+        return right;
     }
 }
 
