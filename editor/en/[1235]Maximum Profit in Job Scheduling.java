@@ -29,10 +29,10 @@ class Solution {
 
     private int binarySearch(Job[] jobs, int index) {
         int left = 0;
-        int right = index - 1;
+        int right = jobs.length - 1;
 
         while (left <= right) {
-            int mid = left + ((right - left) >> 1);
+            int mid = (left + right) >> 1;
 
             if (jobs[mid].end <= jobs[index].start) {
                 left = mid + 1;
@@ -56,6 +56,7 @@ class Job {
         this.profit = profit;
     }
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
 /*
 https://leetcode.com/problems/maximum-profit-in-job-scheduling/solutions/1358899/maximum-profit-in-job-scheduling/
