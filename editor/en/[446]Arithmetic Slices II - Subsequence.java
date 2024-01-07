@@ -1,6 +1,3 @@
-446
-        Arithmetic Slices II-Subsequence
-        2022-11-27 08:31:48
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {

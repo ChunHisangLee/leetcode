@@ -484,6 +484,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[446]Arithmetic Slices II - Subsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com446" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[446]Arithmetic Slices II - Subsequence.java" />
+              <option name="titleSlug" value="arithmetic-slices-ii-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[455]Assign Cookies.java">
           <value>
             <LeetcodeEditor>
@@ -6423,7 +6433,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com446" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[446]Arithmetic Slices II - Subsequence.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[446]Arithmetic Slices II - Subsequence.java" />
               <option name="titleSlug" value="arithmetic-slices-ii-subsequence" />
             </LeetcodeEditor>
           </value>
