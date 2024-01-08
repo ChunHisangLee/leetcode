@@ -559,7 +559,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com938" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[938]Range Sum of BST.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[938]Range Sum of BST.js" />
+              <option name="titleSlug" value="range-sum-of-bst" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[938]Range Sum of BST.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com938" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[938]Range Sum of BST.js" />
               <option name="titleSlug" value="range-sum-of-bst" />
             </LeetcodeEditor>
           </value>
