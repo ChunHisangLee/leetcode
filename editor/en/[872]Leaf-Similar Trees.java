@@ -2,24 +2,29 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
-        List<Integer> list1 = new ArrayList<>();
-        List<Integer> list2 = new ArrayList<>();
-        dfs(root1, list1);
-        dfs(root2, list2);
+        List<Integer> list1 = getItem(root1);
+        List<Integer> list2 = getItem(root2);
         return list1.equals(list2);
     }
 
-    private void dfs(TreeNode root, List<Integer> list) {
-        if (root == null) {
+    private List<Integer> getItem(TreeNode node) {
+        List<Integer> list = new ArrayList<>();
+        dfs(node, list);
+        return list;
+    }
+
+    private void dfs(TreeNode node, List<Integer> list) {
+        if (node == null) {
             return;
         }
 
-        if (root.left == null && root.right == null) {
-            list.add(root.val);
+        if (node.left == null && node.right == null) {
+            list.add(node.val);
+            return;
         }
 
-        dfs(root.left, list);
-        dfs(root.right, list);
+        dfs(node.left, list);
+        dfs(node.right, list);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
