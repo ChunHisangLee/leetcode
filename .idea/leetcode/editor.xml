@@ -79,7 +79,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1026" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[1026]Maximum Difference Between Node and Ancestor.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1026]Maximum Difference Between Node and Ancestor.js" />
+              <option name="titleSlug" value="maximum-difference-between-node-and-ancestor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1026]Maximum Difference Between Node and Ancestor.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1026" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1026]Maximum Difference Between Node and Ancestor.js" />
               <option name="titleSlug" value="maximum-difference-between-node-and-ancestor" />
             </LeetcodeEditor>
           </value>
