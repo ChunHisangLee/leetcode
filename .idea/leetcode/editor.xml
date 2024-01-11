@@ -509,7 +509,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2996" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[2996]Smallest Missing Integer Greater Than Sequential Prefix Sum.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2996]Smallest Missing Integer Greater Than Sequential Prefix Sum.js" />
+              <option name="titleSlug" value="smallest-missing-integer-greater-than-sequential-prefix-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2996]Smallest Missing Integer Greater Than Sequential Prefix Sum.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2996" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2996]Smallest Missing Integer Greater Than Sequential Prefix Sum.js" />
               <option name="titleSlug" value="smallest-missing-integer-greater-than-sequential-prefix-sum" />
             </LeetcodeEditor>
           </value>
@@ -519,7 +529,17 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2997" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.js" />
+              <option name="titleSlug" value="minimum-number-of-operations-to-make-array-xor-equal-to-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2997" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.js" />
               <option name="titleSlug" value="minimum-number-of-operations-to-make-array-xor-equal-to-k" />
             </LeetcodeEditor>
           </value>
