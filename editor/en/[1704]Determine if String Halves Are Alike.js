@@ -5,12 +5,12 @@
  */
 var halvesAreAlike = function (s) {
     const mid = s.length / 2;
-    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
     const getCount = (str, vowels) => {
 
         let count = 0;
         for (const c of str) {
-            if (vowels.includes(c)) {
+            if (vowels.has(c)) {
                 count++;
             }
         }
