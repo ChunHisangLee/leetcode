@@ -23,6 +23,47 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[1688]Count of Matches in Tournament.md" />
+              <option name="frontendQuestionId" value="leetcode.com1688" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java" />
+              <option name="titleSlug" value="count-of-matches-in-tournament" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1716" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java" />
+              <option name="titleSlug" value="calculate-money-in-leetcode-bank" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2591" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java" />
+              <option name="titleSlug" value="distribute-money-to-maximum-children" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[661]Image Smoother.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com661" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[661]Image Smoother.java" />
+              <option name="titleSlug" value="image-smoother" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1021]Remove Outermost Parentheses.java">
           <value>
             <LeetcodeEditor>
@@ -30,6 +71,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1021]Remove Outermost Parentheses.java" />
               <option name="titleSlug" value="remove-outermost-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1026]Maximum Difference Between Node and Ancestor.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1026" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1026]Maximum Difference Between Node and Ancestor.js" />
+              <option name="titleSlug" value="maximum-difference-between-node-and-ancestor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1026]Maximum Difference Between Node and Ancestor.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1026" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1026]Maximum Difference Between Node and Ancestor.js" />
+              <option name="titleSlug" value="maximum-difference-between-node-and-ancestor" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -50,6 +111,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1066]Campus Bikes II.java" />
               <option name="titleSlug" value="campus-bikes-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1143" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.js" />
+              <option name="titleSlug" value="longest-common-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1143" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.js" />
+              <option name="titleSlug" value="longest-common-subsequence" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -213,6 +294,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1704]Determine if String Halves Are Alike.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1704" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1704]Determine if String Halves Are Alike.js" />
+              <option name="titleSlug" value="determine-if-string-halves-are-alike" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1704]Determine if String Halves Are Alike.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1704" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1704]Determine if String Halves Are Alike.js" />
+              <option name="titleSlug" value="determine-if-string-halves-are-alike" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1752]Check if Array Is Sorted and Rotated.java">
           <value>
             <LeetcodeEditor>
@@ -323,13 +424,53 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/editor/en/[2297]Jump Game VIII.java">
+        <entry key="$PROJECT_DIR$/editor/en/[2330]Valid Palindrome IV.java">
           <value>
             <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com2297" />
+              <option name="frontendQuestionId" value="leetcode.com2330" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[2297]Jump Game VIII.java" />
-              <option name="titleSlug" value="jump-game-viii" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2330]Valid Palindrome IV.js" />
+              <option name="titleSlug" value="valid-palindrome-iv" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2330]Valid Palindrome IV.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2330" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2330]Valid Palindrome IV.js" />
+              <option name="titleSlug" value="valid-palindrome-iv" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2385]Amount of Time for Binary Tree to Be Infected.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2385" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2385]Amount of Time for Binary Tree to Be Infected.java" />
+              <option name="titleSlug" value="amount-of-time-for-binary-tree-to-be-infected" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2422]Merge Operations to Turn Array Into a Palindrome.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2422" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2422]Merge Operations to Turn Array Into a Palindrome.js" />
+              <option name="titleSlug" value="merge-operations-to-turn-array-into-a-palindrome" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2422]Merge Operations to Turn Array Into a Palindrome.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2422" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2422]Merge Operations to Turn Array Into a Palindrome.js" />
+              <option name="titleSlug" value="merge-operations-to-turn-array-into-a-palindrome" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -443,6 +584,56 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2996]Smallest Missing Integer Greater Than Sequential Prefix Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2996" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2996]Smallest Missing Integer Greater Than Sequential Prefix Sum.js" />
+              <option name="titleSlug" value="smallest-missing-integer-greater-than-sequential-prefix-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2996]Smallest Missing Integer Greater Than Sequential Prefix Sum.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2996" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2996]Smallest Missing Integer Greater Than Sequential Prefix Sum.js" />
+              <option name="titleSlug" value="smallest-missing-integer-greater-than-sequential-prefix-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2997" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.js" />
+              <option name="titleSlug" value="minimum-number-of-operations-to-make-array-xor-equal-to-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2997" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.js" />
+              <option name="titleSlug" value="minimum-number-of-operations-to-make-array-xor-equal-to-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2998]Minimum Number of Operations to Make X and Y Equal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2998" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2998]Minimum Number of Operations to Make X and Y Equal.java" />
+              <option name="titleSlug" value="minimum-number-of-operations-to-make-x-and-y-equal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2]Add Two Numbers.java">
           <value>
             <LeetcodeEditor>
@@ -450,6 +641,56 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2]Add Two Numbers.java" />
               <option name="titleSlug" value="add-two-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3000]Maximum Area of Longest Diagonal Rectangle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3000" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3000]Maximum Area of Longest Diagonal Rectangle.js" />
+              <option name="titleSlug" value="maximum-area-of-longest-diagonal-rectangle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3000]Maximum Area of Longest Diagonal Rectangle.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3000" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3000]Maximum Area of Longest Diagonal Rectangle.js" />
+              <option name="titleSlug" value="maximum-area-of-longest-diagonal-rectangle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3001]Minimum Moves to Capture The Queen.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3001" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3001]Minimum Moves to Capture The Queen.js" />
+              <option name="titleSlug" value="minimum-moves-to-capture-the-queen" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3001]Minimum Moves to Capture The Queen.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3001" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3001]Minimum Moves to Capture The Queen.js" />
+              <option name="titleSlug" value="minimum-moves-to-capture-the-queen" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3002]Maximum Size of a Set After Removals.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3002" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3002]Maximum Size of a Set After Removals.java" />
+              <option name="titleSlug" value="maximum-size-of-a-set-after-removals" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -520,6 +761,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[832]Flipping an Image.java" />
               <option name="titleSlug" value="flipping-an-image" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[872]Leaf-Similar Trees.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com872" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[872]Leaf-Similar Trees.js" />
+              <option name="titleSlug" value="leaf-similar-trees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[872]Leaf-Similar Trees.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com872" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[872]Leaf-Similar Trees.js" />
+              <option name="titleSlug" value="leaf-similar-trees" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1129,7 +1390,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1143" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1143]Longest Common Subsequence.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.js" />
               <option name="titleSlug" value="longest-common-subsequence" />
             </LeetcodeEditor>
           </value>
@@ -8684,47 +8945,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[168]Excel Sheet Column Title.java" />
               <option name="titleSlug" value="excel-sheet-column-title" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[1688]Count of Matches in Tournament.md" />
-              <option name="frontendQuestionId" value="leetcode.com1688" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java" />
-              <option name="titleSlug" value="count-of-matches-in-tournament" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1716" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java" />
-              <option name="titleSlug" value="calculate-money-in-leetcode-bank" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com2591" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java" />
-              <option name="titleSlug" value="distribute-money-to-maximum-children" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[661]Image Smoother.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com661" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[661]Image Smoother.java" />
-              <option name="titleSlug" value="image-smoother" />
             </LeetcodeEditor>
           </value>
         </entry>

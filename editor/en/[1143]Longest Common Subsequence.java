@@ -1,57 +1,60 @@
 1143
-        Longest Common Subsequence
+Longest Common
+Subsequence
         2022-12-14 17:13:43
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    int[][] dp;
-    char[] c1;
-    char[] c2;
 
     public int longestCommonSubsequence(String text1, String text2) {
-        c1 = text1.toCharArray();
-        c2 = text2.toCharArray();
-        dp = new int[c1.length + 1][c2.length + 1];
-        for (int[] arr : dp) {
-            Arrays.fill(arr, -1);
-        }
-        return dyP(0, 0);
-    }
+        int m = text1.length();
+        int n = text2.length();
+        int[][] dp = new int[m + 1][n + 1];
 
-    public int dyP(int i, int j) {
-        if (i >= c1.length || j >= c2.length) {
-            return 0;
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (text1.charAt(i - 1) == text2.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
         }
-        if (dp[i][j] != -1) {
-            return dp[i][j];
-        }
-        if (c1[i] == c2[j]) {
-            dp[i][j] = dyP(i + 1, j + 1) + 1;
-        } else {
-            dp[i][j] = Math.max(dyP(i + 1, j), dyP(i, j + 1));
-        }
-        return dp[i][j];
+
+        return dp[m][n];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 /*
 class Solution {
+    int[][] memo;
+
     public int longestCommonSubsequence(String text1, String text2) {
-        char[] chText1 = text1.toCharArray();
-        char[] chText2 = text2.toCharArray();
-        int m = text1.length();
-        int n = text2.length();
-        int[][] dp = new int[m + 1][n + 1];
-        for (int i = m - 1; i >= 0; i--) {
-            for (int j = n - 1; j >= 0; j--) {
-                if (chText1[i] == chText2[j]) {
-                    dp[i][j] = dp[i + 1][j + 1] + 1;
-                } else {
-                    dp[i][j] = Math.max(dp[i + 1][j], dp[i][j + 1]);
-                }
-            }
+        memo = new int[text1.length() + 1][text2.length() + 1];
+
+        for (int[] arr : memo) {
+            Arrays.fill(arr, -1);
         }
-        return dp[0][0];
+
+        return getSequence(0, 0, text1, text2);
+    }
+
+    public int getSequence(int i, int j, String s1, String s2) {
+        if (i >= s1.length() || j >= s2.length()) {
+            return 0;
+        }
+
+        if (memo[i][j] != -1) {
+            return memo[i][j];
+        }
+
+        if (s1.charAt(i) == s2.charAt(j)) {
+            memo[i][j] = getSequence(i + 1, j + 1, s1, s2) + 1;
+        } else {
+            memo[i][j] = Math.max(getSequence(i + 1, j, s1, s2), getSequence(i, j + 1, s1, s2));
+        }
+
+        return memo[i][j];
     }
 }
  */
