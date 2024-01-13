@@ -2,8 +2,8 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int minSteps(String s, String t) {
-        int[] countS = getCount(new int[26], s);
-        int[] countT = getCount(new int[26], t);
+        int[] countS = getCount(s);
+        int[] countT = getCount(t);
         int count = 0;
 
         for (int i = 0; i < countS.length; i++) {
@@ -15,7 +15,8 @@ class Solution {
         return count;
     }
 
-    private int[] getCount(int[] arr, String s) {
+    private int[] getCount(String s) {
+        int[] arr = new int[26];
         for (char c : s.toCharArray()) {
             arr[c - 'a']++;
         }
