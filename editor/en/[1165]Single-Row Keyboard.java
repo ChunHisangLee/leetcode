@@ -1,21 +1,24 @@
-1165
-        Single-Row Keyboard
-        2022-12-01 10:00:58
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int calculateTime(String keyboard, String word) {
-        int[] arr = new int[26];
-        for (int i = 0; i < keyboard.length(); i++) {
+        final int LEN = 26;
+        int[] arr = new int[LEN];
+
+        for (int i = 0; i < LEN; i++) {
             arr[keyboard.charAt(i) - 'a'] = i;
         }
-        int count = 0;
-        int prev = 0;
+
+        int time = 0;
+        int prevIndex = 0;
+
         for (char c : word.toCharArray()) {
-            count += Math.abs(prev - arr[c - 'a']);
-            prev = arr[c - 'a'];
+            int currIndex = arr[c - 'a'];
+            time += Math.abs(currIndex - prevIndex);
+            prevIndex = currIndex;
         }
-        return count;
+
+        return time;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
