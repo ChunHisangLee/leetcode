@@ -1,6 +1,3 @@
-1
-Two Sum
-        2022-11-25 09:36:14
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {

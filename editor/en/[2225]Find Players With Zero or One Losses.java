@@ -1,28 +1,33 @@
-2225
-        Find Players With Zero or One Losses
-        2022-11-27 21:47:27
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> findWinners(int[][] matches) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> loseCount = new HashMap<>();
+
         for (int[] match : matches) {
             int winner = match[0];
             int loser = match[1];
-            map.put(winner, map.getOrDefault(winner, 0));
-            map.put(loser, map.getOrDefault(loser, 0) + 1);
+            loseCount.put(winner, loseCount.getOrDefault(winner, 0));
+            loseCount.put(loser, loseCount.getOrDefault(loser, 0) + 1);
         }
-        List<List<Integer>> ans = Arrays.asList(new ArrayList<>(), new ArrayList<>());
-        for (Integer player : map.keySet()) {
-            if (map.get(player) == 0)
-                ans.get(0).add(player);
-            else if (map.get(player) == 1) {
-                ans.get(1).add(player);
+
+        List<Integer> noLose = new ArrayList<>();
+        List<Integer> oneLose = new ArrayList<>();
+
+        for (int player : loseCount.keySet()) {
+            if (loseCount.get(player) == 0) {
+                noLose.add(player);
+            } else if (loseCount.get(player) == 1) {
+                oneLose.add(player);
             }
         }
-        Collections.sort(ans.get(0));
-        Collections.sort(ans.get(1));
-        return ans;
+
+        List<List<Integer>> result = new ArrayList<>();
+        Collections.sort(noLose);
+        Collections.sort(oneLose);
+        result.add(noLose);
+        result.add(oneLose);
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
