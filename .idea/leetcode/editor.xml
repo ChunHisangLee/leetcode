@@ -804,6 +804,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[70]Climbing Stairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com70" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[70]Climbing Stairs.java" />
+              <option name="titleSlug" value="climbing-stairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[817]Linked List Components.java">
           <value>
             <LeetcodeEditor>
@@ -861,6 +871,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[929]Unique Email Addresses.java" />
               <option name="titleSlug" value="unique-email-addresses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[931]Minimum Falling Path Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com931" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[931]Minimum Falling Path Sum.js" />
+              <option name="titleSlug" value="minimum-falling-path-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[931]Minimum Falling Path Sum.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com931" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[931]Minimum Falling Path Sum.js" />
+              <option name="titleSlug" value="minimum-falling-path-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -7793,7 +7823,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com70" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[70]Climbing Stairs.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[70]Climbing Stairs.java" />
               <option name="titleSlug" value="climbing-stairs" />
             </LeetcodeEditor>
           </value>
@@ -8773,7 +8803,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com931" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[931]Minimum Falling Path Sum.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[931]Minimum Falling Path Sum.js" />
               <option name="titleSlug" value="minimum-falling-path-sum" />
             </LeetcodeEditor>
           </value>
