@@ -174,6 +174,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1167]Minimum Cost to Connect Sticks.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1167" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1167]Minimum Cost to Connect Sticks.java" />
+              <option name="titleSlug" value="minimum-cost-to-connect-sticks" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[121]Best Time to Buy and Sell Stock.java">
           <value>
             <LeetcodeEditor>
@@ -191,6 +201,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1235]Maximum Profit in Job Scheduling.java" />
               <option name="titleSlug" value="maximum-profit-in-job-scheduling" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1239]Maximum Length of a Concatenated String with Unique Characters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1239" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1239]Maximum Length of a Concatenated String with Unique Characters.java" />
+              <option name="titleSlug" value="maximum-length-of-a-concatenated-string-with-unique-characters" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -764,23 +784,13 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/editor/en/[380]Insert Delete GetRandom O(1).java">
+        <entry key="$PROJECT_DIR$/editor/en/[3010]Divide an Array Into Subarrays With Minimum Cost I.java">
           <value>
             <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com380" />
+              <option name="frontendQuestionId" value="leetcode.com3010" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[380]Insert Delete GetRandom O(1).java" />
-              <option name="titleSlug" value="insert-delete-getrandom-o1" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/[380]Insert Delete GetRandom O(1).js">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com380" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[380]Insert Delete GetRandom O(1).js" />
-              <option name="titleSlug" value="insert-delete-getrandom-o1" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3010]Divide an Array Into Subarrays With Minimum Cost I.java" />
+              <option name="titleSlug" value="divide-an-array-into-subarrays-with-minimum-cost-i" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -801,6 +811,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[455]Assign Cookies.java" />
               <option name="titleSlug" value="assign-cookies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[645]Set Mismatch.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com645" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[645]Set Mismatch.js" />
+              <option name="titleSlug" value="set-mismatch" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[645]Set Mismatch.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com645" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[645]Set Mismatch.js" />
+              <option name="titleSlug" value="set-mismatch" />
             </LeetcodeEditor>
           </value>
         </entry>
