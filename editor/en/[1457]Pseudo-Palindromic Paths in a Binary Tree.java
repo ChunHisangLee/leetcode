@@ -18,12 +18,12 @@ class Solution {
             if ((count & (count - 1)) == 0) {
                 result++;
             }
-
-            return;
         } else {
             dfs(root.left, count);
             dfs(root.right, count);
         }
+
+        count ^= (1 << root.val);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
