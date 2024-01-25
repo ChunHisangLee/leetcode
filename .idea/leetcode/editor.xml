@@ -119,7 +119,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1143" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.java" />
               <option name="titleSlug" value="longest-common-subsequence" />
             </LeetcodeEditor>
           </value>
