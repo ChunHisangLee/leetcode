@@ -114,6 +114,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1074]Number of Submatrices That Sum to Target.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1074" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1074]Number of Submatrices That Sum to Target.java" />
+              <option name="titleSlug" value="number-of-submatrices-that-sum-to-target" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.java">
           <value>
             <LeetcodeEditor>
