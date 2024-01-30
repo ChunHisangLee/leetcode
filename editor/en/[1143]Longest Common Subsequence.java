@@ -1,22 +1,45 @@
-1143
-Longest Common
-Subsequence
-        2022-12-14 17:13:43
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    public int longestCommonSubsequence(String text1, String text2) {
+        int[] dp = new int[text2.length() + 1];
 
+        for (int i = 0; i < text1.length(); i++) {
+            getCommonSub(text1, text2, i, dp);
+        }
+
+        return dp[text2.length()];
+    }
+
+    private void getCommonSub(String text1, String text2, int i, int[] dp) {
+        int prev = 0;
+
+        for (int j = 0; j < text2.length(); j++) {
+            int temp = dp[j + 1];
+
+            if (text1.charAt(i) == text2.charAt(j)) {
+                dp[j + 1] = prev + 1;
+            } else {
+                dp[j + 1] = Math.max(dp[j + 1], dp[j]);
+            }
+
+            prev = temp;
+        }
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         int m = text1.length();
         int n = text2.length();
         int[][] dp = new int[m + 1][n + 1];
-
-        for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (text1.charAt(i - 1) == text2.charAt(j - 1)) {
-                    dp[i][j] = dp[i - 1][j - 1] + 1;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (text1.charAt(i) == text2.charAt(j)) {
+                    dp[i + 1][j + 1] = dp[i][j] + 1;
                 } else {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                    dp[i + 1][j + 1] = Math.max(dp[i + 1][j], dp[i][j + 1]);
                 }
             }
         }
@@ -24,8 +47,7 @@ class Solution {
         return dp[m][n];
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
-/*
+
 class Solution {
     int[][] memo;
 

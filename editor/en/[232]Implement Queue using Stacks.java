@@ -1,40 +1,42 @@
-232
-        Implement Queue using Stacks
-        2022-12-21 13:23:46
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class MyQueue {
-    Stack<Integer> stack1;
-    Stack<Integer> stack2;
+    private Stack<Integer> inputStack;
+    private Stack<Integer> outputStack;
 
     public MyQueue() {
-        stack1 = new Stack<>();
-        stack2 = new Stack<>();
+        inputStack = new Stack<>();
+        outputStack = new Stack<>();
     }
 
     public void push(int x) {
-        while (!stack2.isEmpty()) {
-            stack1.push(stack2.pop());
-        }
-        stack1.push(x);
+        inputStack.push(x);
     }
 
     public int pop() {
-        while (!stack1.isEmpty()) {
-            stack2.push(stack1.pop());
+        if (outputStack.isEmpty()) {
+            transferStacks();
         }
-        return stack2.pop();
+
+        return outputStack.pop();
     }
 
     public int peek() {
-        while (!stack1.isEmpty()) {
-            stack2.push(stack1.pop());
+        if (outputStack.isEmpty()) {
+            transferStacks();
         }
-        return stack2.peek();
+
+        return outputStack.peek();
     }
 
     public boolean empty() {
-        return stack1.isEmpty() && stack2.isEmpty();
+        return inputStack.isEmpty() && outputStack.isEmpty();
+    }
+
+    private void transferStacks() {
+        while (!inputStack.isEmpty()) {
+            outputStack.push(inputStack.pop());
+        }
     }
 }
 
