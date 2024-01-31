@@ -1,23 +1,24 @@
-496
-        Next Greater Element I
-        2022-11-30 11:36:38
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+        int n = nums1.length;
         Map<Integer, Integer> map = new HashMap<>();
-        Stack<Integer> stack = new Stack<>();
+        Deque<Integer> dq = new ArrayDeque<>();
+        int[] arr = new int[n];
+
         for (int num : nums2) {
-            while (!stack.isEmpty() && stack.peek() < num) {
-                map.put(stack.pop(), num);
+            while (!dq.isEmpty() && dq.peek() < num) {
+                map.put(dq.pop(), num);
             }
-            stack.push(num);
+
+            dq.push(num);
         }
-        int[] res = new int[nums1.length];
-        for (int i = 0; i < nums1.length; i++) {
-            res[i] = map.getOrDefault(nums1[i], -1);
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = map.getOrDefault(nums1[i], -1);
         }
-        return res;
+
+        return arr;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

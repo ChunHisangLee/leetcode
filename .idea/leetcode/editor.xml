@@ -23,6 +23,47 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[1688]Count of Matches in Tournament.md" />
+              <option name="frontendQuestionId" value="leetcode.com1688" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java" />
+              <option name="titleSlug" value="count-of-matches-in-tournament" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1716" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java" />
+              <option name="titleSlug" value="calculate-money-in-leetcode-bank" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2591" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java" />
+              <option name="titleSlug" value="distribute-money-to-maximum-children" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[661]Image Smoother.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com661" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[661]Image Smoother.java" />
+              <option name="titleSlug" value="image-smoother" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1021]Remove Outermost Parentheses.java">
           <value>
             <LeetcodeEditor>
@@ -230,6 +271,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1457]Pseudo-Palindromic Paths in a Binary Tree.java" />
               <option name="titleSlug" value="pseudo-palindromic-paths-in-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1475]Final Prices With a Special Discount in a Shop.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1475" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1475]Final Prices With a Special Discount in a Shop.java" />
+              <option name="titleSlug" value="final-prices-with-a-special-discount-in-a-shop" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -860,6 +911,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[70]Climbing Stairs.java" />
               <option name="titleSlug" value="climbing-stairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[739]Daily Temperatures.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com739" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[739]Daily Temperatures.java" />
+              <option name="titleSlug" value="daily-temperatures" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -8022,7 +8083,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com739" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[739]Daily Temperatures.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[739]Daily Temperatures.java" />
               <option name="titleSlug" value="daily-temperatures" />
             </LeetcodeEditor>
           </value>
@@ -9094,47 +9155,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[168]Excel Sheet Column Title.java" />
               <option name="titleSlug" value="excel-sheet-column-title" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[1688]Count of Matches in Tournament.md" />
-              <option name="frontendQuestionId" value="leetcode.com1688" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1688]Count of Matches in Tournament.java" />
-              <option name="titleSlug" value="count-of-matches-in-tournament" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com1716" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1716]Calculate Money in Leetcode Bank.java" />
-              <option name="titleSlug" value="calculate-money-in-leetcode-bank" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com2591" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2591]Distribute Money to Maximum Children.java" />
-              <option name="titleSlug" value="distribute-money-to-maximum-children" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[661]Image Smoother.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="frontendQuestionId" value="leetcode.com661" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[661]Image Smoother.java" />
-              <option name="titleSlug" value="image-smoother" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -1,17 +1,18 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int[] dailyTemperatures(int[] temperatures) {
-        int n = temperatures.length;
+    public int[] finalPrices(int[] prices) {
+        int n = prices.length;
         int[] arr = new int[n];
         Deque<Integer> dq = new ArrayDeque<>();
 
         for (int i = 0; i < n; i++) {
-            while (!dq.isEmpty() && temperatures[dq.peek()] < temperatures[i]) {
+            while (!dq.isEmpty() && prices[dq.peek()] >= prices[i]) {
                 int index = dq.pop();
-                arr[index] = i - index;
+                arr[index] = prices[index] - prices[i];
             }
 
             dq.push(i);
+            arr[i] = prices[i];
         }
 
         return arr;
