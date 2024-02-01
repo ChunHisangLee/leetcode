@@ -664,6 +664,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[293]Flip Game.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com293" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[293]Flip Game.java" />
+              <option name="titleSlug" value="flip-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.java">
           <value>
             <LeetcodeEditor>
@@ -671,6 +681,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.java" />
               <option name="titleSlug" value="length-of-longest-subarray-with-at-most-k-frequency" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2966]Divide Array Into Arrays With Max Difference.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2966" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2966]Divide Array Into Arrays With Max Difference.java" />
+              <option name="titleSlug" value="divide-array-into-arrays-with-max-difference" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -5862,7 +5882,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com293" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[293]Flip Game.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[293]Flip Game.java" />
               <option name="titleSlug" value="flip-game" />
             </LeetcodeEditor>
           </value>
