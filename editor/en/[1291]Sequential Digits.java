@@ -3,6 +3,30 @@
 class Solution {
     public List<Integer> sequentialDigits(int low, int high) {
         List<Integer> list = new ArrayList<>();
+
+        for (int i = 1; i < 10; i++) {
+            int num = 0;
+            int j = i;
+            while (num <= high && j < 10) {
+                num = num * 10 + j;
+
+                if (num >= low && num <= high) {
+                    list.add(num);
+                }
+
+                j++;
+            }
+        }
+
+        Collections.sort(list);
+        return list;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public List<Integer> sequentialDigits(int low, int high) {
+        List<Integer> list = new ArrayList<>();
         String digits = "123456789";
 
         for (int len = 2; len <= digits.length(); len++) {
@@ -18,9 +42,6 @@ class Solution {
         return list;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
-/*
-
 
 class Solution {
     public List<Integer> sequentialDigits(int low, int high) {
