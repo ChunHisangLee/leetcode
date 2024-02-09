@@ -21,6 +21,7 @@ public class Solution {
                     prev[i] = j;
                 }
             }
+
             if (dp[i] > max) {
                 max = dp[i];
                 index = i;
