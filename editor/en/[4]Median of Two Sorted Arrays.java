@@ -1,34 +1,31 @@
-4
-        Median of Two Sorted Arrays 2022-12-03 09:36:59
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int m = nums1.length;
-        int n = nums2.length;
-        double result = 0;
-        List<Integer> list = new ArrayList<>();
+  public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    int m = nums1.length;
+    int n = nums2.length;
+    double result = 0;
+    List<Integer> list = new ArrayList<>();
 
-        for (int num : nums1) {
-            list.add(num);
-        }
-
-        for (int num : nums2) {
-            list.add(num);
-        }
-
-        Collections.sort(list);
-
-        if (list.size() % 2 == 0) {
-            result = (list.get((m + n) / 2 - 1) + list.get((m + n) / 2)) / 2.0;
-        } else {
-            result = list.get((m + n) / 2);
-        }
-
-        return result;
+    for (int num : nums1) {
+      list.add(num);
     }
+
+    for (int num : nums2) {
+      list.add(num);
+    }
+
+    Collections.sort(list);
+
+    if (list.size() % 2 == 0) {
+      result = (list.get((m + n) / 2 - 1) + list.get((m + n) / 2)) / 2.0;
+    } else {
+      result = list.get((m + n) / 2);
+    }
+
+    return result;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
 /*
 -- 7ms
 class Solution {
