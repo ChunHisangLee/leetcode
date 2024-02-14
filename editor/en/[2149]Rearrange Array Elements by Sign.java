@@ -1,17 +1,17 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int[] sortArrayByParityII(int[] nums) {
+    public int[] rearrangeArray(int[] nums) {
         int[] result = new int[nums.length];
-        int evenIndex = 0;
-        int oddIndex = 1;
+        int posIndex = 0;
+        int negIndex = 1;
 
         for (int num : nums) {
-            if (num % 2 == 0) {
-                result[evenIndex] = num;
-                evenIndex += 2;
+            if (num > 0) {
+                result[posIndex] = num;
+                posIndex += 2;
             } else {
-                result[oddIndex] = num;
-                oddIndex += 2;
+                result[negIndex] = num;
+                negIndex += 2;
             }
         }
 
