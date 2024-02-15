@@ -224,6 +224,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1272]Remove Interval.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1272" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1272]Remove Interval.java" />
+              <option name="titleSlug" value="remove-interval" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1291]Sequential Digits.java">
           <value>
             <LeetcodeEditor>
@@ -724,6 +734,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2971]Find Polygon With the Largest Perimeter.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2971" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2971]Find Polygon With the Largest Perimeter.java" />
+              <option name="titleSlug" value="find-polygon-with-the-largest-perimeter" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2975]Maximum Square Area by Removing Fences From a Field.java">
           <value>
             <LeetcodeEditor>
@@ -891,6 +911,36 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[3010]Divide an Array Into Subarrays With Minimum Cost I.java" />
               <option name="titleSlug" value="divide-an-array-into-subarrays-with-minimum-cost-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3028]Ant on the Boundary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3028" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3028]Ant on the Boundary.java" />
+              <option name="titleSlug" value="ant-on-the-boundary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3029]Minimum Time to Revert Word to Initial State I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3029" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3029]Minimum Time to Revert Word to Initial State I.java" />
+              <option name="titleSlug" value="minimum-time-to-revert-word-to-initial-state-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3031]Minimum Time to Revert Word to Initial State II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3031" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3031]Minimum Time to Revert Word to Initial State II.java" />
+              <option name="titleSlug" value="minimum-time-to-revert-word-to-initial-state-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
