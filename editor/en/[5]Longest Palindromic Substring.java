@@ -1,30 +1,29 @@
-5
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public String longestPalindrome(String s) {
-        int left = 0;
-        int right = 0;
+  public String longestPalindrome(String s) {
+    char[] c = s.toCharArray();
+    int left = 0;
+    int right = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            int len = Math.max(getLen(s, i, i), getLen(s, i, i + 1));
+    for (int i = 0; i < c.length; i++) {
+      int len = Math.max(getLen(c, i, i), getLen(c, i, i + 1));
 
-            if (len > right - left) {
-                left = i - (len - 1) / 2;
-                right = i + (len) / 2;
-            }
-        }
-
-        return s.substring(left, right + 1);
+      if (len > right - left) {
+        left = i - (len - 1) / 2;
+        right = i + (len) / 2;
+      }
     }
 
-    private int getLen(String s, int left, int right) {
-        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
-            left--;
-            right++;
-        }
+    return s.substring(left, right + 1);
+  }
 
-        return right - left - 1;
+  private int getLen(char[] c, int left, int right) {
+    while (left >= 0 && right < c.length && c[left] == c[right]) {
+      left--;
+      right++;
     }
+
+    return right - left - 1;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
