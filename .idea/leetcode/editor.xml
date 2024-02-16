@@ -253,6 +253,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1481]Least Number of Unique Integers after K Removals.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1481" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1481]Least Number of Unique Integers after K Removals.java" />
+              <option name="titleSlug" value="least-number-of-unique-integers-after-k-removals" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.java">
           <value>
             <LeetcodeEditor>
