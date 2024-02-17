@@ -374,6 +374,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1642]Furthest Building You Can Reach.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1642" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1642]Furthest Building You Can Reach.java" />
+              <option name="titleSlug" value="furthest-building-you-can-reach" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1704]Determine if String Halves Are Alike.java">
           <value>
             <LeetcodeEditor>
