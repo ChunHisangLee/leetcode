@@ -8,6 +8,7 @@ class Solution {
         while (!deque.isEmpty()) {
             int size = deque.size();
             int preValue = isEvenLevel ? Integer.MIN_VALUE : Integer.MAX_VALUE;
+
             for (int i = 0; i < size; i++) {
                 TreeNode node = deque.poll();
 
@@ -26,6 +27,7 @@ class Solution {
                 if (node.left != null) {
                     deque.offer(node.left);
                 }
+
                 if (node.right != null) {
                     deque.offer(node.right);
                 }
