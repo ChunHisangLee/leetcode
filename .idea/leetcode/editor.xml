@@ -804,6 +804,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2864]Maximum Odd Binary Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2864" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2864]Maximum Odd Binary Number.java" />
+              <option name="titleSlug" value="maximum-odd-binary-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2870]Minimum Number of Operations to Make Array Empty.java">
           <value>
             <LeetcodeEditor>
@@ -1011,6 +1021,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[3010]Divide an Array Into Subarrays With Minimum Cost I.java" />
               <option name="titleSlug" value="divide-an-array-into-subarrays-with-minimum-cost-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3062]Winner of the Linked List Game.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3062" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3062]Winner of the Linked List Game.java" />
+              <option name="titleSlug" value="winner-of-the-linked-list-game" />
             </LeetcodeEditor>
           </value>
         </entry>
