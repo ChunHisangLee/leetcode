@@ -1,16 +1,22 @@
-977
-        Squares of a Sorted Array
-        2022-11-23 15:06:21
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] sortedSquares(int[] nums) {
-        int[] arr = new int[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            arr[i] = nums[i] * nums[i];
+        int n = nums.length;
+        int[] result = new int[n];
+        int left = 0;
+        int right = n - 1;
+
+        for (int i = n - 1; i >= 0; i--) {
+            if (nums[left] * nums[left] > nums[right] * nums[right]) {
+                result[i] = nums[left] * nums[left];
+                left++;
+            } else {
+                result[i] = nums[right] * nums[right];
+                right--;
+            }
         }
-        Arrays.sort(arr);
-        return arr;
+
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
