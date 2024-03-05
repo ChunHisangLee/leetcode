@@ -1,36 +1,40 @@
-2246
-        Longest Path With Different Adjacent Characters
-        2023-01-13 09:33:24
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    int result = 0;
+
     public int longestPath(int[] parent, String s) {
-        int n = parent.length;
-        Deque<Integer> dq = new ArrayDeque<>();
-        int size[] = new int[n];
-        Arrays.fill(size, 1);
-        int degree[] = new int[n];
-        for (int i = 1; i < n; i++) {
-            degree[parent[i]]++;
+        Map<Integer, List<Integer>> children = new HashMap<>();
+
+        for (int i = 0; i < parent.length; i++) {
+            children.computeIfAbsent(parent[i], k -> new ArrayList<>()).add(i);
         }
-        for (int i = 1; i < n; i++) {
-            if (degree[i] == 0) {
-                dq.add(i);
+
+        dfs(0, children, s);
+        return result;
+    }
+
+    private int dfs(int node, Map<Integer, List<Integer>> children, String s) {
+        int max1 = 0;
+        int max2 = 0;
+
+        if (children.containsKey(node)) {
+            for (int child : children.get(node)) {
+                int depth = dfs(child, children, s);
+
+                if (s.charAt(node) != s.charAt(child)) {
+                    if (depth > max1) {
+                        max2 = max1;
+                        max1 = depth;
+                    } else if (depth > max2) {
+                        max2 = depth;
+                    }
+                }
             }
         }
-        int res = 1;
-        while (!dq.isEmpty()) {
-            int curr = dq.poll();
-            int par = parent[curr];
-            if (--degree[par] == 0 && par != 0) {
-                dq.add(par);
-            }
-            if (s.charAt(curr) != s.charAt(par)) {
-                res = Math.max(res, size[curr] + size[par]);
-                size[par] = Math.max(size[par], size[curr] + 1);
-            }
-        }
-        return res;
+
+        result = Math.max(result, max1 + max2 + 1);
+        return Math.max(max1, max2) + 1;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

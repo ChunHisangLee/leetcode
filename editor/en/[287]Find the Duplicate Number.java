@@ -1,7 +1,3 @@
-287
-        Find the Duplicate Number
-        2022-12-30 13:02:28
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findDuplicate(int[] nums) {
