@@ -454,6 +454,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1750]Minimum Length of String After Deleting Similar Ends.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1750" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1750]Minimum Length of String After Deleting Similar Ends.java" />
+              <option name="titleSlug" value="minimum-length-of-string-after-deleting-similar-ends" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1752]Check if Array Is Sorted and Rotated.java">
           <value>
             <LeetcodeEditor>
@@ -1031,6 +1041,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[3062]Winner of the Linked List Game.java" />
               <option name="titleSlug" value="winner-of-the-linked-list-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3065]Minimum Operations to Exceed Threshold Value I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3065" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3065]Minimum Operations to Exceed Threshold Value I.java" />
+              <option name="titleSlug" value="minimum-operations-to-exceed-threshold-value-i" />
             </LeetcodeEditor>
           </value>
         </entry>
