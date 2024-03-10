@@ -1,26 +1,31 @@
-349
-        Intersection of Two Arrays
-        2022-12-30 09:39:35
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
-        List<Integer> list = new ArrayList<>();
+        Set<Integer> set1 = getSet(nums1);
+        Set<Integer> set2 = getSet(nums2);
+        set1.retainAll(set2);
+        return convertSetToArray(set1);
+    }
+
+    private Set<Integer> getSet(int[] nums) {
         Set<Integer> set = new HashSet<>();
-        for (int num : nums1) {
+
+        for (int num : nums) {
             set.add(num);
         }
-        for (int num : nums2) {
-            if (set.contains(num)) {
-                list.add(num);
-                set.remove(num);
-            }
+
+        return set;
+    }
+
+    private int[] convertSetToArray(Set<Integer> set) {
+        int[] result = new int[set.size()];
+        int index = 0;
+
+        for (int num : set) {
+            result[index++] = num;
         }
-        int[] arr = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            arr[i] = list.get(i);
-        }
-        return arr;
+
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
