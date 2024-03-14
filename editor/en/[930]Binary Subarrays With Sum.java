@@ -2,24 +2,22 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
-        return getCount(nums, goal) - getCount(nums, goal - 1);
-    }
-
-    private int getCount(int[] nums, int k) {
-        if (k < 0) {
-            return 0;
-        }
         int count = 0;
-        int res = 0;
-        for (int left = 0, right = 0; right < nums.length; right++) {
-            count += nums[right];
-            while (count > k) {
-                count -= nums[left];
-                left++;
+        int sum = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
+
+        for (int num : nums) {
+            sum += num;
+
+            if (map.containsKey(sum - goal)) {
+                count += map.get(sum - goal);
             }
-            res += right - left + 1;
+
+            map.put(sum, map.getOrDefault(sum, 0) + 1);
         }
-        return res;
+
+        return count;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
