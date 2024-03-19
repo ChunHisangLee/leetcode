@@ -1,7 +1,3 @@
-57
-        Insert Interval
-        2022-12-15 16:51:02
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
