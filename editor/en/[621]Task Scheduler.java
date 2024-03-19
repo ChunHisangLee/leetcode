@@ -1,22 +1,30 @@
-621
-        Task Scheduler
-        2023-01-14 23:28:03
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int leastInterval(char[] tasks, int n) {
         int[] arr = new int[26];
+
         for (char task : tasks) {
             arr[task - 'A']++;
         }
-        Arrays.sort(arr);
-        int max = arr[25];
-        int idle = (max - 1) * n;
-        for (int i = arr.length - 2; i >= 0 && idle > 0; i--) {
-            idle -= Math.min(max - 1, arr[i]);
+
+        int maxFreq = 0;
+
+        for (int freq : arr) {
+            maxFreq = Math.max(maxFreq, freq);
         }
-        idle = Math.max(idle, 0);
-        return idle + tasks.length;
+
+        int maxCount = 0;
+
+        for (int freq : arr) {
+            if (freq == maxFreq) {
+                maxCount++;
+            }
+        }
+
+        int emptySlots = (maxFreq - 1) * (n - maxCount + 1);
+        int availableTasks = tasks.length - maxFreq * maxCount;
+        int idleSlots = Math.max(0, emptySlots - availableTasks);
+        return tasks.length + idleSlots;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
