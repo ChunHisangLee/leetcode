@@ -1,36 +1,56 @@
-234
-        Palindrome Linked List
-        2023-01-03 19:13:25
 //leetcode submit region begin(Prohibit modification and deletion)
-
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode() {}
- * ListNode(int val) { this.val = val; }
- * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        List<Integer> list = new ArrayList<>();
-        ListNode curr = head;
-        while (curr != null) {
-            list.add(curr.val);
-            curr = curr.next;
+        if (head == null || head.next == null) {
+            return true;
         }
-        int left = 0;
-        int right = list.size() - 1;
-        while (left <= right) {
-            if (list.get(left) != list.get(right)) {
-                return false;
+
+        ListNode middle = findMiddle(head);
+        ListNode end = reverseList(middle.next);
+        return checkPalindrome(head, end);
+    }
+
+    private ListNode findMiddle(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        return slow;
+    }
+
+    private ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+
+        while (head != null) {
+            ListNode temp = head.next;
+            head.next = prev;
+            prev = head;
+            head = temp;
+        }
+
+        return prev;
+    }
+
+    private boolean checkPalindrome(ListNode head, ListNode end) {
+        ListNode p1 = head;
+        ListNode p2 = end;
+        boolean isPalindrome = true;
+
+        while (p2 != null) {
+            if (p1.val != p2.val) {
+                isPalindrome = false;
+                break;
             }
-            left++;
-            right--;
+
+            p1 = p1.next;
+            p2 = p2.next;
         }
-        return true;
+
+        return isPalindrome;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

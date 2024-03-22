@@ -134,6 +134,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1119]Remove Vowels from a String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1119]Remove Vowels from a String.md" />
+              <option name="frontendQuestionId" value="leetcode.com1119" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1119]Remove Vowels from a String.py" />
+              <option name="titleSlug" value="remove-vowels-from-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1119]Remove Vowels from a String.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1119]Remove Vowels from a String.md" />
+              <option name="frontendQuestionId" value="leetcode.com1119" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1119]Remove Vowels from a String.py" />
+              <option name="titleSlug" value="remove-vowels-from-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -598,9 +620,21 @@
         <entry key="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[206]Reverse Linked List.md" />
               <option name="frontendQuestionId" value="leetcode.com206" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.py" />
+              <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[206]Reverse Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com206" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.py" />
               <option name="titleSlug" value="reverse-linked-list" />
             </LeetcodeEditor>
           </value>
@@ -732,6 +766,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2330]Valid Palindrome IV.js" />
               <option name="titleSlug" value="valid-palindrome-iv" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[234]Palindrome Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[234]Palindrome Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com234" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[234]Palindrome Linked List.py" />
+              <option name="titleSlug" value="palindrome-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[234]Palindrome Linked List.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[234]Palindrome Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com234" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[234]Palindrome Linked List.py" />
+              <option name="titleSlug" value="palindrome-linked-list" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1927,7 +1983,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1119" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1119]Remove Vowels from a String.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1119]Remove Vowels from a String.java" />
               <option name="titleSlug" value="remove-vowels-from-a-string" />
             </LeetcodeEditor>
           </value>
@@ -4657,9 +4713,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[206]Reverse Linked List.js">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[206]Reverse Linked List.md" />
               <option name="frontendQuestionId" value="leetcode.com206" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.py" />
               <option name="titleSlug" value="reverse-linked-list" />
             </LeetcodeEditor>
           </value>
@@ -5259,7 +5316,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com234" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[234]Palindrome Linked List.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[234]Palindrome Linked List.java" />
               <option name="titleSlug" value="palindrome-linked-list" />
             </LeetcodeEditor>
           </value>
