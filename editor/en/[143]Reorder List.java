@@ -15,44 +15,51 @@ class Solution {
         if (head == null || head.next == null) {
             return;
         }
-        ListNode mid = middle(head);
-        ListNode second = reverse(mid);
-        ListNode first = head;
-        merge(first, second);
+
+        ListNode middle = findMiddle(head);
+        ListNode end = reverseList(middle.next);
+        middle.next = null;
+        merge(head, end);
     }
 
-    public ListNode middle(ListNode head) {
-        ListNode fast = head;
+    private ListNode findMiddle(ListNode head) {
         ListNode slow = head;
-        while (fast != null && fast.next != null) {
+        ListNode fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
             fast = fast.next.next;
             slow = slow.next;
         }
+
         return slow;
     }
 
-    public ListNode reverse(ListNode head) {
-        ListNode dummy = new ListNode();
-        dummy.next = head;
-        ListNode prev = dummy;
-        ListNode curr = head;
-        while (curr.next != null) {
-            ListNode temp = curr.next;
-            curr.next = temp.next;
-            temp.next = prev.next;
-            prev.next = temp;
+    private ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+
+        while (head != null) {
+            ListNode temp = head.next;
+            head.next = prev;
+            prev = head;
+            head = temp;
         }
-        return dummy.next;
+
+        return prev;
     }
 
-    public void merge(ListNode first, ListNode second) {
-        while (second.next != null) {
-            ListNode temp1 = first.next;
-            ListNode temp2 = second.next;
+    private void merge(ListNode first, ListNode second) {
+        while (first != null && second != null) {
+            ListNode tmp1 = first.next;
+            ListNode tmp2 = second.next;
             first.next = second;
-            second.next = temp1;
-            first = temp1;
-            second = temp2;
+
+            if (tmp1 == null) {
+                break;
+            }
+
+            second.next = tmp1;
+            first = tmp1;
+            second = tmp2;
         }
     }
 }
