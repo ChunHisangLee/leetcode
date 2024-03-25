@@ -2,13 +2,13 @@
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
         result = []
-        isDupicated = [False] * (len(nums) + 1)
+        my_set = set()
 
         for num in nums:
-            if isDupicated[num]:
+            if num in my_set:
                 result.append(num)
             else:
-                isDupicated[num] = True
+                my_set.add(num)
 
         return result
 
