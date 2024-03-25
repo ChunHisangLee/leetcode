@@ -1,0 +1,18 @@
+# leetcode submit region begin(Prohibit modification and deletion)
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0 or (x % 10 == 0 and x != 0):
+            return False
+
+        s = str(x)
+        left = 0
+        right = len(s) - 1
+
+        while left < right:
+            if s[left] != s[right]:
+                return False
+            left += 1
+            right -= 1
+
+        return True
+# leetcode submit region end(Prohibit modification and deletion)
