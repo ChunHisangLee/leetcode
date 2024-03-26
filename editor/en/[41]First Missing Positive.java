@@ -1,7 +1,3 @@
-41
-        First Missing Positive
-        2023-01-30 18:16:40
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int firstMissingPositive(int[] nums) {

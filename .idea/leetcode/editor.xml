@@ -1227,6 +1227,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[41]First Missing Positive.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[41]First Missing Positive.md" />
+              <option name="frontendQuestionId" value="leetcode.com41" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[41]First Missing Positive.py" />
+              <option name="titleSlug" value="first-missing-positive" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[442]Find All Duplicates in an Array.java">
           <value>
             <LeetcodeEditor>
@@ -7292,9 +7303,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[41]First Missing Positive.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[41]First Missing Positive.md" />
               <option name="frontendQuestionId" value="leetcode.com41" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[41]First Missing Positive.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[41]First Missing Positive.py" />
               <option name="titleSlug" value="first-missing-positive" />
             </LeetcodeEditor>
           </value>
