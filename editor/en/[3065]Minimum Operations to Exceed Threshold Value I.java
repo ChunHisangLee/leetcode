@@ -1,13 +1,15 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int singleNumber(int[] nums) {
-        int result = 0;
+    public int minOperations(int[] nums, int k) {
+        int count = 0;
 
         for (int num : nums) {
-            result ^= num;
+            if (num < k) {
+                count++;
+            }
         }
 
-        return result;
+        return count;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -2,38 +2,29 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int largestInteger(int num) {
-        PriorityQueue<Integer> even = new PriorityQueue<>();
-        PriorityQueue<Integer> odd = new PriorityQueue<>();
-        int reference = num;
-        int result = 0;
-        int multiply = 1;
+        char[] digits = Integer.toString(num).toCharArray();
+        PriorityQueue<Integer> even = new PriorityQueue<>((a, b) -> b - a);
+        PriorityQueue<Integer> odd = new PriorityQueue<>((a, b) -> b - a);
 
-        while (num > 0) {
-            int temp = num % 10;
+        for (char c : digits) {
+            int n = c - '0';
 
-            if (temp % 2 == 1) {
-                odd.add(temp);
+            if (n % 2 == 0) {
+                even.add(n);
             } else {
-                even.add(temp);
+                odd.add(n);
             }
-
-            num /= 10;
         }
 
-        while (reference > 0) {
-            int temp = reference % 10;
-
-            if (temp % 2 == 1) {
-                result = odd.poll() * multiply + result;
+        for (int i = 0; i < digits.length; i++) {
+            if ((digits[i] - '0') % 2 == 0) {
+                digits[i] = (char) (even.poll() + '0');
             } else {
-                result = even.poll() * multiply + result;
+                digits[i] = (char) (odd.poll() + '0');
             }
-
-            reference /= 10;
-            multiply *= 10;
         }
 
-        return result;
+        return Integer.parseInt(new String(digits));
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
