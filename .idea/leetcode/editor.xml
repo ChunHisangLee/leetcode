@@ -998,10 +998,44 @@
         <entry key="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2958]Length of Longest Subarray With at Most K Frequency.md" />
               <option name="frontendQuestionId" value="leetcode.com2958" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.py" />
               <option name="titleSlug" value="length-of-longest-subarray-with-at-most-k-frequency" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2958]Length of Longest Subarray With at Most K Frequency.md" />
+              <option name="frontendQuestionId" value="leetcode.com2958" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.py" />
+              <option name="titleSlug" value="length-of-longest-subarray-with-at-most-k-frequency" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2962]Count Subarrays Where Max Element Appears at Least K Times.md" />
+              <option name="frontendQuestionId" value="leetcode.com2962" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java" />
+              <option name="titleSlug" value="count-subarrays-where-max-element-appears-at-least-k-times" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2962]Count Subarrays Where Max Element Appears at Least K Times.md" />
+              <option name="frontendQuestionId" value="leetcode.com2962" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java" />
+              <option name="titleSlug" value="count-subarrays-where-max-element-appears-at-least-k-times" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -6514,9 +6548,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2962]Count Subarrays Where Max Element Appears at Least K Times.md" />
               <option name="frontendQuestionId" value="leetcode.com2962" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.py" />
               <option name="titleSlug" value="count-subarrays-where-max-element-appears-at-least-k-times" />
             </LeetcodeEditor>
           </value>
