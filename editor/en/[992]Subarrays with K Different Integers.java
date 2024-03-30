@@ -6,25 +6,26 @@ class Solution {
     }
 
     private int getMost(int[] nums, int k) {
-        int n = nums.length;
-        int res = 0;
-        int count = 0;
-        int[] arr = new int[n + 1];
-        for (int left = 0, right = 0; right < n; right++) {
-            if (arr[nums[right]] == 0) {
-                count++;
-            }
-            arr[nums[right]]++;
-            while (count > k) {
-                arr[nums[left]]--;
-                if (arr[nums[left]] == 0) {
-                    count--;
+        Map<Integer, Integer> map = new HashMap<>();
+        int result = 0;
+
+        for (int left = 0, right = 0; right < nums.length; right++) {
+            map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
+
+            while (map.size() > k) {
+                map.put(nums[left], map.get(nums[left]) - 1);
+
+                if (map.get(nums[left]) == 0) {
+                    map.remove(nums[left]);
                 }
+
                 left++;
             }
-            res += right - left + 1;
+
+            result += right - left + 1;
         }
-        return res;
+
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

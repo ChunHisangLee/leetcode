@@ -1404,6 +1404,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[992]Subarrays with K Different Integers.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com992" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[992]Subarrays with K Different Integers.py" />
+              <option name="titleSlug" value="subarrays-with-k-different-integers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[997]Find the Town Judge.java">
           <value>
             <LeetcodeEditor>
@@ -9473,7 +9483,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com992" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[992]Subarrays with K Different Integers.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[992]Subarrays with K Different Integers.py" />
               <option name="titleSlug" value="subarrays-with-k-different-integers" />
             </LeetcodeEditor>
           </value>
