@@ -641,6 +641,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[205]Isomorphic Strings.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[205]Isomorphic Strings.md" />
+              <option name="frontendQuestionId" value="leetcode.com205" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[205]Isomorphic Strings.py" />
+              <option name="titleSlug" value="isomorphic-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.java">
           <value>
             <LeetcodeEditor>
@@ -1321,6 +1332,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[455]Assign Cookies.java" />
               <option name="titleSlug" value="assign-cookies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[494]Target Sum.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[494]Target Sum.md" />
+              <option name="frontendQuestionId" value="leetcode.com494" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[494]Target Sum.py" />
+              <option name="titleSlug" value="target-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
