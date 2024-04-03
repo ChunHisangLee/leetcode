@@ -1530,6 +1530,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[79]Word Search.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[79]Word Search.md" />
+              <option name="frontendQuestionId" value="leetcode.com79" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[79]Word Search.py" />
+              <option name="titleSlug" value="word-search" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[79]Word Search.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[79]Word Search.md" />
+              <option name="frontendQuestionId" value="leetcode.com79" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[79]Word Search.py" />
+              <option name="titleSlug" value="word-search" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[817]Linked List Components.java">
           <value>
             <LeetcodeEditor>
@@ -8976,9 +8998,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[79]Word Search.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[79]Word Search.md" />
               <option name="frontendQuestionId" value="leetcode.com79" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[79]Word Search.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[79]Word Search.py" />
               <option name="titleSlug" value="word-search" />
             </LeetcodeEditor>
           </value>
