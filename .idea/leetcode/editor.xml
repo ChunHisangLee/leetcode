@@ -1072,6 +1072,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2885]Rename Columns.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2885]Rename Columns.md" />
+              <option name="frontendQuestionId" value="leetcode.com2885" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2885]Rename Columns.py" />
+              <option name="titleSlug" value="rename-columns" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2886]Change Data Type.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2886]Change Data Type.md" />
+              <option name="frontendQuestionId" value="leetcode.com2886" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2886]Change Data Type.py" />
+              <option name="titleSlug" value="change-data-type" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.java">
           <value>
             <LeetcodeEditor>
