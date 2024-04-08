@@ -1028,6 +1028,50 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2881]Create a New Column.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2881]Create a New Column.md" />
+              <option name="frontendQuestionId" value="leetcode.com2881" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2881]Create a New Column.py" />
+              <option name="titleSlug" value="create-a-new-column" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2882]Drop Duplicate Rows.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2882]Drop Duplicate Rows.md" />
+              <option name="frontendQuestionId" value="leetcode.com2882" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2882]Drop Duplicate Rows.py" />
+              <option name="titleSlug" value="drop-duplicate-rows" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2883]Drop Missing Data.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2883]Drop Missing Data.md" />
+              <option name="frontendQuestionId" value="leetcode.com2883" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2883]Drop Missing Data.py" />
+              <option name="titleSlug" value="drop-missing-data" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2884]Modify Columns.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2884]Modify Columns.md" />
+              <option name="frontendQuestionId" value="leetcode.com2884" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2884]Modify Columns.py" />
+              <option name="titleSlug" value="modify-columns" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.java">
           <value>
             <LeetcodeEditor>
