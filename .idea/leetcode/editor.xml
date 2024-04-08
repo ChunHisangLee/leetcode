@@ -499,6 +499,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1700]Number of Students Unable to Eat Lunch.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1700]Number of Students Unable to Eat Lunch.md" />
+              <option name="frontendQuestionId" value="leetcode.com1700" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1700]Number of Students Unable to Eat Lunch.py" />
+              <option name="titleSlug" value="number-of-students-unable-to-eat-lunch" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1704]Determine if String Halves Are Alike.java">
           <value>
             <LeetcodeEditor>
@@ -893,6 +904,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[253]Meeting Rooms II.java" />
               <option name="titleSlug" value="meeting-rooms-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[255]Verify Preorder Sequence in Binary Search Tree.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[255]Verify Preorder Sequence in Binary Search Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com255" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[255]Verify Preorder Sequence in Binary Search Tree.py" />
+              <option name="titleSlug" value="verify-preorder-sequence-in-binary-search-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
