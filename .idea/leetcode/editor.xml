@@ -685,6 +685,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2073]Time Needed to Buy Tickets.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2073]Time Needed to Buy Tickets.md" />
+              <option name="frontendQuestionId" value="leetcode.com2073" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2073]Time Needed to Buy Tickets.py" />
+              <option name="titleSlug" value="time-needed-to-buy-tickets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2073]Time Needed to Buy Tickets.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2073]Time Needed to Buy Tickets.md" />
+              <option name="frontendQuestionId" value="leetcode.com2073" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2073]Time Needed to Buy Tickets.py" />
+              <option name="titleSlug" value="time-needed-to-buy-tickets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2098]Subsequence of Size K With the Largest Even Sum.java">
           <value>
             <LeetcodeEditor>
@@ -1102,6 +1124,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2887]Fill Missing Data.py" />
               <option name="titleSlug" value="fill-missing-data" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2891]Method Chaining.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2891]Method Chaining.md" />
+              <option name="frontendQuestionId" value="leetcode.com2891" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2891]Method Chaining.py" />
+              <option name="titleSlug" value="method-chaining" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2892]Minimizing Array After Replacing Pairs With Their Product.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2892]Minimizing Array After Replacing Pairs With Their Product.md" />
+              <option name="frontendQuestionId" value="leetcode.com2892" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2892]Minimizing Array After Replacing Pairs With Their Product.py" />
+              <option name="titleSlug" value="minimizing-array-after-replacing-pairs-with-their-product" />
             </LeetcodeEditor>
           </value>
         </entry>
