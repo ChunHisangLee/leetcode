@@ -1825,6 +1825,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[950]Reveal Cards In Increasing Order.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[950]Reveal Cards In Increasing Order.md" />
+              <option name="frontendQuestionId" value="leetcode.com950" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[950]Reveal Cards In Increasing Order.py" />
+              <option name="titleSlug" value="reveal-cards-in-increasing-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[997]Find the Town Judge.java">
           <value>
             <LeetcodeEditor>
