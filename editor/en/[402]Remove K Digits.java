@@ -1,29 +1,23 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String removeKdigits(String num, int k) {
-        Deque<Character> deque = new ArrayDeque<>();
+        StringBuilder sb = new StringBuilder();
 
-        for (char c : num.toCharArray()) {
-            while (!deque.isEmpty() && k > 0 && deque.peek() > c) {
-                deque.pop();
+        for (char digit : num.toCharArray()) {
+            while (k > 0 && sb.length() > 0 && sb.charAt(sb.length() - 1) > digit) {
+                sb.deleteCharAt(sb.length() - 1);
                 k--;
             }
 
-            deque.push(c);
+            sb.append(digit);
         }
 
         while (k > 0) {
-            deque.pop();
+            sb.deleteCharAt(sb.length() - 1);
             k--;
         }
 
-        StringBuilder sb = new StringBuilder();
-
-        while (!deque.isEmpty()) {
-            sb.append(deque.removeLast());
-        }
-
-        while (sb.length() > 1 && sb.charAt(0) == '0') {
+        while (sb.length() > 0 && sb.charAt(0) == '0') {
             sb.deleteCharAt(0);
         }
 
