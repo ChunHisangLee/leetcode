@@ -369,9 +369,21 @@
         <entry key="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[14]Longest Common Prefix.md" />
               <option name="frontendQuestionId" value="leetcode.com14" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.py" />
+              <option name="titleSlug" value="longest-common-prefix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[14]Longest Common Prefix.md" />
+              <option name="frontendQuestionId" value="leetcode.com14" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.py" />
               <option name="titleSlug" value="longest-common-prefix" />
             </LeetcodeEditor>
           </value>
@@ -484,6 +496,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1669]Merge In Between Linked Lists.py" />
               <option name="titleSlug" value="merge-in-between-linked-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1700]Number of Students Unable to Eat Lunch.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1700]Number of Students Unable to Eat Lunch.md" />
+              <option name="frontendQuestionId" value="leetcode.com1700" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1700]Number of Students Unable to Eat Lunch.py" />
+              <option name="titleSlug" value="number-of-students-unable-to-eat-lunch" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -600,9 +623,21 @@
         <entry key="$PROJECT_DIR$/editor/en/[1]Two Sum.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1]Two Sum.md" />
               <option name="frontendQuestionId" value="leetcode.com1" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.py" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1]Two Sum.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1]Two Sum.md" />
+              <option name="frontendQuestionId" value="leetcode.com1" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.py" />
               <option name="titleSlug" value="two-sum" />
             </LeetcodeEditor>
           </value>
@@ -614,6 +649,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[201]Bitwise AND of Numbers Range.java" />
               <option name="titleSlug" value="bitwise-and-of-numbers-range" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[205]Isomorphic Strings.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[205]Isomorphic Strings.md" />
+              <option name="frontendQuestionId" value="leetcode.com205" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[205]Isomorphic Strings.py" />
+              <option name="titleSlug" value="isomorphic-strings" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -636,6 +682,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.py" />
               <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2073]Time Needed to Buy Tickets.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2073]Time Needed to Buy Tickets.md" />
+              <option name="frontendQuestionId" value="leetcode.com2073" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2073]Time Needed to Buy Tickets.py" />
+              <option name="titleSlug" value="time-needed-to-buy-tickets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2073]Time Needed to Buy Tickets.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2073]Time Needed to Buy Tickets.md" />
+              <option name="frontendQuestionId" value="leetcode.com2073" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2073]Time Needed to Buy Tickets.py" />
+              <option name="titleSlug" value="time-needed-to-buy-tickets" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -861,6 +929,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[255]Verify Preorder Sequence in Binary Search Tree.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[255]Verify Preorder Sequence in Binary Search Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com255" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[255]Verify Preorder Sequence in Binary Search Tree.py" />
+              <option name="titleSlug" value="verify-preorder-sequence-in-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2610]Convert an Array Into a 2D Array With Conditions.java">
           <value>
             <LeetcodeEditor>
@@ -971,13 +1050,146 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2881]Create a New Column.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2881]Create a New Column.md" />
+              <option name="frontendQuestionId" value="leetcode.com2881" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2881]Create a New Column.py" />
+              <option name="titleSlug" value="create-a-new-column" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2882]Drop Duplicate Rows.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2882]Drop Duplicate Rows.md" />
+              <option name="frontendQuestionId" value="leetcode.com2882" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2882]Drop Duplicate Rows.py" />
+              <option name="titleSlug" value="drop-duplicate-rows" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2883]Drop Missing Data.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2883]Drop Missing Data.md" />
+              <option name="frontendQuestionId" value="leetcode.com2883" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2883]Drop Missing Data.py" />
+              <option name="titleSlug" value="drop-missing-data" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2884]Modify Columns.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2884]Modify Columns.md" />
+              <option name="frontendQuestionId" value="leetcode.com2884" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2884]Modify Columns.py" />
+              <option name="titleSlug" value="modify-columns" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2885]Rename Columns.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2885]Rename Columns.md" />
+              <option name="frontendQuestionId" value="leetcode.com2885" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2885]Rename Columns.py" />
+              <option name="titleSlug" value="rename-columns" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2886]Change Data Type.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2886]Change Data Type.md" />
+              <option name="frontendQuestionId" value="leetcode.com2886" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2886]Change Data Type.py" />
+              <option name="titleSlug" value="change-data-type" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2887]Fill Missing Data.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2887]Fill Missing Data.md" />
+              <option name="frontendQuestionId" value="leetcode.com2887" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2887]Fill Missing Data.py" />
+              <option name="titleSlug" value="fill-missing-data" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2891]Method Chaining.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2891]Method Chaining.md" />
+              <option name="frontendQuestionId" value="leetcode.com2891" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2891]Method Chaining.py" />
+              <option name="titleSlug" value="method-chaining" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2892]Minimizing Array After Replacing Pairs With Their Product.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2892]Minimizing Array After Replacing Pairs With Their Product.md" />
+              <option name="frontendQuestionId" value="leetcode.com2892" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2892]Minimizing Array After Replacing Pairs With Their Product.py" />
+              <option name="titleSlug" value="minimizing-array-after-replacing-pairs-with-their-product" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2958]Length of Longest Subarray With at Most K Frequency.md" />
               <option name="frontendQuestionId" value="leetcode.com2958" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.py" />
               <option name="titleSlug" value="length-of-longest-subarray-with-at-most-k-frequency" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2958]Length of Longest Subarray With at Most K Frequency.md" />
+              <option name="frontendQuestionId" value="leetcode.com2958" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.py" />
+              <option name="titleSlug" value="length-of-longest-subarray-with-at-most-k-frequency" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2962]Count Subarrays Where Max Element Appears at Least K Times.md" />
+              <option name="frontendQuestionId" value="leetcode.com2962" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java" />
+              <option name="titleSlug" value="count-subarrays-where-max-element-appears-at-least-k-times" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2962]Count Subarrays Where Max Element Appears at Least K Times.md" />
+              <option name="frontendQuestionId" value="leetcode.com2962" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java" />
+              <option name="titleSlug" value="count-subarrays-where-max-element-appears-at-least-k-times" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1203,6 +1415,49 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[402]Remove K Digits.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[402]Remove K Digits.md" />
+              <option name="frontendQuestionId" value="leetcode.com402" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[402]Remove K Digits.py" />
+              <option name="titleSlug" value="remove-k-digits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[402]Remove K Digits.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[402]Remove K Digits.md" />
+              <option name="frontendQuestionId" value="leetcode.com402" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[402]Remove K Digits.py" />
+              <option name="titleSlug" value="remove-k-digits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[41]First Missing Positive.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[41]First Missing Positive.md" />
+              <option name="frontendQuestionId" value="leetcode.com41" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[41]First Missing Positive.py" />
+              <option name="titleSlug" value="first-missing-positive" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[442]Find All Duplicates in an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com442" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[442]Find All Duplicates in an Array.java" />
+              <option name="titleSlug" value="find-all-duplicates-in-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[446]Arithmetic Slices II - Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -1242,6 +1497,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[455]Assign Cookies.java" />
               <option name="titleSlug" value="assign-cookies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[494]Target Sum.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[494]Target Sum.md" />
+              <option name="frontendQuestionId" value="leetcode.com494" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[494]Target Sum.py" />
+              <option name="titleSlug" value="target-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1377,6 +1643,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[713]Subarray Product Less Than K.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[713]Subarray Product Less Than K.md" />
+              <option name="frontendQuestionId" value="leetcode.com713" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[713]Subarray Product Less Than K.py" />
+              <option name="titleSlug" value="subarray-product-less-than-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[713]Subarray Product Less Than K.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[713]Subarray Product Less Than K.md" />
+              <option name="frontendQuestionId" value="leetcode.com713" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[713]Subarray Product Less Than K.py" />
+              <option name="titleSlug" value="subarray-product-less-than-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[739]Daily Temperatures.java">
           <value>
             <LeetcodeEditor>
@@ -1404,6 +1692,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[787]Cheapest Flights Within K Stops.java" />
               <option name="titleSlug" value="cheapest-flights-within-k-stops" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[79]Word Search.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[79]Word Search.md" />
+              <option name="frontendQuestionId" value="leetcode.com79" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[79]Word Search.py" />
+              <option name="titleSlug" value="word-search" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[79]Word Search.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[79]Word Search.md" />
+              <option name="frontendQuestionId" value="leetcode.com79" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[79]Word Search.py" />
+              <option name="titleSlug" value="word-search" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1537,6 +1847,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[950]Reveal Cards In Increasing Order.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[950]Reveal Cards In Increasing Order.md" />
+              <option name="frontendQuestionId" value="leetcode.com950" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[950]Reveal Cards In Increasing Order.py" />
+              <option name="titleSlug" value="reveal-cards-in-increasing-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[997]Find the Town Judge.java">
           <value>
             <LeetcodeEditor>
@@ -1560,9 +1881,21 @@
         <entry key="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[9]Palindrome Number.md" />
               <option name="frontendQuestionId" value="leetcode.com9" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[9]Palindrome Number.py" />
+              <option name="titleSlug" value="palindrome-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[9]Palindrome Number.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[9]Palindrome Number.md" />
+              <option name="frontendQuestionId" value="leetcode.com9" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[9]Palindrome Number.py" />
               <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>
@@ -3353,9 +3686,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[14]Longest Common Prefix.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[14]Longest Common Prefix.md" />
               <option name="frontendQuestionId" value="leetcode.com14" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[14]Longest Common Prefix.py" />
               <option name="titleSlug" value="longest-common-prefix" />
             </LeetcodeEditor>
           </value>
@@ -6434,9 +6768,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2962]Count Subarrays Where Max Element Appears at Least K Times.md" />
               <option name="frontendQuestionId" value="leetcode.com2962" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.py" />
               <option name="titleSlug" value="count-subarrays-where-max-element-appears-at-least-k-times" />
             </LeetcodeEditor>
           </value>
@@ -7245,9 +7580,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[41]First Missing Positive.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[41]First Missing Positive.md" />
               <option name="frontendQuestionId" value="leetcode.com41" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[41]First Missing Positive.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[41]First Missing Positive.py" />
               <option name="titleSlug" value="first-missing-positive" />
             </LeetcodeEditor>
           </value>
@@ -8480,7 +8816,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com713" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[713]Subarray Product Less Than K.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[713]Subarray Product Less Than K.java" />
               <option name="titleSlug" value="subarray-product-less-than-k" />
             </LeetcodeEditor>
           </value>
@@ -8838,9 +9174,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[79]Word Search.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[79]Word Search.md" />
               <option name="frontendQuestionId" value="leetcode.com79" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[79]Word Search.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[79]Word Search.py" />
               <option name="titleSlug" value="word-search" />
             </LeetcodeEditor>
           </value>
