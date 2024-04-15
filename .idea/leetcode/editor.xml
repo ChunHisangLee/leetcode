@@ -286,6 +286,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[129]Sum Root to Leaf Numbers.md" />
+              <option name="frontendQuestionId" value="leetcode.com129" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.py" />
+              <option name="titleSlug" value="sum-root-to-leaf-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[129]Sum Root to Leaf Numbers.md" />
+              <option name="frontendQuestionId" value="leetcode.com129" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.py" />
+              <option name="titleSlug" value="sum-root-to-leaf-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[136]Single Number.java">
           <value>
             <LeetcodeEditor>
@@ -353,6 +375,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1457]Pseudo-Palindromic Paths in a Binary Tree.java" />
               <option name="titleSlug" value="pseudo-palindromic-paths-in-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1469]Find All The Lonely Nodes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1469]Find All The Lonely Nodes.md" />
+              <option name="frontendQuestionId" value="leetcode.com1469" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1469]Find All The Lonely Nodes.py" />
+              <option name="titleSlug" value="find-all-the-lonely-nodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1469]Find All The Lonely Nodes.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1469]Find All The Lonely Nodes.md" />
+              <option name="frontendQuestionId" value="leetcode.com1469" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1469]Find All The Lonely Nodes.py" />
+              <option name="titleSlug" value="find-all-the-lonely-nodes" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1451,9 +1495,21 @@
         <entry key="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[42]Trapping Rain Water.md" />
               <option name="frontendQuestionId" value="leetcode.com42" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.py" />
+              <option name="titleSlug" value="trapping-rain-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[42]Trapping Rain Water.md" />
+              <option name="frontendQuestionId" value="leetcode.com42" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.py" />
               <option name="titleSlug" value="trapping-rain-water" />
             </LeetcodeEditor>
           </value>
@@ -3004,9 +3060,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[129]Sum Root to Leaf Numbers.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[129]Sum Root to Leaf Numbers.md" />
               <option name="frontendQuestionId" value="leetcode.com129" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[129]Sum Root to Leaf Numbers.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.py" />
               <option name="titleSlug" value="sum-root-to-leaf-numbers" />
             </LeetcodeEditor>
           </value>
@@ -7652,9 +7709,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[42]Trapping Rain Water.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[42]Trapping Rain Water.md" />
               <option name="frontendQuestionId" value="leetcode.com42" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.py" />
               <option name="titleSlug" value="trapping-rain-water" />
             </LeetcodeEditor>
           </value>
