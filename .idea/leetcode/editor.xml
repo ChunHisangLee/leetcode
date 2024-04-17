@@ -134,6 +134,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1071]Greatest Common Divisor of Strings.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1071]Greatest Common Divisor of Strings.md" />
+              <option name="frontendQuestionId" value="leetcode.com1071" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1071]Greatest Common Divisor of Strings.py" />
+              <option name="titleSlug" value="greatest-common-divisor-of-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1119]Remove Vowels from a String.java">
           <value>
             <LeetcodeEditor>
@@ -551,6 +562,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1700]Number of Students Unable to Eat Lunch.py" />
               <option name="titleSlug" value="number-of-students-unable-to-eat-lunch" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1701]Average Waiting Time.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1701]Average Waiting Time.md" />
+              <option name="frontendQuestionId" value="leetcode.com1701" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1701]Average Waiting Time.py" />
+              <option name="titleSlug" value="average-waiting-time" />
             </LeetcodeEditor>
           </value>
         </entry>
