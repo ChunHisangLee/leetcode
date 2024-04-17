@@ -1946,6 +1946,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[988]Smallest String Starting From Leaf.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[988]Smallest String Starting From Leaf.md" />
+              <option name="frontendQuestionId" value="leetcode.com988" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[988]Smallest String Starting From Leaf.py" />
+              <option name="titleSlug" value="smallest-string-starting-from-leaf" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[988]Smallest String Starting From Leaf.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[988]Smallest String Starting From Leaf.md" />
+              <option name="frontendQuestionId" value="leetcode.com988" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[988]Smallest String Starting From Leaf.py" />
+              <option name="titleSlug" value="smallest-string-starting-from-leaf" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[997]Find the Town Judge.java">
           <value>
             <LeetcodeEditor>
