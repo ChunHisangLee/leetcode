@@ -604,6 +604,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1768]Merge Strings Alternately.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1768]Merge Strings Alternately.md" />
+              <option name="frontendQuestionId" value="leetcode.com1768" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1768]Merge Strings Alternately.py" />
+              <option name="titleSlug" value="merge-strings-alternately" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1897]Redistribute Characters to Make All Strings Equal.java">
           <value>
             <LeetcodeEditor>
@@ -4558,9 +4569,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1768]Merge Strings Alternately.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1768]Merge Strings Alternately.md" />
               <option name="frontendQuestionId" value="leetcode.com1768" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1768]Merge Strings Alternately.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1768]Merge Strings Alternately.py" />
               <option name="titleSlug" value="merge-strings-alternately" />
             </LeetcodeEditor>
           </value>
