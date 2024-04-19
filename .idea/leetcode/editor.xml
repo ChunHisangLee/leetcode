@@ -719,6 +719,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[200]Number of Islands.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[200]Number of Islands.md" />
+              <option name="frontendQuestionId" value="leetcode.com200" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[200]Number of Islands.py" />
+              <option name="titleSlug" value="number-of-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[200]Number of Islands.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[200]Number of Islands.md" />
+              <option name="frontendQuestionId" value="leetcode.com200" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[200]Number of Islands.py" />
+              <option name="titleSlug" value="number-of-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[201]Bitwise AND of Numbers Range.java">
           <value>
             <LeetcodeEditor>
@@ -5094,9 +5116,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[200]Number of Islands.md" />
               <option name="frontendQuestionId" value="leetcode.com200" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[200]Number of Islands.py" />
               <option name="titleSlug" value="number-of-islands" />
             </LeetcodeEditor>
           </value>
