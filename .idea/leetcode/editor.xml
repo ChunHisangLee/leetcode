@@ -644,6 +644,36 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1971]Find if Path Exists in Graph.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1971" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1971]Find if Path Exists in Graph.py" />
+              <option name="titleSlug" value="find-if-path-exists-in-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1971]Find if Path Exists in Graph.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1971" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1971]Find if Path Exists in Graph.java" />
+              <option name="titleSlug" value="find-if-path-exists-in-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1971]Find if Path Exists in Graph.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1971" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1971]Find if Path Exists in Graph.py" />
+              <option name="titleSlug" value="find-if-path-exists-in-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1973]Count Nodes Equal to Sum of Descendants.java">
           <value>
             <LeetcodeEditor>
