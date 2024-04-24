@@ -167,6 +167,38 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1137]N-th Tribonacci Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1137" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1137]N-th Tribonacci Number.js" />
+              <option name="titleSlug" value="n-th-tribonacci-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1137]N-th Tribonacci Number.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1137]N-th Tribonacci Number.md" />
+              <option name="frontendQuestionId" value="leetcode.com1137" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1137]N-th Tribonacci Number.py" />
+              <option name="titleSlug" value="n-th-tribonacci-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1137]N-th Tribonacci Number.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1137]N-th Tribonacci Number.md" />
+              <option name="frontendQuestionId" value="leetcode.com1137" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1137]N-th Tribonacci Number.py" />
+              <option name="titleSlug" value="n-th-tribonacci-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -2667,7 +2699,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1137" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1137]N-th Tribonacci Number.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1137]N-th Tribonacci Number.java" />
               <option name="titleSlug" value="n-th-tribonacci-number" />
             </LeetcodeEditor>
           </value>
