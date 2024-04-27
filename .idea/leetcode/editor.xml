@@ -1344,6 +1344,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[514]Freedom Trail.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com514" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[514]Freedom Trail.js" />
+              <option name="titleSlug" value="freedom-trail" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[543]Diameter of Binary Tree.java">
           <value>
             <LeetcodeEditor>
