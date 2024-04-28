@@ -1,46 +1,54 @@
 310
-        Minimum Height Trees
-        2023-02-16 16:24:12
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
-        if (n < 2) {
+        if (n == 1) {
             return List.of(0);
         }
-        List<List<Integer>> list = new ArrayList<>();
+
+        List<List<Integer>> graph = new ArrayList<>();
+        int[] degree = new int[n];
+
         for (int i = 0; i < n; i++) {
-            list.add(new ArrayList<>());
+            graph.add(new ArrayList<>());
         }
-        int[] inDegree = new int[n];
+
         for (int[] edge : edges) {
-            list.get(edge[0]).add(edge[1]);
-            list.get(edge[1]).add(edge[0]);
-            inDegree[edge[0]]++;
-            inDegree[edge[1]]++;
+            graph.get(edge[0]).add(edge[1]);
+            graph.get(edge[1]).add(edge[0]);
+            degree[edge[0]]++;
+            degree[edge[1]]++;
         }
-        Deque<Integer> dq = new ArrayDeque<>();
+
+        Deque<Integer> leaves = new ArrayDeque<>();
+
         for (int i = 0; i < n; i++) {
-            if (inDegree[i] == 1) {
-                dq.add(i);
+            if (degree[i] == 1) {
+                leaves.add(i);
             }
         }
-        while (n > 2) {
-            int size = dq.size();
-            n -= size;
+
+        int remainingNodes = n;
+
+        while (remainingNodes > 2) {
+            int size = leaves.size();
+            remainingNodes -= size;
+
             for (int i = 0; i < size; i++) {
-                int index = dq.poll();
-                for (int num : list.get(index)) {
-                    inDegree[num]--;
-                    if (inDegree[num] == 1) {
-                        dq.add(num);
+                int leaf = leaves.poll();
+
+                for (int neighbor : graph.get(leaf)) {
+                    degree[neighbor]--;
+
+                    if (degree[neighbor] == 1) {
+                        leaves.add(neighbor);
                     }
                 }
             }
         }
-        List<Integer> res = new ArrayList<>();
-        res.addAll(dq);
-        return res;
+
+        return new ArrayList<>(leaves);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
