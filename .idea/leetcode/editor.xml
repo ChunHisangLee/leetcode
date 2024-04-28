@@ -1504,6 +1504,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[834]Sum of Distances in Tree.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com834" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[834]Sum of Distances in Tree.py" />
+              <option name="titleSlug" value="sum-of-distances-in-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[834]Sum of Distances in Tree.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com834" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[834]Sum of Distances in Tree.py" />
+              <option name="titleSlug" value="sum-of-distances-in-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[85]Maximal Rectangle.java">
           <value>
             <LeetcodeEditor>
