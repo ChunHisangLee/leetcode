@@ -93,6 +93,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1071]Greatest Common Divisor of Strings.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1071]Greatest Common Divisor of Strings.md" />
+              <option name="frontendQuestionId" value="leetcode.com1071" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1071]Greatest Common Divisor of Strings.py" />
+              <option name="titleSlug" value="greatest-common-divisor-of-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1119]Remove Vowels from a String.java">
           <value>
             <LeetcodeEditor>
@@ -245,6 +256,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[129]Sum Root to Leaf Numbers.md" />
+              <option name="frontendQuestionId" value="leetcode.com129" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.py" />
+              <option name="titleSlug" value="sum-root-to-leaf-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[129]Sum Root to Leaf Numbers.md" />
+              <option name="frontendQuestionId" value="leetcode.com129" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.py" />
+              <option name="titleSlug" value="sum-root-to-leaf-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[136]Single Number.java">
           <value>
             <LeetcodeEditor>
@@ -312,6 +345,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1457]Pseudo-Palindromic Paths in a Binary Tree.java" />
               <option name="titleSlug" value="pseudo-palindromic-paths-in-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1469]Find All The Lonely Nodes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1469]Find All The Lonely Nodes.md" />
+              <option name="frontendQuestionId" value="leetcode.com1469" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1469]Find All The Lonely Nodes.py" />
+              <option name="titleSlug" value="find-all-the-lonely-nodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1469]Find All The Lonely Nodes.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1469]Find All The Lonely Nodes.md" />
+              <option name="frontendQuestionId" value="leetcode.com1469" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1469]Find All The Lonely Nodes.py" />
+              <option name="titleSlug" value="find-all-the-lonely-nodes" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -469,6 +524,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1701]Average Waiting Time.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1701]Average Waiting Time.md" />
+              <option name="frontendQuestionId" value="leetcode.com1701" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1701]Average Waiting Time.py" />
+              <option name="titleSlug" value="average-waiting-time" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1704]Determine if String Halves Are Alike.java">
           <value>
             <LeetcodeEditor>
@@ -516,6 +582,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1762]Buildings With an Ocean View.java" />
               <option name="titleSlug" value="buildings-with-an-ocean-view" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1768]Merge Strings Alternately.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1768]Merge Strings Alternately.md" />
+              <option name="frontendQuestionId" value="leetcode.com1768" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1768]Merge Strings Alternately.py" />
+              <option name="titleSlug" value="merge-strings-alternately" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -598,6 +675,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.py" />
               <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[200]Number of Islands.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[200]Number of Islands.md" />
+              <option name="frontendQuestionId" value="leetcode.com200" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[200]Number of Islands.py" />
+              <option name="titleSlug" value="number-of-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[200]Number of Islands.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[200]Number of Islands.md" />
+              <option name="frontendQuestionId" value="leetcode.com200" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[200]Number of Islands.py" />
+              <option name="titleSlug" value="number-of-islands" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1447,6 +1546,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[42]Trapping Rain Water.md" />
+              <option name="frontendQuestionId" value="leetcode.com42" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.py" />
+              <option name="titleSlug" value="trapping-rain-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[42]Trapping Rain Water.md" />
+              <option name="frontendQuestionId" value="leetcode.com42" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.py" />
+              <option name="titleSlug" value="trapping-rain-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[442]Find All Duplicates in an Array.java">
           <value>
             <LeetcodeEditor>
@@ -1496,6 +1617,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[455]Assign Cookies.java" />
               <option name="titleSlug" value="assign-cookies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[463]Island Perimeter.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[463]Island Perimeter.md" />
+              <option name="frontendQuestionId" value="leetcode.com463" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[463]Island Perimeter.py" />
+              <option name="titleSlug" value="island-perimeter" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[463]Island Perimeter.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[463]Island Perimeter.md" />
+              <option name="frontendQuestionId" value="leetcode.com463" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[463]Island Perimeter.py" />
+              <option name="titleSlug" value="island-perimeter" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1578,6 +1721,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[621]Task Scheduler.java" />
               <option name="titleSlug" value="task-scheduler" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[623]Add One Row to Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[623]Add One Row to Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com623" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[623]Add One Row to Tree.py" />
+              <option name="titleSlug" value="add-one-row-to-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[623]Add One Row to Tree.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[623]Add One Row to Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com623" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[623]Add One Row to Tree.py" />
+              <option name="titleSlug" value="add-one-row-to-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1854,6 +2019,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[950]Reveal Cards In Increasing Order.py" />
               <option name="titleSlug" value="reveal-cards-in-increasing-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[988]Smallest String Starting From Leaf.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[988]Smallest String Starting From Leaf.md" />
+              <option name="frontendQuestionId" value="leetcode.com988" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[988]Smallest String Starting From Leaf.py" />
+              <option name="titleSlug" value="smallest-string-starting-from-leaf" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[988]Smallest String Starting From Leaf.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[988]Smallest String Starting From Leaf.md" />
+              <option name="frontendQuestionId" value="leetcode.com988" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[988]Smallest String Starting From Leaf.py" />
+              <option name="titleSlug" value="smallest-string-starting-from-leaf" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2993,9 +3180,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[129]Sum Root to Leaf Numbers.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[129]Sum Root to Leaf Numbers.md" />
               <option name="frontendQuestionId" value="leetcode.com129" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[129]Sum Root to Leaf Numbers.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[129]Sum Root to Leaf Numbers.py" />
               <option name="titleSlug" value="sum-root-to-leaf-numbers" />
             </LeetcodeEditor>
           </value>
@@ -4446,9 +4634,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1768]Merge Strings Alternately.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1768]Merge Strings Alternately.md" />
               <option name="frontendQuestionId" value="leetcode.com1768" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1768]Merge Strings Alternately.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1768]Merge Strings Alternately.py" />
               <option name="titleSlug" value="merge-strings-alternately" />
             </LeetcodeEditor>
           </value>
@@ -4926,9 +5115,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[200]Number of Islands.md" />
               <option name="frontendQuestionId" value="leetcode.com200" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[200]Number of Islands.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[200]Number of Islands.py" />
               <option name="titleSlug" value="number-of-islands" />
             </LeetcodeEditor>
           </value>
@@ -7641,9 +7831,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[42]Trapping Rain Water.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[42]Trapping Rain Water.md" />
               <option name="frontendQuestionId" value="leetcode.com42" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[42]Trapping Rain Water.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.py" />
               <option name="titleSlug" value="trapping-rain-water" />
             </LeetcodeEditor>
           </value>
@@ -7873,7 +8064,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com463" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[463]Island Perimeter.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[463]Island Perimeter.java" />
               <option name="titleSlug" value="island-perimeter" />
             </LeetcodeEditor>
           </value>
