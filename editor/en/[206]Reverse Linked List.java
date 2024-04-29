@@ -1,6 +1,3 @@
-206
-        Reverse Linked List
-        2022-11-29 15:29:54
 //leetcode submit region begin(Prohibit modification and deletion)
 
 /**
