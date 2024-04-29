@@ -12,8 +12,10 @@ var minOperations = function (nums, k) {
     }
 
     let diffBits = xorSum ^ k;
+
     const countBits = (n) => {
         let count = 0;
+
         while (n) {
             n &= (n - 1);
             count++;

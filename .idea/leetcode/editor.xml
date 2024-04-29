@@ -1072,6 +1072,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2505]Bitwise OR of All Subsequence Sums.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2505]Bitwise OR of All Subsequence Sums.md" />
+              <option name="frontendQuestionId" value="leetcode.com2505" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2505]Bitwise OR of All Subsequence Sums.py" />
+              <option name="titleSlug" value="bitwise-or-of-all-subsequence-sums" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2505]Bitwise OR of All Subsequence Sums.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2505]Bitwise OR of All Subsequence Sums.md" />
+              <option name="frontendQuestionId" value="leetcode.com2505" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2505]Bitwise OR of All Subsequence Sums.py" />
+              <option name="titleSlug" value="bitwise-or-of-all-subsequence-sums" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[253]Meeting Rooms II.java">
           <value>
             <LeetcodeEditor>
@@ -1409,9 +1431,21 @@
         <entry key="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.js">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2997]Minimum Number of Operations to Make Array XOR Equal to K.md" />
               <option name="frontendQuestionId" value="leetcode.com2997" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.py" />
+              <option name="titleSlug" value="minimum-number-of-operations-to-make-array-xor-equal-to-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2997]Minimum Number of Operations to Make Array XOR Equal to K.md" />
+              <option name="frontendQuestionId" value="leetcode.com2997" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2997]Minimum Number of Operations to Make Array XOR Equal to K.py" />
               <option name="titleSlug" value="minimum-number-of-operations-to-make-array-xor-equal-to-k" />
             </LeetcodeEditor>
           </value>
