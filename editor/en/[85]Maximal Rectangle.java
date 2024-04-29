@@ -2,38 +2,46 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maximalRectangle(char[][] matrix) {
-        int m = matrix.length;
-        int n = matrix[0].length;
-        int[] arr = new int[n];
-        int res = 0;
-        for (char[] c : matrix) {
-            for (int i = 0; i < n; i++) {
-                arr[i] = c[i] == '0' ? 0 : arr[i] + 1;
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        int maxArea = 0;
+        int[] height = new int[cols];
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (matrix[i][j] == '0') {
+                    height[j] = 0;
+                } else {
+                    height[j]++;
+                }
             }
-            res = Math.max(res, largestRectangleArea(arr));
+            maxArea = Math.max(maxArea, largestRectangleArea(height));
         }
-        return res;
+
+        return maxArea;
     }
 
     private int largestRectangleArea(int[] heights) {
-        Deque<Integer> dq = new ArrayDeque<>();
-        dq.push(-1);
-        int n = heights.length;
-        int max = 0;
-        for (int i = 0; i < n; i++) {
-            while ((dq.peek() != -1) && (heights[dq.peek()] >= heights[i])) {
-                int currH = heights[dq.pop()];
-                int currW = i - dq.peek() - 1;
-                max = Math.max(max, currH * currW);
+        Deque<Integer> stack = new ArrayDeque<>();
+        stack.push(-1);
+        int maxArea = 0;
+
+        for (int index = 0; index < heights.length; index++) {
+            while (stack.peek() != -1 && heights[stack.peek()] > heights[index]) {
+                int h = heights[stack.pop()];
+                int w = index - stack.peek() - 1;
+                maxArea = Math.max(maxArea, h * w);
             }
-            dq.push(i);
+            stack.push(index);
         }
-        while (dq.peek() != -1) {
-            int currH = heights[dq.pop()];
-            int currW = n - dq.peek() - 1;
-            max = Math.max(max, currH * currW);
+
+        while (stack.peek() != -1) {
+            int h = heights[stack.pop()];
+            int w = heights.length - stack.peek() - 1;
+            maxArea = Math.max(maxArea, h * w);
         }
-        return max;
+
+        return maxArea;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

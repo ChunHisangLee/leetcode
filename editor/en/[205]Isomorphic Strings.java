@@ -1,26 +1,28 @@
-205
-        Isomorphic Strings
-        2023-01-28 12:16:23
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        Map<Character, Character> map = new HashMap<>();
-        Set<Character> set = new HashSet<>();
-        char[] chS = s.toCharArray();
-        char[] chT = t.toCharArray();
-        for (int i = 0; i < chS.length; i++) {
-            if (!map.containsKey(chS[i])) {
-                if (set.contains(chT[i])) {
-                    return false;
-                }
-                map.put(chS[i], chT[i]);
-                set.add(chT[i]);
+        Map<Character, Character> map1 = new HashMap<>();
+        Map<Character, Character> map2 = new HashMap<>();
+
+        for (int i = 0; i < s.length(); i++) {
+            char sc = s.charAt(i);
+            char tc = t.charAt(i);
+            Character mappedToT = map1.get(sc);
+            Character mappedToS = map2.get(tc);
+
+            if (mappedToT == null) {
+                map1.put(sc, tc);
+            } else if (!mappedToT.equals(tc)) {
+                return false;
             }
-            if (map.get(chS[i]) != chT[i]) {
+
+            if (mappedToS == null) {
+                map2.put(tc, sc);
+            } else if (!mappedToS.equals(sc)) {
                 return false;
             }
         }
+
         return true;
     }
 }
