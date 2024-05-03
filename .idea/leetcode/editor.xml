@@ -754,6 +754,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[198]House Robber.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com198" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[198]House Robber.py" />
+              <option name="titleSlug" value="house-robber" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1992]Find All Groups of Farmland.js">
           <value>
             <LeetcodeEditor>
@@ -1091,6 +1101,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[279]Perfect Squares.java" />
               <option name="titleSlug" value="perfect-squares" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[283]Move Zeroes.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com283" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[283]Move Zeroes.py" />
+              <option name="titleSlug" value="move-zeroes" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1521,6 +1541,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[739]Daily Temperatures.java" />
               <option name="titleSlug" value="daily-temperatures" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[746]Min Cost Climbing Stairs.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com746" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[746]Min Cost Climbing Stairs.py" />
+              <option name="titleSlug" value="min-cost-climbing-stairs" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4682,7 +4712,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com198" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[198]House Robber.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[198]House Robber.py" />
               <option name="titleSlug" value="house-robber" />
             </LeetcodeEditor>
           </value>
@@ -6372,7 +6402,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com283" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[283]Move Zeroes.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[283]Move Zeroes.py" />
               <option name="titleSlug" value="move-zeroes" />
             </LeetcodeEditor>
           </value>
@@ -8803,7 +8833,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com746" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[746]Min Cost Climbing Stairs.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[746]Min Cost Climbing Stairs.py" />
               <option name="titleSlug" value="min-cost-climbing-stairs" />
             </LeetcodeEditor>
           </value>
