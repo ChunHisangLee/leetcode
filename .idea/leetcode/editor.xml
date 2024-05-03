@@ -1986,6 +1986,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[605]Can Place Flowers.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[605]Can Place Flowers.md" />
+              <option name="frontendQuestionId" value="leetcode.com605" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[605]Can Place Flowers.py" />
+              <option name="titleSlug" value="can-place-flowers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[621]Task Scheduler.java">
           <value>
             <LeetcodeEditor>
@@ -8830,9 +8841,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[605]Can Place Flowers.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[605]Can Place Flowers.md" />
               <option name="frontendQuestionId" value="leetcode.com605" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[605]Can Place Flowers.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[605]Can Place Flowers.py" />
               <option name="titleSlug" value="can-place-flowers" />
             </LeetcodeEditor>
           </value>
