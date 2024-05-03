@@ -411,6 +411,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1431]Kids With the Greatest Number of Candies.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1431]Kids With the Greatest Number of Candies.md" />
+              <option name="frontendQuestionId" value="leetcode.com1431" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1431]Kids With the Greatest Number of Candies.py" />
+              <option name="titleSlug" value="kids-with-the-greatest-number-of-candies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1457]Pseudo-Palindromic Paths in a Binary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -3915,9 +3926,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1431]Kids With the Greatest Number of Candies.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1431]Kids With the Greatest Number of Candies.md" />
               <option name="frontendQuestionId" value="leetcode.com1431" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1431]Kids With the Greatest Number of Candies.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1431]Kids With the Greatest Number of Candies.py" />
               <option name="titleSlug" value="kids-with-the-greatest-number-of-candies" />
             </LeetcodeEditor>
           </value>
