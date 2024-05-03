@@ -1,20 +1,23 @@
-1137
-        N-th Tribonacci Number
-        2022-12-14 12:12:07
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int tribonacci(int n) {
         if (n <= 2) {
             return n == 0 ? 0 : 1;
         }
-        int[] dp = new int[n + 1];
-        dp[1] = 1;
-        dp[2] = 1;
+
+        int t0 = 0;
+        int t1 = 1;
+        int t2 = 1;
+        int curr = 0;
+
         for (int i = 3; i <= n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2] + dp[i - 3];
+            curr = t0 + t1 + t2;
+            t0 = t1;
+            t1 = t2;
+            t2 = curr;
         }
-        return dp[n];
+
+        return curr;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
