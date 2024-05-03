@@ -1752,6 +1752,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[345]Reverse Vowels of a String.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[345]Reverse Vowels of a String.md" />
+              <option name="frontendQuestionId" value="leetcode.com345" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[345]Reverse Vowels of a String.py" />
+              <option name="titleSlug" value="reverse-vowels-of-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[402]Remove K Digits.java">
           <value>
             <LeetcodeEditor>
@@ -7666,9 +7677,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[345]Reverse Vowels of a String.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[345]Reverse Vowels of a String.md" />
               <option name="frontendQuestionId" value="leetcode.com345" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[345]Reverse Vowels of a String.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[345]Reverse Vowels of a String.py" />
               <option name="titleSlug" value="reverse-vowels-of-a-string" />
             </LeetcodeEditor>
           </value>
