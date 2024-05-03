@@ -1384,6 +1384,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[374]Guess Number Higher or Lower.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com374" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[374]Guess Number Higher or Lower.py" />
+              <option name="titleSlug" value="guess-number-higher-or-lower" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[404]Sum of Left Leaves.java">
           <value>
             <LeetcodeEditor>
@@ -7212,7 +7222,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com374" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[374]Guess Number Higher or Lower.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[374]Guess Number Higher or Lower.py" />
               <option name="titleSlug" value="guess-number-higher-or-lower" />
             </LeetcodeEditor>
           </value>
