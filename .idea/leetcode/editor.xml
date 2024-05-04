@@ -1664,6 +1664,36 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[881]Boats to Save People.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com881" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[881]Boats to Save People.py" />
+              <option name="titleSlug" value="boats-to-save-people" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[881]Boats to Save People.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com881" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[881]Boats to Save People.js" />
+              <option name="titleSlug" value="boats-to-save-people" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[881]Boats to Save People.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com881" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[881]Boats to Save People.py" />
+              <option name="titleSlug" value="boats-to-save-people" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[88]Merge Sorted Array.java">
           <value>
             <LeetcodeEditor>
@@ -9433,7 +9463,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com881" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[881]Boats to Save People.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[881]Boats to Save People.java" />
               <option name="titleSlug" value="boats-to-save-people" />
             </LeetcodeEditor>
           </value>
