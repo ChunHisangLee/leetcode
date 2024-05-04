@@ -454,6 +454,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[151]Reverse Words in a String.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com151" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[151]Reverse Words in a String.js" />
+              <option name="titleSlug" value="reverse-words-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1522]Diameter of N-Ary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -3712,7 +3722,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com151" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[151]Reverse Words in a String.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[151]Reverse Words in a String.js" />
               <option name="titleSlug" value="reverse-words-in-a-string" />
             </LeetcodeEditor>
           </value>
