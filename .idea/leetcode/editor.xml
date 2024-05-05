@@ -1574,6 +1574,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[643]Maximum Average Subarray I.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com643" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[643]Maximum Average Subarray I.js" />
+              <option name="titleSlug" value="maximum-average-subarray-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[645]Set Mismatch.java">
           <value>
             <LeetcodeEditor>
@@ -8473,7 +8483,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com643" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[643]Maximum Average Subarray I.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[643]Maximum Average Subarray I.js" />
               <option name="titleSlug" value="maximum-average-subarray-i" />
             </LeetcodeEditor>
           </value>
