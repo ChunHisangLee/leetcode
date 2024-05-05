@@ -1,6 +1,3 @@
-237
-        Delete Node in a Linked List
-        2023-01-02 14:26:01
 //leetcode submit region begin(Prohibit modification and deletion)
 
 /**

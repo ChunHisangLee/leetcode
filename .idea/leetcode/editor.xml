@@ -854,6 +854,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[203]Remove Linked List Elements.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com203" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[203]Remove Linked List Elements.js" />
+              <option name="titleSlug" value="remove-linked-list-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[203]Remove Linked List Elements.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com203" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[203]Remove Linked List Elements.py" />
+              <option name="titleSlug" value="remove-linked-list-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.java">
           <value>
             <LeetcodeEditor>
@@ -1004,6 +1024,36 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[237]Delete Node in a Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com237" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[237]Delete Node in a Linked List.java" />
+              <option name="titleSlug" value="delete-node-in-a-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[237]Delete Node in a Linked List.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com237" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[237]Delete Node in a Linked List.py" />
+              <option name="titleSlug" value="delete-node-in-a-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[237]Delete Node in a Linked List.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com237" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[237]Delete Node in a Linked List.py" />
+              <option name="titleSlug" value="delete-node-in-a-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2385]Amount of Time for Binary Tree to Be Infected.java">
           <value>
             <LeetcodeEditor>
@@ -1051,6 +1101,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2485]Find the Pivot Integer.java" />
               <option name="titleSlug" value="find-the-pivot-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2487]Remove Nodes From Linked List.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2487" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2487]Remove Nodes From Linked List.py" />
+              <option name="titleSlug" value="remove-nodes-from-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2487]Remove Nodes From Linked List.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2487" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2487]Remove Nodes From Linked List.py" />
+              <option name="titleSlug" value="remove-nodes-from-linked-list" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1679,7 +1749,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com881" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[881]Boats to Save People.py" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[881]Boats to Save People.java" />
               <option name="titleSlug" value="boats-to-save-people" />
             </LeetcodeEditor>
           </value>
@@ -4942,7 +5012,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com203" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[203]Remove Linked List Elements.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[203]Remove Linked List Elements.py" />
               <option name="titleSlug" value="remove-linked-list-elements" />
             </LeetcodeEditor>
           </value>
@@ -5712,7 +5782,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com237" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[237]Delete Node in a Linked List.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[237]Delete Node in a Linked List.js" />
               <option name="titleSlug" value="delete-node-in-a-linked-list" />
             </LeetcodeEditor>
           </value>
