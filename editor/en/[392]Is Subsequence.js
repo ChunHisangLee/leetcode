@@ -5,16 +5,17 @@
  * @return {boolean}
  */
 var isSubsequence = function (s, t) {
-    let i = 0;
-    let j = 0;
+    let sIndex = 0;
+    let tIndex = 0;
 
-    while (i < s.length && j < t.length) {
-        if (s[i] == t[j]) {
-            i++;
+    while (sIndex < s.length && tIndex < t.length) {
+        if (s[sIndex] === t[tIndex]) {
+            sIndex++;
         }
-        j++;
+
+        tIndex++;
     }
 
-    return i === s.length;
+    return sIndex === s.length;
 };
 //leetcode submit region end(Prohibit modification and deletion)

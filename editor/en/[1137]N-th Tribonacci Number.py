@@ -1,19 +1,16 @@
 # leetcode submit region begin(Prohibit modification and deletion)
 class Solution:
     def tribonacci(self, n: int) -> int:
-        if n <= 2:
-            return 0 if n == 0 else 1
+        if n == 0:
+            return 0
+        elif n == 1 or n == 2:
+            return 1
 
-        t0 = 0
-        t1 = 1
-        t2 = 1
-        curr = 0
+        t0, t1, t2 = 0, 1, 1
 
-        for _ in range(3, n + 1):
-            curr = t0 + t1 + t2
-            t0 = t1
-            t1 = t2
-            t2 = curr
+        for i in range(3, n + 1):
+            current = t0 + t1 + t2
+            t0, t1, t2 = t1, t2, current
 
-        return curr
+        return current
 # leetcode submit region end(Prohibit modification and deletion)
