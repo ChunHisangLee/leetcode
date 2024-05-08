@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditorlabuladong">
+    <option name="projectConfig">
+      <map>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[2816]Double a Number Represented as a Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2816]Double a Number Represented as a Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com2816" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2816]Double a Number Represented as a Linked List.java" />
+              <option name="titleSlug" value="double-a-number-represented-as-a-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2473]Minimum Cost to Buy Apples.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2473]Minimum Cost to Buy Apples.md" />
+              <option name="frontendQuestionId" value="leetcode.com2473" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2473]Minimum Cost to Buy Apples.java" />
+              <option name="titleSlug" value="minimum-cost-to-buy-apples" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2816]Double a Number Represented as a Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2816]Double a Number Represented as a Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com2816" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2816]Double a Number Represented as a Linked List.py" />
+              <option name="titleSlug" value="double-a-number-represented-as-a-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2816]Double a Number Represented as a Linked List.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2816]Double a Number Represented as a Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com2816" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2816]Double a Number Represented as a Linked List.py" />
+              <option name="titleSlug" value="double-a-number-represented-as-a-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[506]Relative Ranks.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[506]Relative Ranks.md" />
+              <option name="frontendQuestionId" value="leetcode.com506" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[506]Relative Ranks.java" />
+              <option name="titleSlug" value="relative-ranks" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
