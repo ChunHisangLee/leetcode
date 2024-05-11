@@ -530,6 +530,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1732]Find the Highest Altitude.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1732" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1732]Find the Highest Altitude.java" />
+              <option name="titleSlug" value="find-the-highest-altitude" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1750]Minimum Length of String After Deleting Similar Ends.java">
           <value>
             <LeetcodeEditor>
@@ -4539,7 +4549,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1732" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1732]Find the Highest Altitude.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1732]Find the Highest Altitude.java" />
               <option name="titleSlug" value="find-the-highest-altitude" />
             </LeetcodeEditor>
           </value>
