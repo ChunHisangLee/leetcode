@@ -949,6 +949,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2373]Largest Local Values in a Matrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2373" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2373]Largest Local Values in a Matrix.java" />
+              <option name="titleSlug" value="largest-local-values-in-a-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2385]Amount of Time for Binary Tree to Be Infected.java">
           <value>
             <LeetcodeEditor>
