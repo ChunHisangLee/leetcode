@@ -743,6 +743,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2061]Number of Spaces Cleaning Robot Cleaned.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2061" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2061]Number of Spaces Cleaning Robot Cleaned.java" />
+              <option name="titleSlug" value="number-of-spaces-cleaning-robot-cleaned" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[206]Reverse Linked List.java">
           <value>
             <LeetcodeEditor>
@@ -1137,6 +1147,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[279]Perfect Squares.java" />
               <option name="titleSlug" value="perfect-squares" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2812]Find the Safest Path in a Grid.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2812" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2812]Find the Safest Path in a Grid.java" />
+              <option name="titleSlug" value="find-the-safest-path-in-a-grid" />
             </LeetcodeEditor>
           </value>
         </entry>
