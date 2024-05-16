@@ -937,6 +937,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2331]Evaluate Boolean Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2331" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2331]Evaluate Boolean Binary Tree.java" />
+              <option name="titleSlug" value="evaluate-boolean-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[234]Palindrome Linked List.java">
           <value>
             <LeetcodeEditor>
