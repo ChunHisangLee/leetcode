@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1325]Delete Leaves With a Given Value.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1325]Delete Leaves With a Given Value.md" />
+              <option name="frontendQuestionId" value="leetcode.com1325" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1325]Delete Leaves With a Given Value.java" />
+              <option name="titleSlug" value="delete-leaves-with-a-given-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2061]Number of Spaces Cleaning Robot Cleaned.java">
           <value>
             <LeetcodeEditor>
