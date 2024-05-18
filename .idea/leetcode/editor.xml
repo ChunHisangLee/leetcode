@@ -1595,6 +1595,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[334]Increasing Triplet Subsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com334" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[334]Increasing Triplet Subsequence.java" />
+              <option name="titleSlug" value="increasing-triplet-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[338]Counting Bits.java">
           <value>
             <LeetcodeEditor>
