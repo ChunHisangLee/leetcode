@@ -1595,6 +1595,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[338]Counting Bits.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com338" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[338]Counting Bits.java" />
+              <option name="titleSlug" value="counting-bits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[340]Longest Substring with At Most K Distinct Characters.java">
           <value>
             <LeetcodeEditor>
@@ -1850,6 +1860,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[6]Zigzag Conversion.py" />
               <option name="titleSlug" value="zigzag-conversion" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[700]Search in a Binary Search Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com700" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[700]Search in a Binary Search Tree.java" />
+              <option name="titleSlug" value="search-in-a-binary-search-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -7332,7 +7352,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com338" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[338]Counting Bits.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[338]Counting Bits.java" />
               <option name="titleSlug" value="counting-bits" />
             </LeetcodeEditor>
           </value>
