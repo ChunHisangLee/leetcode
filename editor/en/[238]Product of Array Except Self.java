@@ -2,21 +2,20 @@
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
-        int[] arr = new int[n];
-        arr[0] = 1;
+        int[] answer = new int[n];
+        int postfixSum = 1;
+        answer[0] = 1;
 
         for (int i = 1; i < n; i++) {
-            arr[i] = arr[i - 1] * nums[i - 1];
+            answer[i] = answer[i - 1] * nums[i - 1];
         }
 
-        int prod = 1;
-
-        for (int i = n - 1; i >= 0; i--) {
-            arr[i] *= prod;
-            prod *= nums[i];
+        for (int i = n - 2; i >= 0; i--) {
+            postfixSum *= nums[i + 1];
+            answer[i] *= postfixSum;
         }
 
-        return arr;
+        return answer;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

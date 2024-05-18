@@ -3476,7 +3476,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com136" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[136]Single Number.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[136]Single Number.java" />
               <option name="titleSlug" value="single-number" />
             </LeetcodeEditor>
           </value>
