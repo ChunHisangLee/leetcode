@@ -837,6 +837,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[207]Course Schedule.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com207" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[207]Course Schedule.java" />
+              <option name="titleSlug" value="course-schedule" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2098]Subsequence of Size K With the Largest Even Sum.java">
           <value>
             <LeetcodeEditor>
@@ -854,6 +864,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[20]Valid Parentheses.java" />
               <option name="titleSlug" value="valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[210]Course Schedule II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com210" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[210]Course Schedule II.java" />
+              <option name="titleSlug" value="course-schedule-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -5390,7 +5410,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com207" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[207]Course Schedule.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[207]Course Schedule.java" />
               <option name="titleSlug" value="course-schedule" />
             </LeetcodeEditor>
           </value>
@@ -5460,7 +5480,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com210" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[210]Course Schedule II.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[210]Course Schedule II.java" />
               <option name="titleSlug" value="course-schedule-ii" />
             </LeetcodeEditor>
           </value>
