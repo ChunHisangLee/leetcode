@@ -600,6 +600,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1863]Sum of All Subset XOR Totals.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1863" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1863]Sum of All Subset XOR Totals.java" />
+              <option name="titleSlug" value="sum-of-all-subset-xor-totals" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1885]Count Pairs in Two Arrays.java">
           <value>
             <LeetcodeEditor>
