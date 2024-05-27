@@ -58,6 +58,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1608]Special Array With X Elements Greater Than or Equal X.md" />
+              <option name="frontendQuestionId" value="leetcode.com1608" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.go" />
+              <option name="titleSlug" value="special-array-with-x-elements-greater-than-or-equal-x" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1608]Special Array With X Elements Greater Than or Equal X.md" />
+              <option name="frontendQuestionId" value="leetcode.com1608" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.go" />
+              <option name="titleSlug" value="special-array-with-x-elements-greater-than-or-equal-x" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2061]Number of Spaces Cleaning Robot Cleaned.java">
           <value>
             <LeetcodeEditor>
