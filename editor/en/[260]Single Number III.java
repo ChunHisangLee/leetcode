@@ -1,21 +1,24 @@
-260Single Number III 2023-01-26 13:27:55
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] singleNumber(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
+        int xor = 0;
+
         for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+            xor ^= num;
         }
-        int[] arr = new int[2];
-        int index = 0;
-        for (int key : map.keySet()) {
-            if (map.get(key) == 1) {
-                arr[index] = key;
-                index++;
+
+        int bit =xor &-xor;
+        int[] result = new int[2];
+
+        for(int num : nums) {
+            if((num & bit) == 0) {
+                result[0] ^= num;
+            }else{
+                result[1] ^= num;
             }
         }
-        return arr;
+
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

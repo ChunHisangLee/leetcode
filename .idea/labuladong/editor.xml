@@ -168,6 +168,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[260]Single Number III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[260]Single Number III.md" />
+              <option name="frontendQuestionId" value="leetcode.com260" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[260]Single Number III.java" />
+              <option name="titleSlug" value="single-number-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2802]Find The K-th Lucky Number.java">
           <value>
             <LeetcodeEditor>
