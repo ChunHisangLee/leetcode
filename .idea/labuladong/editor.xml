@@ -157,6 +157,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2486]Append Characters to String to Make Subsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2486]Append Characters to String to Make Subsequence.md" />
+              <option name="frontendQuestionId" value="leetcode.com2486" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2486]Append Characters to String to Make Subsequence.java" />
+              <option name="titleSlug" value="append-characters-to-string-to-make-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2597]The Number of Beautiful Subsets.java">
           <value>
             <LeetcodeEditor>
