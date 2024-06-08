@@ -1,19 +1,13 @@
-344
-        Reverse String
-        2022-12-21 22:38:05
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public void reverseString(char[] s) {
-        int left = 0;
-        int right = s.length - 1;
+        int n = s.length;
 
-        while (left < right) {
-            char temp = s[left];
-            s[left] = s[right];
-            s[right] = temp;
-            left++;
-            right--;
+        for (int i = 0; i < n / 2; i++) {
+            char temp = s[i];
+            s[i] = s[n - 1 - i];
+            s[n - 1 - i] = temp;
         }
     }
 }
