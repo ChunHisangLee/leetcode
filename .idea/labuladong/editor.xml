@@ -14,6 +14,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1002]Find Common Characters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1002]Find Common Characters.md" />
+              <option name="frontendQuestionId" value="leetcode.com1002" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1002]Find Common Characters.java" />
+              <option name="titleSlug" value="find-common-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1208]Get Equal Substrings Within Budget.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1208]Get Equal Substrings Within Budget.md" />
+              <option name="frontendQuestionId" value="leetcode.com1208" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1208]Get Equal Substrings Within Budget.java" />
+              <option name="titleSlug" value="get-equal-substrings-within-budget" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1219]Path with Maximum Gold.java">
           <value>
             <LeetcodeEditor>
@@ -22,6 +44,94 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1219]Path with Maximum Gold.java" />
               <option name="titleSlug" value="path-with-maximum-gold" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1255]Maximum Score Words Formed by Letters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1255]Maximum Score Words Formed by Letters.md" />
+              <option name="frontendQuestionId" value="leetcode.com1255" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1255]Maximum Score Words Formed by Letters.java" />
+              <option name="titleSlug" value="maximum-score-words-formed-by-letters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[131]Palindrome Partitioning.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[131]Palindrome Partitioning.md" />
+              <option name="frontendQuestionId" value="leetcode.com131" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[131]Palindrome Partitioning.java" />
+              <option name="titleSlug" value="palindrome-partitioning" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1325]Delete Leaves With a Given Value.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1325]Delete Leaves With a Given Value.md" />
+              <option name="frontendQuestionId" value="leetcode.com1325" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1325]Delete Leaves With a Given Value.java" />
+              <option name="titleSlug" value="delete-leaves-with-a-given-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1404]Number of Steps to Reduce a Number in Binary Representation to One.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1404]Number of Steps to Reduce a Number in Binary Representation to One.md" />
+              <option name="frontendQuestionId" value="leetcode.com1404" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1404]Number of Steps to Reduce a Number in Binary Representation to One.java" />
+              <option name="titleSlug" value="number-of-steps-to-reduce-a-number-in-binary-representation-to-one" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1442]Count Triplets That Can Form Two Arrays of Equal XOR.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1442]Count Triplets That Can Form Two Arrays of Equal XOR.md" />
+              <option name="frontendQuestionId" value="leetcode.com1442" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1442]Count Triplets That Can Form Two Arrays of Equal XOR.java" />
+              <option name="titleSlug" value="count-triplets-that-can-form-two-arrays-of-equal-xor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1608]Special Array With X Elements Greater Than or Equal X.md" />
+              <option name="frontendQuestionId" value="leetcode.com1608" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.go" />
+              <option name="titleSlug" value="special-array-with-x-elements-greater-than-or-equal-x" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1608]Special Array With X Elements Greater Than or Equal X.md" />
+              <option name="frontendQuestionId" value="leetcode.com1608" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.go" />
+              <option name="titleSlug" value="special-array-with-x-elements-greater-than-or-equal-x" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1]Two Sum.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1]Two Sum.md" />
+              <option name="frontendQuestionId" value="leetcode.com1" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.go" />
+              <option name="titleSlug" value="two-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -58,6 +168,50 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2486]Append Characters to String to Make Subsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2486]Append Characters to String to Make Subsequence.md" />
+              <option name="frontendQuestionId" value="leetcode.com2486" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2486]Append Characters to String to Make Subsequence.java" />
+              <option name="titleSlug" value="append-characters-to-string-to-make-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2597]The Number of Beautiful Subsets.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2597]The Number of Beautiful Subsets.md" />
+              <option name="frontendQuestionId" value="leetcode.com2597" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2597]The Number of Beautiful Subsets.java" />
+              <option name="titleSlug" value="the-number-of-beautiful-subsets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[260]Single Number III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[260]Single Number III.md" />
+              <option name="frontendQuestionId" value="leetcode.com260" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[260]Single Number III.java" />
+              <option name="titleSlug" value="single-number-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2802]Find The K-th Lucky Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2802]Find The K-th Lucky Number.md" />
+              <option name="frontendQuestionId" value="leetcode.com2802" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2802]Find The K-th Lucky Number.java" />
+              <option name="titleSlug" value="find-the-k-th-lucky-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2812]Find the Safest Path in a Grid.java">
           <value>
             <LeetcodeEditor>
@@ -91,6 +245,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[291]Word Pattern II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[291]Word Pattern II.md" />
+              <option name="frontendQuestionId" value="leetcode.com291" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[291]Word Pattern II.java" />
+              <option name="titleSlug" value="word-pattern-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[3075]Maximize Happiness of Selected Children.java">
           <value>
             <LeetcodeEditor>
@@ -113,6 +278,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[409]Longest Palindrome.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[409]Longest Palindrome.md" />
+              <option name="frontendQuestionId" value="leetcode.com409" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[409]Longest Palindrome.go" />
+              <option name="titleSlug" value="longest-palindrome" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[409]Longest Palindrome.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[409]Longest Palindrome.md" />
+              <option name="frontendQuestionId" value="leetcode.com409" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[409]Longest Palindrome.go" />
+              <option name="titleSlug" value="longest-palindrome" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[506]Relative Ranks.java">
           <value>
             <LeetcodeEditor>
@@ -132,6 +319,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[786]K-th Smallest Prime Fraction.java" />
               <option name="titleSlug" value="k-th-smallest-prime-fraction" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[78]Subsets.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[78]Subsets.md" />
+              <option name="frontendQuestionId" value="leetcode.com78" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[78]Subsets.java" />
+              <option name="titleSlug" value="subsets" />
             </LeetcodeEditor>
           </value>
         </entry>
