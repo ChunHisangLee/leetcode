@@ -8,8 +8,8 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
             char c = s.charAt(i);
-            result += count[c - 'a'] + 1;
             count[c - 'a']++;
+            result += count[c - 'a'];
         }
 
         return result;
