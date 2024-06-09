@@ -2288,6 +2288,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[974]Subarray Sums Divisible by K.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com974" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[974]Subarray Sums Divisible by K.java" />
+              <option name="titleSlug" value="subarray-sums-divisible-by-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[979]Distribute Coins in Binary Tree.java">
           <value>
             <LeetcodeEditor>
