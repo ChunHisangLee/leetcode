@@ -1,17 +1,13 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int heightChecker(int[] heights) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        int[] arr = heights.clone();
         int count = 0;
+        int n = arr.length;
+        Arrays.parallelSort(arr);
 
-        for (int num : heights) {
-            pq.offer(num);
-        }
-
-        for (int num : heights) {
-            int orderedNum = pq.poll();
-
-            if (num != orderedNum) {
+        for (int i = 0; i < n; i++) {
+            if (arr[i] != heights[i]) {
                 count++;
             }
         }
