@@ -1,18 +1,21 @@
-1051
-        Height Checker
-        2022-12-16 14:32:00
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int heightChecker(int[] heights) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
         int count = 0;
-        int[] arr = heights.clone();
-        Arrays.sort(arr);
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != heights[i]) {
+
+        for (int num : heights) {
+            pq.offer(num);
+        }
+
+        for (int num : heights) {
+            int orderedNum = pq.poll();
+
+            if (num != orderedNum) {
                 count++;
             }
         }
+
         return count;
     }
 }
