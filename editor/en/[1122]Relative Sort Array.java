@@ -2,11 +2,14 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
-        Map<Integer, Integer> map = new TreeMap<>();
-
-        for (int num : arr1) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
-        }
+        Map<Integer, Integer> map = Arrays.stream(arr1)
+                .boxed()
+                .collect(Collectors.toMap(
+                        num -> num,
+                        num -> 1,
+                        Integer::sum,
+                        TreeMap::new
+                ));
 
         int[] arr = new int[arr1.length];
         int index = 0;
