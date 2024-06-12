@@ -333,6 +333,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[75]Sort Colors.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[75]Sort Colors.md" />
+              <option name="frontendQuestionId" value="leetcode.com75" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[75]Sort Colors.java" />
+              <option name="titleSlug" value="sort-colors" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[786]K-th Smallest Prime Fraction.java">
           <value>
             <LeetcodeEditor>
