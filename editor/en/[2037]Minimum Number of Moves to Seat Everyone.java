@@ -2,11 +2,11 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int minMovesToSeat(int[] seats, int[] students) {
-        Arrays.sort(students);
         Arrays.sort(seats);
+        Arrays.sort(students);
         return IntStream.range(0, seats.length)
-                .mapToObj(i -> Math.abs(students[i] - seats[i]))
-                .reduce(0, (a, b) -> a + b);
+                .map(i -> Math.abs(students[i] - seats[i]))
+                .sum();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
@@ -16,8 +16,8 @@ class Solution {
         Arrays.sort(seats);
         Arrays.sort(students);
         return IntStream.range(0, seats.length)
-                .mapToObj(i -> Math.abs(students[i] - seats[i]))
-                .reduce(0, (a, b) -> a + b);
+                .map(i -> Math.abs(students[i] - seats[i]))
+                .sum();
     }
 }
 
