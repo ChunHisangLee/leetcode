@@ -1,29 +1,29 @@
-443
-        String Compression
-        2023-03-02 09:58:19
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int compress(char[] chars) {
         int n = chars.length;
+        int write = 0;
         int i = 0;
-        int res = 0;
+
         while (i < n) {
-            int len = 1;
-            while (i + len < n && chars[i + len] == chars[i]) {
-                len++;
+            char curr = chars[i];
+            int count = 0;
+
+            while (i < n && chars[i] == curr) {
+                i++;
+                count++;
             }
-            chars[res] = chars[i];
-            res++;
-            if (len > 1) {
-                for (char c : Integer.toString(len).toCharArray()) {
-                    chars[res] = c;
-                    res++;
+
+            chars[write++] = curr;
+
+            if (count > 1) {
+                for (char c : String.valueOf(count).toCharArray()) {
+                    chars[write++] = c;
                 }
             }
-            i += len;
         }
-        return res;
+
+        return write;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

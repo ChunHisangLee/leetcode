@@ -2,26 +2,44 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
-        int n = wage.length;
-        double[][] arrs = new double[n][2];
+        int n = quality.length;
+        Worker[] workers = new Worker[n];
+
         for (int i = 0; i < n; i++) {
-            arrs[i] = new double[]{(double) quality[i], (double) (wage[i]) / quality[i]};
+            workers[i] = new Worker(quality[i], wage[i]);
         }
-        Arrays.sort(arrs, (a, b) -> Double.compare(a[1], b[1]));
-        PriorityQueue<Double> pq = new PriorityQueue<>((a, b) -> Double.compare(b, a));
-        double res = Double.MAX_VALUE;
-        double sum = 0;
-        for (double[] arr : arrs) {
-            pq.add(arr[0]);
-            sum += arr[0];
-            if (pq.size() > k) {
-                sum -= pq.poll();
+
+        Arrays.sort(workers, (a, b) -> Double.compare(a.ratio, b.ratio));
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a);
+        long totalQuality = 0;
+        double minWage = Double.MAX_VALUE;
+
+        for (Worker worker : workers) {
+            maxHeap.offer(worker.quality);
+            totalQuality += worker.quality;
+
+            if (maxHeap.size() > k) {
+                totalQuality -= maxHeap.poll();
             }
-            if (pq.size() == k) {
-                res = Math.min(res, sum * arr[1]);
+
+            if (maxHeap.size() == k) {
+                minWage = Math.min(minWage, totalQuality * worker.ratio);
             }
         }
-        return res;
+
+        return minWage;
+    }
+}
+
+class Worker {
+    int quality;
+    int wage;
+    double ratio;
+
+    public Worker(int quality, int wage) {
+        this.quality = quality;
+        this.wage = wage;
+        this.ratio = (double) wage / quality;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

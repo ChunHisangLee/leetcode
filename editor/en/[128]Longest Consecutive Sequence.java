@@ -1,28 +1,29 @@
-128
-        Longest Consecutive Sequence
-        2023-02-28 10:48:25
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestConsecutive(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
+        Set<Integer> set = new HashSet<>();
+
+        for (int num : nums) {
+            set.add(num);
         }
-        Arrays.sort(nums);
-        int max = 0;
-        int count = 1;
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == nums[i - 1]) {
-                continue;
-            }
-            if (nums[i] - nums[i - 1] == 1) {
-                count++;
-            } else {
-                max = Math.max(max, count);
-                count = 1;
+
+        int streak = 0;
+
+        for (int num : set) {
+            if (!set.contains(num - 1)) {
+                int currNum = num;
+                int currStreak = 1;
+
+                while (set.contains(currNum + 1)) {
+                    currNum++;
+                    currStreak++;
+                }
+
+                streak = Math.max(streak, currStreak);
             }
         }
-        return max = Math.max(max, count);
+
+        return streak;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
