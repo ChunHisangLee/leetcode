@@ -135,6 +135,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1552]Magnetic Force Between Two Balls.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1552]Magnetic Force Between Two Balls.md" />
+              <option name="frontendQuestionId" value="leetcode.com1552" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1552]Magnetic Force Between Two Balls.java" />
+              <option name="titleSlug" value="magnetic-force-between-two-balls" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.go">
           <value>
             <LeetcodeEditor>
