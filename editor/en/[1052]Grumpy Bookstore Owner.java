@@ -3,14 +3,10 @@
 class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
         int n = customers.length;
-        int baseSatisfied = 0;
-
-        for (int i = 0; i < n; i++) {
-            if (grumpy[i] == 0) {
-                baseSatisfied += customers[i];
-            }
-        }
-
+        int baseSatisfied = IntStream.range(0, n)
+                .filter(i -> grumpy[i] == 0)
+                .map(i -> customers[i])
+                .sum();
         int additionalSatisfied = 0;
         int maxAdditionalSatisfied = 0;
 
