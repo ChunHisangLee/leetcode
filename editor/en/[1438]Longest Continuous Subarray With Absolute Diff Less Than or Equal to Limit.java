@@ -1,33 +1,67 @@
-1438
-        Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
-        2022-11-30 10:18:45
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestSubarray(int[] nums, int limit) {
-        ArrayDeque<Integer> increasing = new ArrayDeque<>();
-        ArrayDeque<Integer> decreasing = new ArrayDeque<>();
+        Deque<Integer> maxDeque = new ArrayDeque<>();
+        Deque<Integer> minDeque = new ArrayDeque<>();
         int left = 0;
-        int ans = 0;
-        for (int right = 0; right < nums.length; right++) {
-            while (!increasing.isEmpty() && increasing.getLast() > nums[right]) {
-                increasing.removeLast();
+        int result = 0;
+        int n = nums.length;
+
+        for (int right = 0; right < n; right++) {
+            while (!maxDeque.isEmpty() && nums[maxDeque.peekLast()] <= nums[right]) {
+                maxDeque.pollLast();
             }
-            while (!decreasing.isEmpty() && decreasing.getLast() < nums[right]) {
-                decreasing.removeLast();
+
+            maxDeque.offerLast(right);
+
+            while (!minDeque.isEmpty() && nums[minDeque.peekLast()] >= nums[right]) {
+                minDeque.pollLast();
             }
-            increasing.addLast(nums[right]);
-            decreasing.addLast(nums[right]);
-            while (decreasing.getFirst() - increasing.getFirst() > limit) {
-                if (nums[left] == decreasing.getFirst())
-                    decreasing.removeFirst();
-                if (nums[left] == increasing.getFirst())
-                    increasing.removeFirst();
+
+            minDeque.offerLast(right);
+
+            while (nums[maxDeque.peekFirst()] - nums[minDeque.peekFirst()] > limit) {
                 left++;
+
+                if (maxDeque.peekFirst() < left) {
+                    maxDeque.pollFirst();
+                }
+
+                if (minDeque.peekFirst() < left) {
+                    minDeque.pollFirst();
+                }
             }
-            ans = Math.max(ans, right - left + 1);
+
+            result = Math.max(result, right - left + 1);
         }
-        return ans;
+
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public int longestSubarray(int[] nums, int limit) {
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        int left = 0;
+        int right;
+        int n = nums.length;
+
+        for (right = 0; right < n; right++) {
+            map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
+
+            if (map.lastEntry().getKey() - map.firstEntry().getKey() > limit) {
+                map.put(nums[left], map.get(nums[left]) - 1);
+
+                if (map.get(nums[left]) == 0) {
+                    map.remove(nums[left]);
+                }
+
+                left++;
+            }
+        }
+
+        return right - left;
+    }
+}
+ */

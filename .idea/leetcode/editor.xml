@@ -376,6 +376,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1425]Constrained Subsequence Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1425" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1425]Constrained Subsequence Sum.java" />
+              <option name="titleSlug" value="constrained-subsequence-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1428]Leftmost Column with at Least a One.java">
           <value>
             <LeetcodeEditor>
@@ -393,6 +403,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1428]Leftmost Column with at Least a One.js" />
               <option name="titleSlug" value="leftmost-column-with-at-least-a-one" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1438]Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1438" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1438]Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java" />
+              <option name="titleSlug" value="longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3916,7 +3936,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1425" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1425]Constrained Subsequence Sum.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1425]Constrained Subsequence Sum.java" />
               <option name="titleSlug" value="constrained-subsequence-sum" />
             </LeetcodeEditor>
           </value>
