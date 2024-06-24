@@ -83,6 +83,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1051]Height Checker.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1051" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1051]Height Checker.java" />
+              <option name="titleSlug" value="height-checker" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1057]Campus Bikes.java">
           <value>
             <LeetcodeEditor>
@@ -335,6 +345,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1425]Constrained Subsequence Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1425" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1425]Constrained Subsequence Sum.java" />
+              <option name="titleSlug" value="constrained-subsequence-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1428]Leftmost Column with at Least a One.java">
           <value>
             <LeetcodeEditor>
@@ -352,6 +372,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1428]Leftmost Column with at Least a One.js" />
               <option name="titleSlug" value="leftmost-column-with-at-least-a-one" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1438]Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1438" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1438]Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java" />
+              <option name="titleSlug" value="longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -771,6 +801,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2037]Minimum Number of Moves to Seat Everyone.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2037" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2037]Minimum Number of Moves to Seat Everyone.java" />
+              <option name="titleSlug" value="minimum-number-of-moves-to-seat-everyone" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[205]Isomorphic Strings.py">
           <value>
             <LeetcodeEditor>
@@ -843,6 +883,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[207]Course Schedule.java" />
               <option name="titleSlug" value="course-schedule" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2083]Substrings That Begin and End With the Same Letter.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2083" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2083]Substrings That Begin and End With the Same Letter.java" />
+              <option name="titleSlug" value="substrings-that-begin-and-end-with-the-same-letter" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1674,6 +1724,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[330]Patching Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com330" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[330]Patching Array.java" />
+              <option name="titleSlug" value="patching-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[334]Increasing Triplet Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -2256,6 +2316,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[945]Minimum Increment to Make Array Unique.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com945" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[945]Minimum Increment to Make Array Unique.java" />
+              <option name="titleSlug" value="minimum-increment-to-make-array-unique" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[948]Bag of Tokens.java">
           <value>
             <LeetcodeEditor>
@@ -2274,6 +2344,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[950]Reveal Cards In Increasing Order.py" />
               <option name="titleSlug" value="reveal-cards-in-increasing-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[974]Subarray Sums Divisible by K.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com974" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[974]Subarray Sums Divisible by K.java" />
+              <option name="titleSlug" value="subarray-sums-divisible-by-k" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3855,7 +3935,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1425" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1425]Constrained Subsequence Sum.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1425]Constrained Subsequence Sum.java" />
               <option name="titleSlug" value="constrained-subsequence-sum" />
             </LeetcodeEditor>
           </value>
@@ -7481,7 +7561,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com330" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[330]Patching Array.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[330]Patching Array.java" />
               <option name="titleSlug" value="patching-array" />
             </LeetcodeEditor>
           </value>
