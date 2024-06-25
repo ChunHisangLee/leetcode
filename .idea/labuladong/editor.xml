@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1038]Binary Search Tree to Greater Sum Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1038]Binary Search Tree to Greater Sum Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com1038" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1038]Binary Search Tree to Greater Sum Tree.java" />
+              <option name="titleSlug" value="binary-search-tree-to-greater-sum-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1052]Grumpy Bookstore Owner.java">
           <value>
             <LeetcodeEditor>
