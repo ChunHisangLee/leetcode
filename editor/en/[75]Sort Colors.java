@@ -1,7 +1,3 @@
-75
-        Sort Colors
-        2022-12-16 14:01:23
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public void sortColors(int[] nums) {

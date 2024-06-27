@@ -25,6 +25,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1052]Grumpy Bookstore Owner.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1052]Grumpy Bookstore Owner.md" />
+              <option name="frontendQuestionId" value="leetcode.com1052" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1052]Grumpy Bookstore Owner.java" />
+              <option name="titleSlug" value="grumpy-bookstore-owner" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1122]Relative Sort Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1122]Relative Sort Array.md" />
+              <option name="frontendQuestionId" value="leetcode.com1122" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1122]Relative Sort Array.java" />
+              <option name="titleSlug" value="relative-sort-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1208]Get Equal Substrings Within Budget.java">
           <value>
             <LeetcodeEditor>
@@ -55,6 +77,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1255]Maximum Score Words Formed by Letters.java" />
               <option name="titleSlug" value="maximum-score-words-formed-by-letters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1296]Divide Array in Sets of K Consecutive Numbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1296]Divide Array in Sets of K Consecutive Numbers.md" />
+              <option name="frontendQuestionId" value="leetcode.com1296" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1296]Divide Array in Sets of K Consecutive Numbers.java" />
+              <option name="titleSlug" value="divide-array-in-sets-of-k-consecutive-numbers" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -99,6 +132,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1442]Count Triplets That Can Form Two Arrays of Equal XOR.java" />
               <option name="titleSlug" value="count-triplets-that-can-form-two-arrays-of-equal-xor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1482]Minimum Number of Days to Make m Bouquets.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1482]Minimum Number of Days to Make m Bouquets.md" />
+              <option name="frontendQuestionId" value="leetcode.com1482" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1482]Minimum Number of Days to Make m Bouquets.java" />
+              <option name="titleSlug" value="minimum-number-of-days-to-make-m-bouquets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1552]Magnetic Force Between Two Balls.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1552]Magnetic Force Between Two Balls.md" />
+              <option name="frontendQuestionId" value="leetcode.com1552" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1552]Magnetic Force Between Two Balls.java" />
+              <option name="titleSlug" value="magnetic-force-between-two-balls" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -311,6 +366,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[633]Sum of Square Numbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[633]Sum of Square Numbers.md" />
+              <option name="frontendQuestionId" value="leetcode.com633" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[633]Sum of Square Numbers.java" />
+              <option name="titleSlug" value="sum-of-square-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[75]Sort Colors.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[75]Sort Colors.md" />
+              <option name="frontendQuestionId" value="leetcode.com75" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[75]Sort Colors.java" />
+              <option name="titleSlug" value="sort-colors" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[786]K-th Smallest Prime Fraction.java">
           <value>
             <LeetcodeEditor>
@@ -333,6 +410,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[826]Most Profit Assigning Work.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[826]Most Profit Assigning Work.md" />
+              <option name="frontendQuestionId" value="leetcode.com826" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[826]Most Profit Assigning Work.java" />
+              <option name="titleSlug" value="most-profit-assigning-work" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[846]Hand of Straights.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[846]Hand of Straights.md" />
+              <option name="frontendQuestionId" value="leetcode.com846" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[846]Hand of Straights.java" />
+              <option name="titleSlug" value="hand-of-straights" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[861]Score After Flipping Matrix.java">
           <value>
             <LeetcodeEditor>
@@ -341,6 +440,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[861]Score After Flipping Matrix.java" />
               <option name="titleSlug" value="score-after-flipping-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[995]Minimum Number of K Consecutive Bit Flips.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[995]Minimum Number of K Consecutive Bit Flips.md" />
+              <option name="frontendQuestionId" value="leetcode.com995" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[995]Minimum Number of K Consecutive Bit Flips.java" />
+              <option name="titleSlug" value="minimum-number-of-k-consecutive-bit-flips" />
             </LeetcodeEditor>
           </value>
         </entry>
