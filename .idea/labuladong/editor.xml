@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1101]The Earliest Moment When Everyone Become Friends.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1101]The Earliest Moment When Everyone Become Friends.md" />
+              <option name="frontendQuestionId" value="leetcode.com1101" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1101]The Earliest Moment When Everyone Become Friends.java" />
+              <option name="titleSlug" value="the-earliest-moment-when-everyone-become-friends" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1122]Relative Sort Array.java">
           <value>
             <LeetcodeEditor>
@@ -168,6 +179,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1550]Three Consecutive Odds.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1550]Three Consecutive Odds.md" />
+              <option name="frontendQuestionId" value="leetcode.com1550" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1550]Three Consecutive Odds.java" />
+              <option name="titleSlug" value="three-consecutive-odds" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1552]Magnetic Force Between Two Balls.java">
           <value>
             <LeetcodeEditor>
@@ -176,6 +198,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1552]Magnetic Force Between Two Balls.java" />
               <option name="titleSlug" value="magnetic-force-between-two-balls" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1579]Remove Max Number of Edges to Keep Graph Fully Traversable.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1579]Remove Max Number of Edges to Keep Graph Fully Traversable.md" />
+              <option name="frontendQuestionId" value="leetcode.com1579" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1579]Remove Max Number of Edges to Keep Graph Fully Traversable.java" />
+              <option name="titleSlug" value="remove-max-number-of-edges-to-keep-graph-fully-traversable" />
             </LeetcodeEditor>
           </value>
         </entry>
