@@ -179,6 +179,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1509]Minimum Difference Between Largest and Smallest Value in Three Moves.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1509]Minimum Difference Between Largest and Smallest Value in Three Moves.md" />
+              <option name="frontendQuestionId" value="leetcode.com1509" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1509]Minimum Difference Between Largest and Smallest Value in Three Moves.java" />
+              <option name="titleSlug" value="minimum-difference-between-largest-and-smallest-value-in-three-moves" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1550]Three Consecutive Odds.java">
           <value>
             <LeetcodeEditor>
@@ -242,6 +253,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.go" />
               <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2058]Find the Minimum and Maximum Number of Nodes Between Critical Points.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2058]Find the Minimum and Maximum Number of Nodes Between Critical Points.md" />
+              <option name="frontendQuestionId" value="leetcode.com2058" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2058]Find the Minimum and Maximum Number of Nodes Between Critical Points.java" />
+              <option name="titleSlug" value="find-the-minimum-and-maximum-number-of-nodes-between-critical-points" />
             </LeetcodeEditor>
           </value>
         </entry>
