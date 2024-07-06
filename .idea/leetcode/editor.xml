@@ -710,6 +710,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1894]Find the Student that Will Replace the Chalk.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1894" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1894]Find the Student that Will Replace the Chalk.java" />
+              <option name="titleSlug" value="find-the-student-that-will-replace-the-chalk" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1897]Redistribute Characters to Make All Strings Equal.java">
           <value>
             <LeetcodeEditor>
