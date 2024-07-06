@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1038]Binary Search Tree to Greater Sum Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1038]Binary Search Tree to Greater Sum Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com1038" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1038]Binary Search Tree to Greater Sum Tree.java" />
+              <option name="titleSlug" value="binary-search-tree-to-greater-sum-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1052]Grumpy Bookstore Owner.java">
           <value>
             <LeetcodeEditor>
@@ -33,6 +44,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1052]Grumpy Bookstore Owner.java" />
               <option name="titleSlug" value="grumpy-bookstore-owner" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1101]The Earliest Moment When Everyone Become Friends.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1101]The Earliest Moment When Everyone Become Friends.md" />
+              <option name="frontendQuestionId" value="leetcode.com1101" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1101]The Earliest Moment When Everyone Become Friends.java" />
+              <option name="titleSlug" value="the-earliest-moment-when-everyone-become-friends" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -113,6 +135,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1382]Balance a Binary Search Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1382]Balance a Binary Search Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com1382" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1382]Balance a Binary Search Tree.java" />
+              <option name="titleSlug" value="balance-a-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1404]Number of Steps to Reduce a Number in Binary Representation to One.java">
           <value>
             <LeetcodeEditor>
@@ -146,6 +179,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1550]Three Consecutive Odds.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1550]Three Consecutive Odds.md" />
+              <option name="frontendQuestionId" value="leetcode.com1550" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1550]Three Consecutive Odds.java" />
+              <option name="titleSlug" value="three-consecutive-odds" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1552]Magnetic Force Between Two Balls.java">
           <value>
             <LeetcodeEditor>
@@ -154,6 +198,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1552]Magnetic Force Between Two Balls.java" />
               <option name="titleSlug" value="magnetic-force-between-two-balls" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1579]Remove Max Number of Edges to Keep Graph Fully Traversable.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1579]Remove Max Number of Edges to Keep Graph Fully Traversable.md" />
+              <option name="frontendQuestionId" value="leetcode.com1579" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1579]Remove Max Number of Edges to Keep Graph Fully Traversable.java" />
+              <option name="titleSlug" value="remove-max-number-of-edges-to-keep-graph-fully-traversable" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -363,6 +418,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[506]Relative Ranks.java" />
               <option name="titleSlug" value="relative-ranks" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[538]Convert BST to Greater Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[538]Convert BST to Greater Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com538" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[538]Convert BST to Greater Tree.java" />
+              <option name="titleSlug" value="convert-bst-to-greater-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
