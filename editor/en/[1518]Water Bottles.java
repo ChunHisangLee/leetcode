@@ -5,9 +5,9 @@ class Solution {
         int emptyBottle = numBottles;
 
         while (emptyBottle >= numExchange) {
-            emptyBottle -= numExchange;
-            result++;
-            emptyBottle++;
+            int newBottle = emptyBottle / numExchange;
+            result += newBottle;
+            emptyBottle = newBottle + (emptyBottle % numExchange);
         }
 
         return result;
