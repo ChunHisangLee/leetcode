@@ -1,6 +1,6 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int numWaterBottles(int numBottles, int numExchange) {
+    public int maxBottlesDrunk(int numBottles, int numExchange) {
         int result = numBottles;
         int emptyBottle = numBottles;
 
@@ -8,6 +8,7 @@ class Solution {
             emptyBottle -= numExchange;
             result++;
             emptyBottle++;
+            numExchange++;
         }
 
         return result;
