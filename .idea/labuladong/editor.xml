@@ -245,6 +245,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1823]Find the Winner of the Circular Game.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1823]Find the Winner of the Circular Game.md" />
+              <option name="frontendQuestionId" value="leetcode.com1823" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1823]Find the Winner of the Circular Game.java" />
+              <option name="titleSlug" value="find-the-winner-of-the-circular-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1]Two Sum.go">
           <value>
             <LeetcodeEditor>
