@@ -223,6 +223,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1598]Crawler Log Folder.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1598]Crawler Log Folder.md" />
+              <option name="frontendQuestionId" value="leetcode.com1598" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1598]Crawler Log Folder.java" />
+              <option name="titleSlug" value="crawler-log-folder" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.go">
           <value>
             <LeetcodeEditor>
@@ -245,6 +256,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1701]Average Waiting Time.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1701]Average Waiting Time.md" />
+              <option name="frontendQuestionId" value="leetcode.com1701" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1701]Average Waiting Time.java" />
+              <option name="titleSlug" value="average-waiting-time" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1823]Find the Winner of the Circular Game.java">
           <value>
             <LeetcodeEditor>
@@ -253,6 +275,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1823]Find the Winner of the Circular Game.java" />
               <option name="titleSlug" value="find-the-winner-of-the-circular-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1836]Remove Duplicates From an Unsorted Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1836]Remove Duplicates From an Unsorted Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com1836" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1836]Remove Duplicates From an Unsorted Linked List.java" />
+              <option name="titleSlug" value="remove-duplicates-from-an-unsorted-linked-list" />
             </LeetcodeEditor>
           </value>
         </entry>
