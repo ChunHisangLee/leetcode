@@ -69,6 +69,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1190]Reverse Substrings Between Each Pair of Parentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1190]Reverse Substrings Between Each Pair of Parentheses.md" />
+              <option name="frontendQuestionId" value="leetcode.com1190" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1190]Reverse Substrings Between Each Pair of Parentheses.java" />
+              <option name="titleSlug" value="reverse-substrings-between-each-pair-of-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1208]Get Equal Substrings Within Budget.java">
           <value>
             <LeetcodeEditor>
