@@ -69,6 +69,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1190]Reverse Substrings Between Each Pair of Parentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1190]Reverse Substrings Between Each Pair of Parentheses.md" />
+              <option name="frontendQuestionId" value="leetcode.com1190" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1190]Reverse Substrings Between Each Pair of Parentheses.java" />
+              <option name="titleSlug" value="reverse-substrings-between-each-pair-of-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1208]Get Equal Substrings Within Budget.java">
           <value>
             <LeetcodeEditor>
@@ -179,6 +190,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1509]Minimum Difference Between Largest and Smallest Value in Three Moves.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1509]Minimum Difference Between Largest and Smallest Value in Three Moves.md" />
+              <option name="frontendQuestionId" value="leetcode.com1509" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1509]Minimum Difference Between Largest and Smallest Value in Three Moves.java" />
+              <option name="titleSlug" value="minimum-difference-between-largest-and-smallest-value-in-three-moves" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1550]Three Consecutive Odds.java">
           <value>
             <LeetcodeEditor>
@@ -212,6 +234,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1598]Crawler Log Folder.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1598]Crawler Log Folder.md" />
+              <option name="frontendQuestionId" value="leetcode.com1598" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1598]Crawler Log Folder.java" />
+              <option name="titleSlug" value="crawler-log-folder" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1608]Special Array With X Elements Greater Than or Equal X.go">
           <value>
             <LeetcodeEditor>
@@ -234,6 +267,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1701]Average Waiting Time.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1701]Average Waiting Time.md" />
+              <option name="frontendQuestionId" value="leetcode.com1701" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1701]Average Waiting Time.java" />
+              <option name="titleSlug" value="average-waiting-time" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1823]Find the Winner of the Circular Game.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1823]Find the Winner of the Circular Game.md" />
+              <option name="frontendQuestionId" value="leetcode.com1823" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1823]Find the Winner of the Circular Game.java" />
+              <option name="titleSlug" value="find-the-winner-of-the-circular-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1836]Remove Duplicates From an Unsorted Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1836]Remove Duplicates From an Unsorted Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com1836" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1836]Remove Duplicates From an Unsorted Linked List.java" />
+              <option name="titleSlug" value="remove-duplicates-from-an-unsorted-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1]Two Sum.go">
           <value>
             <LeetcodeEditor>
@@ -242,6 +308,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.go" />
               <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2058]Find the Minimum and Maximum Number of Nodes Between Critical Points.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2058]Find the Minimum and Maximum Number of Nodes Between Critical Points.md" />
+              <option name="frontendQuestionId" value="leetcode.com2058" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2058]Find the Minimum and Maximum Number of Nodes Between Critical Points.java" />
+              <option name="titleSlug" value="find-the-minimum-and-maximum-number-of-nodes-between-critical-points" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -388,6 +465,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[350]Intersection of Two Arrays II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[350]Intersection of Two Arrays II.md" />
+              <option name="frontendQuestionId" value="leetcode.com350" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[350]Intersection of Two Arrays II.java" />
+              <option name="titleSlug" value="intersection-of-two-arrays-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[409]Longest Palindrome.go">
           <value>
             <LeetcodeEditor>
@@ -517,6 +605,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[995]Minimum Number of K Consecutive Bit Flips.java" />
               <option name="titleSlug" value="minimum-number-of-k-consecutive-bit-flips" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[9]Palindrome Number.md" />
+              <option name="frontendQuestionId" value="leetcode.com9" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java" />
+              <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>
         </entry>
