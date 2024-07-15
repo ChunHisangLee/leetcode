@@ -278,6 +278,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1740]Find Distance in a Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1740]Find Distance in a Binary Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com1740" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1740]Find Distance in a Binary Tree.java" />
+              <option name="titleSlug" value="find-distance-in-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1823]Find the Winner of the Circular Game.java">
           <value>
             <LeetcodeEditor>
@@ -341,6 +352,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2128]Remove All Ones With Row and Column Flips.java" />
               <option name="titleSlug" value="remove-all-ones-with-row-and-column-flips" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2196]Create Binary Tree From Descriptions.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2196]Create Binary Tree From Descriptions.md" />
+              <option name="frontendQuestionId" value="leetcode.com2196" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2196]Create Binary Tree From Descriptions.java" />
+              <option name="titleSlug" value="create-binary-tree-from-descriptions" />
             </LeetcodeEditor>
           </value>
         </entry>
