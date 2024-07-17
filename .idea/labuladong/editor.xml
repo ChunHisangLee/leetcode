@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1110]Delete Nodes And Return Forest.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1110]Delete Nodes And Return Forest.md" />
+              <option name="frontendQuestionId" value="leetcode.com1110" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1110]Delete Nodes And Return Forest.java" />
+              <option name="titleSlug" value="delete-nodes-and-return-forest" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1122]Relative Sort Array.java">
           <value>
             <LeetcodeEditor>
