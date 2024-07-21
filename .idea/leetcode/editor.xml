@@ -538,6 +538,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1605]Find Valid Matrix Given Row and Column Sums.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1605" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1605]Find Valid Matrix Given Row and Column Sums.java" />
+              <option name="titleSlug" value="find-valid-matrix-given-row-and-column-sums" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1609]Even Odd Tree.java">
           <value>
             <LeetcodeEditor>
@@ -1176,6 +1186,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[238]Product of Array Except Self.java" />
               <option name="titleSlug" value="product-of-array-except-self" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2392]Build a Matrix With Conditions.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2392" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2392]Build a Matrix With Conditions.java" />
+              <option name="titleSlug" value="build-a-matrix-with-conditions" />
             </LeetcodeEditor>
           </value>
         </entry>
