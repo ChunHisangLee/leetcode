@@ -5,29 +5,20 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+            map.merge(num, 1, Integer::sum);
         }
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] == b[1] ? b[0] - a[0] : a[1] - b[1]);
+        List<Integer> list = Arrays.stream(nums)
+                .boxed()
+                .sorted((a, b) -> {
+                    int compare = map.get(a).compareTo(map.get(b));
+                    return compare == 0 ? b.compareTo(a) : compare;
+                })
+                .collect(Collectors.toList());
 
-        for (int key : map.keySet()) {
-            pq.offer(new int[]{key, map.get(key)});
-        }
-
-        int[] arr = new int[nums.length];
-        int index = 0;
-
-        while (!pq.isEmpty()) {
-            int[] curr = pq.poll();
-            int num = curr[0];
-            int freq = curr[1];
-
-            for (int i = 0; i < freq; i++) {
-                arr[index++] = num;
-            }
-        }
-
-        return arr;
+        return list.stream()
+                .mapToInt(i -> i)
+                .toArray();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
