@@ -8,16 +8,13 @@ class Solution {
             map.merge(num, 1, Integer::sum);
         }
 
-        List<Integer> list = Arrays.stream(nums)
+        return Arrays.stream(nums)
                 .boxed()
                 .sorted((a, b) -> {
                     int compare = map.get(a).compareTo(map.get(b));
                     return compare == 0 ? b.compareTo(a) : compare;
                 })
-                .collect(Collectors.toList());
-
-        return list.stream()
-                .mapToInt(i -> i)
+                .mapToInt(Integer::intValue)
                 .toArray();
     }
 }
