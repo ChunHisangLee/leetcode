@@ -12,23 +12,21 @@ class Solution {
             graph[edge[1]].add(edge[0]);
         }
 
-        Deque<int[]> deque = new LinkedList<>();
-        int[] visitedNum = new int[n + 1];
+        Deque<int[]> deque = new ArrayDeque<>();
         int[][] timeArr = new int[n + 1][2];
 
-        for (int[] arr : timeArr) {
-            Arrays.fill(arr, Integer.MAX_VALUE);
+        for (int i = 1; i <= n; i++) {
+            Arrays.fill(timeArr[i], Integer.MAX_VALUE);
         }
 
         deque.offer(new int[]{1, 0});
         timeArr[1][0] = 0;
 
         while (!deque.isEmpty()) {
-            int[] cur = deque.poll();
-            int node = cur[0];
-            int curTime = cur[1];
-            int curLight = curTime / change;
-            int nextTime = curLight % 2 == 0 ? curTime + time : (curLight + 1) * change + time;
+            int[] current = deque.poll();
+            int node = current[0];
+            int currentTime = current[1];
+            int nextTime = calculateNextTime(currentTime, time, change);
 
             for (int nextNode : graph[node]) {
                 if (timeArr[nextNode][0] > nextTime) {
@@ -47,6 +45,16 @@ class Solution {
         }
 
         return -1;
+    }
+
+    private int calculateNextTime(int currentTime, int travelTime, int change) {
+        int currentCycle = currentTime / change;
+
+        if (currentCycle % 2 == 0) {
+            return currentTime + travelTime;
+        } else {
+            return (currentCycle + 1) * change + travelTime;
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
