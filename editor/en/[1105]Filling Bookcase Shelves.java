@@ -4,12 +4,12 @@ class Solution {
     public int minHeightShelves(int[][] books, int shelfWidth) {
         int n = books.length;
         int[] dp = new int[n + 1];
+        Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 0;
 
         for (int i = 1; i <= n; i++) {
             int width = 0;
             int height = 0;
-            dp[i] = Integer.MAX_VALUE;
 
             for (int j = i; j > 0; j--) {
                 width += books[j - 1][0];
