@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1105]Filling Bookcase Shelves.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1105]Filling Bookcase Shelves.md" />
+              <option name="frontendQuestionId" value="leetcode.com1105" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1105]Filling Bookcase Shelves.java" />
+              <option name="titleSlug" value="filling-bookcase-shelves" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1110]Delete Nodes And Return Forest.java">
           <value>
             <LeetcodeEditor>
