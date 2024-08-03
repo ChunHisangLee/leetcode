@@ -336,6 +336,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1334]Find the City With the Smallest Number of Neighbors at a Threshold Distance.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1334" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1334]Find the City With the Smallest Number of Neighbors at a Threshold Distance.java" />
+              <option name="titleSlug" value="find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[136]Single Number.java">
           <value>
             <LeetcodeEditor>
@@ -433,6 +443,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1457]Pseudo-Palindromic Paths in a Binary Tree.java" />
               <option name="titleSlug" value="pseudo-palindromic-paths-in-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1460]Make Two Arrays Equal by Reversing Subarrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1460" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1460]Make Two Arrays Equal by Reversing Subarrays.java" />
+              <option name="titleSlug" value="make-two-arrays-equal-by-reversing-subarrays" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -535,6 +555,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[159]Longest Substring with At Most Two Distinct Characters.java" />
               <option name="titleSlug" value="longest-substring-with-at-most-two-distinct-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1605]Find Valid Matrix Given Row and Column Sums.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1605" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1605]Find Valid Matrix Given Row and Column Sums.java" />
+              <option name="titleSlug" value="find-valid-matrix-given-row-and-column-sums" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -882,6 +912,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2045]Second Minimum Time to Reach Destination.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2045" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2045]Second Minimum Time to Reach Destination.java" />
+              <option name="titleSlug" value="second-minimum-time-to-reach-destination" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[205]Isomorphic Strings.py">
           <value>
             <LeetcodeEditor>
@@ -1014,6 +1054,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2125]Number of Laser Beams in a Bank.js" />
               <option name="titleSlug" value="number-of-laser-beams-in-a-bank" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2134]Minimum Swaps to Group All 1's Together II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2134" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2134]Minimum Swaps to Group All 1's Together II.java" />
+              <option name="titleSlug" value="minimum-swaps-to-group-all-1s-together-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2191]Sort the Jumbled Numbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2191" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2191]Sort the Jumbled Numbers.java" />
+              <option name="titleSlug" value="sort-the-jumbled-numbers" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1176,6 +1236,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[238]Product of Array Except Self.java" />
               <option name="titleSlug" value="product-of-array-except-self" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2392]Build a Matrix With Conditions.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2392" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2392]Build a Matrix With Conditions.java" />
+              <option name="titleSlug" value="build-a-matrix-with-conditions" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2354,6 +2424,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[907]Sum of Subarray Minimums.java" />
               <option name="titleSlug" value="sum-of-subarray-minimums" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[912]Sort an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com912" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[912]Sort an Array.java" />
+              <option name="titleSlug" value="sort-an-array" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -10347,7 +10427,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com912" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[912]Sort an Array.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[912]Sort an Array.java" />
               <option name="titleSlug" value="sort-an-array" />
             </LeetcodeEditor>
           </value>
