@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1062]Longest Repeating Substring.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1062]Longest Repeating Substring.md" />
+              <option name="frontendQuestionId" value="leetcode.com1062" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1062]Longest Repeating Substring.java" />
+              <option name="titleSlug" value="longest-repeating-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1101]The Earliest Moment When Everyone Become Friends.java">
           <value>
             <LeetcodeEditor>
@@ -517,6 +528,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[260]Single Number III.java" />
               <option name="titleSlug" value="single-number-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2678]Number of Senior Citizens.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2678]Number of Senior Citizens.md" />
+              <option name="frontendQuestionId" value="leetcode.com2678" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2678]Number of Senior Citizens.java" />
+              <option name="titleSlug" value="number-of-senior-citizens" />
             </LeetcodeEditor>
           </value>
         </entry>
