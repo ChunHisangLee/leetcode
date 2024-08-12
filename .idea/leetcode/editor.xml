@@ -2273,6 +2273,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[703]Kth Largest Element in a Stream.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com703" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[703]Kth Largest Element in a Stream.java" />
+              <option name="titleSlug" value="kth-largest-element-in-a-stream" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[70]Climbing Stairs.java">
           <value>
             <LeetcodeEditor>
@@ -9436,7 +9446,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com703" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[703]Kth Largest Element in a Stream.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[703]Kth Largest Element in a Stream.java" />
               <option name="titleSlug" value="kth-largest-element-in-a-stream" />
             </LeetcodeEditor>
           </value>
