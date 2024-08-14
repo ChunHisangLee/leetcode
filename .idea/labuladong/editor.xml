@@ -729,6 +729,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[719]Find K-th Smallest Pair Distance.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[719]Find K-th Smallest Pair Distance.md" />
+              <option name="frontendQuestionId" value="leetcode.com719" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[719]Find K-th Smallest Pair Distance.java" />
+              <option name="titleSlug" value="find-k-th-smallest-pair-distance" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[75]Sort Colors.java">
           <value>
             <LeetcodeEditor>
