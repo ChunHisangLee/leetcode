@@ -1,105 +1,42 @@
-/
+//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    private final String[] LESS_THAN_20 = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+            "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+    private final String[] TENS = {"", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
+    private final String[] THOUSANDS = {"", "Thousand", "Million", "Billion"};
+
     public String numberToWords(int num) {
         if (num == 0) {
             return "Zero";
         }
-        return numberToWordsR(num).trim();
+
+        int i = 0;
+        StringBuilder words = new StringBuilder();
+
+        while (num > 0) {
+            if (num % 1000 != 0) {
+                words.insert(0, helper(num % 1000).append(THOUSANDS[i]).append(" "));
+            }
+
+            num /= 1000;
+            i++;
+        }
+
+        return words.toString().trim();
     }
 
-    public String numberToWordsR(int num) {
+    private StringBuilder helper(int num) {
         StringBuilder sb = new StringBuilder();
-        if (num < 20) {
-            switch (num) {
-                case 0:
-                    return "";
-                case 1:
-                    return "One ";
-                case 2:
-                    return "Two ";
-                case 3:
-                    return "Three ";
-                case 4:
-                    return "Four ";
-                case 5:
-                    return "Five ";
-                case 6:
-                    return "Six ";
-                case 7:
-                    return "Seven ";
-                case 8:
-                    return "Eight ";
-                case 9:
-                    return "Nine ";
-                case 10:
-                    return "Ten ";
-                case 11:
-                    return "Eleven ";
-                case 12:
-                    return "Twelve ";
-                case 13:
-                    return "Thirteen ";
-                case 14:
-                    return "Fourteen ";
-                case 15:
-                    return "Fifteen ";
-                case 16:
-                    return "Sixteen ";
-                case 17:
-                    return "Seventeen ";
-                case 18:
-                    return "Eighteen ";
-                case 19:
-                    return "Nineteen ";
-            }
+
+        if (num == 0) {
+            return sb;
+        } else if (num < 20) {
+            return sb.append(LESS_THAN_20[num]).append(" ");
         } else if (num < 100) {
-            int tens = num / 10;
-            int ones = num % 10;
-            switch (tens) {
-                case 2:
-                    sb.append("Twenty ");
-                    break;
-                case 3:
-                    sb.append("Thirty ");
-                    break;
-                case 4:
-                    sb.append("Forty ");
-                    break;
-                case 5:
-                    sb.append("Fifty ");
-                    break;
-                case 6:
-                    sb.append("Sixty ");
-                    break;
-                case 7:
-                    sb.append("Seventy ");
-                    break;
-                case 8:
-                    sb.append("Eighty ");
-                    break;
-                case 9:
-                    sb.append("Ninety ");
-                    break;
-            }
-            sb.append(numberToWordsR(ones));
-        } else if (num < 1000) {
-            sb.append(numberToWordsR(num / 100));
-            sb.append("Hundred ");
-            sb.append(numberToWordsR(num % 100));
-        } else if (num < (int) 1e6) {
-            sb.append(numberToWordsR(num / 1000));
-            sb.append("Thousand ");
-            sb.append(numberToWordsR(num % 1000));
-        } else if (num < (int) 1e9) {
-            sb.append(numberToWordsR(num / (int) 1e6));
-            sb.append("Million ");
-            sb.append(numberToWordsR(num % (int) 1e6));
+            return sb.append(TENS[num / 10]).append(" ").append(helper(num % 10));
         } else {
-            sb.append(numberToWordsR(num / (int) 1e9));
-            sb.append("Billion ");
-            sb.append(numberToWordsR(num % (int) 1e9));
+            return sb.append(LESS_THAN_20[num / 100]).append(" Hundred ").append(helper(num % 100));
         }
-        return sb.toString();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
