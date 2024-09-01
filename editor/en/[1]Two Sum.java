@@ -2,20 +2,19 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
-        return IntStream.range(0, nums.length)
-                .filter(i -> {
-                    int complement = target - nums[i];
+        int n = nums.length;
 
-                    if (map.containsKey(complement)) {
-                        return true;
-                    }
+        for (int i = 0; i < n; i++) {
+            int complement = target - nums[i];
 
-                    map.put(nums[i], i);
-                    return false;
-                })
-                .mapToObj(i -> new int[]{map.get(target - nums[i]), i})
-                .findFirst()
-                .orElse(new int[]{-1, -1});
+            if (!map.containsKey(complement)) {
+                map.put(nums[i], i);
+            } else {
+                return new int[]{map.get(complement), i};
+            }
+        }
+
+        return new int[]{-1, -1};
     }
 }
 // leetcode submit region end(Prohibit modification and deletion)

@@ -15,6 +15,7 @@ class Solution {
                 } else {
                     trappedWater += maxLeft - height[left];
                 }
+
                 left++;
             } else {
                 if (height[right] >= maxRight) {
@@ -22,9 +23,11 @@ class Solution {
                 } else {
                     trappedWater += maxRight - height[right];
                 }
+
                 right--;
             }
         }
+
         return trappedWater;
     }
 }
