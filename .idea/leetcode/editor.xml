@@ -2669,6 +2669,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[874]Walking Robot Simulation.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com874" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[874]Walking Robot Simulation.java" />
+              <option name="titleSlug" value="walking-robot-simulation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[1]Two Sum.java">
           <value>
             <LeetcodeEditor>
