@@ -2659,6 +2659,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3217]Delete Nodes From Linked List Present in Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3217" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3217]Delete Nodes From Linked List Present in Array.java" />
+              <option name="titleSlug" value="delete-nodes-from-linked-list-present-in-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[624]Maximum Distance in Arrays.java">
           <value>
             <LeetcodeEditor>
