@@ -2609,6 +2609,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1367]Linked List in Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1367" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1367]Linked List in Binary Tree.java" />
+              <option name="titleSlug" value="linked-list-in-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1568]Minimum Number of Days to Disconnect Island.java">
           <value>
             <LeetcodeEditor>
@@ -3965,7 +3975,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1367" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1367]Linked List in Binary Tree.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1367]Linked List in Binary Tree.java" />
               <option name="titleSlug" value="linked-list-in-binary-tree" />
             </LeetcodeEditor>
           </value>
