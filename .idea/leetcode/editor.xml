@@ -2161,6 +2161,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[592]Fraction Addition and Subtraction.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com592" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[592]Fraction Addition and Subtraction.java" />
+              <option name="titleSlug" value="fraction-addition-and-subtraction" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[5]Longest Palindromic Substring.java">
           <value>
             <LeetcodeEditor>
