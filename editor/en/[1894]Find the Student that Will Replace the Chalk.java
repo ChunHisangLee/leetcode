@@ -3,16 +3,23 @@
 class Solution {
     public int chalkReplacer(int[] chalk, int k) {
         int n = chalk.length;
-        long[] prefixSum = new long[n];
-        prefixSum[0] = chalk[0];
-        IntStream.range(1, n).forEach(i -> prefixSum[i] = prefixSum[i - 1] + chalk[i]);
-        final int adjustedK = (int) (k % prefixSum[n - 1]);
-        int result = IntStream.range(0, n)
-                .filter(i -> prefixSum[i] > adjustedK)
-                .findFirst()
-                .orElse(-1);
+        long totalChalk = 0;
 
-        return result;
+        for (int num : chalk) {
+            totalChalk += num;
+        }
+
+        k %= totalChalk;
+
+        for (int i = 0; i < n; i++) {
+            if (k < chalk[i]) {
+                return i;
+            }
+
+            k -= chalk[i];
+        }
+
+        return -1;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
