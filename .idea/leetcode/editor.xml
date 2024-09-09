@@ -2629,6 +2629,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1140]Stone Game II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1140" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1140]Stone Game II.java" />
+              <option name="titleSlug" value="stone-game-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1367]Linked List in Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1367" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1367]Linked List in Binary Tree.java" />
+              <option name="titleSlug" value="linked-list-in-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1568]Minimum Number of Days to Disconnect Island.java">
           <value>
             <LeetcodeEditor>
@@ -2659,6 +2679,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2326]Spiral Matrix IV.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2326" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2326]Spiral Matrix IV.java" />
+              <option name="titleSlug" value="spiral-matrix-iv" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2699]Modify Graph Edge Weights.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2699" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2699]Modify Graph Edge Weights.java" />
+              <option name="titleSlug" value="modify-graph-edge-weights" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3189]Minimum Moves to Get a Peaceful Board.java">
           <value>
             <LeetcodeEditor>
@@ -2669,6 +2709,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3217]Delete Nodes From Linked List Present in Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3217" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3217]Delete Nodes From Linked List Present in Array.java" />
+              <option name="titleSlug" value="delete-nodes-from-linked-list-present-in-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[624]Maximum Distance in Arrays.java">
           <value>
             <LeetcodeEditor>
@@ -2676,6 +2726,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[624]Maximum Distance in Arrays.java" />
               <option name="titleSlug" value="maximum-distance-in-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[874]Walking Robot Simulation.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com874" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[874]Walking Robot Simulation.java" />
+              <option name="titleSlug" value="walking-robot-simulation" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3205,7 +3265,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1140" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1140]Stone Game II.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1140]Stone Game II.java" />
               <option name="titleSlug" value="stone-game-ii" />
             </LeetcodeEditor>
           </value>
@@ -3955,7 +4015,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1367" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1367]Linked List in Binary Tree.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1367]Linked List in Binary Tree.java" />
               <option name="titleSlug" value="linked-list-in-binary-tree" />
             </LeetcodeEditor>
           </value>
@@ -6349,7 +6409,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2326" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2326]Spiral Matrix IV.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2326]Spiral Matrix IV.java" />
               <option name="titleSlug" value="spiral-matrix-iv" />
             </LeetcodeEditor>
           </value>
