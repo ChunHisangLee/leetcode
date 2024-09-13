@@ -5,6 +5,7 @@ class Solution {
         int n = arr.length;
         int[] prefixXOR = new int[n];
         prefixXOR[0] = arr[0];
+
         for (int i = 1; i < n; i++) {
             prefixXOR[i] = prefixXOR[i - 1] ^ arr[i];
         }
