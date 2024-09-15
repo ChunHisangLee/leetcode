@@ -376,6 +376,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1371]Find the Longest Substring Containing Vowels in Even Counts.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1371" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1371]Find the Longest Substring Containing Vowels in Even Counts.java" />
+              <option name="titleSlug" value="find-the-longest-substring-containing-vowels-in-even-counts" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[13]Roman to Integer.java">
           <value>
             <LeetcodeEditor>
@@ -1305,6 +1315,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2392]Build a Matrix With Conditions.java" />
               <option name="titleSlug" value="build-a-matrix-with-conditions" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2419" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java" />
+              <option name="titleSlug" value="longest-subarray-with-maximum-bitwise-and" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -6769,7 +6789,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2419" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java" />
               <option name="titleSlug" value="longest-subarray-with-maximum-bitwise-and" />
             </LeetcodeEditor>
           </value>
