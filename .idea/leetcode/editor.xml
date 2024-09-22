@@ -760,6 +760,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1858]Longest Word With All Prefixes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1858" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1858]Longest Word With All Prefixes.java" />
+              <option name="titleSlug" value="longest-word-with-all-prefixes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1863]Sum of All Subset XOR Totals.java">
           <value>
             <LeetcodeEditor>
@@ -2124,6 +2134,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.java" />
               <option name="titleSlug" value="trapping-rain-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[440]K-th Smallest in Lexicographical Order.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com440" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[440]K-th Smallest in Lexicographical Order.java" />
+              <option name="titleSlug" value="k-th-smallest-in-lexicographical-order" />
             </LeetcodeEditor>
           </value>
         </entry>
