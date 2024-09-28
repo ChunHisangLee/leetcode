@@ -2321,6 +2321,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[641]Design Circular Deque.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com641" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[641]Design Circular Deque.java" />
+              <option name="titleSlug" value="design-circular-deque" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[643]Maximum Average Subarray I.java">
           <value>
             <LeetcodeEditor>
