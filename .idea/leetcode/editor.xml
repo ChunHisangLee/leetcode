@@ -366,6 +366,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1381]Design a Stack With Increment Operation.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1381" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1381]Design a Stack With Increment Operation.java" />
+              <option name="titleSlug" value="design-a-stack-with-increment-operation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[13]Roman to Integer.java">
           <value>
             <LeetcodeEditor>
@@ -757,6 +767,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1791]Find Center of Star Graph.java" />
               <option name="titleSlug" value="find-center-of-star-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1804]Implement Trie II (Prefix Tree).java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1804" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1804]Implement Trie II (Prefix Tree).java" />
+              <option name="titleSlug" value="implement-trie-ii-prefix-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -5528,7 +5548,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1804" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1804]Implement Trie II (Prefix Tree).js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1804]Implement Trie II (Prefix Tree).java" />
               <option name="titleSlug" value="implement-trie-ii-prefix-tree" />
             </LeetcodeEditor>
           </value>
