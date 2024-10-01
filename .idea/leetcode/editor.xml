@@ -186,6 +186,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1133]Largest Unique Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1133" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1133]Largest Unique Number.java" />
+              <option name="titleSlug" value="largest-unique-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -493,6 +503,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1475]Final Prices With a Special Discount in a Shop.java" />
               <option name="titleSlug" value="final-prices-with-a-special-discount-in-a-shop" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1497]Check If Array Pairs Are Divisible by k.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1497" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1497]Check If Array Pairs Are Divisible by k.java" />
+              <option name="titleSlug" value="check-if-array-pairs-are-divisible-by-k" />
             </LeetcodeEditor>
           </value>
         </entry>
