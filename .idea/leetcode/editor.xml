@@ -356,6 +356,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1331]Rank Transform of an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1331" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1331]Rank Transform of an Array.java" />
+              <option name="titleSlug" value="rank-transform-of-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1334]Find the City With the Smallest Number of Neighbors at a Threshold Distance.java">
           <value>
             <LeetcodeEditor>
@@ -2134,6 +2144,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[42]Trapping Rain Water.java" />
               <option name="titleSlug" value="trapping-rain-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[432]All O`one Data Structure.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com432" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[432]All O`one Data Structure.java" />
+              <option name="titleSlug" value="all-oone-data-structure" />
             </LeetcodeEditor>
           </value>
         </entry>
