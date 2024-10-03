@@ -286,6 +286,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1229]Meeting Scheduler.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1229" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1229]Meeting Scheduler.java" />
+              <option name="titleSlug" value="meeting-scheduler" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1235]Maximum Profit in Job Scheduling.java">
           <value>
             <LeetcodeEditor>
@@ -346,6 +356,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1331]Rank Transform of an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1331" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1331]Rank Transform of an Array.java" />
+              <option name="titleSlug" value="rank-transform-of-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1334]Find the City With the Smallest Number of Neighbors at a Threshold Distance.java">
           <value>
             <LeetcodeEditor>
@@ -363,6 +383,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[136]Single Number.java" />
               <option name="titleSlug" value="single-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1371]Find the Longest Substring Containing Vowels in Even Counts.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1371" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1371]Find the Longest Substring Containing Vowels in Even Counts.java" />
+              <option name="titleSlug" value="find-the-longest-substring-containing-vowels-in-even-counts" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -578,6 +608,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1590]Make Sum Divisible by P.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1590" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1590]Make Sum Divisible by P.java" />
+              <option name="titleSlug" value="make-sum-divisible-by-p" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[159]Longest Substring with At Most Two Distinct Characters.java">
           <value>
             <LeetcodeEditor>
@@ -740,6 +780,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1858]Longest Word With All Prefixes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1858" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1858]Longest Word With All Prefixes.java" />
+              <option name="titleSlug" value="longest-word-with-all-prefixes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1863]Sum of All Subset XOR Totals.java">
           <value>
             <LeetcodeEditor>
@@ -817,6 +867,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1929]Concatenation of Array.java" />
               <option name="titleSlug" value="concatenation-of-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1945]Sum of Digits of String After Convert.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1945" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1945]Sum of Digits of String After Convert.java" />
+              <option name="titleSlug" value="sum-of-digits-of-string-after-convert" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1285,6 +1345,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2392]Build a Matrix With Conditions.java" />
               <option name="titleSlug" value="build-a-matrix-with-conditions" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2419" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java" />
+              <option name="titleSlug" value="longest-subarray-with-maximum-bitwise-and" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2087,6 +2157,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[432]All O`one Data Structure.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com432" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[432]All O`one Data Structure.java" />
+              <option name="titleSlug" value="all-oone-data-structure" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[440]K-th Smallest in Lexicographical Order.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com440" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[440]K-th Smallest in Lexicographical Order.java" />
+              <option name="titleSlug" value="k-th-smallest-in-lexicographical-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[442]Find All Duplicates in an Array.java">
           <value>
             <LeetcodeEditor>
@@ -2271,6 +2361,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[641]Design Circular Deque.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com641" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[641]Design Circular Deque.java" />
+              <option name="titleSlug" value="design-circular-deque" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[643]Maximum Average Subarray I.java">
           <value>
             <LeetcodeEditor>
@@ -2404,6 +2504,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[725]Split Linked List in Parts.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com725" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[725]Split Linked List in Parts.java" />
+              <option name="titleSlug" value="split-linked-list-in-parts" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[726]Number of Atoms.java">
           <value>
             <LeetcodeEditor>
@@ -2513,6 +2623,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[872]Leaf-Similar Trees.java" />
               <option name="titleSlug" value="leaf-similar-trees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[884]Uncommon Words from Two Sentences.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com884" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[884]Uncommon Words from Two Sentences.java" />
+              <option name="titleSlug" value="uncommon-words-from-two-sentences" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -6769,7 +6889,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2419" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java" />
               <option name="titleSlug" value="longest-subarray-with-maximum-bitwise-and" />
             </LeetcodeEditor>
           </value>
@@ -9765,7 +9885,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com725" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[725]Split Linked List in Parts.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[725]Split Linked List in Parts.java" />
               <option name="titleSlug" value="split-linked-list-in-parts" />
             </LeetcodeEditor>
           </value>
