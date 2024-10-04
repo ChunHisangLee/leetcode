@@ -4,32 +4,30 @@
 class Solution {
     public long dividePlayers(int[] skill) {
         int n = skill.length;
-        long sumOfSkill = 0;
+        int sumOfSkill = 0;
 
         for (int s : skill) {
             sumOfSkill += s;
         }
 
-        long numerator = 2 * sumOfSkill;
-
-        if (numerator % n != 0) {
+        if (sumOfSkill % (n / 2) != 0) {
             return -1;
         }
 
-        long denominator = numerator / n;
+        int denominator = sumOfSkill / (n / 2);
         Arrays.sort(skill);
         long result = 0;
         int left = 0;
         int right = n - 1;
 
         while (left < right) {
-            long pairSum = (long) skill[left] + (long) skill[right];
+            int pairSum = skill[left] + skill[right];
 
             if (pairSum != denominator) {
                 return -1;
             }
 
-            result += ((long) skill[left] * (long) skill[right]);
+            result += (long) skill[left] * (long) skill[right];
             left++;
             right--;
         }
