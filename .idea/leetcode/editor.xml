@@ -2699,6 +2699,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[567]Permutation in String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com567" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[567]Permutation in String.java" />
+              <option name="titleSlug" value="permutation-in-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[624]Maximum Distance in Arrays.java">
           <value>
             <LeetcodeEditor>
