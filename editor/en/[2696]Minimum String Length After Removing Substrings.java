@@ -11,12 +11,11 @@ class Solution {
 
                 if ((top == 'A' && c == 'B') || (top == 'C' && c == 'D')) {
                     stack.pop();
-                } else {
-                    stack.push(c);
+                    continue;
                 }
-            } else {
-                stack.push(c);
             }
+
+            stack.push(c);
         }
 
         return stack.size();
