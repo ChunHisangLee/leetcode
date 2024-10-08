@@ -286,6 +286,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1229]Meeting Scheduler.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1229" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1229]Meeting Scheduler.java" />
+              <option name="titleSlug" value="meeting-scheduler" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1235]Maximum Profit in Job Scheduling.java">
           <value>
             <LeetcodeEditor>
@@ -837,6 +847,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1929]Concatenation of Array.java" />
               <option name="titleSlug" value="concatenation-of-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1945]Sum of Digits of String After Convert.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1945" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1945]Sum of Digits of String After Convert.java" />
+              <option name="titleSlug" value="sum-of-digits-of-string-after-convert" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2471,6 +2491,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[724]Find Pivot Index.java" />
               <option name="titleSlug" value="find-pivot-index" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[725]Split Linked List in Parts.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com725" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[725]Split Linked List in Parts.java" />
+              <option name="titleSlug" value="split-linked-list-in-parts" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -9895,7 +9925,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com725" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[725]Split Linked List in Parts.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[725]Split Linked List in Parts.java" />
               <option name="titleSlug" value="split-linked-list-in-parts" />
             </LeetcodeEditor>
           </value>
