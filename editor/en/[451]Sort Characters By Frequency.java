@@ -1,31 +1,42 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String frequencySort(String s) {
-        int[]arr = new int[128];
+        Map<Character, Integer> frequencyMap = new HashMap<>();
 
         for (char c : s.toCharArray()) {
-            arr[c]++;
+            frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
         }
 
-        PriorityQueue<Character> pq = new PriorityQueue<>((a, b) -> arr[b] - arr[a]);
+        List<Character>[] buckets = new List[s.length() + 1];
 
-        for (int i = 0; i < 128; i++) {
-            if (arr[i] > 0) {
-                pq.offer((char) i);
+        for (Map.Entry<Character, Integer> entry : frequencyMap.entrySet()) {
+            int freq = entry.getValue();
+            char c = entry.getKey();
+
+            if (buckets[freq] == null) {
+                buckets[freq] = new ArrayList<>();
             }
+
+            buckets[freq].add(c);
         }
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(s.length());
 
-        while (!pq.isEmpty()) {
-            char c = pq.poll();
-
-            for (int i = 0; i < arr[c]; i++) {
-                sb.append(c);
+        for (int freq = buckets.length - 1; freq >= 1; freq--) {
+            if (buckets[freq] != null) {
+                for (char c : buckets[freq]) {
+                    sb.append(repeatChar(c, freq));
+                }
             }
         }
 
         return sb.toString();
+    }
+
+    private String repeatChar(char c, int count) {
+        char[] chars = new char[count];
+        Arrays.fill(chars, c);
+        return new String(chars);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
