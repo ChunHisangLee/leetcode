@@ -1358,6 +1358,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2406]Divide Intervals Into Minimum Number of Groups.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2406" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2406]Divide Intervals Into Minimum Number of Groups.java" />
+              <option name="titleSlug" value="divide-intervals-into-minimum-number-of-groups" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java">
           <value>
             <LeetcodeEditor>
