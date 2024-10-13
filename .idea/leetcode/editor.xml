@@ -2371,6 +2371,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[632]Smallest Range Covering Elements from K Lists.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com632" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[632]Smallest Range Covering Elements from K Lists.java" />
+              <option name="titleSlug" value="smallest-range-covering-elements-from-k-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[641]Design Circular Deque.java">
           <value>
             <LeetcodeEditor>
