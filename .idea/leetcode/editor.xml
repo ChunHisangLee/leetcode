@@ -1508,6 +1508,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2530]Maximal Score After Applying K Operations.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2530" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2530]Maximal Score After Applying K Operations.java" />
+              <option name="titleSlug" value="maximal-score-after-applying-k-operations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[253]Meeting Rooms II.java">
           <value>
             <LeetcodeEditor>
