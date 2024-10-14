@@ -64,12 +64,15 @@ class Solution {
         if (node == null) {
             return -1;
         }
+
         int left = dfs(node.left);
         int right = dfs(node.right);
         int level = Math.max(left, right) + 1;
-        if (list.size() == level) {
+
+        if (list.size() <= level) {
             list.add(new ArrayList<>());
         }
+
         list.get(level).add(node.val);
         return level;
     }
