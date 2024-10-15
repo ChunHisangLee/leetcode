@@ -1,6 +1,4 @@
-427
-        Construct Quad Tree
-        2023-02-27 09:16:54
+
 //leetcode submit region begin(Prohibit modification and deletion)
 /*
 // Definition for a QuadTree node.
@@ -51,13 +49,16 @@ class Solution {
         if (len == 1) {
             return new Node(grid[x][y] == 1 ? true : false, true);
         }
+
         Node topLeft = helper(grid, len / 2, x, y);
         Node topRight = helper(grid, len / 2, x, y + len / 2);
         Node bottomLeft = helper(grid, len / 2, x + len / 2, y);
         Node bottomRight = helper(grid, len / 2, x + len / 2, y + len / 2);
+
         if (topLeft.isLeaf && topRight.isLeaf && bottomLeft.isLeaf && bottomRight.isLeaf && topLeft.val == topRight.val && topRight.val == bottomLeft.val && bottomLeft.val == bottomRight.val) {
             return new Node(topLeft.val, true);
         }
+
         return new Node(true, false, topLeft, topRight, bottomLeft, bottomRight);
     }
 }

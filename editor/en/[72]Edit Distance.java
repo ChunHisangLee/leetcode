@@ -1,6 +1,3 @@
-72
-        Edit Distance
-        2023-02-26 09:20:14
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
@@ -10,12 +7,15 @@ class Solution {
         int m = c1.length;
         int n = c2.length;
         int[][] dp = new int[m + 1][n + 1];
+
         for (int i = 1; i <= m; i++) {
             dp[i][0] = i;
         }
+
         for (int j = 1; j <= n; j++) {
             dp[0][j] = j;
         }
+
         for (int i = 1; i <= m; i++) {
             for (int j = 1; j <= n; j++) {
                 if (c1[i - 1] == c2[j - 1]) {
@@ -25,6 +25,7 @@ class Solution {
                 }
             }
         }
+
         return dp[m][n];
     }
 }

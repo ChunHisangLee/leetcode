@@ -1,6 +1,3 @@
-47
-        Permutations II
-        2022-11-30 13:38:35
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
@@ -11,6 +8,7 @@ class Solution {
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
+
         backtrack(new ArrayList<>(), nums.length);
         return res;
     }
@@ -20,6 +18,7 @@ class Solution {
             res.add(new ArrayList<>(list));
             return;
         }
+
         for (int key : map.keySet()) {
             if (map.get(key) > 0) {
                 list.add(key);
