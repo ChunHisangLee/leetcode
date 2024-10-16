@@ -406,6 +406,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1405]Longest Happy String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1405" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1405]Longest Happy String.java" />
+              <option name="titleSlug" value="longest-happy-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[140]Word Break II.java">
           <value>
             <LeetcodeEditor>
@@ -1915,6 +1925,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2892]Minimizing Array After Replacing Pairs With Their Product.py" />
               <option name="titleSlug" value="minimizing-array-after-replacing-pairs-with-their-product" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2938]Separate Black and White Balls.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2938" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2938]Separate Black and White Balls.java" />
+              <option name="titleSlug" value="separate-black-and-white-balls" />
             </LeetcodeEditor>
           </value>
         </entry>
