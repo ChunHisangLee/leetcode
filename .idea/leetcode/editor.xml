@@ -2619,6 +2619,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1545]Find Kth Bit in Nth Binary String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1545" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1545]Find Kth Bit in Nth Binary String.java" />
+              <option name="titleSlug" value="find-kth-bit-in-nth-binary-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1568]Minimum Number of Days to Disconnect Island.java">
           <value>
             <LeetcodeEditor>
@@ -2646,6 +2656,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
               <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2044]Count Number of Maximum Bitwise-OR Subsets.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2044" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2044]Count Number of Maximum Bitwise-OR Subsets.java" />
+              <option name="titleSlug" value="count-number-of-maximum-bitwise-or-subsets" />
             </LeetcodeEditor>
           </value>
         </entry>
