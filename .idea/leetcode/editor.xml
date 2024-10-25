@@ -306,6 +306,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1233]Remove Sub-Folders from the Filesystem.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1233" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1233]Remove Sub-Folders from the Filesystem.java" />
+              <option name="titleSlug" value="remove-sub-folders-from-the-filesystem" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1235]Maximum Profit in Job Scheduling.java">
           <value>
             <LeetcodeEditor>
