@@ -14,14 +14,17 @@ public class Solution extends Reader4 {
         boolean eof = false;
         int total = 0;
         char[] temp = new char[4];
+
         while (!eof && total < n) {
             int count = read4(temp);
             eof = count < 4;
             count = Math.min(count, n - total);
+
             for (int i = 0; i < count; i++) {
                 buf[total++] = temp[i];
             }
         }
+
         return total;
     }
 }

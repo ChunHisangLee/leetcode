@@ -1,24 +1,29 @@
-680
-        Valid Palindrome II
-        2023-01-01 22:52:19
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean validPalindrome(String s) {
-        for (int left = 0, right = s.length() - 1; left < right; left++, right--) {
+        int left = 0;
+        int right = s.length() - 1;
+
+        while (left < right) {
             if (s.charAt(left) != s.charAt(right)) {
-                return checkPalindrome(s, left, right - 1) || checkPalindrome(s, left + 1, right);
+                return isPalindromeRange(s, left + 1, right) || isPalindromeRange(s, left, right - 1);
             }
+
+            left++;
+            right--;
         }
+
         return true;
     }
 
-    private boolean checkPalindrome(String s, int i, int j) {
-        for (int left = i, right = j; left < right; left++, right--) {
-            if (s.charAt(left) != s.charAt(right)) {
+    private boolean isPalindromeRange(String s, int left, int right) {
+        while (left < right) {
+            if (s.charAt(left++) != s.charAt(right--)) {
                 return false;
             }
         }
+
         return true;
     }
 }
