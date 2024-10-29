@@ -2619,6 +2619,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[143]Reorder List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com143" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[143]Reorder List.java" />
+              <option name="titleSlug" value="reorder-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1545]Find Kth Bit in Nth Binary String.java">
           <value>
             <LeetcodeEditor>
@@ -2679,6 +2689,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[257]Binary Tree Paths.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com257" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[257]Binary Tree Paths.java" />
+              <option name="titleSlug" value="binary-tree-paths" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2583]Kth Largest Sum in a Binary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -2696,6 +2716,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2664]The Knight’s Tour.java" />
               <option name="titleSlug" value="the-knights-tour" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2684]Maximum Number of Moves in a Grid.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2684" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2684]Maximum Number of Moves in a Grid.java" />
+              <option name="titleSlug" value="maximum-number-of-moves-in-a-grid" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4326,7 +4356,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com143" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[143]Reorder List.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[143]Reorder List.java" />
               <option name="titleSlug" value="reorder-list" />
             </LeetcodeEditor>
           </value>
@@ -6979,7 +7009,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com257" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[257]Binary Tree Paths.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[257]Binary Tree Paths.java" />
               <option name="titleSlug" value="binary-tree-paths" />
             </LeetcodeEditor>
           </value>
