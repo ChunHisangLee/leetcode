@@ -2725,6 +2725,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[785]Is Graph Bipartite?.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com785" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[785]Is Graph Bipartite?.java" />
+              <option name="titleSlug" value="is-graph-bipartite" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[787]Cheapest Flights Within K Stops.java">
           <value>
             <LeetcodeEditor>
