@@ -2664,6 +2664,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[721]Accounts Merge.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[721]Accounts Merge.md" />
+              <option name="frontendQuestionId" value="leetcode.com721" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[721]Accounts Merge.java" />
+              <option name="titleSlug" value="accounts-merge" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[724]Find Pivot Index.java">
           <value>
             <LeetcodeEditor>
@@ -10033,9 +10044,10 @@
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[721]Accounts Merge.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[721]Accounts Merge.md" />
               <option name="frontendQuestionId" value="leetcode.com721" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[721]Accounts Merge.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[721]Accounts Merge.java" />
               <option name="titleSlug" value="accounts-merge" />
             </LeetcodeEditor>
           </value>
