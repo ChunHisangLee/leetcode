@@ -2106,7 +2106,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com523" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[523]Continuous Subarray Sum.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[523]Continuous Subarray Sum.java" />
               <option name="titleSlug" value="continuous-subarray-sum" />
             </LeetcodeEditor>
           </value>
@@ -2749,6 +2749,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[304]Range Sum Query 2D - Immutable.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com304" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[304]Range Sum Query 2D - Immutable.java" />
+              <option name="titleSlug" value="range-sum-query-2d-immutable" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3189]Minimum Moves to Get a Peaceful Board.java">
           <value>
             <LeetcodeEditor>
@@ -2769,6 +2779,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[32]Longest Valid Parentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com32" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[32]Longest Valid Parentheses.java" />
+              <option name="titleSlug" value="longest-valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[386]Lexicographical Numbers.java">
           <value>
             <LeetcodeEditor>
@@ -2776,6 +2796,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[386]Lexicographical Numbers.java" />
               <option name="titleSlug" value="lexicographical-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[523]Continuous Subarray Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com523" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[523]Continuous Subarray Sum.java" />
+              <option name="titleSlug" value="continuous-subarray-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -7751,7 +7781,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com304" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[304]Range Sum Query 2D - Immutable.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[304]Range Sum Query 2D - Immutable.java" />
               <option name="titleSlug" value="range-sum-query-2d-immutable" />
             </LeetcodeEditor>
           </value>
@@ -7941,7 +7971,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com32" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[32]Longest Valid Parentheses.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[32]Longest Valid Parentheses.java" />
               <option name="titleSlug" value="longest-valid-parentheses" />
             </LeetcodeEditor>
           </value>
