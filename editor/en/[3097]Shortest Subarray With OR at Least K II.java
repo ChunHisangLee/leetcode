@@ -23,7 +23,7 @@ class Solution {
             while (val >= k && start < nums.length) {
                 shortest = Math.min(shortest, i - start + 1);
                 num = nums[start];
-                ++start;
+                start++;
 
                 for (int ibit = 0; num != 0; ibit++) {
                     count[ibit] -= num & 1;
