@@ -2689,6 +2689,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2563]Count the Number of Fair Pairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2563" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2563]Count the Number of Fair Pairs.java" />
+              <option name="titleSlug" value="count-the-number-of-fair-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[257]Binary Tree Paths.java">
           <value>
             <LeetcodeEditor>
@@ -2736,6 +2746,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2699]Modify Graph Edge Weights.java" />
               <option name="titleSlug" value="modify-graph-edge-weights" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[282]Expression Add Operators.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com282" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[282]Expression Add Operators.java" />
+              <option name="titleSlug" value="expression-add-operators" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2806,6 +2826,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[386]Lexicographical Numbers.java" />
               <option name="titleSlug" value="lexicographical-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[438]Find All Anagrams in a String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com438" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[438]Find All Anagrams in a String.java" />
+              <option name="titleSlug" value="find-all-anagrams-in-a-string" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -7419,7 +7449,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com282" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[282]Expression Add Operators.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[282]Expression Add Operators.java" />
               <option name="titleSlug" value="expression-add-operators" />
             </LeetcodeEditor>
           </value>
@@ -8653,7 +8683,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com438" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[438]Find All Anagrams in a String.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[438]Find All Anagrams in a String.java" />
               <option name="titleSlug" value="find-all-anagrams-in-a-string" />
             </LeetcodeEditor>
           </value>
