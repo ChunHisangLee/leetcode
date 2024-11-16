@@ -1216,6 +1216,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2107]Number of Unique Flavors After Sharing K Candies.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2107" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2107]Number of Unique Flavors After Sharing K Candies.java" />
+              <option name="titleSlug" value="number-of-unique-flavors-after-sharing-k-candies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[210]Course Schedule II.java">
           <value>
             <LeetcodeEditor>
@@ -2221,6 +2231,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[323]Number of Connected Components in an Undirected Graph.java" />
               <option name="titleSlug" value="number-of-connected-components-in-an-undirected-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3254]Find the Power of K-Size Subarrays I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3254" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3254]Find the Power of K-Size Subarrays I.java" />
+              <option name="titleSlug" value="find-the-power-of-k-size-subarrays-i" />
             </LeetcodeEditor>
           </value>
         </entry>
