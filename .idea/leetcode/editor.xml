@@ -1538,6 +1538,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2461]Maximum Sum of Distinct Subarrays With Length K.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2461" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2461]Maximum Sum of Distinct Subarrays With Length K.java" />
+              <option name="titleSlug" value="maximum-sum-of-distinct-subarrays-with-length-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2463]Minimum Total Distance Traveled.java">
           <value>
             <LeetcodeEditor>
