@@ -1010,6 +1010,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1975]Maximum Matrix Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1975" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1975]Maximum Matrix Sum.java" />
+              <option name="titleSlug" value="maximum-matrix-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1980]Find Unique Binary String.java">
           <value>
             <LeetcodeEditor>
