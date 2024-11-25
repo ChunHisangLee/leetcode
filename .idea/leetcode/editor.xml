@@ -2865,6 +2865,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[773]Sliding Puzzle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com773" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[773]Sliding Puzzle.java" />
+              <option name="titleSlug" value="sliding-puzzle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[785]Is Graph Bipartite?.java">
           <value>
             <LeetcodeEditor>
