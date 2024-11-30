@@ -1236,6 +1236,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2097]Valid Arrangement of Pairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2097" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2097]Valid Arrangement of Pairs.java" />
+              <option name="titleSlug" value="valid-arrangement-of-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2098]Subsequence of Size K With the Largest Even Sum.java">
           <value>
             <LeetcodeEditor>
@@ -1676,6 +1686,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[255]Verify Preorder Sequence in Binary Search Tree.py" />
               <option name="titleSlug" value="verify-preorder-sequence-in-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2577]Minimum Time to Visit a Cell In a Grid.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2577" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2577]Minimum Time to Visit a Cell In a Grid.java" />
+              <option name="titleSlug" value="minimum-time-to-visit-a-cell-in-a-grid" />
             </LeetcodeEditor>
           </value>
         </entry>
