@@ -1476,6 +1476,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2337]Move Pieces to Obtain a String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2337" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2337]Move Pieces to Obtain a String.java" />
+              <option name="titleSlug" value="move-pieces-to-obtain-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[234]Palindrome Linked List.java">
           <value>
             <LeetcodeEditor>
