@@ -1171,6 +1171,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2054]Two Best Non-Overlapping Events.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2054" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2054]Two Best Non-Overlapping Events.java" />
+              <option name="titleSlug" value="two-best-non-overlapping-events" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[205]Isomorphic Strings.py">
           <value>
             <LeetcodeEditor>
