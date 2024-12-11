@@ -1889,6 +1889,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2779]Maximum Beauty of an Array After Applying Operation.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2779" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2779]Maximum Beauty of an Array After Applying Operation.java" />
+              <option name="titleSlug" value="maximum-beauty-of-an-array-after-applying-operation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[279]Perfect Squares.java">
           <value>
             <LeetcodeEditor>
@@ -2381,6 +2391,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[314]Binary Tree Vertical Order Traversal.java" />
               <option name="titleSlug" value="binary-tree-vertical-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3152]Special Array II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3152" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3152]Special Array II.java" />
+              <option name="titleSlug" value="special-array-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
