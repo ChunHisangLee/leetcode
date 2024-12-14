@@ -1889,6 +1889,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2762]Continuous Subarrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2762" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2762]Continuous Subarrays.java" />
+              <option name="titleSlug" value="continuous-subarrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2767]Partition String Into Minimum Beautiful Substrings.java">
           <value>
             <LeetcodeEditor>
