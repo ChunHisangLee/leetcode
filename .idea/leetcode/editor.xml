@@ -1598,6 +1598,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2415]Reverse Odd Levels of Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2415" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2415]Reverse Odd Levels of Binary Tree.java" />
+              <option name="titleSlug" value="reverse-odd-levels-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2419]Longest Subarray With Maximum Bitwise AND.java">
           <value>
             <LeetcodeEditor>
