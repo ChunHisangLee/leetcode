@@ -2948,6 +2948,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3203]Find Minimum Diameter After Merging Two Trees.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3203" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3203]Find Minimum Diameter After Merging Two Trees.java" />
+              <option name="titleSlug" value="find-minimum-diameter-after-merging-two-trees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[624]Maximum Distance in Arrays.java">
           <value>
             <LeetcodeEditor>
