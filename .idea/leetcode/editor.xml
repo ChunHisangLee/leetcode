@@ -2739,13 +2739,24 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[494]Target Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[494]Target Sum.md" />
+              <option name="frontendQuestionId" value="leetcode.com494" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[494]Target Sum.java" />
+              <option name="titleSlug" value="target-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[494]Target Sum.py">
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[494]Target Sum.md" />
               <option name="frontendQuestionId" value="leetcode.com494" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[494]Target Sum.py" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[494]Target Sum.java" />
               <option name="titleSlug" value="target-sum" />
             </LeetcodeEditor>
           </value>
