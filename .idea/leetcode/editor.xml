@@ -3450,6 +3450,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[983]Minimum Cost For Tickets.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com983" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[983]Minimum Cost For Tickets.java" />
+              <option name="titleSlug" value="minimum-cost-for-tickets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[997]Find the Town Judge.java">
           <value>
             <LeetcodeEditor>
@@ -11540,7 +11550,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com983" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[983]Minimum Cost For Tickets.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[983]Minimum Cost For Tickets.java" />
               <option name="titleSlug" value="minimum-cost-for-tickets" />
             </LeetcodeEditor>
           </value>
