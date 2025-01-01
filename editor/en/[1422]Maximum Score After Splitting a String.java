@@ -4,10 +4,10 @@ class Solution {
     public int maxScore(String s) {
         int zeros = 0;
         int ones = 0;
-        int max = 0;
+        int maxScore = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '1') {
+        for (char c : s.toCharArray()) {
+            if (c == '1') {
                 ones++;
             }
         }
@@ -19,10 +19,10 @@ class Solution {
                 ones--;
             }
 
-            max = Math.max(max, zeros + ones);
+            maxScore = Math.max(maxScore, zeros + ones);
         }
 
-        return max;
+        return maxScore;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
