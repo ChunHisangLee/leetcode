@@ -466,6 +466,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1400]Construct K Palindrome Strings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1400" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1400]Construct K Palindrome Strings.java" />
+              <option name="titleSlug" value="construct-k-palindrome-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[140]Word Break II.java">
           <value>
             <LeetcodeEditor>
@@ -1363,6 +1373,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[210]Course Schedule II.java" />
               <option name="titleSlug" value="course-schedule-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2116]Check if a Parentheses String Can Be Valid.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2116" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2116]Check if a Parentheses String Can Be Valid.java" />
+              <option name="titleSlug" value="check-if-a-parentheses-string-can-be-valid" />
             </LeetcodeEditor>
           </value>
         </entry>
