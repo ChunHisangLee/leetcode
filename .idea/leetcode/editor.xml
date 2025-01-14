@@ -286,6 +286,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1213]Intersection of Three Sorted Arrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1213" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1213]Intersection of Three Sorted Arrays.java" />
+              <option name="titleSlug" value="intersection-of-three-sorted-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[121]Best Time to Buy and Sell Stock.java">
           <value>
             <LeetcodeEditor>
@@ -827,6 +837,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1804]Implement Trie II (Prefix Tree).java" />
               <option name="titleSlug" value="implement-trie-ii-prefix-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1829]Maximum XOR for Each Query.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1829" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1829]Maximum XOR for Each Query.java" />
+              <option name="titleSlug" value="maximum-xor-for-each-query" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1646,6 +1666,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[264]Ugly Number II.java" />
               <option name="titleSlug" value="ugly-number-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2657]Find the Prefix Common Array of Two Arrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2657" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2657]Find the Prefix Common Array of Two Arrays.java" />
+              <option name="titleSlug" value="find-the-prefix-common-array-of-two-arrays" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4305,7 +4335,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1213" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1213]Intersection of Three Sorted Arrays.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1213]Intersection of Three Sorted Arrays.java" />
               <option name="titleSlug" value="intersection-of-three-sorted-arrays" />
             </LeetcodeEditor>
           </value>
