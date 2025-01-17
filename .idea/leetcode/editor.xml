@@ -1708,6 +1708,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2425]Bitwise XOR of All Pairings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2425" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2425]Bitwise XOR of All Pairings.java" />
+              <option name="titleSlug" value="bitwise-xor-of-all-pairings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2437]Number of Valid Clock Times.java">
           <value>
             <LeetcodeEditor>
