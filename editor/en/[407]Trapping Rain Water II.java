@@ -1,41 +1,62 @@
-/**
-<p>Given an <code>m x n</code> integer matrix <code>heightMap</code> representing the height of each unit cell in a 2D elevation map, return <em>the volume of water it can trap after raining</em>.</p>
-
-<p>&nbsp;</p> 
-<p><strong class="example">Example 1:</strong></p> 
-<img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/trap1-3d.jpg" style="width: 361px; height: 321px;" /> 
-<pre>
-<strong>Input:</strong> heightMap = [[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]]
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> After the rain, water is trapped between the blocks.
-We have two small ponds 1 and 3 units trapped.
-The total volume of water trapped is 4.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p> 
-<img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/trap2-3d.jpg" style="width: 401px; height: 321px;" /> 
-<pre>
-<strong>Input:</strong> heightMap = [[3,3,3,3,3],[3,2,2,2,3],[3,2,1,2,3],[3,2,2,2,3],[3,3,3,3,3]]
-<strong>Output:</strong> 10
-</pre>
-
-<p>&nbsp;</p> 
-<p><strong>Constraints:</strong></p>
-
-<ul> 
- <li><code>m == heightMap.length</code></li> 
- <li><code>n == heightMap[i].length</code></li> 
- <li><code>1 &lt;= m, n &lt;= 200</code></li> 
- <li><code>0 &lt;= heightMap[i][j] &lt;= 2 * 10<sup>4</sup></code></li> 
-</ul>
-
-<div><div>Related Topics</div><div><li>Array</li><li>Breadth-First Search</li><li>Heap (Priority Queue)</li><li>Matrix</li></div></div><br><div><li>👍 3335</li><li>👎 76</li></div>
-*/
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
+import java.util.*;
+
 class Solution {
     public int trapRainWater(int[][] heightMap) {
-        
+        if (heightMap == null || heightMap.length <= 2 || heightMap[0].length <= 2) return 0;
+        int m = heightMap.length;
+        int n = heightMap[0].length;
+        boolean[][] visited = new boolean[m][n];
+        PriorityQueue<Cell> heap = new PriorityQueue<>((a, b) -> a.height - b.height);
+
+        for (int i = 0; i < m; i++) {
+            heap.offer(new Cell(i, 0, heightMap[i][0]));
+            heap.offer(new Cell(i, n - 1, heightMap[i][n - 1]));
+            visited[i][0] = true;
+            visited[i][n - 1] = true;
+        }
+        for (int j = 1; j < n - 1; j++) {
+            heap.offer(new Cell(0, j, heightMap[0][j]));
+            heap.offer(new Cell(m - 1, j, heightMap[m - 1][j]));
+            visited[0][j] = true;
+            visited[m - 1][j] = true;
+        }
+
+        int[][] directions = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        int water = 0;
+        int maxHeight = 0;
+
+        while (!heap.isEmpty()) {
+            Cell cell = heap.poll();
+            maxHeight = Math.max(maxHeight, cell.height);
+            for (int[] dir : directions) {
+                int ni = cell.x + dir[0];
+                int nj = cell.y + dir[1];
+                if (ni >= 0 && ni < m && nj >= 0 && nj < n && !visited[ni][nj]) {
+                    visited[ni][nj] = true;
+                    if (heightMap[ni][nj] < maxHeight) {
+                        water += maxHeight - heightMap[ni][nj];
+                    }
+                    heap.offer(new Cell(ni, nj, Math.max(heightMap[ni][nj], maxHeight)));
+                }
+            }
+        }
+
+        return water;
+    }
+
+    class Cell {
+        int x;
+        int y;
+        int height;
+
+        public Cell(int x, int y, int height) {
+            this.x = x;
+            this.y = y;
+            this.height = height;
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
