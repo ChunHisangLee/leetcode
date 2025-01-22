@@ -1,6 +1,3 @@
-542
-        01Matrix
-        2022-12-21 16:01:06
 
 //leetcode submit region begin(Prohibit modification and deletion)
 public class Solution {
