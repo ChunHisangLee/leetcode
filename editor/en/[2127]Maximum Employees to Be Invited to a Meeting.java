@@ -100,3 +100,54 @@ class Solution {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+/*
+class Solution {
+    public int maximumInvitations(int[] favorite) {
+        int n = favorite.length;
+        int[] indegrees = new int[n];
+        int[] maxDepth = new int[n];
+        for(int i = 0; i < n; ++i) {
+            indegrees[favorite[i]]++;
+        }
+
+        Queue<Integer> q = new LinkedList<>();
+        for(int i = 0; i < n; ++i) {
+            if(indegrees[i] == 0) {
+                q.add(i);
+                maxDepth[i] = 0;
+            }
+        }
+        while(!q.isEmpty()) {
+            int top = q.poll();
+            int v = favorite[top];
+            indegrees[v]--;
+            maxDepth[v] = Integer.max(maxDepth[v], 1 + maxDepth[top]);
+            if(indegrees[v] == 0) {
+                q.add(v);
+            }
+        }
+
+        int resultWithTwoNodeCycle = 0;
+        int resultWithFullCycle = 0;
+
+        int[] visited = new int[n];
+        for(int i = 0; i < n; ++i) {
+            if(indegrees[i] != 0 && visited[i] == 0) {
+                int length = 0;
+                int j = i;
+                while(visited[j] != 1) {
+                    visited[j] = 1;
+                    j = favorite[j];
+                    length++;
+                }
+                if(length == 2) {
+                    resultWithTwoNodeCycle += maxDepth[i] + maxDepth[favorite[i]] + 2;
+                }
+                resultWithFullCycle = Integer.max(resultWithFullCycle, length);
+            }
+        }
+
+        return Integer.max(resultWithFullCycle, resultWithTwoNodeCycle);
+    }
+}
+ */
