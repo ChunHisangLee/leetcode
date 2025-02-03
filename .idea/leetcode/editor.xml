@@ -3116,6 +3116,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[802]Find Eventual Safe States.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com802" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[802]Find Eventual Safe States.java" />
+              <option name="titleSlug" value="find-eventual-safe-states" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[815]Bus Routes.java">
           <value>
             <LeetcodeEditor>
@@ -10826,7 +10836,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com802" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[802]Find Eventual Safe States.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[802]Find Eventual Safe States.java" />
               <option name="titleSlug" value="find-eventual-safe-states" />
             </LeetcodeEditor>
           </value>
