@@ -970,6 +970,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1800]Maximum Ascending Subarray Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1800" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1800]Maximum Ascending Subarray Sum.java" />
+              <option name="titleSlug" value="maximum-ascending-subarray-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1813]Sentence Similarity III.java">
           <value>
             <LeetcodeEditor>
