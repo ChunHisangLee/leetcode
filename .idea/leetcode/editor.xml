@@ -940,6 +940,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1910]Remove All Occurrences of a Substring.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1910" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1910]Remove All Occurrences of a Substring.java" />
+              <option name="titleSlug" value="remove-all-occurrences-of-a-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1929]Concatenation of Array.java">
           <value>
             <LeetcodeEditor>
