@@ -880,6 +880,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1718]Construct the Lexicographically Largest Valid Sequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1718" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1718]Construct the Lexicographically Largest Valid Sequence.java" />
+              <option name="titleSlug" value="construct-the-lexicographically-largest-valid-sequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1732]Find the Highest Altitude.java">
           <value>
             <LeetcodeEditor>
@@ -2046,6 +2056,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[268]Missing Number.java" />
               <option name="titleSlug" value="missing-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2698]Find the Punishment Number of an Integer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2698" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2698]Find the Punishment Number of an Integer.java" />
+              <option name="titleSlug" value="find-the-punishment-number-of-an-integer" />
             </LeetcodeEditor>
           </value>
         </entry>
