@@ -1,54 +1,45 @@
-
-//leetcode submit region begin(Prohibit modification and deletion)
-/*
-refer algo below
-
-Time complexity:
-O(nlogn) for change
-O(1) for find
-
-Space complexity:
-O(n)
-
-*/
-
+// leetcode submit region begin(Prohibit modification and deletion)
 class NumberContainers {
-    Map<Integer, Integer> numbers;
-    Map<Integer, PriorityQueue<Integer>> map;
+  private Map<Integer, Integer> indexToNumber;
+  private Map<Integer, TreeSet<Integer>> numberToIndices;
 
-    public NumberContainers() {
-        numbers = new HashMap<>();
-        map = new HashMap<>();
+  public NumberContainers() {
+    indexToNumber = new HashMap<>();
+    numberToIndices = new HashMap<>();
+  }
+
+  public void change(int index, int number) {
+    if (indexToNumber.containsKey(index)) {
+      int oldNumber = indexToNumber.get(index);
+
+      if (oldNumber == number) {
+        return;
+      }
+
+      TreeSet<Integer> oldSet = numberToIndices.get(oldNumber);
+      oldSet.remove(index);
+
+      if (oldSet.isEmpty()) {
+        numberToIndices.remove(oldNumber);
+      }
     }
 
+    indexToNumber.put(index, number);
+    numberToIndices.putIfAbsent(number, new TreeSet<>());
+    numberToIndices.get(number).add(index);
+  }
 
-    public void change(int index, int number) {
-        if (numbers.containsKey(index)) {
-            int temp = numbers.get(index);
-
-            if (temp == number) {
-                return;
-            }
-            map.get(temp).remove(index);
-        }
-        numbers.put(index, number);
-        map.putIfAbsent(number, new PriorityQueue<Integer>());
-        map.get(number).add(index);
+  public int find(int number) {
+    if (!numberToIndices.containsKey(number) || numberToIndices.get(number).isEmpty()) {
+      return -1;
     }
 
-    public int find(int number) {
-        if (!map.containsKey(number) || map.get(number).size() == 0) {
-            return -1;
-        }
-
-        return map.get(number).peek();
-    }
+    return numberToIndices.get(number).first();
+  }
 }
 
 /**
- * Your NumberContainers object will be instantiated and called as such:
- * NumberContainers obj = new NumberContainers();
- * obj.change(keyIndex,number);
- * int param_2 = obj.find(number);
+ * Your NumberContainers object will be instantiated and called as such: NumberContainers obj = new
+ * NumberContainers(); obj.change(index,number); int param_2 = obj.find(number);
  */
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
