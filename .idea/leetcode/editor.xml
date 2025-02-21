@@ -376,6 +376,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1261]Find Elements in a Contaminated Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1261" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1261]Find Elements in a Contaminated Binary Tree.java" />
+              <option name="titleSlug" value="find-elements-in-a-contaminated-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1265]Print Immutable Linked List in Reverse.java">
           <value>
             <LeetcodeEditor>
