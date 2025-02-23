@@ -3539,6 +3539,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[889]Construct Binary Tree from Preorder and Postorder Traversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com889" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[889]Construct Binary Tree from Preorder and Postorder Traversal.java" />
+              <option name="titleSlug" value="construct-binary-tree-from-preorder-and-postorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[88]Merge Sorted Array.java">
           <value>
             <LeetcodeEditor>
@@ -11510,7 +11520,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com889" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[889]Construct Binary Tree from Preorder and Postorder Traversal.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[889]Construct Binary Tree from Preorder and Postorder Traversal.java" />
               <option name="titleSlug" value="construct-binary-tree-from-preorder-and-postorder-traversal" />
             </LeetcodeEditor>
           </value>
