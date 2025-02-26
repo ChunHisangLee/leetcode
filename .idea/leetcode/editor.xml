@@ -598,6 +598,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1524]Number of Sub-arrays With Odd Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1524" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1524]Number of Sub-arrays With Odd Sum.java" />
+              <option name="titleSlug" value="number-of-sub-arrays-with-odd-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1531]String Compression II.java">
           <value>
             <LeetcodeEditor>
