@@ -194,6 +194,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1092]Shortest Common Supersequence .java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1092" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1092]Shortest Common Supersequence .java" />
+              <option name="titleSlug" value="shortest-common-supersequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1106]Parsing A Boolean Expression.java">
           <value>
             <LeetcodeEditor>
