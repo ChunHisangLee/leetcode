@@ -1858,6 +1858,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2460]Apply Operations to an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2460" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2460]Apply Operations to an Array.java" />
+              <option name="titleSlug" value="apply-operations-to-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2461]Maximum Sum of Distinct Subarrays With Length K.java">
           <value>
             <LeetcodeEditor>
@@ -3536,6 +3546,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[872]Leaf-Similar Trees.java" />
               <option name="titleSlug" value="leaf-similar-trees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[873]Length of Longest Fibonacci Subsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com873" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[873]Length of Longest Fibonacci Subsequence.java" />
+              <option name="titleSlug" value="length-of-longest-fibonacci-subsequence" />
             </LeetcodeEditor>
           </value>
         </entry>
