@@ -1989,6 +1989,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2570]Merge Two 2D Arrays by Summing Values.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2570" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2570]Merge Two 2D Arrays by Summing Values.java" />
+              <option name="titleSlug" value="merge-two-2d-arrays-by-summing-values" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2577]Minimum Time to Visit a Cell In a Grid.java">
           <value>
             <LeetcodeEditor>
