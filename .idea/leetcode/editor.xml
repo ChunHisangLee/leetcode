@@ -770,6 +770,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1749]Maximum Absolute Sum of Any Subarray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1749" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1749]Maximum Absolute Sum of Any Subarray.java" />
+              <option name="titleSlug" value="maximum-absolute-sum-of-any-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1750]Minimum Length of String After Deleting Similar Ends.java">
           <value>
             <LeetcodeEditor>
@@ -1203,6 +1213,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2134]Minimum Swaps to Group All 1's Together II.java" />
               <option name="titleSlug" value="minimum-swaps-to-group-all-1s-together-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2161]Partition Array According to Given Pivot.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2161" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2161]Partition Array According to Given Pivot.java" />
+              <option name="titleSlug" value="partition-array-according-to-given-pivot" />
             </LeetcodeEditor>
           </value>
         </entry>
