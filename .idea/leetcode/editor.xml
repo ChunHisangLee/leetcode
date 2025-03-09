@@ -1718,6 +1718,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2379]Minimum Recolors to Get K Consecutive Black Blocks.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2379" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2379]Minimum Recolors to Get K Consecutive Black Blocks.java" />
+              <option name="titleSlug" value="minimum-recolors-to-get-k-consecutive-black-blocks" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2381]Shifting Letters II.java">
           <value>
             <LeetcodeEditor>
@@ -2751,6 +2761,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[3163]String Compression III.java" />
               <option name="titleSlug" value="string-compression-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3208]Alternating Groups II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3208" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3208]Alternating Groups II.java" />
+              <option name="titleSlug" value="alternating-groups-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
