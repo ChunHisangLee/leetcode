@@ -1,20 +1,19 @@
-2206
-        Divide Array Into Equal Pairs
-        2023-02-07 15:24:01
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean divideArray(int[] nums) {
-        int[] arr = new int[501];
-        for (int num : nums) {
-            arr[num]++;
-        }
-        for (int num : arr) {
-            if (num % 2 == 1) {
-                return false;
-            }
-        }
-        return true;
+    Map<Integer, Integer> map = new HashMap<>();
+
+    for (int num : nums) {
+      map.put(num, map.getOrDefault(num, 0) + 1);
     }
+
+    for (int num : map.values()) {
+      if (num % 2 != 0) {
+        return false;
+      }
+    }
+
+    return true;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
