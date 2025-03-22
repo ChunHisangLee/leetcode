@@ -2988,6 +2988,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2685]Count the Number of Complete Components.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2685" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2685]Count the Number of Complete Components.java" />
+              <option name="titleSlug" value="count-the-number-of-complete-components" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2940]Find Building Where Alice and Bob Can Meet.java">
           <value>
             <LeetcodeEditor>
