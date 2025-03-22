@@ -1,24 +1,35 @@
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
-        Map<Integer, Integer> map = new HashMap<>();
-        List<Integer> list = new ArrayList<>();
-        for (int num : arr1) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
-        }
-        for (int num : arr2) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
-        }
-        for (int num : arr3) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
-        }
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() == 3) {
-                list.add(entry.getKey());
+        List<Integer> result = new ArrayList<>();
+        int i = 0;
+        int j = 0;
+        int k = 0;
+
+        while (i < arr1.length && j < arr2.length && k < arr3.length) {
+            if (arr1[i] == arr2[j] && arr2[j] == arr3[k]) {
+                result.add(arr1[i]);
+                i++;
+                j++;
+                k++;
+            } else {
+                int min = Math.min(arr1[i], Math.min(arr2[j], arr3[k]));
+
+                if (arr1[i] == min) {
+                    i++;
+                }
+
+                if (arr2[j] == min) {
+                    j++;
+                }
+
+                if (arr3[k] == min) {
+                    k++;
+                }
             }
         }
-        return list;
+
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
