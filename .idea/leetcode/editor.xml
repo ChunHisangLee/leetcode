@@ -1526,6 +1526,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2206]Divide Array Into Equal Pairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2206" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2206]Divide Array Into Equal Pairs.java" />
+              <option name="titleSlug" value="divide-array-into-equal-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2215]Find the Difference of Two Arrays.java">
           <value>
             <LeetcodeEditor>
