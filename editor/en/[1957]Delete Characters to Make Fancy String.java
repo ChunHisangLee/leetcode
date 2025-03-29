@@ -6,13 +6,21 @@ class Solution {
             return s;
         }
 
-        StringBuilder sb = new StringBuilder(s.substring(0, 2));
+        StringBuilder sb = new StringBuilder();
+        sb.append(s.charAt(0));
+        int count = 1;
 
-        for (int i = 2; i < s.length(); i++) {
-            int len = sb.length();
+        for(int i = 1; i < s.length(); i++) {
+            char current = s.charAt(i);
 
-            if (s.charAt(i) != sb.charAt(len - 1) || s.charAt(i) != sb.charAt(len - 2)) {
-                sb.append(s.charAt(i));
+            if(current == sb.charAt(sb.length() - 1)) {
+                count++;
+            } else {
+                count = 1;
+            }
+
+            if(count <= 2) {
+                sb.append(current);
             }
         }
 
