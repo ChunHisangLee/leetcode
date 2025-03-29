@@ -2966,6 +2966,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[412]Fizz Buzz.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com412" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[412]Fizz Buzz.java" />
+              <option name="titleSlug" value="fizz-buzz" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[41]First Missing Positive.py">
           <value>
             <LeetcodeEditor>
@@ -3853,10 +3863,9 @@
         <entry key="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[9]Palindrome Number.md" />
               <option name="frontendQuestionId" value="leetcode.com9" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[9]Palindrome Number.py" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[9]Palindrome Number.java" />
               <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>
@@ -9544,7 +9553,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com412" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[412]Fizz Buzz.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[412]Fizz Buzz.java" />
               <option name="titleSlug" value="fizz-buzz" />
             </LeetcodeEditor>
           </value>

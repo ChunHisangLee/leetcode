@@ -1,26 +1,24 @@
-9
-Palindrome Number
-2023-01-02 00:21:24
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isPalindrome(int x) {
-        if (x < 0 || (x % 10 == 0 && x != 0)) {
+        if (x < 0 || (x % 10 == 0 && x > 0)) {
             return false;
         }
 
-        int res = getReverse(x);
-        return x == res;
-    }
+        int original = x;
+        int reversed = 0;
 
-    private int getReverse(int x) {
-        int res = 0;
+        while (x > 0) {
+            //  make sure reversed * 10 + x % 10 <= Integer.MAX_VALUE
+            if (reversed > (Integer.MAX_VALUE - (x % 10)) / 10) {
+                return false;
+            }
 
-        while (x != 0) {
-            res = res * 10 + x % 10;
-            x = x / 10;
+            reversed = reversed * 10 + x % 10;
+            x /= 10;
         }
-        return res;
+
+        return reversed == original;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
