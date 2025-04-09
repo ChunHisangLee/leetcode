@@ -1,37 +1,35 @@
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public long maximumSubarraySum(int[] nums, int k) {
-        int n = nums.length;
-        int[] freq = new int[100001];
-        long sum = 0;
-        long maxSum = 0;
-        int left = 0;
+  public long maximumSubarraySum(int[] nums, int k) {
+    int n = nums.length;
+    long currSum = 0;
+    long maxSum = 0;
+    Map<Integer, Integer> map = new HashMap<>();
+    int left = 0;
 
-        for (int right = 0; right < n; right++) {
-            while (freq[nums[right]] > 0) {
-                freq[nums[left]]--;
-                sum -= nums[left];
-                left++;
-            }
+    for (int right = 0; right < n; right++) {
+      map.merge(nums[right], 1, Integer::sum);
+      currSum += nums[right];
 
-            freq[nums[right]]++;
-            sum += nums[right];
-
-            if (right - left + 1 > k) {
-                freq[nums[left]]--;
-                sum -= nums[left];
-                left++;
-            }
-
-            if (right - left + 1 == k) {
-                if (sum > maxSum) {
-                    maxSum = sum;
-                }
-            }
+      if (right - left + 1 == k) {
+        if (map.size() == k) {
+          maxSum = Math.max(maxSum, currSum);
         }
 
-        return maxSum;
+        int count = map.get(nums[left]);
+
+        if (count == 1) {
+          map.remove(nums[left]);
+        } else {
+          map.put(nums[left], count - 1);
+        }
+
+        currSum -= nums[left];
+        left++;
+      }
     }
+
+    return maxSum;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
