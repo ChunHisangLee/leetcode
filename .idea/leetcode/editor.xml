@@ -2277,6 +2277,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[435]Non-overlapping Intervals.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com435" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[435]Non-overlapping Intervals.java" />
+              <option name="titleSlug" value="non-overlapping-intervals" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[440]K-th Smallest in Lexicographical Order.java">
           <value>
             <LeetcodeEditor>
@@ -8893,7 +8903,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com435" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[435]Non-overlapping Intervals.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[435]Non-overlapping Intervals.java" />
               <option name="titleSlug" value="non-overlapping-intervals" />
             </LeetcodeEditor>
           </value>
