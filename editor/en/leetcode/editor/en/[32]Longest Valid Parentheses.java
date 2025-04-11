@@ -1,7 +1,6 @@
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int longestValidParentheses(String s) {
+  public int longestValidParentheses(String s) {
     Deque<Integer> deque = new ArrayDeque<>();
     int maxLength = 0;
     int n = s.length();
