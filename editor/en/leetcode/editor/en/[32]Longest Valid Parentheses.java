@@ -2,27 +2,28 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestValidParentheses(String s) {
-        int max = 0;
-        Deque<Integer> dq = new ArrayDeque<>();
-        dq.push(-1);
-        char[] c = s.toCharArray();
-        int n = c.length;
+    Deque<Integer> deque = new ArrayDeque<>();
+    int maxLength = 0;
+    int n = s.length();
+    deque.push(-1);
 
-        for (int i = 0; i < n; i++) {
-            if (c[i] == '(') {
-                dq.push(i);
-            } else {
-                dq.pop();
+    for (int i = 0; i < n; i++) {
+      char c = s.charAt(i);
 
-                if (dq.isEmpty()) {
-                    dq.push(i);
-                } else {
-                    max = Math.max(max, i - dq.peek());
-                }
-            }
+      if (c == '(') {
+        deque.push(i);
+      } else {
+        deque.pop();
+
+        if (deque.isEmpty()) {
+          deque.push(i);
+        } else {
+          maxLength = Math.max(maxLength, i - deque.peek());
         }
-
-        return max;
+      }
     }
+
+    return maxLength;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
