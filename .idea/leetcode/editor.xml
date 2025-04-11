@@ -2609,6 +2609,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[133]Clone Graph.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com133" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[133]Clone Graph.java" />
+              <option name="titleSlug" value="clone-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1367]Linked List in Binary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -2856,6 +2866,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[386]Lexicographical Numbers.java" />
               <option name="titleSlug" value="lexicographical-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[394]Decode String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com394" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[394]Decode String.java" />
+              <option name="titleSlug" value="decode-string" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4095,7 +4115,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com133" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[133]Clone Graph.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[133]Clone Graph.java" />
               <option name="titleSlug" value="clone-graph" />
             </LeetcodeEditor>
           </value>
