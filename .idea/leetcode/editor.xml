@@ -2849,6 +2849,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3272]Find the Count of Good Integers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3272" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[3272]Find the Count of Good Integers.java" />
+              <option name="titleSlug" value="find-the-count-of-good-integers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[32]Longest Valid Parentheses.java">
           <value>
             <LeetcodeEditor>
