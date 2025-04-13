@@ -6,7 +6,7 @@ class Solution {
     Deque<Integer> deque = new ArrayDeque<>();
     deque.push(-1);
 
-      for(int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
       while (deque.peek() != -1 && heights[i] < heights[deque.peek()]) {
         int height = heights[deque.pop()];
         int width = i - deque.peek() - 1;
@@ -25,4 +25,4 @@ class Solution {
     return maxArea;
   }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
