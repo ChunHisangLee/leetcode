@@ -1,56 +1,44 @@
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public boolean isPalindrome(ListNode head) {
-        if (head == null || head.next == null) {
-            return true;
-        }
-
-        ListNode middle = findMiddle(head);
-        ListNode end = reverseList(middle.next);
-        return checkPalindrome(head, end);
+// leetcode submit region begin(Prohibit modification and deletion)
+public class Solution {
+  public boolean isPalindrome(ListNode head) {
+    if (head == null || head.next == null) {
+      return true;
     }
 
-    private ListNode findMiddle(ListNode head) {
-        ListNode slow = head;
-        ListNode fast = head;
+    ListNode fast = head;
+    ListNode slow = head;
 
-        while (fast.next != null && fast.next.next != null) {
-            fast = fast.next.next;
-            slow = slow.next;
-        }
-
-        return slow;
+    while (fast != null && fast.next != null) {
+      fast = fast.next.next;
+      slow = slow.next;
     }
 
-    private ListNode reverseList(ListNode head) {
-        ListNode prev = null;
+    ListNode secondHalf = reverseList(slow);
+    ListNode firstHalf = head;
 
-        while (head != null) {
-            ListNode temp = head.next;
-            head.next = prev;
-            prev = head;
-            head = temp;
-        }
+    while (secondHalf != null) {
+      if (firstHalf.val != secondHalf.val) {
+        return false;
+      }
 
-        return prev;
+      firstHalf = firstHalf.next;
+      secondHalf = secondHalf.next;
     }
 
-    private boolean checkPalindrome(ListNode head, ListNode end) {
-        ListNode p1 = head;
-        ListNode p2 = end;
-        boolean isPalindrome = true;
+    return true;
+  }
 
-        while (p2 != null) {
-            if (p1.val != p2.val) {
-                isPalindrome = false;
-                break;
-            }
+  private ListNode reverseList(ListNode curr) {
+    ListNode prev = null;
 
-            p1 = p1.next;
-            p2 = p2.next;
-        }
-
-        return isPalindrome;
+    while (curr != null) {
+      ListNode next = curr.next;
+      curr.next = prev;
+      prev = curr;
+      curr = next;
     }
+
+    return prev;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
