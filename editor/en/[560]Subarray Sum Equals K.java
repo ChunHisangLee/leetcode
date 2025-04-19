@@ -1,20 +1,18 @@
-560
-        Subarray Sum Equals K
-        2022-11-27 20:37:14
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int subarraySum(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-        int preSum = 0;
-        int res = 0;
-        map.put(0, 1);
-        for (int num : nums) {
-            preSum += num;
-            res += map.getOrDefault(preSum - k, 0);
-            map.put(preSum, map.getOrDefault(preSum, 0) + 1);
-        }
-        return res;
+  public int subarraySum(int[] nums, int k) {
+    int count = 0;
+    int currSum = 0;
+    Map<Integer, Integer> freqMap = new HashMap<>();
+    freqMap.put(0, 1);
+
+    for (int num : nums) {
+      currSum += num;
+      count += freqMap.getOrDefault(currSum - k, 0);
+      freqMap.merge(currSum, 1, Integer::sum);
     }
+
+    return count;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
