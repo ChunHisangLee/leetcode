@@ -2428,6 +2428,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[48]Rotate Image.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com48" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[48]Rotate Image.java" />
+              <option name="titleSlug" value="rotate-image" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[494]Target Sum.py">
           <value>
             <LeetcodeEditor>
@@ -2487,6 +2497,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[543]Diameter of Binary Tree.java" />
               <option name="titleSlug" value="diameter-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[54]Spiral Matrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com54" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[54]Spiral Matrix.java" />
+              <option name="titleSlug" value="spiral-matrix" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2750,6 +2770,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[739]Daily Temperatures.java" />
               <option name="titleSlug" value="daily-temperatures" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[73]Set Matrix Zeroes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com73" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[73]Set Matrix Zeroes.java" />
+              <option name="titleSlug" value="set-matrix-zeroes" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -9302,7 +9332,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com48" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[48]Rotate Image.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[48]Rotate Image.java" />
               <option name="titleSlug" value="rotate-image" />
             </LeetcodeEditor>
           </value>
@@ -9544,7 +9574,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com54" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[54]Spiral Matrix.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[54]Spiral Matrix.java" />
               <option name="titleSlug" value="spiral-matrix" />
             </LeetcodeEditor>
           </value>
