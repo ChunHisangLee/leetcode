@@ -9,7 +9,8 @@ class Solution {
     for (int num : nums) {
       currSum += num;
       count += freqMap.getOrDefault(currSum - k, 0);
-      freqMap.merge(currSum, 1, Integer::sum);
+      int prev = freqMap.getOrDefault(currSum, 0);
+      freqMap.put(currSum, prev + 1);
     }
 
     return count;

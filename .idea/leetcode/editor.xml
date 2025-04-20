@@ -2500,6 +2500,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[560]Subarray Sum Equals K.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com560" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[560]Subarray Sum Equals K.java" />
+              <option name="titleSlug" value="subarray-sum-equals-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[576]Out of Boundary Paths.java">
           <value>
             <LeetcodeEditor>
@@ -2750,6 +2760,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[76]Minimum Window Substring.java" />
               <option name="titleSlug" value="minimum-window-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[781]Rabbits in Forest.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com781" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[781]Rabbits in Forest.java" />
+              <option name="titleSlug" value="rabbits-in-forest" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -9574,7 +9594,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com560" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[560]Subarray Sum Equals K.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[560]Subarray Sum Equals K.java" />
               <option name="titleSlug" value="subarray-sum-equals-k" />
             </LeetcodeEditor>
           </value>
