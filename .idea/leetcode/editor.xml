@@ -196,6 +196,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[112]Path Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com112" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[112]Path Sum.java" />
+              <option name="titleSlug" value="path-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1143]Longest Common Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -503,6 +513,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[143]Reorder List.java" />
               <option name="titleSlug" value="reorder-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1448]Count Good Nodes in Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1448" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1448]Count Good Nodes in Binary Tree.java" />
+              <option name="titleSlug" value="count-good-nodes-in-binary-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3086,6 +3106,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[98]Validate Binary Search Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com98" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[98]Validate Binary Search Tree.java" />
+              <option name="titleSlug" value="validate-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[997]Find the Town Judge.java">
           <value>
             <LeetcodeEditor>
@@ -3734,7 +3764,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com112" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[112]Path Sum.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[112]Path Sum.java" />
               <option name="titleSlug" value="path-sum" />
             </LeetcodeEditor>
           </value>
@@ -11295,7 +11325,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com98" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[98]Validate Binary Search Tree.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[98]Validate Binary Search Tree.java" />
               <option name="titleSlug" value="validate-binary-search-tree" />
             </LeetcodeEditor>
           </value>
