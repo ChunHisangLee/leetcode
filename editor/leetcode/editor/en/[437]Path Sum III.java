@@ -1,27 +1,29 @@
 // leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
   Map<Long, Integer> prefixMap = new HashMap<>();
+  int answer = 0;
+  int target;
 
   public int pathSum(TreeNode root, int targetSum) {
+    target = targetSum;
     prefixMap.put(0L, 1);
-    return checkSum(root, targetSum, 0L, prefixMap);
+    dfs(root, 0L);
+    return answer;
   }
 
-  private int checkSum(TreeNode node, int targetSum, long currSum, Map<Long, Integer> prefixMap) {
+  private void dfs(TreeNode node, long currSum) {
     if (node == null) {
-      return 0;
+      return;
     }
 
     currSum += node.val;
-    int count = prefixMap.getOrDefault(currSum - targetSum, 0);
-
+    answer += prefixMap.getOrDefault(currSum - target, 0);
     prefixMap.put(currSum, prefixMap.getOrDefault(currSum, 0) + 1);
 
-    count += checkSum(node.left, targetSum, currSum, prefixMap);
-    count += checkSum(node.right, targetSum, currSum, prefixMap);
+    dfs(node.left, currSum);
+    dfs(node.right, currSum);
 
-    prefixMap.put(currSum, prefixMap.get(currSum) - 1);
-    return count;
+    prefixMap.put(currSum, prefixMap.getOrDefault(currSum, 0) - 1);
   }
 }
 // leetcode submit region end(Prohibit modification and deletion)
