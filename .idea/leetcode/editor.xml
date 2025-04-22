@@ -3109,6 +3109,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[102]Binary Tree Level Order Traversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com102" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[102]Binary Tree Level Order Traversal.java" />
+              <option name="titleSlug" value="binary-tree-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[103]Binary Tree Zigzag Level Order Traversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com103" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[103]Binary Tree Zigzag Level Order Traversal.java" />
+              <option name="titleSlug" value="binary-tree-zigzag-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[104]Maximum Depth of Binary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -3210,6 +3230,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[199]Binary Tree Right Side View.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com199" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[199]Binary Tree Right Side View.java" />
+              <option name="titleSlug" value="binary-tree-right-side-view" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[1]Two Sum.java">
           <value>
             <LeetcodeEditor>
@@ -3217,6 +3247,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
               <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[2145]Count the Hidden Sequences.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2145" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[2145]Count the Hidden Sequences.java" />
+              <option name="titleSlug" value="count-the-hidden-sequences" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3247,6 +3287,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[2246]Longest Path With Different Adjacent Characters.java" />
               <option name="titleSlug" value="longest-path-with-different-adjacent-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[2338]Count the Number of Ideal Arrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2338" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[2338]Count the Number of Ideal Arrays.java" />
+              <option name="titleSlug" value="count-the-number-of-ideal-arrays" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3421,6 +3471,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[662]Maximum Width of Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com662" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[662]Maximum Width of Binary Tree.java" />
+              <option name="titleSlug" value="maximum-width-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[687]Longest Univalue Path.java">
           <value>
             <LeetcodeEditor>
@@ -3566,7 +3626,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com102" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[102]Binary Tree Level Order Traversal.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[102]Binary Tree Level Order Traversal.java" />
               <option name="titleSlug" value="binary-tree-level-order-traversal" />
             </LeetcodeEditor>
           </value>
@@ -3576,7 +3636,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com103" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[103]Binary Tree Zigzag Level Order Traversal.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[103]Binary Tree Zigzag Level Order Traversal.java" />
               <option name="titleSlug" value="binary-tree-zigzag-level-order-traversal" />
             </LeetcodeEditor>
           </value>
@@ -6411,7 +6471,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com199" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[199]Binary Tree Right Side View.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[199]Binary Tree Right Side View.java" />
               <option name="titleSlug" value="binary-tree-right-side-view" />
             </LeetcodeEditor>
           </value>
@@ -10108,7 +10168,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com662" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[662]Maximum Width of Binary Tree.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[662]Maximum Width of Binary Tree.java" />
               <option name="titleSlug" value="maximum-width-of-binary-tree" />
             </LeetcodeEditor>
           </value>
