@@ -34,14 +34,14 @@ class Solution {
       return map.get(node);
     }
 
-    Node cloneNode = new Node(node.val);
-    map.put(node, cloneNode);
+    Node clone = new Node(node.val);
+    map.put(node, clone);
 
     for (Node neighbor : node.neighbors) {
-      map.get(node).neighbors.add(cloneDFS(neighbor, map));
+      clone.neighbors.add(cloneDFS(neighbor, map));
     }
 
-    return cloneNode;
+    return clone;
   }
 }
 // leetcode submit region end(Prohibit modification and deletion)
