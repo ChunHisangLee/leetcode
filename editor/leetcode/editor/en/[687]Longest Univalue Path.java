@@ -1,33 +1,33 @@
 // leetcode submit region begin(Prohibit modification and deletion)
 
 class Solution {
-  private int result = 0;
+  private int maxLen = 0;
 
   public int longestUnivaluePath(TreeNode root) {
-    getPath(root);
-    return result;
+    dfs(root);
+    return maxLen;
   }
 
-  private int getPath(TreeNode node) {
+  private int dfs(TreeNode node) {
     if (node == null) {
       return 0;
     }
 
-    int leftPath = getPath(node.left);
-    int rightPath = getPath(node.right);
-    int left = 0;
-    int right = 0;
+    int leftLen = dfs(node.left);
+    int rightLen = dfs(node.right);
 
-    if (node.left != null && node.val == node.left.val) {
-      left = leftPath + 1;
+    int leftPath = 0;
+    if (node.left != null && node.left.val == node.val) {
+      leftPath = leftLen + 1;
     }
 
-    if (node.right != null && node.val == node.right.val) {
-      right = rightPath + 1;
+    int rightPath = 0;
+    if (node.right != null && node.right.val == node.val) {
+      rightPath = rightLen + 1;
     }
 
-    result = Math.max(result, left + right);
-    return Math.max(left, right);
+    maxLen = Math.max(maxLen, leftPath + rightPath);
+    return Math.max(leftPath, rightPath);
   }
 }
 // leetcode submit region end(Prohibit modification and deletion)
