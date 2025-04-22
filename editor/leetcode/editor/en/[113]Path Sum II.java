@@ -1,25 +1,26 @@
 // leetcode submit region begin(Prohibit modification and deletion)
 
 class Solution {
-  private List<List<Integer>> result = new ArrayList<>();
+  private final List<List<Integer>> result = new ArrayList<>();
 
   public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
     checkSum(root, targetSum, new ArrayList<>());
     return result;
   }
 
-  private void checkSum(TreeNode node, int targetSum, List<Integer> list) {
+  private void checkSum(TreeNode node, int remaining, List<Integer> list) {
     if (node == null) {
       return;
     }
 
     list.add(node.val);
+    remaining -= node.val;
 
-    if (node.left == null && node.right == null && node.val == targetSum) {
+    if (node.left == null && node.right == null && remaining == 0) {
       result.add(new ArrayList<>(list));
     } else {
-      checkSum(node.left, targetSum - node.val, list);
-      checkSum(node.right, targetSum - node.val, list);
+      checkSum(node.left, remaining, list);
+      checkSum(node.right, remaining, list);
     }
 
     list.remove(list.size() - 1);
