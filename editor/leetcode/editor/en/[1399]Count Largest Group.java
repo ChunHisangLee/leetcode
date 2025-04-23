@@ -1,30 +1,30 @@
 // leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
   public int countLargestGroup(int n) {
-    int[] counts = new int[37];
+    int MAX_SUM = 36;
+    int[] counts = new int[MAX_SUM + 1];
+    int[] digitSum = new int[n + 1];
+
     int maxCount = 0;
+    int numAtMax = 0;
 
     for (int i = 1; i <= n; i++) {
-      int sum = 0;
-      int x = i;
+      digitSum[i] = digitSum[i / 10] + (i % 10);
 
-      while (x > 0) {
-        sum += x % 10;
-        x /= 10;
-      }
+      int s = digitSum[i];
+      counts[s]++;
 
-      counts[sum]++;
-      maxCount = Math.max(maxCount, counts[sum]);
-    }
+      int c = counts[s];
 
-    int result = 0;
-    for (int c : counts) {
-      if (c == maxCount) {
-        result++;
+      if (c > maxCount) {
+        maxCount = c;
+        numAtMax = 1;
+      } else if (c == maxCount) {
+        numAtMax++;
       }
     }
 
-    return result;
+    return numAtMax;
   }
 }
 // leetcode submit region end(Prohibit modification and deletion)
