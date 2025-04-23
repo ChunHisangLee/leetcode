@@ -3190,6 +3190,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[1399]Count Largest Group.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1399" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[1399]Count Largest Group.java" />
+              <option name="titleSlug" value="count-largest-group" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[143]Reorder List.java">
           <value>
             <LeetcodeEditor>
