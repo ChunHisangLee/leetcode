@@ -3330,6 +3330,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[2799]Count Complete Subarrays in an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2799" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[2799]Count Complete Subarrays in an Array.java" />
+              <option name="titleSlug" value="count-complete-subarrays-in-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[283]Move Zeroes.java">
           <value>
             <LeetcodeEditor>
@@ -3528,6 +3538,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[75]Sort Colors.java" />
               <option name="titleSlug" value="sort-colors" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[78]Subsets.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com78" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[78]Subsets.java" />
+              <option name="titleSlug" value="subsets" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -10778,7 +10798,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com78" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[78]Subsets.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[78]Subsets.java" />
               <option name="titleSlug" value="subsets" />
             </LeetcodeEditor>
           </value>
