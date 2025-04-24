@@ -769,6 +769,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1694]Reformat Phone Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1694" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1694]Reformat Phone Number.java" />
+              <option name="titleSlug" value="reformat-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1700]Number of Students Unable to Eat Lunch.py">
           <value>
             <LeetcodeEditor>
@@ -857,6 +867,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1791]Find Center of Star Graph.java" />
               <option name="titleSlug" value="find-center-of-star-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[17]Letter Combinations of a Phone Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com17" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[17]Letter Combinations of a Phone Number.java" />
+              <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -5687,7 +5707,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com1694" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1694]Reformat Phone Number.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1694]Reformat Phone Number.java" />
               <option name="titleSlug" value="reformat-phone-number" />
             </LeetcodeEditor>
           </value>
@@ -5887,7 +5907,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com17" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[17]Letter Combinations of a Phone Number.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[17]Letter Combinations of a Phone Number.java" />
               <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
             </LeetcodeEditor>
           </value>
