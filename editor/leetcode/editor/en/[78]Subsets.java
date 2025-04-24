@@ -14,10 +14,10 @@ class Solution {
     }
 
     current.add(nums[index]);
-    backtrack(nums,index+1,current,result);
+    backtrack(nums, index + 1, current, result);
 
-    current.remove(current.size()-1);
-    backtrack(nums,index+1,current,result);
+    current.remove(current.size() - 1);
+    backtrack(nums, index + 1, current, result);
   }
 }
 // leetcode submit region end(Prohibit modification and deletion)
