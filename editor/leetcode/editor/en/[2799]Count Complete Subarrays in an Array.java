@@ -1,45 +1,37 @@
 // leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
   public int countCompleteSubarrays(int[] nums) {
-    int n = nums.length;
-    boolean[] seen = new boolean[2001];
-    int d = 0;
+    Set<Integer> seen = new HashSet<>();
 
     for (int num : nums) {
-      if (!seen[num]) {
-        seen[num] = true;
-        d++;
-      }
+      seen.add(num);
     }
 
-    int[] freq = new int[2001];
-    int distinctCount = 0;
-    long answer = 0;
+    int distinctSize = seen.size();
+    int n = nums.length;
+    int left = 0;
     int right = 0;
+    int answer = 0;
+    Map<Integer, Integer> freqMap = new HashMap<>();
 
-    for (int left = 0; left < n; left++) {
-      while (right < n && distinctCount < d) {
-        if (freq[nums[right]] == 0) {
-          distinctCount++;
+    while (right < n) {
+      freqMap.merge(nums[right], 1, Integer::sum);
+
+      while (freqMap.size() == distinctSize) {
+        answer += (n - right);
+        freqMap.put(nums[left], freqMap.get(nums[left]) - 1);
+
+        if (freqMap.get(nums[left]) == 0) {
+          freqMap.remove(nums[left]);
         }
-        freq[nums[right]]++;
-        right++;
+
+        left++;
       }
 
-      if (distinctCount == d) {
-        answer += (n - (right - 1));
-      } else {
-        break;
-      }
-
-      freq[nums[left]]--;
-
-      if (freq[nums[left]] == 0) {
-        distinctCount--;
-      }
+      right++;
     }
 
-    return (int) answer;
+    return answer;
   }
 }
 // leetcode submit region end(Prohibit modification and deletion)
