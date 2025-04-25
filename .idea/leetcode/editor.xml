@@ -1151,7 +1151,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com207" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[207]Course Schedule.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[207]Course Schedule.java" />
               <option name="titleSlug" value="course-schedule" />
             </LeetcodeEditor>
           </value>
@@ -3260,6 +3260,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[207]Course Schedule.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com207" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[207]Course Schedule.java" />
+              <option name="titleSlug" value="course-schedule" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[2145]Count the Hidden Sequences.java">
           <value>
             <LeetcodeEditor>
@@ -3357,6 +3367,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[2843]  Count Symmetric Integers.java" />
               <option name="titleSlug" value="count-symmetric-integers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/leetcode/editor/en/[2845]Count of Interesting Subarrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2845" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[2845]Count of Interesting Subarrays.java" />
+              <option name="titleSlug" value="count-of-interesting-subarrays" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -8222,7 +8242,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2845" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2845]Count of Interesting Subarrays.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/leetcode/editor/en/[2845]Count of Interesting Subarrays.java" />
               <option name="titleSlug" value="count-of-interesting-subarrays" />
             </LeetcodeEditor>
           </value>
