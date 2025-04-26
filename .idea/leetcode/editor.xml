@@ -1562,7 +1562,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com2444" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[2444]Count Subarrays With Fixed Bounds.py" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2444]Count Subarrays With Fixed Bounds.java" />
               <option name="titleSlug" value="count-subarrays-with-fixed-bounds" />
             </LeetcodeEditor>
           </value>
