@@ -1386,6 +1386,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2302]Count Subarrays With Score Less Than K.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2302" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2302]Count Subarrays With Score Less Than K.java" />
+              <option name="titleSlug" value="count-subarrays-with-score-less-than-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[231]Power of Two.java">
           <value>
             <LeetcodeEditor>
@@ -2280,6 +2290,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[338]Counting Bits.java" />
               <option name="titleSlug" value="counting-bits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3392]Count Subarrays of Length Three With a Condition.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3392" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3392]Count Subarrays of Length Three With a Condition.java" />
+              <option name="titleSlug" value="count-subarrays-of-length-three-with-a-condition" />
             </LeetcodeEditor>
           </value>
         </entry>
