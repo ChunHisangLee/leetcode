@@ -2168,7 +2168,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com300" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[300]Longest Increasing Subsequence.js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[300]Longest Increasing Subsequence.java" />
               <option name="titleSlug" value="longest-increasing-subsequence" />
             </LeetcodeEditor>
           </value>
