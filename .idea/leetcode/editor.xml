@@ -2639,6 +2639,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[139]Word Break.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com139" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[139]Word Break.java" />
+              <option name="titleSlug" value="word-break" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[143]Reorder List.java">
           <value>
             <LeetcodeEditor>
@@ -4386,7 +4396,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com139" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[139]Word Break.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[139]Word Break.java" />
               <option name="titleSlug" value="word-break" />
             </LeetcodeEditor>
           </value>
