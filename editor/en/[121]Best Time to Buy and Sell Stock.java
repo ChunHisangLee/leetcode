@@ -1,19 +1,18 @@
-121
-        Best Time to Buy and Sell Stock
-        2023-02-24 16:06:43
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int maxProfit(int[] prices) {
-        int cost = Integer.MAX_VALUE;
-        int profit = 0;
+  public int maxProfit(int[] prices) {
+    int minPrice = Integer.MAX_VALUE;
+    int maxProfit = 0;
 
         for (int price : prices) {
-            cost = Math.min(cost, price);
-            profit = Math.max(profit, price - cost);
+      if (price < minPrice) {
+        minPrice = price;
+      } else {
+        maxProfit = Math.max(maxProfit, price - minPrice);
+      }
         }
 
-        return profit;
-    }
+    return maxProfit;
+  }
 }
 //leetcode submit region end(Prohibit modification and deletion)
