@@ -2116,7 +2116,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com543" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[543]Diameter of Binary Tree.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[543]Diameter of Binary Tree.java" />
               <option name="titleSlug" value="diameter-of-binary-tree" />
             </LeetcodeEditor>
           </value>
@@ -3040,6 +3040,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[543]Diameter of Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com543" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[543]Diameter of Binary Tree.java" />
+              <option name="titleSlug" value="diameter-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[567]Permutation in String.java">
           <value>
             <LeetcodeEditor>
@@ -3107,6 +3117,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[874]Walking Robot Simulation.java" />
               <option name="titleSlug" value="walking-robot-simulation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[876]Middle of the Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com876" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[876]Middle of the Linked List.java" />
+              <option name="titleSlug" value="middle-of-the-linked-list" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -10687,7 +10707,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com876" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[876]Middle of the Linked List.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[876]Middle of the Linked List.java" />
               <option name="titleSlug" value="middle-of-the-linked-list" />
             </LeetcodeEditor>
           </value>
