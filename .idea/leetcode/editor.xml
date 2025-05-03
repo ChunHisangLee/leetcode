@@ -2640,6 +2640,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[53]Maximum Subarray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com53" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[53]Maximum Subarray.java" />
+              <option name="titleSlug" value="maximum-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[542]01 Matrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com542" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[542]01 Matrix.java" />
+              <option name="titleSlug" value="01-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[543]Diameter of Binary Tree.java">
           <value>
             <LeetcodeEditor>
@@ -9674,7 +9694,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com53" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[53]Maximum Subarray.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[53]Maximum Subarray.java" />
               <option name="titleSlug" value="maximum-subarray" />
             </LeetcodeEditor>
           </value>
@@ -9704,7 +9724,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com542" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[542]01 Matrix.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[542]01 Matrix.java" />
               <option name="titleSlug" value="01-matrix" />
             </LeetcodeEditor>
           </value>
