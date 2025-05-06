@@ -114,6 +114,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[102]Binary Tree Level Order Traversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com102" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[102]Binary Tree Level Order Traversal.java" />
+              <option name="titleSlug" value="binary-tree-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1043]Partition Array for Maximum Sum.java">
           <value>
             <LeetcodeEditor>
@@ -426,6 +436,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[133]Clone Graph.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com133" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[133]Clone Graph.java" />
+              <option name="titleSlug" value="clone-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[134]Gas Station.java">
           <value>
             <LeetcodeEditor>
@@ -735,6 +755,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[159]Longest Substring with At Most Two Distinct Characters.java" />
               <option name="titleSlug" value="longest-substring-with-at-most-two-distinct-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[15]3Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com15" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[15]3Sum.java" />
+              <option name="titleSlug" value="3sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2443,6 +2473,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3]Longest Substring Without Repeating Characters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3]Longest Substring Without Repeating Characters.java" />
+              <option name="titleSlug" value="longest-substring-without-repeating-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[402]Remove K Digits.java">
           <value>
             <LeetcodeEditor>
@@ -3583,7 +3623,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com102" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[102]Binary Tree Level Order Traversal.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[102]Binary Tree Level Order Traversal.java" />
               <option name="titleSlug" value="binary-tree-level-order-traversal" />
             </LeetcodeEditor>
           </value>
@@ -4664,7 +4704,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com133" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[133]Clone Graph.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[133]Clone Graph.java" />
               <option name="titleSlug" value="clone-graph" />
             </LeetcodeEditor>
           </value>
@@ -5577,7 +5617,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com15" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[15]3Sum.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[15]3Sum.java" />
               <option name="titleSlug" value="3sum" />
             </LeetcodeEditor>
           </value>
@@ -9010,7 +9050,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com3" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[3]Longest Substring Without Repeating Characters.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3]Longest Substring Without Repeating Characters.java" />
               <option name="titleSlug" value="longest-substring-without-repeating-characters" />
             </LeetcodeEditor>
           </value>
