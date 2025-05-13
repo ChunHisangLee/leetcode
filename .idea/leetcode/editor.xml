@@ -718,6 +718,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1550]Three Consecutive Odds.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1550" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1550]Three Consecutive Odds.java" />
+              <option name="titleSlug" value="three-consecutive-odds" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1580]Put Boxes Into the Warehouse II.java">
           <value>
             <LeetcodeEditor>
@@ -1323,6 +1333,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2083]Substrings That Begin and End With the Same Letter.java" />
               <option name="titleSlug" value="substrings-that-begin-and-end-with-the-same-letter" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[208]Implement Trie (Prefix Tree).java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com208" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[208]Implement Trie (Prefix Tree).java" />
+              <option name="titleSlug" value="implement-trie-prefix-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -6678,7 +6698,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com208" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[208]Implement Trie (Prefix Tree).js" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[208]Implement Trie (Prefix Tree).java" />
               <option name="titleSlug" value="implement-trie-prefix-tree" />
             </LeetcodeEditor>
           </value>
