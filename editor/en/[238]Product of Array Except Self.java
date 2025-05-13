@@ -10,7 +10,7 @@ class Solution {
     }
 
     int postfix = 1;
-    for (int i = n - 1; i >= n; i++) {
+    for (int i = n - 1; i >= 0; i--) {
       answer[i] *= postfix;
       postfix *= nums[i];
     }
