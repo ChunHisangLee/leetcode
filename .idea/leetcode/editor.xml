@@ -728,6 +728,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[155]Min Stack.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com155" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[155]Min Stack.java" />
+              <option name="titleSlug" value="min-stack" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1580]Put Boxes Into the Warehouse II.java">
           <value>
             <LeetcodeEditor>
@@ -1637,6 +1647,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[239]Sliding Window Maximum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com239" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[239]Sliding Window Maximum.java" />
+              <option name="titleSlug" value="sliding-window-maximum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[23]Merge k Sorted Lists.java">
           <value>
             <LeetcodeEditor>
@@ -2370,6 +2390,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[314]Binary Tree Vertical Order Traversal.java" />
               <option name="titleSlug" value="binary-tree-vertical-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[322]Coin Change.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com322" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[322]Coin Change.java" />
+              <option name="titleSlug" value="coin-change" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -5537,7 +5567,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com155" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[155]Min Stack.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[155]Min Stack.java" />
               <option name="titleSlug" value="min-stack" />
             </LeetcodeEditor>
           </value>
@@ -7458,7 +7488,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com239" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[239]Sliding Window Maximum.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[239]Sliding Window Maximum.java" />
               <option name="titleSlug" value="sliding-window-maximum" />
             </LeetcodeEditor>
           </value>
@@ -8610,7 +8640,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com322" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[322]Coin Change.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[322]Coin Change.java" />
               <option name="titleSlug" value="coin-change" />
             </LeetcodeEditor>
           </value>

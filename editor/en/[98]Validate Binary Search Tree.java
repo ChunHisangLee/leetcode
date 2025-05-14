@@ -3,10 +3,10 @@
 
 public class Solution {
   public boolean isValidBST(TreeNode root) {
-    return checkValid(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    return checkBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
   }
 
-  private boolean checkValid(TreeNode node, long min, long max) {
+  private boolean checkBST(TreeNode node, long min, long max) {
     if (node == null) {
       return true;
     }
@@ -15,7 +15,10 @@ public class Solution {
       return false;
     }
 
-    return checkValid(node.left, min, node.val) && checkValid(node.right, node.val, max);
+    boolean isLeftValid = checkBST(node.left, min, node.val);
+    boolean isRightValid = checkBST(node.right, node.val, max);
+
+    return isLeftValid && isRightValid;
   }
 }
 // leetcode submit region end(Prohibit modification and deletion)
