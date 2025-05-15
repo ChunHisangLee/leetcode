@@ -2107,6 +2107,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2900]Longest Unequal Adjacent Groups Subsequence I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2900" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2900]Longest Unequal Adjacent Groups Subsequence I.java" />
+              <option name="titleSlug" value="longest-unequal-adjacent-groups-subsequence-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2958]Length of Longest Subarray With at Most K Frequency.java">
           <value>
             <LeetcodeEditor>
@@ -3373,6 +3383,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[98]Validate Binary Search Tree.java" />
               <option name="titleSlug" value="validate-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[994]Rotting Oranges.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com994" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[994]Rotting Oranges.java" />
+              <option name="titleSlug" value="rotting-oranges" />
             </LeetcodeEditor>
           </value>
         </entry>
