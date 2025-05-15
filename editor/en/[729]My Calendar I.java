@@ -9,10 +9,12 @@ class MyCalendar {
 
     public boolean book(int start, int end) {
         Integer prev = map.lowerKey(end);
+
         if (prev == null || map.get(prev) <= start) {
             map.put(start, end);
             return true;
         }
+
         return false;
     }
 }

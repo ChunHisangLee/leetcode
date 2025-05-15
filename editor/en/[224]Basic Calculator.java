@@ -2,9 +2,11 @@
 class Solution {
     public int calculate(String s) {
         Deque<Character> dq = new ArrayDeque<>();
+
         for (char c : s.toCharArray()) {
             dq.add(c);
         }
+
         return calc(dq);
     }
 
@@ -12,8 +14,10 @@ class Solution {
         int num = 0;
         Deque<Integer> stack = new ArrayDeque<>();
         char prevOp = '+';
+
         while (!dq.isEmpty()) {
             char c = dq.poll();
+
             if (Character.isDigit(c)) {
                 num = num * 10 + (c - '0');
             } else if (c == '(') {
@@ -26,11 +30,14 @@ class Solution {
                 break;
             }
         }
+
         eval(stack, num, prevOp);
         int res = 0;
+
         while (!stack.isEmpty()) {
             res += stack.pop();
         }
+
         return res;
     }
 

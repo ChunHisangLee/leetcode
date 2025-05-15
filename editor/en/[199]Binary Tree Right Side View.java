@@ -21,24 +21,31 @@ class Solution {
         if (root == null) {
             return new ArrayList<>();
         }
+
         List<Integer> list = new ArrayList<>();
         Deque<TreeNode> dq = new ArrayDeque<>();
         dq.add(root);
+
         while (!dq.isEmpty()) {
             int size = dq.size();
+
             for (int i = 0; i < size; i++) {
                 TreeNode curr = dq.poll();
+
                 if (i == size - 1) {
                     list.add(curr.val);
                 }
+
                 if (curr.left != null) {
                     dq.add(curr.left);
                 }
+
                 if (curr.right != null) {
                     dq.add(curr.right);
                 }
             }
         }
+
         return list;
     }
 }

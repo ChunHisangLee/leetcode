@@ -1,77 +1,46 @@
-655
-        Print Binary Tree
-        2022-12-22 18:07:55
-//leetcode submit region begin(Prohibit modification and deletion)
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode() {}
- * TreeNode(int val) { this.val = val; }
- * TreeNode(int val, TreeNode left, TreeNode right) {
- * this.val = val;
- * this.left = left;
- * this.right = right;
- * }
- * }
- */
+//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<String>> printTree(TreeNode root) {
-        int h = height(root);
-        int m = h + 1;
-        int n = (int) Math.pow(2, h + 1) - 1;
-        List<List<String>> res = new ArrayList<>(m);
+        int height = getHeight(root);
+        int m = height + 1;
+        int n = (int) Math.pow(2, height + 1) - 1;
+
+        List<List<String>> res = new ArrayList<>();
+
         for (int i = 0; i < m; i++) {
-            String[] list = new String[n];
-            Arrays.fill(list, "");
-            res.add(Arrays.asList(list));
-        }
+            List<String> row = new ArrayList<>();
 
-        Queue<BFSNode> q = new LinkedList<>();
-        q.add(new BFSNode(root, 0, (n - 1) / 2));
-
-        while (!q.isEmpty()) {
-            BFSNode bfs = q.remove();
-            res.get(bfs.row).set(bfs.col, "" + bfs.node.val);
-
-            int colOffset = (int) Math.pow(2, h - bfs.row - 1);
-            if (bfs.node.left != null) {
-                q.add(new BFSNode(bfs.node.left, bfs.row + 1, bfs.col - colOffset));
+            for (int j = 0; j < n; j++) {
+                row.add("");
             }
 
-            if (bfs.node.right != null) {
-                q.add(new BFSNode(bfs.node.right, bfs.row + 1, bfs.col + colOffset));
-            }
+            res.add(row);
         }
+
+        placeNodes(root, res, 0, 0, n - 1, height);
+
         return res;
     }
 
-    int height(TreeNode root) {
-        if (root == null) {
+    private int getHeight(TreeNode node) {
+        if (node == null) {
             return -1;
         }
 
-        if (root.left == null && root.right == null) {
-            return 0;
+        return 1 + Math.max(getHeight(node.left), getHeight(node.right));
+    }
+
+    private void placeNodes(TreeNode node, List<List<String>> res, int row, int left, int right, int height) {
+        if (node == null) {
+            return;
         }
 
-        int left = height(root.left);
-        int right = height(root.right);
-        return 1 + Math.max(left, right);
-    }
-}
+        int mid = (left + right) / 2;
+        res.get(row).set(mid, Integer.toString(node.val));
 
-class BFSNode {
-    TreeNode node;
-    int row, col;
-
-    BFSNode(TreeNode node, int row, int col) {
-        this.node = node;
-        this.row = row;
-        this.col = col;
+        placeNodes(node.left, res, row + 1, left, mid - 1, height);
+        placeNodes(node.right, res, row + 1, mid + 1, right, height);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

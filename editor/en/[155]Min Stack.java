@@ -1,33 +1,33 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class MinStack {
-    Deque<Integer> dq;
-    Deque<Integer> min;
+    Deque<Integer> stack;
+    Deque<Integer> minStack;
 
     public MinStack() {
-        dq = new ArrayDeque<>();
-        min = new ArrayDeque<>();
+        stack = new ArrayDeque<>();
+        minStack = new ArrayDeque<>();
     }
 
     public void push(int val) {
-        if (min.isEmpty() || val <= min.peek()) {
-            min.push(val);
+        stack.push(val);
+        if (minStack.isEmpty() || val <= minStack.peek()) {
+            minStack.push(val);
         }
-        dq.push(val);
     }
 
     public void pop() {
-        if (min.peek().equals(dq.peek())) {
-            min.pop();
+        int removed = stack.pop();
+        if (removed == minStack.peek()) {
+            minStack.pop();
         }
-        dq.pop();
     }
 
     public int top() {
-        return dq.peek();
+        return stack.peek();
     }
 
     public int getMin() {
-        return min.peek();
+        return minStack.peek();
     }
 }
 

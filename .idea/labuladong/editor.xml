@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1009]Complement of Base 10 Integer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1009]Complement of Base 10 Integer.md" />
+              <option name="frontendQuestionId" value="leetcode.com1009" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1009]Complement of Base 10 Integer.java" />
+              <option name="titleSlug" value="complement-of-base-10-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1038]Binary Search Tree to Greater Sum Tree.java">
           <value>
             <LeetcodeEditor>
@@ -405,7 +416,18 @@
               <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1]Two Sum.md" />
               <option name="frontendQuestionId" value="leetcode.com1" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.go" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1]Two Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1]Two Sum.md" />
+              <option name="frontendQuestionId" value="leetcode.com1" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
               <option name="titleSlug" value="two-sum" />
             </LeetcodeEditor>
           </value>
@@ -641,6 +663,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[320]Generalized Abbreviation.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[320]Generalized Abbreviation.md" />
+              <option name="frontendQuestionId" value="leetcode.com320" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[320]Generalized Abbreviation.java" />
+              <option name="titleSlug" value="generalized-abbreviation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[350]Intersection of Two Arrays II.java">
           <value>
             <LeetcodeEditor>
@@ -693,6 +726,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[40]Combination Sum II.java" />
               <option name="titleSlug" value="combination-sum-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[476]Number Complement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[476]Number Complement.md" />
+              <option name="frontendQuestionId" value="leetcode.com476" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[476]Number Complement.java" />
+              <option name="titleSlug" value="number-complement" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -792,6 +836,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[846]Hand of Straights.java" />
               <option name="titleSlug" value="hand-of-straights" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[860]Lemonade Change.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[860]Lemonade Change.md" />
+              <option name="frontendQuestionId" value="leetcode.com860" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[860]Lemonade Change.java" />
+              <option name="titleSlug" value="lemonade-change" />
             </LeetcodeEditor>
           </value>
         </entry>

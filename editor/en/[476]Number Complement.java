@@ -2,11 +2,8 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findComplement(int num) {
-        int x = 1;
-        while (x < num) {
-            x = x * 2 + 1;
-        }
-        return x - num;
+        int bitmask = (Integer.highestOneBit(num) << 1) - 1;
+        return num ^ bitmask;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

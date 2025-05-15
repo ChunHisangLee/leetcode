@@ -1,26 +1,28 @@
-// leetcode submit region begin(Prohibit modification and deletion)
+
+//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
   public int[][] insert(int[][] intervals, int[] newInterval) {
     List<int[]> result = new ArrayList<>();
     int n = intervals.length;
-    int index = 0;
+    int i = 0;
+    int newStart = newInterval[0];
+    int newEnd = newInterval[1];
 
-    while (index < n && intervals[index][1] < newInterval[0]) {
-      result.add(intervals[index]);
-      index++;
+    while (i < n && intervals[i][1] < newStart) {
+      result.add(intervals[i]);
+      i++;
     }
 
-    while (index < n && intervals[index][0] <= newInterval[1]) {
-      newInterval[0] = Math.min(newInterval[0], intervals[index][0]);
-      newInterval[1] = Math.max(newInterval[1], intervals[index][1]);
-      index++;
+    while (i < n && intervals[i][0] <= newEnd) {
+      newStart = Math.min(newStart, intervals[i][0]);
+      newEnd = Math.max(newEnd, intervals[i][1]);
+      i++;
     }
+    result.add(new int[] {newStart, newEnd});
 
-    result.add(newInterval);
-
-    while (index < n) {
-      result.add(intervals[index]);
-      index++;
+    while (i < n) {
+      result.add(intervals[i]);
+      i++;
     }
 
     return result.toArray(new int[result.size()][]);

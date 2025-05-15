@@ -1,6 +1,3 @@
-716
-        Max Stack
-        2022-12-20 14:19:15
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class MaxStack {
@@ -26,6 +23,7 @@ class MaxStack {
         while (removed.contains(stack.peek()[1])) {
             stack.pop();
         }
+
         int[] curr = stack.pop();
         removed.add(curr[1]);
         return curr[0];
@@ -35,6 +33,7 @@ class MaxStack {
         while (removed.contains(stack.peek()[1])) {
             stack.pop();
         }
+
         return stack.peek()[0];
     }
 
@@ -42,6 +41,7 @@ class MaxStack {
         while (removed.contains(pq.peek()[1])) {
             pq.poll();
         }
+
         return pq.peek()[0];
     }
 
@@ -49,6 +49,7 @@ class MaxStack {
         while (removed.contains(pq.peek()[1])) {
             pq.poll();
         }
+
         int[] curr = pq.poll();
         removed.add(curr[1]);
         return curr[0];
