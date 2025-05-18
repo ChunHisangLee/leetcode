@@ -8,22 +8,22 @@ class Solution {
   }
 
   private void backtrack(
-      int[] candidates, int target, int start, List<Integer> current, List<List<Integer>> result) {
-    if (target == 0) {
-      result.add(new ArrayList<>(current));
+      int[] candidates, int remaining, int start, List<Integer> path, List<List<Integer>> res) {
+    if (remaining == 0) {
+      res.add(new ArrayList<>(path));
       return;
     }
 
     for (int i = start; i < candidates.length; i++) {
       int num = candidates[i];
 
-      if (num > target) {
+      if (num > remaining) {
         break;
       }
 
-      current.add(num);
-      backtrack(candidates, target - num, i, current, result);
-      current.remove(current.size() - 1);
+      path.add(num);
+      backtrack(candidates, remaining - num, i, path, res);
+      path.remove(path.size() - 1);
     }
   }
 }
