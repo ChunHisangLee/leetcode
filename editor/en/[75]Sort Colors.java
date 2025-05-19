@@ -1,26 +1,28 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public void sortColors(int[] nums) {
-        int left = 0;
-        int right = nums.length - 1;
-        int curr = 0;
-        int temp;
-        while (curr <= right) {
-            if (nums[curr] == 0) {
-                temp = nums[curr];
-                nums[curr] = nums[left];
-                nums[left] = temp;
-                left++;
-                curr++;
-            } else if (nums[curr] == 2) {
-                temp = nums[curr];
-                nums[curr] = nums[right];
-                nums[right] = temp;
-                right--;
-            } else {
-                curr++;
-            }
-        }
+  public void sortColors(int[] nums) {
+    int left = 0;
+    int index = 0;
+    int right = nums.length - 1;
+
+    while (index <= right) {
+      if (nums[index] == 2) {
+        swap(nums, index, right);
+        right--;
+      } else if (nums[index] == 0) {
+        swap(nums, index, left);
+        left++;
+        index++;
+      } else {
+        index++;
+      }
     }
+  }
+
+  private void swap(int[] nums, int left, int right) {
+    int temp = nums[left];
+    nums[left] = nums[right];
+    nums[right] = temp;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
