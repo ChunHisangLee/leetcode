@@ -2383,6 +2383,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3024]Type of Triangle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3024" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3024]Type of Triangle.java" />
+              <option name="titleSlug" value="type-of-triangle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[3062]Winner of the Linked List Game.java">
           <value>
             <LeetcodeEditor>
