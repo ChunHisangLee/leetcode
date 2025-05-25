@@ -1,37 +1,30 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int longestPalindrome(String[] words) {
-        Map<String, Integer> map = new HashMap<>();
-        for (String word : words) {
-            map.put(word, map.getOrDefault(word, 0) + 1);
-        }
-        boolean isOdd = false;
-        int res = 0;
-        for (String key : map.keySet()) {
-            int count = map.get(key);
-            char[] c = key.toCharArray();
-            if (c[0] == c[1]) {
-                if (count % 2 == 0) {
-                    res += count;
-                } else {
-                    res += count - 1;
-                    isOdd = true;
-                }
-            } else {
-                StringBuilder sb = new StringBuilder();
-                sb.append(c[1]).append(c[0]);
-                String str = sb.toString();
-                if (map.containsKey(str)) {
-                    res += Math.min(map.get(str), count) * 2;
-                    map.put(key, 0);
-                }
-            }
-        }
-        if (isOdd) {
-            res++;
-        }
-        return res * 2;
+  public int longestPalindrome(String[] words) {
+    int[][] count = new int[26][26];
+    int result = 0;
+
+    for (String word : words) {
+      int first = word.charAt(0) - 'a';
+      int second = word.charAt(1) - 'a';
+
+      if (count[second][first] > 0) {
+        result += 4;
+        count[second][first]--;
+      } else {
+        count[first][second]++;
+      }
     }
+
+    for (int i = 0; i < 26; i++) {
+      if (count[i][i] > 0) {
+        result += 2;
+        break;
+      }
+    }
+
+    return result;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
