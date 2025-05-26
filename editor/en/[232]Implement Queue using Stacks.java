@@ -1,51 +1,61 @@
+// leetcode submit region begin(Prohibit modification and deletion)
+/** Queue implementation using two stacks with lazy transfer. All operations are amortized O(1). */
+public class MyQueue {
+  private final Stack<Integer> inbox;
+  private final Stack<Integer> outbox;
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class MyQueue {
-    private Stack<Integer> inputStack;
-    private Stack<Integer> outputStack;
+  /** Initialize your data structure here. */
+  public MyQueue() {
+    inbox = new Stack<>();
+    outbox = new Stack<>();
+  }
 
-    public MyQueue() {
-        inputStack = new Stack<>();
-        outputStack = new Stack<>();
+  /**
+   * Pushes element x to the back of the queue.
+   *
+   * @param x the element to push
+   */
+  public void push(int x) {
+    inbox.push(x);
+  }
+
+  /**
+   * Removes the element from the front of the queue and returns it. Transfers elements only if
+   * outbox is empty.
+   *
+   * @return the front element
+   */
+  public int pop() {
+    moveIfNeeded();
+    return outbox.pop();
+  }
+
+  /**
+   * Gets the front element.
+   *
+   * @return the front element without removing it
+   */
+  public int peek() {
+    moveIfNeeded();
+    return outbox.peek();
+  }
+
+  /**
+   * Returns whether the queue is empty.
+   *
+   * @return true if empty, false otherwise
+   */
+  public boolean empty() {
+    return inbox.isEmpty() && outbox.isEmpty();
+  }
+
+  /** Helper to transfer only when outbox is empty */
+  private void moveIfNeeded() {
+    if (outbox.isEmpty()) {
+      while (!inbox.isEmpty()) {
+        outbox.push(inbox.pop());
+      }
     }
-
-    public void push(int x) {
-        inputStack.push(x);
-    }
-
-    public int pop() {
-        if (outputStack.isEmpty()) {
-            transferStacks();
-        }
-
-        return outputStack.pop();
-    }
-
-    public int peek() {
-        if (outputStack.isEmpty()) {
-            transferStacks();
-        }
-
-        return outputStack.peek();
-    }
-
-    public boolean empty() {
-        return inputStack.isEmpty() && outputStack.isEmpty();
-    }
-
-    private void transferStacks() {
-        while (!inputStack.isEmpty()) {
-            outputStack.push(inputStack.pop());
-        }
-    }
+  }
 }
-
-/**
- * Your MyQueue object will be instantiated and called as such:
- * MyQueue obj = new MyQueue();
- * obj.push(x);
- * int param_2 = obj.pop();
- * int param_3 = obj.peek();
- * boolean param_4 = obj.empty();
- */
 //leetcode submit region end(Prohibit modification and deletion)

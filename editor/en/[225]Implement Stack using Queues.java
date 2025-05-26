@@ -1,41 +1,52 @@
-225
-        Implement Stack using Queues
-        2022-12-21 13:23:48
+// leetcode submit region begin(Prohibit modification and deletion)
+/** Stack implementation using a single queue. */
+public class MyStack {
+  private final Queue<Integer> queue;
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class MyStack {
-    Queue<Integer> queue;
+  /** Initialize your data structure here. */
+  public MyStack() {
+    queue = new LinkedList<>();
+  }
 
-    public MyStack() {
-        queue = new LinkedList<>();
+  /**
+   * Push element x onto stack.
+   *
+   * @param x the element to push
+   */
+  public void push(int x) {
+    queue.offer(x);
+    // Rotate the queue to move the new element to the front
+    int sz = queue.size();
+    for (int i = 0; i < sz - 1; i++) {
+      queue.offer(queue.poll());
     }
+  }
 
-    public void push(int x) {
-        queue.add(x);
-        for (int i = 1; i < queue.size(); i++) {
-            queue.add(queue.remove());
-        }
-    }
+  /**
+   * Removes the element on top of the stack and returns that element.
+   *
+   * @return the top element
+   */
+  public int pop() {
+    return queue.isEmpty() ? -1 : queue.poll();
+  }
 
-    public int pop() {
-        return queue.remove();
-    }
+  /**
+   * Get the top element.
+   *
+   * @return the top element without removing it
+   */
+  public int top() {
+    return queue.isEmpty() ? -1 : queue.peek();
+  }
 
-    public int top() {
-        return queue.peek();
-    }
-
-    public boolean empty() {
-        return queue.isEmpty();
-    }
+  /**
+   * Returns whether the stack is empty.
+   *
+   * @return true if empty, false otherwise
+   */
+  public boolean empty() {
+    return queue.isEmpty();
+  }
 }
-
-/**
- * Your MyStack object will be instantiated and called as such:
- * MyStack obj = new MyStack();
- * obj.push(x);
- * int param_2 = obj.pop();
- * int param_3 = obj.top();
- * boolean param_4 = obj.empty();
- */
 //leetcode submit region end(Prohibit modification and deletion)
