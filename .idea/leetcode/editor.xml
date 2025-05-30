@@ -1657,6 +1657,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2359]Find Closest Node to Given Two Nodes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2359" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2359]Find Closest Node to Given Two Nodes.java" />
+              <option name="titleSlug" value="find-closest-node-to-given-two-nodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[236]Lowest Common Ancestor of a Binary Tree.java">
           <value>
             <LeetcodeEditor>
