@@ -3415,6 +3415,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[909]Snakes and Ladders.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com909" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[909]Snakes and Ladders.java" />
+              <option name="titleSlug" value="snakes-and-ladders" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[912]Sort an Array.java">
           <value>
             <LeetcodeEditor>
