@@ -1364,7 +1364,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com268" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[268]Missing Number.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[268]Missing Number.java" />
               <option name="titleSlug" value="missing-number" />
             </LeetcodeEditor>
           </value>
@@ -2629,6 +2629,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1298]Maximum Candies You Can Get from Boxes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1298" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[1298]Maximum Candies You Can Get from Boxes.java" />
+              <option name="titleSlug" value="maximum-candies-you-can-get-from-boxes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[130]Surrounded Regions.java">
           <value>
             <LeetcodeEditor>
@@ -2706,6 +2716,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[169]Majority Element.java" />
               <option name="titleSlug" value="majority-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[190]Reverse Bits.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com190" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[190]Reverse Bits.java" />
+              <option name="titleSlug" value="reverse-bits" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2846,6 +2866,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2684]Maximum Number of Moves in a Grid.java" />
               <option name="titleSlug" value="maximum-number-of-moves-in-a-grid" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[268]Missing Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com268" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[268]Missing Number.java" />
+              <option name="titleSlug" value="missing-number" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3097,6 +3127,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[733]Flood Fill.java" />
               <option name="titleSlug" value="flood-fill" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[75]Sort Colors.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com75" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[75]Sort Colors.java" />
+              <option name="titleSlug" value="sort-colors" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -5929,7 +5969,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com190" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[190]Reverse Bits.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[190]Reverse Bits.java" />
               <option name="titleSlug" value="reverse-bits" />
             </LeetcodeEditor>
           </value>
@@ -10226,7 +10266,7 @@
             <LeetcodeEditor>
               <option name="frontendQuestionId" value="leetcode.com75" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[75]Sort Colors.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[75]Sort Colors.java" />
               <option name="titleSlug" value="sort-colors" />
             </LeetcodeEditor>
           </value>
