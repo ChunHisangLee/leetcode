@@ -576,6 +576,26 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1432]Max Difference You Can Get From Changing an Integer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1432" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1432]Max Difference You Can Get From Changing an Integer.java" />
+              <option name="titleSlug" value="max-difference-you-can-get-from-changing-an-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1434]Number of Ways to Wear Different Hats to Each Other.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1434" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1434]Number of Ways to Wear Different Hats to Each Other.java" />
+              <option name="titleSlug" value="number-of-ways-to-wear-different-hats-to-each-other" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1438]Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.java">
           <value>
             <LeetcodeEditor>
@@ -1248,6 +1268,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[200]Number of Islands.java" />
               <option name="titleSlug" value="number-of-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2016]Maximum Difference Between Increasing Elements.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2016" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2016]Maximum Difference Between Increasing Elements.java" />
+              <option name="titleSlug" value="maximum-difference-between-increasing-elements" />
             </LeetcodeEditor>
           </value>
         </entry>
