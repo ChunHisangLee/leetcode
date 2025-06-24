@@ -2789,6 +2789,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2200]Find All K-Distant Indices in an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2200" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2200]Find All K-Distant Indices in an Array.java" />
+              <option name="titleSlug" value="find-all-k-distant-indices-in-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2326]Spiral Matrix IV.java">
           <value>
             <LeetcodeEditor>
