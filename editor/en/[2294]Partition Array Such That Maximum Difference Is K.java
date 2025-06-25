@@ -1,7 +1,3 @@
-2294
-        Partition Array Such That Maximum Difference Is K
-        2022-12-10 14:56:18
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int partitionArray(int[] nums, int k) {

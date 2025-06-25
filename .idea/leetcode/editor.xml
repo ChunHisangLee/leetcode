@@ -1301,6 +1301,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2040]Kth Smallest Product of Two Sorted Arrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2040" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2040]Kth Smallest Product of Two Sorted Arrays.java" />
+              <option name="titleSlug" value="kth-smallest-product-of-two-sorted-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2045]Second Minimum Time to Reach Destination.java">
           <value>
             <LeetcodeEditor>
@@ -1496,6 +1506,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2138]Divide a String Into Groups of Size k.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2138" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2138]Divide a String Into Groups of Size k.java" />
+              <option name="titleSlug" value="divide-a-string-into-groups-of-size-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2161]Partition Array According to Given Pivot.java">
           <value>
             <LeetcodeEditor>
@@ -1613,6 +1633,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[226]Invert Binary Tree.java" />
               <option name="titleSlug" value="invert-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2294]Partition Array Such That Maximum Difference Is K.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2294" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2294]Partition Array Such That Maximum Difference Is K.java" />
+              <option name="titleSlug" value="partition-array-such-that-maximum-difference-is-k" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2298,6 +2328,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2962]Count Subarrays Where Max Element Appears at Least K Times.java" />
               <option name="titleSlug" value="count-subarrays-where-max-element-appears-at-least-k-times" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2966]Divide Array Into Arrays With Max Difference.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2966" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2966]Divide Array Into Arrays With Max Difference.java" />
+              <option name="titleSlug" value="divide-array-into-arrays-with-max-difference" />
             </LeetcodeEditor>
           </value>
         </entry>
