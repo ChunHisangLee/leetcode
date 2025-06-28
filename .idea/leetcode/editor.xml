@@ -2759,6 +2759,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2014]Longest Subsequence Repeated k Times.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2014" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2014]Longest Subsequence Repeated k Times.java" />
+              <option name="titleSlug" value="longest-subsequence-repeated-k-times" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/leetcode/editor/en/[2044]Count Number of Maximum Bitwise-OR Subsets.java">
           <value>
             <LeetcodeEditor>
