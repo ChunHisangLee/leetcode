@@ -1070,6 +1070,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1865]Finding Pairs With a Certain Sum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1865" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1865]Finding Pairs With a Certain Sum.java" />
+              <option name="titleSlug" value="finding-pairs-with-a-certain-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1885]Count Pairs in Two Arrays.java">
           <value>
             <LeetcodeEditor>
