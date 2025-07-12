@@ -1,39 +1,62 @@
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 class TimeMap {
-    Map<String, TreeMap<Integer, String>> map;
+  private static class Entry {
+    final int timestamp;
+    final String value;
 
-    public TimeMap() {
-        map = new HashMap<>();
+    Entry(int timestamp, String value) {
+      this.timestamp = timestamp;
+      this.value = value;
+    }
+  }
+
+  private final Map<String, List<Entry>> store;
+
+  public TimeMap() {
+    store = new HashMap<>();
+  }
+
+  public void set(String key, String value, int timestamp) {
+    if (store.get(key) == null) {
+      store.put(key, new ArrayList<>());
     }
 
-    public void set(String key, String value, int timestamp) {
-        if (!map.containsKey(key)) {
-            TreeMap<Integer, String> treeMap = new TreeMap<>();
-            map.put(key, treeMap);
-        }
-        map.get(key).put(timestamp, value);
+    store.get(key).add(new Entry(timestamp, value));
+  }
+
+  public String get(String key, int timestamp) {
+    List<Entry> list = store.get(key);
+
+    if (list == null || list.isEmpty()) {
+      return "";
     }
 
-    public String get(String key, int timestamp) {
-        if (map.containsKey(key)) {
-            if (map.get(key).containsKey(timestamp)) {
-                return map.get(key).get(timestamp);
-            } else {
-                Integer prev = map.get(key).floorKey(timestamp);
-                if (prev != null) {
-                    return map.get(key).get(prev);
-                }
-            }
-        }
-        return "";
+    if (list.get(0).timestamp > timestamp) {
+      return "";
     }
+
+    int left = 0;
+    int right = list.size() - 1;
+
+    while (left <= right) {
+      int mid = left + (right - left) / 2;
+      int midTS = list.get(mid).timestamp;
+
+      if (midTS == timestamp) {
+        return list.get(mid).value;
+      } else if (midTS < timestamp) {
+        left = mid + 1;
+      } else {
+        right = mid - 1;
+      }
+    }
+
+    return list.get(right).value;
+  }
 }
 
 /**
- * Your TimeMap object will be instantiated and called as such:
- * TimeMap obj = new TimeMap();
- * obj.set(key,value,timestamp);
- * String param_2 = obj.get(key,timestamp);
+ * Your TimeMap object will be instantiated and called as such: TimeMap obj = new TimeMap();
+ * obj.set(key,value,timestamp); String param_2 = obj.get(key,timestamp);
  */
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)

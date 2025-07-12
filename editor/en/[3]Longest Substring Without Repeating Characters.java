@@ -1,26 +1,23 @@
 // leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
   public int lengthOfLongestSubstring(String s) {
-    int[] arr = new int[128];
-    char[] c = s.toCharArray();
-    int n = c.length;
-    int left = 0;
-    int right = 0;
-    int max = 0;
+    int length = s.length();
+    int maxLength = 0;
+    int start = 0;
+    int[] charCount = new int[128];
 
-    while (right < n) {
-      if (arr[c[right]] == 0) {
-        arr[c[right]] = 1;
-        right++;
-      } else {
-        arr[c[left]] = 0;
-        left++;
+    for (int end = 0; end < length; end++) {
+      charCount[s.charAt(end)]++;
+
+      while (charCount[s.charAt(end)] > 1) {
+        charCount[s.charAt(start)]--;
+        start++;
       }
 
-      max = Math.max(max, right - left);
+      maxLength = Math.max(maxLength, end - start + 1);
     }
 
-    return max;
+    return maxLength;
   }
 }
 // leetcode submit region end(Prohibit modification and deletion)

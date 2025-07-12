@@ -1,7 +1,3 @@
-703
-        Kth Largest Element in a Stream
-        2022-12-09 14:16:29
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class KthLargest {
     PriorityQueue<Integer> pq;
@@ -9,27 +5,22 @@ class KthLargest {
 
     public KthLargest(int k, int[] nums) {
         this.k = k;
-        pq = new PriorityQueue<>();
+        pq = new PriorityQueue<>(k);
+
         for (int num : nums) {
-            pq.add(num);
-            if (pq.size() > k) {
-                pq.poll();
-            }
+            add(num);
         }
     }
 
     public int add(int val) {
-        pq.add(val);
-        if (pq.size() > k) {
+        if (pq.size() < k) {
+            pq.offer(val);
+        } else if (val > pq.peek()) {
             pq.poll();
+            pq.offer(val);
         }
+
         return pq.peek();
     }
 }
-
-/**
- * Your KthLargest object will be instantiated and called as such:
- * KthLargest obj = new KthLargest(k, nums);
- * int param_1 = obj.add(val);
- */
 //leetcode submit region end(Prohibit modification and deletion)

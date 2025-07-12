@@ -1,31 +1,33 @@
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int trap(int[] height) {
-        int left = 0;
-        int right = height.length - 1;
-        int maxLeft = 0;
-        int maxRight = 0;
-        int trappedWater = 0;
+  public int trap(int[] height) {
+    int leftIndex = 0;
+    int rightIndex = height.length - 1;
+    int leftMaxHeight = 0;
+    int rightMaxHeight = 0;
+    int result = 0;
 
-        while (left < right) {
-            if (height[left] <= height[right]) {
-                if (height[left] >= maxLeft) {
-                    maxLeft = height[left];
-                } else {
-                    trappedWater += maxLeft - height[left];
-                }
-                left++;
-            } else {
-                if (height[right] >= maxRight) {
-                    maxRight = height[right];
-                } else {
-                    trappedWater += maxRight - height[right];
-                }
-                right--;
+    while (leftIndex < rightIndex) {
+      if (height[leftIndex] <= height[rightIndex]) {
+        if (height[leftIndex] >= leftMaxHeight) {
+          leftMaxHeight = height[leftIndex];
+        } else {
+          result += (leftMaxHeight - height[leftIndex]);
             }
+
+        leftIndex++;
+      } else {
+        if (height[rightIndex] >= rightMaxHeight) {
+          rightMaxHeight = height[rightIndex];
+        } else {
+          result += (rightMaxHeight - height[rightIndex]);
         }
-        return trappedWater;
+
+        rightIndex--;
+        }
     }
+
+    return result;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)

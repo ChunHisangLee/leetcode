@@ -1,70 +1,75 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    int m;
-    int n;
-    int[][] arr;
-
     public int[][] candyCrush(int[][] board) {
-        if (board.length == 0) {
+        if (board == null || board.length == 0) {
             return board;
         }
-        m = board.length;
-        n = board[0].length;
-        arr = new int[m][n];
-        boolean needCrush = false;
+
+        int m = board.length;
+        int n = board[0].length;
+        boolean changed;
+
         do {
-            dropUncrushed(board);
-            needCrush = crush(board);
-        } while (needCrush);
+            changed = false;
+
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    int val = Math.abs(board[i][j]);
+
+                    if (val == 0) {
+                        continue;
+                    }
+
+                    if (j + 2 < n && Math.abs(board[i][j + 1]) == val && Math.abs(board[i][j + 2]) == val) {
+                        board[i][j] = -val;
+                        board[i][j + 1] = -val;
+                        board[i][j + 2] = -val;
+                        changed = true;
+                    }
+
+                    if (i + 2 < m && Math.abs(board[i + 1][j]) == val && Math.abs(board[i + 2][j]) == val) {
+                        board[i][j] = -val;
+                        board[i + 1][j] = -val;
+                        board[i + 2][j] = -val;
+                        changed = true;
+                    }
+                }
+            }
+
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (board[i][j] < 0) {
+                        board[i][j] = 0;
+                    }
+                }
+            }
+
+            for (int j = 0; j < n; j++) {
+                int writeRow = m - 1;
+
+                for (int i = m - 1; i >= 0; i--) {
+                    if (board[i][j] > 0) {
+                        board[writeRow][j] = board[i][j];
+
+                        if (writeRow != i) {
+                            board[i][j] = 0;
+                        }
+
+                        writeRow--;
+                    }
+                }
+
+                while (writeRow >= 0) {
+                    board[writeRow][j] = 0;
+                    writeRow--;
+                }
+            }
+
+        } while (changed);
+
         return board;
     }
-
-    private boolean crush(int[][] board) {
-        boolean needCrush = false;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n - 2; j++) {
-                if (board[i][j] != 0 && board[i][j] == board[i][j + 1] && board[i][j + 1] == board[i][j + 2]) {
-                    arr[i][j] = 1;
-                    arr[i][j + 1] = 1;
-                    arr[i][j + 2] = 1;
-                    needCrush = true;
-                }
-            }
-        }
-        for (int j = 0; j < n; j++) {
-            for (int i = 0; i < m - 2; i++) {
-                if (board[i][j] != 0 && board[i][j] == board[i + 1][j] && board[i + 1][j] == board[i + 2][j]) {
-                    arr[i][j] = 1;
-                    arr[i + 1][j] = 1;
-                    arr[i + 2][j] = 1;
-                    needCrush = true;
-                }
-            }
-        }
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (arr[i][j] == 1) {
-                    arr[i][j] = 0;
-                    board[i][j] = 0;
-                }
-            }
-        }
-        return needCrush;
-    }
-
-    private void dropUncrushed(int[][] board) {
-        for (int j = 0; j < n; j++) {
-            int index = m - 1;
-            for (int i = m - 1; i >= 0; i--) {
-                if (board[i][j] != 0) {
-                    board[index--][j] = board[i][j];
-                }
-            }
-            while (index >= 0) {
-                board[index--][j] = 0;
-            }
-        }
-    }
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

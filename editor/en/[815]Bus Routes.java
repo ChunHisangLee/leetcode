@@ -2,6 +2,10 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int numBusesToDestination(int[][] routes, int source, int target) {
+        if (source == target) {
+            return 0;
+        }
+
         int n = routes.length;
         Map<Integer, Set<Integer>> map = new HashMap<>();
         Set<Integer> busVisited = new HashSet<>();
@@ -30,6 +34,10 @@ class Solution {
                 return count;
             }
 
+            if (!map.containsKey(stop)) {
+                continue;
+            }
+
             for (int route : map.get(stop)) {
                 if (routeVisited[route]) {
                     continue;
@@ -49,6 +57,7 @@ class Solution {
         return -1;
     }
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
 /*
 To solve this problem in Java, we can use a Breadth-First Search (BFS) approach.

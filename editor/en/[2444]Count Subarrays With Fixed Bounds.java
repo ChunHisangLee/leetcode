@@ -1,30 +1,30 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public long countSubarrays(int[] nums, int minK, int maxK) {
-        long count = 0;
-        int lastMin = -1;
-        int lastMax = -1;
-        int lastInvalid = -1;
+    long count = 0L;
+    int lastMinPosition = -1;
+    int lastMaxPosition = -1;
+    int lastInvalidPosition = -1;
 
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] < minK || nums[i] > maxK) {
-                lastMin = i;
-                lastMax = i;
-                lastInvalid = i;
+    for (int i = 0; i < nums.length; i++) {
+      int v = nums[i];
+
+      if (v < minK || v > maxK) {
+        lastInvalidPosition = i;
             }
-
-            if (nums[i] == minK) {
-                lastMin = i;
+      if (v == minK) {
+        lastMinPosition = i;
             }
+      if (v == maxK) {
+        lastMaxPosition = i;
+      }
 
-            if (nums[i] == maxK) {
-                lastMax = i;
-            }
-
-            count += Math.min(lastMin, lastMax) - lastInvalid;
-        }
-
-        return count;
+      int validStartCount = Math.min(lastMinPosition, lastMaxPosition) - lastInvalidPosition;
+      if (validStartCount > 0) {
+        count += validStartCount;
+      }
     }
+    return count;
+  }
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -1,45 +1,42 @@
-2359
-        Find Closest Node to Given Two Nodes
-        2023-01-25 09:45:23
+// leetcode submit region begin(Prohibit modification and deletion)
 
-//leetcode submit region begin(Prohibit modification and deletion)
-/*
-還不會
- */
 class Solution {
-    public int closestMeetingNode(int[] edges, int node1, int node2) {
-        int n = edges.length;
-        int[] arr1 = new int[n];
-        int[] arr2 = new int[n];
-        Arrays.fill(arr1, Integer.MAX_VALUE);
-        Arrays.fill(arr2, Integer.MAX_VALUE);
-        bfs(node1, arr1, edges, n);
-        bfs(node2, arr2, edges, n);
-        int res = Integer.MAX_VALUE;
-        int node = -1;
-        for (int i = 0; i < n; i++) {
-            if (arr1[i] == Integer.MAX_VALUE || arr2[i] == Integer.MAX_VALUE) {
-                continue;
-            }
-            if (res > Math.max(arr1[i], arr2[i])) {
-                node = i;
-                res = Math.max(arr1[i], arr2[i]);
-            }
+  public int closestMeetingNode(int[] edges, int node1, int node2) {
+    int n = edges.length;
+    int[] dist1 = computeDistances(edges, node1, n);
+    int[] dist2 = computeDistances(edges, node2, n);
+    int answer = -1;
+    int bestMaxDist = Integer.MAX_VALUE;
+
+    for (int i = 0; i < n; i++) {
+      int d1 = dist1[i];
+      int d2 = dist2[i];
+
+      if (d1 >= 0 && d2 >= 0) {
+        int maxDist = Math.max(d1, d2);
+
+        if (maxDist < bestMaxDist) {
+          bestMaxDist = maxDist;
+          answer = i;
         }
-        return node;
+      }
     }
 
-    void bfs(int src, int[] dist, int[] edge, int n) {
-        Deque<Integer> dq = new ArrayDeque<>();
-        dq.add(src);
-        dist[src] = 0;
-        while (!dq.isEmpty()) {
-            int p = dq.remove();
-            if (edge[p] != -1 && dist[edge[p]] == Integer.MAX_VALUE) {
-                dq.add(edge[p]);
-                dist[edge[p]] = dist[p] + 1;
-            }
-        }
+    return answer;
+  }
+
+  private int[] computeDistances(int[] edges, int start, int n) {
+    int[] dist = new int[n];
+    Arrays.fill(dist, -1);
+    int distance = 0;
+    int node = start;
+
+    while (node != -1 && dist[node] == -1) {
+      dist[node] = distance++;
+      node = edges[node];
     }
+
+    return dist;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
