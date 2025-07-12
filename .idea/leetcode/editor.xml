@@ -1140,6 +1140,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1900]The Earliest and Latest Rounds Where Players Compete.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1900" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1900]The Earliest and Latest Rounds Where Players Compete.java" />
+              <option name="titleSlug" value="the-earliest-and-latest-rounds-where-players-compete" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1922]Count Good Numbers.java">
           <value>
             <LeetcodeEditor>
@@ -2840,6 +2850,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[3439]Reschedule Meetings for Maximum Free Time I.java" />
               <option name="titleSlug" value="reschedule-meetings-for-maximum-free-time-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3440]Reschedule Meetings for Maximum Free Time II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3440" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3440]Reschedule Meetings for Maximum Free Time II.java" />
+              <option name="titleSlug" value="reschedule-meetings-for-maximum-free-time-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
