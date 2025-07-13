@@ -12,6 +12,7 @@ class Solution {
                 playerIndex++;
                 result++;
             }
+            
             trainerIndex++;
         }
         return result;
