@@ -1,31 +1,34 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(candidates);
-        backtrack(candidates, result, target, new ArrayList<>(), 0);
+    List<List<Integer>> result = new ArrayList<>();
+    backtrack(candidates, target, 0, new ArrayList<>(), result);
         return result;
     }
 
-    public void backtrack(int[] candidates, List<List<Integer>> result, int target, List<Integer> list, int index) {
-        if (target == 0) {
-            result.add(new ArrayList<>(list));
-            return;
-        }
-
-        for (int i = index; i < candidates.length; i++) {
-            if (i > index && candidates[i] == candidates[i - 1]) {
-                continue;
-            }
-
-            if (candidates[i] > target) {
-                break;
-            }
-
-            list.add(candidates[i]);
-            backtrack(candidates, result, target - candidates[i], list, i + 1);
-            list.remove(list.size() - 1);
-        }
+  private void backtrack(
+      int[] candidates, int remaining, int start, List<Integer> path, List<List<Integer>> res) {
+    if (remaining == 0) {
+      res.add(new ArrayList<>(path));
+      return;
     }
+
+    for (int i = start; i < candidates.length; i++) {
+      if (i > start && candidates[i] == candidates[i - 1]) {
+        continue;
+      }
+
+      int num = candidates[i];
+
+      if (remaining < num) {
+        break;
+      }
+
+      path.add(num);
+      backtrack(candidates, remaining - num, i, path, res);
+      path.remove(path.size() - 1);
+    }
+  }
 }
 //leetcode submit region end(Prohibit modification and deletion)

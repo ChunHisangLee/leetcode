@@ -1,41 +1,27 @@
-113
-        Path Sum II
-        2023-02-24 14:41:53
-//leetcode submit region begin(Prohibit modification and deletion)
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode() {}
- * TreeNode(int val) { this.val = val; }
- * TreeNode(int val, TreeNode left, TreeNode right) {
- * this.val = val;
- * this.left = left;
- * this.right = right;
- * }
- * }
- */
+//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    List<List<Integer>> res = new ArrayList<>();
+    List<List<Integer>> result = new ArrayList<>();
 
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
-        dfs(root, targetSum, new ArrayList<>());
-        return res;
+        checkPathSum(root, targetSum, new ArrayList<>());
+        return result;
     }
 
-    public void dfs(TreeNode node, int target, List<Integer> list) {
+    private void checkPathSum(TreeNode node, int targetSum, List<Integer> list) {
         if (node == null) {
             return;
         }
+
         list.add(node.val);
-        if (node.left == null && node.right == null && node.val == target) {
-            res.add(new ArrayList<>(list));
+
+        if (node.left == null && node.right == null && node.val == targetSum) {
+            result.add(new ArrayList<>(list));
+        } else {
+            checkPathSum(node.left, targetSum - node.val, list);
+            checkPathSum(node.right, targetSum - node.val, list);
         }
-        dfs(node.left, target - node.val, list);
-        dfs(node.right, target - node.val, list);
+
         list.remove(list.size() - 1);
     }
 }

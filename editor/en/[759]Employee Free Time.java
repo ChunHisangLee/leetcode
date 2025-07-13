@@ -1,37 +1,39 @@
 // leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
   public List<Interval> employeeFreeTime(List<List<Interval>> schedule) {
-    List<Interval> allIntervals = new ArrayList<>();
+    List<Interval> allSchedules = new ArrayList<>();
 
     for (List<Interval> employee : schedule) {
-      allIntervals.addAll(employee);
+      allSchedules.addAll(employee);
     }
 
     Collections.sort(
-        allIntervals, (a, b) -> a.start == b.start ? a.end - b.end : a.start - b.start);
-    List<Interval> mergedIntervals = new ArrayList<>();
-    Interval prev = allIntervals.get(0);
+        allSchedules, (a, b) -> a.start == b.start ? a.end - b.end : a.start - b.start);
 
-    for (int i = 1; i < allIntervals.size(); i++) {
-      Interval curr = allIntervals.get(i);
+    List<Interval> merged = new ArrayList<>();
+    Interval prevInterval = allSchedules.get(0);
 
-      if (curr.start <= prev.end) {
-        prev.end = Math.max(prev.end, curr.end);
+    for (int i = 1; i < allSchedules.size(); i++) {
+      Interval currInterval = allSchedules.get(i);
+
+      if (currInterval.start <= prevInterval.end) {
+        prevInterval.end = Math.max(prevInterval.end, currInterval.end);
       } else {
-        mergedIntervals.add(prev);
-        prev = curr;
+        merged.add(prevInterval);
+        prevInterval = currInterval;
       }
     }
 
-    mergedIntervals.add(prev);
+    merged.add(prevInterval);
+
     List<Interval> freeTime = new ArrayList<>();
 
-    for (int i = 1; i < mergedIntervals.size(); i++) {
-      Interval prevMerged = mergedIntervals.get(i - 1);
-      Interval currMerged = mergedIntervals.get(i);
+    for (int i = 1; i < merged.size(); i++) {
+      Interval prev = merged.get(i - 1);
+      Interval curr = merged.get(i);
 
-      if (currMerged.start > prevMerged.end) {
-        freeTime.add(new Interval(prevMerged.end, currMerged.start));
+      if (prev.end < curr.start) {
+        freeTime.add(new Interval(prev.end, curr.start));
       }
     }
 

@@ -1,44 +1,34 @@
-102
-        Binary Tree Level Order Traversal
-        2022-12-02 12:27:57
+
 //leetcode submit region begin(Prohibit modification and deletion)
-
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode() {}
- * TreeNode(int val) { this.val = val; }
- * TreeNode(int val, TreeNode left, TreeNode right) {
- * this.val = val;
- * this.left = left;
- * this.right = right;
- * }
- * }
- */
 class Solution {
-    List<List<Integer>> list = new ArrayList<>();
+  public List<List<Integer>> levelOrder(TreeNode root) {
+    List<List<Integer>> result = new ArrayList<>();
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        if (root == null) {
-            return list;
-        }
-        dfs(root, 0);
-        return list;
+    if (root == null) {
+      return result;
     }
 
-    public void dfs(TreeNode node, int level) {
-        if (node == null) {
-            return;
+    Queue<TreeNode> queue = new ArrayDeque<>();
+    queue.offer(root);
+
+    while (!queue.isEmpty()) {
+      int size = queue.size();
+      List<Integer> subResult = new ArrayList<>();
+      for (int i = 0; i < size; i++) {
+        TreeNode curr = queue.poll();
+        subResult.add(curr.val);
+
+        if (curr.left != null) {
+          queue.offer(curr.left);
         }
-        if (list.size() == level) {
-            list.add(new ArrayList<>());
+
+        if (curr.right != null) {
+          queue.offer(curr.right);
         }
-        dfs(node.left, level + 1);
-        dfs(node.right, level + 1);
-        list.get(level).add(node.val);
+      }
+      result.add(subResult);
     }
+    return result;
+  }
 }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)

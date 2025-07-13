@@ -2,27 +2,29 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public long countSubarrays(int[] nums, int k) {
+        int n = nums.length;
         int max = 0;
-        long count = 0;
-        int left = 0;
-        int freq = 0;
 
         for (int num : nums) {
             max = Math.max(max, num);
         }
 
-        for (int right = 0; right < nums.length; right++) {
+        long count = 0;
+        int left = 0;
+        int freq = 0;
+
+        for (int right = 0; right < n; right++) {
             if (nums[right] == max) {
                 freq++;
             }
 
             while (freq >= k) {
+                count += (n - right);
+
                 if (nums[left++] == max) {
                     freq--;
                 }
             }
-
-            count += left;
         }
 
         return count;
