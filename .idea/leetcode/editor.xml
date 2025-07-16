@@ -2673,6 +2673,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3201]Find the Maximum Length of Valid Subsequence I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3201" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3201]Find the Maximum Length of Valid Subsequence I.java" />
+              <option name="titleSlug" value="find-the-maximum-length-of-valid-subsequence-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[322]Coin Change.java">
           <value>
             <LeetcodeEditor>
