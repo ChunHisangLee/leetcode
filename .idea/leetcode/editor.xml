@@ -2643,6 +2643,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3136]Valid Word.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3136" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3136]Valid Word.java" />
+              <option name="titleSlug" value="valid-word" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[314]Binary Tree Vertical Order Traversal.java">
           <value>
             <LeetcodeEditor>
@@ -2660,6 +2670,26 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[3170]Lexicographically Minimum String After Removing Stars.java" />
               <option name="titleSlug" value="lexicographically-minimum-string-after-removing-stars" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3201]Find the Maximum Length of Valid Subsequence I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3201" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3201]Find the Maximum Length of Valid Subsequence I.java" />
+              <option name="titleSlug" value="find-the-maximum-length-of-valid-subsequence-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3202]Find the Maximum Length of Valid Subsequence II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3202" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3202]Find the Maximum Length of Valid Subsequence II.java" />
+              <option name="titleSlug" value="find-the-maximum-length-of-valid-subsequence-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
