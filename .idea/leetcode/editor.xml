@@ -1190,6 +1190,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1948]Delete Duplicate Folders in System.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1948" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1948]Delete Duplicate Folders in System.java" />
+              <option name="titleSlug" value="delete-duplicate-folders-in-system" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1957]Delete Characters to Make Fancy String.java">
           <value>
             <LeetcodeEditor>
