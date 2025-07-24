@@ -929,6 +929,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1695]Maximum Erasure Value.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1695" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1695]Maximum Erasure Value.java" />
+              <option name="titleSlug" value="maximum-erasure-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1700]Number of Students Unable to Eat Lunch.py">
           <value>
             <LeetcodeEditor>
@@ -957,6 +967,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1704]Determine if String Halves Are Alike.js" />
               <option name="titleSlug" value="determine-if-string-halves-are-alike" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1717]Maximum Score From Removing Substrings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1717" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1717]Maximum Score From Removing Substrings.java" />
+              <option name="titleSlug" value="maximum-score-from-removing-substrings" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1187,6 +1207,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1945]Sum of Digits of String After Convert.java" />
               <option name="titleSlug" value="sum-of-digits-of-string-after-convert" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1948]Delete Duplicate Folders in System.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1948" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1948]Delete Duplicate Folders in System.java" />
+              <option name="titleSlug" value="delete-duplicate-folders-in-system" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1723,6 +1753,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[231]Power of Two.java" />
               <option name="titleSlug" value="power-of-two" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2322]Minimum Score After Removals on a Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2322" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2322]Minimum Score After Removals on a Tree.java" />
+              <option name="titleSlug" value="minimum-score-after-removals-on-a-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
