@@ -970,6 +970,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1717]Maximum Score From Removing Substrings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1717" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1717]Maximum Score From Removing Substrings.java" />
+              <option name="titleSlug" value="maximum-score-from-removing-substrings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1732]Find the Highest Altitude.java">
           <value>
             <LeetcodeEditor>
@@ -1743,6 +1753,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[231]Power of Two.java" />
               <option name="titleSlug" value="power-of-two" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2322]Minimum Score After Removals on a Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com2322" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2322]Minimum Score After Removals on a Tree.java" />
+              <option name="titleSlug" value="minimum-score-after-removals-on-a-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
