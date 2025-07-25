@@ -2983,6 +2983,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3487]Maximum Unique Subarray Sum After Deletion.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3487" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3487]Maximum Unique Subarray Sum After Deletion.java" />
+              <option name="titleSlug" value="maximum-unique-subarray-sum-after-deletion" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[39]Combination Sum.java">
           <value>
             <LeetcodeEditor>
