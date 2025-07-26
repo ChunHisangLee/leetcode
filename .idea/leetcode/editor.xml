@@ -2983,6 +2983,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3480]Maximize Subarrays After Removing One Conflicting Pair.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3480" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3480]Maximize Subarrays After Removing One Conflicting Pair.java" />
+              <option name="titleSlug" value="maximize-subarrays-after-removing-one-conflicting-pair" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[3487]Maximum Unique Subarray Sum After Deletion.java">
           <value>
             <LeetcodeEditor>
