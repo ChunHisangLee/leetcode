@@ -3033,6 +3033,16 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[3459]Length of Longest V-Shaped Diagonal Segment.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com3459" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[3459]Length of Longest V-Shaped Diagonal Segment.java" />
+              <option name="titleSlug" value="length-of-longest-v-shaped-diagonal-segment" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[3477]Fruits Into Baskets II.java">
           <value>
             <LeetcodeEditor>
@@ -4275,6 +4285,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/editor/en/[624]Maximum Distance in Arrays.java" />
               <option name="titleSlug" value="maximum-distance-in-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/leetcode/leetcode/editor/en/[1733]Minimum Number of People to Teach.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1733" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/leetcode/editor/en/[1733]Minimum Number of People to Teach.java" />
+              <option name="titleSlug" value="minimum-number-of-people-to-teach" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -12387,6 +12407,16 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1]Two Sum.java" />
               <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/fl/6lvkyl6s6cn66tmhv8v7nrl40000gn/T/leetcode/editor/en/[1733]Minimum Number of People to Teach.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com1733" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/leetcode/leetcode/editor/en/[1733]Minimum Number of People to Teach.java" />
+              <option name="titleSlug" value="minimum-number-of-people-to-teach" />
             </LeetcodeEditor>
           </value>
         </entry>
