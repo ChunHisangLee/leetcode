@@ -12,6 +12,10 @@ class Solution {
                 playerIndex++;
                 result++;
             }
+<<<<<<< HEAD
+=======
+            
+>>>>>>> origin/home
             trainerIndex++;
         }
         return result;

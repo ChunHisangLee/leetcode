@@ -1,7 +1,3 @@
-326
-        Power of Three
-        2022-12-31 23:16:45
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isPowerOfThree(int n) {
